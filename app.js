@@ -122,46 +122,81 @@ function jaText(toks){ return (toks || []).filter(Boolean).map(t => t[0] === '\n
 function jaTok1(tk){ return Array.isArray(tk) ? tk : [tk, '']; }
 
 /* ---------- 語音 ---------- */
+/* 語音：自動挑最自然的聲音，避開 macOS 的趣味語音；長文分句播放（避開 Chrome 約 15 秒截斷） */
+const NOVELTY = /Eddy|Flo\b|Grandma|Grandpa|Reed|Rocko|Sandy|Shelley|Albert|Bad News|Bahh|Bells|Boing|Bubbles|Cellos|Good News|Jester|Organ|Superstar|Trinoids|Whisper|Wobble|Zarvox|Fred|Junior|Ralph|Kathy/i;
+function rankVoice(v){
+  const n = v.name; let s = 0;
+  if (NOVELTY.test(n)) s -= 100;
+  if (/Google/.test(n)) s += 15;
+  if (/Natural|Online|Neural/.test(n)) s += 50;
+  if (/Siri|Premium|Enhanced|プレミアム|拡張|高品質/.test(n)) s += 30;
+  if (/Kyoko|O-ren|Otoya|Nanami|Keita|Haruka|Ayumi|Ichiro|Hattori|Samantha|Daniel|Karen|Moira|Serena|Aria|Libby|Sonia/.test(n)) s += 30;
+  if (/^(ja[-_]JP|en[-_](GB|US))$/i.test(v.lang)) s += 5;
+  if (v.localService) s += 10;
+  return s;
+}
 const TTS = {
-  voices:[], jvoices:[],
+  voices:[], jvoices:[], _cancelAt:0,
   load(){
     if (!('speechSynthesis' in window)) return;
     const all = speechSynthesis.getVoices();
-    this.voices = all.filter(v => /^en/i.test(v.lang)); this.jvoices = all.filter(v => /^ja/i.test(v.lang));
+    const sortV = l => { const good = l.filter(v => !NOVELTY.test(v.name)); return (good.length ? good : l).sort((a, b) => rankVoice(b) - rankVoice(a)); };
+    this.voices = sortV(all.filter(v => /^en/i.test(v.lang)));
+    this.jvoices = sortV(all.filter(v => /^ja/i.test(v.lang)));
     const s = state.settings;
-    if (!this.voices.find(v => v.name === s.voice)){
-      const pref = ['Samantha','Daniel','Karen','Moira','Google UK English Female','Google US English','Microsoft Aria','Microsoft Libby'];
-      const v = pref.map(n => this.voices.find(x => x.name.includes(n))).find(Boolean) || this.voices[0]; if (v) s.voice = v.name;
-    }
-    if (!this.jvoices.find(v => v.name === s.jaVoice)){
-      const pref = ['Kyoko','O-ren','Otoya','Google 日本語','Nanami','Haruka','Ayumi'];
-      const v = pref.map(n => this.jvoices.find(x => x.name.includes(n))).find(Boolean) || this.jvoices[0]; if (v) s.jaVoice = v.name;
-    }
+    if (this.voices.length && (!this.voices.find(v => v.name === s.voice))) s.voice = this.voices[0].name;
+    if (this.jvoices.length && (!this.jvoices.find(v => v.name === s.jaVoice))) s.jaVoice = this.jvoices[0].name;
   },
-  _go(text, lang, rate, onend, pitch, voiceName){
+  voiceFor(lang, name){
+    const pool = lang === 'ja' ? this.jvoices : this.voices;
+    return pool.find(v => v.name === (name || (lang === 'ja' ? state.settings.jaVoice : state.settings.voice))) || pool[0] || null;
+  },
+  chunks(text, lang){
+    const parts = lang === 'ja' ? String(text).split(/(?<=[。！？!?\n])/) : String(text).split(/(?<=[.!?])\s+|\n+/);
+    const out = [];
+    for (let p of parts){
+      p = p.trim(); if (!p) continue;
+      while (p.length > 160){ const cut = Math.max(p.lastIndexOf(lang === 'ja' ? '、' : ',', 160), 80); out.push(p.slice(0, cut + 1)); p = p.slice(cut + 1).trim(); }
+      if (p) out.push(p);
+    }
+    return out;
+  },
+  cancel(){ try{ speechSynthesis.cancel(); }catch(e){} this._cancelAt++; },
+  /* items: [{text, lang, voice}] 依序播放 */
+  play(items, rate, onend){
     if (!('speechSynthesis' in window)){ toast('此瀏覽器不支援朗讀'); return; }
-    const u = new SpeechSynthesisUtterance(text); u.lang = lang;
-    const pool = lang === 'ja-JP' ? this.jvoices : this.voices;
-    const v = pool.find(x => x.name === (voiceName || (lang === 'ja-JP' ? state.settings.jaVoice : state.settings.voice))); if (v) u.voice = v;
-    u.rate = rate ?? state.settings.rate; if (pitch) u.pitch = pitch; if (onend) u.onend = onend;
-    speechSynthesis.speak(u);
+    if (!this.voices.length || !this.jvoices.length) this.load();
+    this.cancel();
+    const us = [];
+    items.forEach(it => this.chunks(it.text, it.lang).forEach(t => {
+      const u = new SpeechSynthesisUtterance(t);
+      const v = this.voiceFor(it.lang, it.voice);
+      if (v){ u.voice = v; u.lang = v.lang; } else u.lang = it.lang === 'ja' ? 'ja-JP' : 'en-GB';
+      u.rate = rate ?? state.settings.rate; u.pitch = 1;
+      us.push(u);
+    }));
+    if (!us.length){ if (onend) onend(); return; }
+    if (onend) us[us.length - 1].onend = onend;
+    const stamp = this._cancelAt;
+    /* Chrome：cancel 後立刻 speak 常常沒聲音，稍等一下再播 */
+    setTimeout(() => { if (this._cancelAt !== stamp) return; try{ speechSynthesis.resume(); }catch(e){} us.forEach(u => speechSynthesis.speak(u)); }, 80);
   },
-  speakEn(text, rate, onend){ try{ speechSynthesis.cancel(); }catch(e){} this._go(text, 'en-GB', rate, onend); },
+  speakEn(text, rate, onend){ this.play([{text, lang:'en'}], rate, onend); },
   speakJa(text, rate, onend){
-    try{ speechSynthesis.cancel(); }catch(e){}
-    if (!this.jvoices.length && !this._warned){ this._warned = true; toast('找不到日文語音，請到「設定」看如何下載'); }
-    this._go({'は':'わ','へ':'え','を':'お'}[text] || text, 'ja-JP', rate, onend);
+    if (!this.jvoices.length && !this._warned){ this._warned = true; toast('找不到日文語音，請到「設定」看如何安裝'); }
+    this.play([{text: {'は':'わ','へ':'え','を':'お'}[text] || text, lang:'ja'}], rate, onend);
   },
-  /* 聽解稿：依「男：」「女：」換音高（有男聲語音就換人） */
+  /* 聽解稿：去掉「男：」「女：」標籤；有第二個好的日文語音就讓男女換人說 */
   script(text, rate){
-    try{ speechSynthesis.cancel(); }catch(e){}
-    const male = this.jvoices.find(v => /Otoya|Keita|Ichiro|Hattori|Daichi|Male/i.test(v.name));
-    text.split('\n').forEach(line => {
-      let pitch = 1, name = null, t = line;
-      const m = line.match(/^(男|女)(の人)?[：:]/);
-      if (m){ t = line.slice(m[0].length); if (m[1] === '男'){ pitch = male ? 1 : 0.75; name = male && male.name; } else pitch = 1.25; }
-      if (t.trim()) this._go(t, 'ja-JP', rate, null, pitch, name);
-    });
+    const male = this.jvoices.find(v => /Otoya|Keita|Ichiro|Hattori|Daichi|Naoki|Male/i.test(v.name));
+    const female = this.jvoices.find(v => /Kyoko|O-ren|Nanami|Haruka|Ayumi|Female/i.test(v.name));
+    const items = String(text).split('\n').map(line => {
+      const m = line.match(/^(男|女)(の人)?[：:]\s*/);
+      if (!m) return {text: line, lang:'ja'};
+      const v = m[1] === '男' ? male : female;
+      return {text: line.slice(m[0].length), lang:'ja', voice: v && v.name};
+    }).filter(x => x.text.trim());
+    this.play(items, rate);
   },
 };
 if ('speechSynthesis' in window){ TTS.load(); speechSynthesis.onvoiceschanged = () => { TTS.load(); if (state.screen === 'settings') render(); }; }
@@ -438,7 +473,7 @@ function closeRunner(){
   if (r && r.p && !r.exam && !r.temp) r.p.done = r.idx;
   persist();
   const back = r && r.back;
-  state.runner = null; try{ speechSynthesis.cancel(); }catch(e){}
+  state.runner = null; TTS.cancel();
   document.getElementById('runner').classList.add('hidden');
   if (back === 'reader' && state.reader){ document.getElementById('reader').classList.remove('hidden'); renderReader(); return; }
   document.getElementById('nav').classList.remove('hidden');
@@ -908,7 +943,8 @@ function renderSettings(){
     <h2>日文</h2><ul class="list">
       <li><label><span><div>日文顯示</div><div class="sub">漢字上方標假名</div></span><span class="seg">${[['furigana','注音'],['kana','只用假名'],['romaji','＋拼音']].map(([k, l]) => `<button class="${s.jaScript === k ? 'sel' : ''}" onclick="state.settings.jaScript='${k}';persist();render()">${l}</button>`).join('')}</span></label></li>
       <li><label><span><div>詞間空格</div></span><span class="seg"><button class="${s.jaGap ? 'sel' : ''}" onclick="state.settings.jaGap=true;persist();render()">開</button><button class="${!s.jaGap ? 'sel' : ''}" onclick="state.settings.jaGap=false;persist();render()">關</button></span></label></li>
-      <li><label><span><div>日文語音</div><div class="sub">${TTS.jvoices.length ? '' : 'iPhone：設定→輔助使用→朗讀內容→聲音→日文，下載 Kyoko 或 O-Ren'}</div></span>${voiceSel(TTS.jvoices, 'jaVoice', '桃太郎は川へ行きました。', 'TTS.speakJa')}</label></li>
+      <li><label><span><div>日文語音</div><div class="sub">${TTS.jvoices.length ? '選了會試播一句。聲音不自然就換一個。' : '沒有找到日文語音'}</div></span>${voiceSel(TTS.jvoices, 'jaVoice', '桃太郎は川へ行きました。', 'TTS.speakJa')}</label></li>
+      <li><div class="note" style="margin:10px 0">日文語音建議：Mac 到「系統設定 → 輔助使用 → 朗讀內容 → 系統聲音 → 管理聲音」下載日文的 Kyoko 或 O-Ren（加強版更自然）；iPhone 到「設定 → 輔助使用 → 朗讀內容 → 聲音 → 日文」下載；Chrome 也可以選「Google 日本語」。</div></li>
     </ul>
     <h2>進度</h2>
     <div class="muted small">進度存在這支手機的瀏覽器裡。換裝置或清除瀏覽資料前，先匯出。</div>
@@ -1036,7 +1072,7 @@ function playOne(i){ stopPlay(); speakSent(i); }
 function startPlay(){ const R = state.reader; R.playing = true; const n = R.b.chapters[R.ch].s.length;
   const run = i => { if (!state.reader || !R.playing) return; if (i >= n){ R.playing = false; renderPlayerBtn(); return; } speakSent(i, () => { if (R.playing) setTimeout(() => run(i + 1), 350); }); };
   run(Math.max(0, R.cur)); renderPlayerBtn(); }
-function stopPlay(){ const R = state.reader; if (R) R.playing = false; try{ speechSynthesis.cancel(); }catch(e){} renderPlayerBtn(); }
+function stopPlay(){ const R = state.reader; if (R) R.playing = false; TTS.cancel(); renderPlayerBtn(); }
 function togglePlay(){ const R = state.reader; if (R.playing) stopPlay(); else { if (R.cur < 0) R.cur = 0; startPlay(); } }
 function stepSent(d){ const R = state.reader; const n = R.b.chapters[R.ch].s.length; const i = Math.min(n - 1, Math.max(0, (R.cur < 0 ? 0 : R.cur) + d)); const was = R.playing; stopPlay(); R.cur = i; if (was) startPlay(); else speakSent(i); }
 function renderPlayerBtn(){ const b = document.querySelector('#reader .pp'); if (b && state.reader) b.textContent = state.reader.playing ? '⏸' : '▶'; }
