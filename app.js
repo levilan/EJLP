@@ -39,7 +39,7 @@ const state = {
   progress: Store.get('progress', {}), jprog: Store.get('jprog', {}), jwrong: Store.get('jwrong', {}), jtasks: Store.get('jtasks', {}),
   drafts: Store.get('drafts', {}), tests: Store.get('tests', {}), jmock: Store.get('jmock', {}), external: Store.get('external', []),
   cefr: Store.get('cefr', []), words: Store.get('words', {en:{}, ja:{}}), readTime: Store.get('readTime', {}), readPos: Store.get('readPos', {}),
-  settings: Object.assign({voice:'', jaVoice:'', rate:0.95, amount:100, reviewMode:'choice', jaScript:'furigana', jaGap:true, trLang:'zh', rdfs:22, rdRate:0.9}, Store.get('settings', {})),
+  settings: Object.assign({voice:'', jaVoice:'', rate:0.95, amount:100, reviewMode:'choice', jaScript:'furigana', jaGap:true, jaSrc:'auto', trLang:'zh', rdfs:22, rdRate:0.9}, Store.get('settings', {})),
   shelf:{lang:'en', level:null}, testsLang:'en', runner:null, reader:null,
 };
 function persist(){
@@ -61,7 +61,7 @@ function dayDate(day){ const d = addDays(parseD(EN_DAY1), day-1); return `${d.ge
 function esc(s){ return String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
 function rich(s){ return esc(s).replace(/&lt;u&gt;/g,'<u>').replace(/&lt;\/u&gt;/g,'</u>'); }
 function q(s){ return JSON.stringify(s).replace(/"/g, '&quot;'); }
-function toast(msg){ const t = document.getElementById('toast'); t.textContent = msg; t.classList.add('show'); clearTimeout(t._t); t._t = setTimeout(() => t.classList.remove('show'), 2000); }
+function toast(msg, ms){ const t = document.getElementById('toast'); t.textContent = msg; t.classList.add('show'); clearTimeout(t._t); t._t = setTimeout(() => t.classList.remove('show'), ms || 2000); }
 function shuffle(a){ a = a.slice(); for (let i = a.length-1; i > 0; i--){ const j = Math.floor(Math.random()*(i+1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
 function norm(s){
   s = String(s||'').toLowerCase().replace(/[’‘`´]/g,"'").replace(/[“”]/g,'"').replace(/\s+/g,' ').trim().replace(/[.,!?;:"]+$/,'').trim();
@@ -135,17 +135,32 @@ function rankVoice(v){
   if (v.localService) s += 10;
   return s;
 }
+const JA_TTS_URL = t => 'https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=ja&q=' + encodeURIComponent(t);
 const TTS = {
-  voices:[], jvoices:[], _cancelAt:0,
+  voices:[], jvoices:[], _cancelAt:0, _audio:null, _failAt:0,
   load(){
     if (!('speechSynthesis' in window)) return;
     const all = speechSynthesis.getVoices();
     const sortV = l => { const good = l.filter(v => !NOVELTY.test(v.name)); return (good.length ? good : l).sort((a, b) => rankVoice(b) - rankVoice(a)); };
     this.voices = sortV(all.filter(v => /^en/i.test(v.lang)));
-    this.jvoices = sortV(all.filter(v => /^ja/i.test(v.lang)));
+    this.jvoices = sortV(all.filter(v => /^ja/i.test(v.lang.replace('_', '-'))));
     const s = state.settings;
     if (this.voices.length && (!this.voices.find(v => v.name === s.voice))) s.voice = this.voices[0].name;
     if (this.jvoices.length && (!this.jvoices.find(v => v.name === s.jaVoice))) s.jaVoice = this.jvoices[0].name;
+  },
+  /* 裝置上「真的在本機」的日文語音；Chrome 的 Google 日本語是網路語音，連不上時會改用系統預設（常是中文）去唸 */
+  localJa(){ return this.jvoices.filter(v => v.localService !== false); },
+  /* 日文用哪個來源：device＝裝置語音，online＝線上日文語音 */
+  jaMode(){
+    const m = state.settings.jaSrc || 'auto';
+    if (m === 'device' || m === 'online') return m;
+    if (!this.jvoices.length && 'speechSynthesis' in window) this.load();
+    const v = this.voiceFor('ja');
+    return v && v.localService !== false ? 'device' : 'online';
+  },
+  jaLabel(){
+    if (this.jaMode() === 'online') return '線上日文語音（需要網路）';
+    const v = this.voiceFor('ja'); return v ? v.name + '（裝置）' : '裝置預設（可能不是日文）';
   },
   voiceFor(lang, name){
     const pool = lang === 'ja' ? this.jvoices : this.voices;
@@ -161,9 +176,45 @@ const TTS = {
     }
     return out;
   },
-  cancel(){ try{ speechSynthesis.cancel(); }catch(e){} this._cancelAt++; },
+  cancel(){
+    try{ speechSynthesis.cancel(); }catch(e){}
+    const a = this._audio; if (a){ a.onended = a.onerror = null; try{ a.pause(); }catch(e){} }
+    this._cancelAt++;
+  },
+  /* 線上日文語音：用同一個 <audio> 依序播放每一句（iPhone 只要第一次是點擊觸發，後面都能接著播） */
+  playOnline(texts, rate, onend){
+    const a = this._audio || (this._audio = new Audio());
+    a.preload = 'auto';
+    const stamp = this._cancelAt; let i = 0;
+    const fail = () => {
+      if (this._cancelAt !== stamp) return;
+      this._failAt = Date.now();
+      if (this.localJa().length){ this.play(texts.slice(Math.max(i - 1, 0)).map(text => ({text, lang:'ja', force:'device'})), rate, onend); return; }
+      toast('線上日文語音連不上（可能沒有網路）。請到「設定」看如何安裝日文語音', 4000);
+      if (state.reader && state.reader.playing) stopPlay();
+    };
+    const next = () => {
+      if (this._cancelAt !== stamp) return;
+      if (i >= texts.length){ if (onend) onend(); return; }
+      a.onended = next; a.onerror = fail;
+      a.src = JA_TTS_URL(texts[i++]);
+      const r = Math.min(Math.max(rate ?? state.settings.rate, 0.5), 2);
+      a.defaultPlaybackRate = r; a.playbackRate = r;
+      try{ a.preservesPitch = true; }catch(e){}
+      const pr = a.play(); if (pr && pr.catch) pr.catch(e => { if (e && e.name === 'AbortError') return; fail(); });
+    };
+    next();
+  },
   /* items: [{text, lang, voice}] 依序播放 */
   play(items, rate, onend){
+    const ja = items.length && items.every(it => it.lang === 'ja');
+    const mode = ja ? (items[0].force || this.jaMode()) : 'device';
+    if (ja && mode === 'online'){
+      this.cancel();
+      const texts = []; items.forEach(it => this.chunks(it.text, 'ja').forEach(t => texts.push(t)));
+      if (!texts.length){ if (onend) onend(); return; }
+      this.playOnline(texts, rate, onend); return;
+    }
     if (!('speechSynthesis' in window)){ toast('此瀏覽器不支援朗讀'); return; }
     if (!this.voices.length || !this.jvoices.length) this.load();
     this.cancel();
@@ -183,7 +234,6 @@ const TTS = {
   },
   speakEn(text, rate, onend){ this.play([{text, lang:'en'}], rate, onend); },
   speakJa(text, rate, onend){
-    if (!this.jvoices.length && !this._warned){ this._warned = true; toast('找不到日文語音，請到「設定」看如何安裝'); }
     this.play([{text: {'は':'わ','へ':'え','を':'お'}[text] || text, lang:'ja'}], rate, onend);
   },
   /* 聽解稿：去掉「男：」「女：」標籤；有第二個好的日文語音就讓男女換人說 */
@@ -943,8 +993,10 @@ function renderSettings(){
     <h2>日文</h2><ul class="list">
       <li><label><span><div>日文顯示</div><div class="sub">漢字上方標假名</div></span><span class="seg">${[['furigana','注音'],['kana','只用假名'],['romaji','＋拼音']].map(([k, l]) => `<button class="${s.jaScript === k ? 'sel' : ''}" onclick="state.settings.jaScript='${k}';persist();render()">${l}</button>`).join('')}</span></label></li>
       <li><label><span><div>詞間空格</div></span><span class="seg"><button class="${s.jaGap ? 'sel' : ''}" onclick="state.settings.jaGap=true;persist();render()">開</button><button class="${!s.jaGap ? 'sel' : ''}" onclick="state.settings.jaGap=false;persist();render()">關</button></span></label></li>
-      <li><label><span><div>日文語音</div><div class="sub">${TTS.jvoices.length ? '選了會試播一句。聲音不自然就換一個。' : '沒有找到日文語音'}</div></span>${voiceSel(TTS.jvoices, 'jaVoice', '桃太郎は川へ行きました。', 'TTS.speakJa')}</label></li>
-      <li><div class="note" style="margin:10px 0">日文語音建議：Mac 到「系統設定 → 輔助使用 → 朗讀內容 → 系統聲音 → 管理聲音」下載日文的 Kyoko 或 O-Ren（加強版更自然）；iPhone 到「設定 → 輔助使用 → 朗讀內容 → 聲音 → 日文」下載；Chrome 也可以選「Google 日本語」。</div></li>
+      <li><label><span><div>日文語音來源</div><div class="sub">目前：${esc(TTS.jaLabel())}</div></span><span class="seg">${[['auto','自動'],['device','裝置'],['online','線上']].map(([k, l]) => `<button class="${(s.jaSrc || 'auto') === k ? 'sel' : ''}" onclick="state.settings.jaSrc='${k}';persist();render();TTS.speakJa('桃太郎は川へ行きました。')">${l}</button>`).join('')}</span></label></li>
+      <li><label><span><div>裝置日文語音</div><div class="sub">${TTS.jvoices.length ? `找到 ${TTS.jvoices.length} 個；選了會試播一句` : '這台裝置沒有日文語音'}</div></span>${voiceSel(TTS.jvoices, 'jaVoice', '桃太郎は川へ行きました。', 'TTS.speakJa')}</label></li>
+      <li><button class="secondary" style="margin:10px 0 0" onclick="TTS.speakJa('はじめまして。わたしは学生です。日本語を勉強しています。')">🔊 試聽日文：はじめまして。わたしは学生です。</button></li>
+      <li><div class="note" style="margin:10px 0">聽到的是中文腔，代表瀏覽器沒有用日文語音：把來源切到「線上」就會用日文唸（需要網路）。想離線也能聽，就安裝裝置的日文語音：Mac「系統設定 → 輔助使用 → 朗讀內容 → 系統聲音 → 管理聲音」下載 Kyoko 或 O-Ren；iPhone「設定 → 輔助使用 → 朗讀內容 → 聲音 → 日文」；Windows「設定 → 時間與語言 → 語言 → 新增日文（含語音）」。裝好後重開瀏覽器，來源選「自動」或「裝置」。</div></li>
     </ul>
     <h2>進度</h2>
     <div class="muted small">進度存在這支手機的瀏覽器裡。換裝置或清除瀏覽資料前，先匯出。</div>
