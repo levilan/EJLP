@@ -459,12 +459,17 @@ function renderRunner(){
   const nb = el.querySelector('#next-btn'); if (nb) setTimeout(() => nb.focus(), 50);
   el.querySelector('.r-body').scrollTop = 0;
 }
+const CHOICE = new Set(['vocab_review','mc','reading','jm','jr','jl','jc','rd_q','srs']);
+function curType(r){ const it = r.items[r.idx]; return r.exam ? 'exam' : (r.block === 'jx' ? it._wsec : r.block); }
+function isChoice(type){ return CHOICE.has(type) && !(type === 'vocab_review' && state.settings.reviewMode === 'typing' && state.runner.items[state.runner.idx].dir !== 'en2zh'); }
 function renderFoot(type){
   const r = state.runner;
   if (r.phase === 'feedback'){
     const canOverride = !r.last.ok && !r.exam && ['translate','dictation','fill','error','jf'].includes(type);
     return `${canOverride ? `<button class="secondary" onclick="markRight()">我覺得算對</button>` : ''}<button id="next-btn" class="primary" onclick="nextItem()">${r.idx + 1 >= r.items.length ? '完成' : '下一題'}</button>`;
   }
+  if (type === 'exam') return r.idx > 0 ? `<button class="secondary" onclick="prevItem()">‹ 上一題</button>` : `<div class="muted small" style="text-align:center;align-self:center">點選答案就會進入下一題</div>`;
+  if (isChoice(type)) return `<button class="secondary" onclick="skipItem()">跳過</button>`;
   const def = ITEM[type];
   if (def.foot) return def.foot(r);
   return `${r.exam ? '' : `<button class="secondary" onclick="skipItem()">跳過</button>`}<button class="primary" onclick="checkItem()">${r.exam ? '下一題' : '檢查答案'}</button>`;
@@ -485,13 +490,21 @@ function finish(ok, ans, why, userText, extra){
     }
   }
   r.phase = 'feedback'; persist(); renderRunner();
+  if (ok && isChoice(curType(r))){ const idx = r.idx; setTimeout(() => { if (state.runner === r && r.phase === 'feedback' && r.idx === idx) nextItem(); }, 700); }
 }
 function markRight(){ const r = state.runner; r.last.ok = true; r.p.correct++; r.wrongs = r.wrongs.filter(w => w.item !== r.items[r.idx]);
   if (r.ctx){ const it = r.items[r.idx]; clearWrong(r.ctx, r.block === 'jx' ? it._wsec : r.block, r.block === 'jx' ? it._wi : r.idx); } persist(); renderRunner(); }
 function nextItem(){ const r = state.runner; r.idx++; r.phase = 'answer'; r.tmp = {}; if (!r.exam && !r.temp) r.p.done = Math.max(r.p.done, r.idx); persist(); renderRunner(); }
 function skipItem(){ const r = state.runner; if (!r.p.skipped.includes(r.idx)) r.p.skipped.push(r.idx); nextItem(); }
 function checkItem(){ const r = state.runner, it = r.items[r.idx]; ITEM[r.exam ? 'exam' : (r.block === 'jx' ? it._wsec : r.block)].check(it, r); }
-function pickOpt(i){ const r = state.runner; if (r.phase !== 'answer') return; r.tmp.pick = i; renderRunner(); }
+function pickOpt(i){
+  const r = state.runner; if (r.phase !== 'answer' || r.tmp.locked) return;
+  r.tmp.pick = i; const type = curType(r);
+  if (type === 'exam'){ r.tmp.locked = true; renderRunner(); const idx = r.idx; setTimeout(() => { if (state.runner === r && r.idx === idx) checkItem(); }, 250); return; }
+  if (isChoice(type)){ checkItem(); return; }
+  renderRunner();
+}
+function prevItem(){ const r = state.runner; if (!r || r.idx === 0) return; r.idx--; r.phase = 'answer'; const a = r.examAnswers[r.idx]; r.tmp = {pick: a ? a.pick : undefined}; renderRunner(); }
 function againWord(){ const r = state.runner; r.items.push(r.items[r.idx]); nextItem(); }
 function pick(i){ const r = state.runner; if (r.phase !== 'answer') return; r.tmp.picked = [...(r.tmp.picked || []), i]; renderRunner(); }
 function unpick(k){ const r = state.runner; if (r.phase !== 'answer') return; r.tmp.picked.splice(k, 1); renderRunner(); }
@@ -647,7 +660,7 @@ const ITEM = {
       const qtext = ja ? `<div class="qj" lang="${it.script ? 'zh' : 'ja'}">${it.t ? `<span class="ttag">${esc(it.t)}</span>` : ''}${rich(it.q)}</div>` : `<div class="q" style="font-size:21px">${esc(it.q)}</div>`;
       return head + qtext + optsHTML(it.opts || it.o, ja && !it.script ? 'jp' : '', r.tmp.pick, null);
     },
-    check: (it, r) => { if (r.tmp.pick == null) return toast('先選一個答案'); r.examAnswers.push({item: it, ok: r.tmp.pick === it.a, pick: r.tmp.pick}); nextItem(); },
+    check: (it, r) => { if (r.tmp.pick == null) return toast('先選一個答案'); r.examAnswers[r.idx] = {item: it, ok: r.tmp.pick === it.a, pick: r.tmp.pick}; nextItem(); },
   },
   /* ---------- 日文 ---------- */
   jv: {
@@ -829,6 +842,7 @@ function startTest(id){
 function renderExamResult(){
   const r = state.runner;
   const byGp = {};
+  r.examAnswers = r.examAnswers.filter(Boolean);
   r.examAnswers.forEach(({item, ok}) => { const g = item.gp || item.sec || '其他'; byGp[g] = byGp[g] || {n:0, ok:0}; byGp[g].n++; if (ok) byGp[g].ok++; });
   const score = Math.round(r.examAnswers.filter(a => a.ok).length / r.items.length * 100);
   const rec = {score, byGp: Object.fromEntries(Object.entries(byGp).map(([g, v]) => [g, Math.round(v.ok / v.n * 100)])), date: todayStr()};

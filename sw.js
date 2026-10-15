@@ -1,5 +1,5 @@
 /* 離線快取：介面檔案優先用快取，題庫有網路時更新 */
-const CACHE = 'ejlp-v3.0.1';
+const CACHE = 'ejlp-v3.1';
 const SHELL = ['./', 'index.html', 'app.js', 'app.css', 'manifest.webmanifest', 'icon.svg',
   'data/en.json', 'data/library.json', 'data/gloss.json', 'data/ja/index.json', 'data/ja/N5.json'];
 self.addEventListener('install', e => { e.waitUntil(caches.open(CACHE).then(c => c.addAll(SHELL)).then(() => self.skipWaiting())); });
