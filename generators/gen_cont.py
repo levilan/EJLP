@@ -51,7 +51,7 @@ SPELL = [('make', 'making', '去 e 加 -ing', 'a cake'), ('write', 'writing', '�
          ('use', 'using', '去 e 加 -ing', 'the computer'), ('take', 'taking', '去 e 加 -ing', 'a shower'), ('run', 'running', '短母音＋子音：重複字尾再加 -ing', 'in the park'),
          ('swim', 'swimming', '短母音＋子音：重複字尾再加 -ing', 'in the pool'), ('sit', 'sitting', '短母音＋子音：重複字尾再加 -ing', 'on the sofa'),
          ('shop', 'shopping', '短母音＋子音：重複字尾再加 -ing', 'at the mall'), ('get', 'getting', '短母音＋子音：重複字尾再加 -ing', 'dressed'),
-         ('lie', 'lying', 'ie 改 y 加 -ing', 'on the bed'), ('tie', 'tying', 'ie 改 y 加 -ing', 'a ribbon'), ('play', 'playing', '直接加 -ing', 'basketball'),
+         ('lie', 'lying', 'ie 改 y 加 -ing', 'on the bed'), ('lie', 'lying', 'ie 改 y 加 -ing', 'on the sofa'), ('play', 'playing', '直接加 -ing', 'basketball'),
          ('study', 'studying', '直接加 -ing（y 不變）', 'English'), ('read', 'reading', '直接加 -ing', 'a book')]
 THIRD = {'read': 'reads', 'write': 'writes', 'eat': 'eats', 'drink': 'drinks', 'cook': 'cooks', 'watch': 'watches', 'play': 'plays',
          'listen': 'listens', 'study': 'studies', 'work': 'works', 'make': 'makes', 'run': 'runs', 'swim': 'swims', 'sit': 'sits',
@@ -135,6 +135,8 @@ def ques(short=True):
 
 def what_doing():
     s = rnd.choice([x for x in SUBJ if x[0] != 'I']); v = rnd.choice([x for x in VERBS if x[0] != 'rain'])
+    if v[0] == 'wear':  # 穿戴是狀態，不適合回答 What are you doing?（不多抽亂數，保持其他題目不變）
+        v = VERBS[0]
     ph, phz = phrase(v)
     pr = 'I' if s[0] == 'You' else s[3].capitalize()
     b = 'am' if pr == 'I' else ('is' if pr in ('He', 'She') else 'are')

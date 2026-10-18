@@ -30,7 +30,7 @@ const TASK2SEC = {vocab:'jv', grammar:'jg', mcq:'jm', fill:'jf', reading:'jr', l
 const CONTR = [["can't","cannot"],["can not","cannot"],["won't","will not"],["isn't","is not"],["aren't","are not"],["wasn't","was not"],["weren't","were not"],
   ["don't","do not"],["doesn't","does not"],["didn't","did not"],["haven't","have not"],["hasn't","has not"],["i'm","i am"],["you're","you are"],["we're","we are"],
   ["they're","they are"],["he's","he is"],["she's","she is"],["it's","it is"],["that's","that is"],["what's","what is"],["where's","where is"],["there's","there is"],
-  ["who's","who is"],["i've","i have"],["you've","you have"],["we've","we have"],["they've","they have"],["i'd","i would"],["i'll","i will"],["you'll","you will"],
+  ["who's","who is"],["i've","i have"],["you've","you have"],["we've","we have"],["they've","they have"],["i'd","i would"],["you'd","you would"],["he'd","he would"],["she'd","she would"],["we'd","we would"],["they'd","they would"],["couldn't","could not"],["shouldn't","should not"],["wouldn't","would not"],["there're","there are"],["here's","here is"],["how's","how is"],["i'll","i will"],["you'll","you will"],
   ["he'll","he will"],["she'll","she will"],["we'll","we will"],["they'll","they will"],["it'll","it will"],["let's","let us"]];
 
 /* ---------- 儲存 ---------- */
@@ -76,7 +76,7 @@ function norm(s){
   for (const [c,f] of CONTR) s = s.replace(new RegExp('(^|\\s)'+c+'(?=\\s|$)','g'), '$1'+f);
   s = s.replace(/\b(\d{1,2})\b(?!:)/g, (m, d) => NUMW[+d] || m).replace(/ o'clock\b/g, '');
   s = s.replace(/\bmom\b/g, 'mother').replace(/\bdad\b/g, 'father').replace(/\bmoms\b/g, 'mothers').replace(/\bdads\b/g, 'fathers').replace(/café/g, 'cafe');
-  return s.replace(/\s*,\s*/g, ', ').replace(/\s+/g,' ').trim();
+  return s.replace(/\s*,\s*/g, ' ').replace(/\s+/g,' ').trim();
 }
 function match(user, answers){ const u = norm(user); return (Array.isArray(answers) ? answers : [answers]).some(a => norm(a) === u); }
 function jnorm(s){ return String(s||'').replace(/[\s　。、．，！？!?]/g,'').trim(); }

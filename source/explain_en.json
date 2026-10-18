@@ -47,6 +47,10 @@
 "g": "this/that",
 "x": "介紹身邊的一個人用 This is…（這位是），This 是單數，配 is。"
 },
+"f018451298c": {
+"g": "現在進行式",
+"x": "主詞 She 是一個人，be 動詞用 is，再接 wearing。"
+},
 "f01a06f57b0": {
 "g": "be going to",
 "x": "be going to 表示打算要做；She 是一個人，be 動詞用 is。"
@@ -303,6 +307,10 @@
 "g": "現在簡單式",
 "x": "What time 問句，主詞是 you，中間要放 do：What time do you get up?"
 },
+"f0935562ea3": {
+"g": "現在進行式",
+"x": "主詞 They 是複數，be 動詞用 are；right now 表示正在進行。"
+},
 "f0954e62752": {
 "g": "be going to",
 "x": "be going to 後面接原形動詞；買腳踏車用 buy，不加 s。"
@@ -362,6 +370,10 @@
 "f0a55212859": {
 "g": "現在簡單式",
 "x": "every morning 是習慣，He 是一個人，get 加 s 變 gets；get ready 是準備好。"
+},
+"f0a644c338d": {
+"g": "現在進行式",
+"x": "my friends 是複數，回答用 They are，所以問 What are my friends doing?"
 },
 "f0a81360706": {
 "g": "have/has",
@@ -486,6 +498,10 @@
 "f0dd0463cd5": {
 "g": "be going to",
 "x": "句型是 am going to＋原形動詞，表示打算帶蛋糕，所以空格填 going。"
+},
+"f0de98ec91d": {
+"g": "現在簡單式",
+"x": "often 說習慣，用現在簡單式；My friends 是複數，用原形 wear。"
 },
 "f0df8df2606": {
 "g": "過去式",
@@ -771,6 +787,10 @@
 "g": "be 動詞",
 "x": "主詞 the weather（天氣）當一件事看，等於 it，問句句首用 Is。"
 },
+"f156c4b1d35": {
+"g": "現在進行式",
+"x": "要填否定；He 一個人配 is，否定是 isn't。"
+},
 "f156e8f5b99": {
 "g": "過去式",
 "x": "yesterday 是過去；主詞 it 是單數，be 動詞問句放句首用 Was。"
@@ -778,6 +798,10 @@
 "f15715d159d": {
 "g": "單字搭配",
 "x": "would like 後面接動作要加 to：would like to drink。"
+},
+"f157c8b1ca5": {
+"g": "現在進行式",
+"x": "Ken and Lisa 是兩個人，問句用 What are … doing?"
 },
 "f159864fb2e": {
 "g": "現在進行式",
@@ -1067,6 +1091,10 @@
 "g": "過去式",
 "x": "Last month 上個月是過去；go 是不規則動詞，過去式 went。"
 },
+"f1ce5b7795d": {
+"g": "現在進行式",
+"x": "用 Is 問就用 is 答；回答 No 要否定：No, he isn't。"
+},
 "f1ceb2ba611": {
 "g": "過去式",
 "x": "說的是已經發生的事；arrive 字尾是 e，只加 d 變 arrived。"
@@ -1154,6 +1182,10 @@
 "f1eacd6bb96": {
 "g": "be 動詞",
 "x": "問他高不高：主詞 he 配 is，問句句首寫 Is。回答 Yes, he is."
+},
+"f1ebb170cd3": {
+"g": "現在進行式",
+"x": "要填否定；Amy 一個人配 is，所以用 isn't，不用 aren't。"
 },
 "f1ec5b4d5f7": {
 "g": "現在進行式",
@@ -1335,6 +1367,10 @@
 "g": "現在簡單式",
 "x": "My brother 是一個人，ride 加 s 變 rides；騎腳踏車用 ride。"
 },
+"f23fb74f163": {
+"g": "現在進行式",
+"x": "She 一個人配 is；否定就是 isn't：She isn't wearing jeans。"
+},
 "f241ea7efd5": {
 "g": "介系詞",
 "x": "星期幾前面用 on：on Mondays 每個星期一。"
@@ -1382,6 +1418,10 @@
 "f255f5308fb": {
 "g": "be 動詞",
 "x": "主詞 He 是一個人，用 is。英文說年齡用 be 動詞，不是用 has。"
+},
+"f2565c6df5d": {
+"g": "現在進行式",
+"x": "am 後面接 -ing；lie 的 ie 改成 y 再加 ing：lying，不是 lieing。"
 },
 "f2572d5482b": {
 "g": "be 動詞",
@@ -1482,6 +1522,10 @@
 "f2808f29eb9": {
 "g": "be going to",
 "x": "My family 當成一個整體，be going to 的 be 動詞用 is。"
+},
+"f280e29a703": {
+"g": "現在簡單式",
+"x": "every day 是習慣，用現在簡單式；My father 一個人，use 加 s：uses。"
 },
 "f2836644ad5": {
 "g": "單字搭配",
@@ -1635,6 +1679,10 @@
 "g": "be 動詞",
 "x": "Reading（閱讀）當主詞，算一件事，be 動詞用 is。"
 },
+"f2be7c64b7e": {
+"g": "現在進行式",
+"x": "主詞 I 的 be 動詞固定是 am：I am sitting。"
+},
 "f2c1f49c5b6": {
 "g": "現在進行式",
 "x": "主詞 he 是一個人，配 is；進行式問句把 Is 放句首：Is he playing…?"
@@ -1710,6 +1758,10 @@
 "f2dd5c89342": {
 "g": "this/that",
 "x": "over there 是遠處，girls 是複數，遠的複數用 Those。"
+},
+"f2de13b3d8b": {
+"g": "現在進行式",
+"x": "問「我哥哥在做什麼」：my brother 是一個人，用 What is … doing?"
 },
 "f2e34722604": {
 "g": "there is/are",
@@ -1858,6 +1910,10 @@
 "f31853e0c59": {
 "g": "過去式",
 "x": "主詞 we 是複數，過去式 be 動詞用 were。"
+},
+"f31996148bf": {
+"g": "現在進行式",
+"x": "are 後面接 -ing；read 直接加 ing：reading。"
 },
 "f31ace4165b": {
 "g": "可數／不可數",
@@ -2175,6 +2231,14 @@
 "g": "現在簡單式",
 "x": "My son 是一個人，make 加 s 變 makes；make his bed 是整理床鋪。"
 },
+"f3a2fdd7ffe": {
+"g": "現在進行式",
+"x": "My brother 一個人配 is，要否定就用 isn't，不用 aren't。"
+},
+"f3a358f7458": {
+"g": "現在進行式",
+"x": "is 後面接 -ing；get 結尾是一個母音加 t，t 要重複：getting。"
+},
 "f3a3ae80773": {
 "g": "過去式",
 "x": "yesterday 是過去；主詞 I 的過去式 be 動詞是 was。"
@@ -2206,6 +2270,10 @@
 "f3af457b6e9": {
 "g": "this/that",
 "x": "後面說 She is here，人就在旁邊，介紹近的一個人用 This。"
+},
+"f3b0b4ce564": {
+"g": "現在進行式",
+"x": "My father 一個人配 is；right now 加 eating 是進行式。"
 },
 "f3b0b7869e3": {
 "g": "過去式",
@@ -2358,6 +2426,10 @@
 "f3e78bc0b53": {
 "g": "頻率副詞",
 "x": "頻率副詞放在 is 後面：Tom is never late；always 等也可以。"
+},
+"f3e9774bc63": {
+"g": "現在進行式",
+"x": "Amy 是一個人，be 動詞用 is：Amy is playing。"
 },
 "f3ea23e50d4": {
 "g": "代名詞／所有格",
@@ -2675,6 +2747,18 @@
 "g": "代名詞／所有格",
 "x": "括號提示 they，they 的所有格是 Their（她們的）：Their names。"
 },
+"f467498ead2": {
+"g": "現在進行式",
+"x": "後面是 making，進行式要有 be 動詞；Tom 一個人用 is。"
+},
+"f46763fe93b": {
+"g": "現在進行式",
+"x": "Ken and Lisa 兩個人配 are，否定用 aren't，不用 isn't。"
+},
+"f46aa8f8c38": {
+"g": "現在進行式",
+"x": "are 後面接 -ing；lie 要把 ie 改成 y 再加 ing，寫成 lying。"
+},
 "f46e0fa92d2": {
 "g": "現在簡單式",
 "x": "She 是一個人，後面 take 是原形，否定要用 doesn't。"
@@ -2851,6 +2935,10 @@
 "g": "可數／不可數",
 "x": "bread 不可數，肯定句表示一些用 some：some bread。"
 },
+"f4b566d19ae": {
+"g": "現在進行式",
+"x": "my father 一個人，進行式問句用 Is 開頭：Is my father wearing…?"
+},
 "f4b5b1c3499": {
 "g": "there is/are",
 "x": "six chairs 是複數，表示某處有東西用 There are。"
@@ -2874,6 +2962,10 @@
 "f4bb5455f9a": {
 "g": "be 動詞",
 "x": "主詞 He 是一個男生，單數，be 動詞用 is。"
+},
+"f4bbb65b173": {
+"g": "現在簡單式",
+"x": "every day 是習慣，用現在簡單式；We 是複數，用原形 learn，不加 s。"
 },
 "f4bbd0a3ffc": {
 "g": "be 動詞",
@@ -3034,6 +3126,10 @@
 "f4f129fc3cd": {
 "g": "單字搭配",
 "x": "My favourite 後面接單數名詞，is 也表示一個，用 hobby（嗜好）。"
+},
+"f4f2c181779": {
+"g": "現在進行式",
+"x": "are 後面接 -ing；play 的 y 前面是母音 a，直接加 ing：playing。"
 },
 "f4f4eed55a6": {
 "g": "可數／不可數",
@@ -3202,6 +3298,10 @@
 "f531814ea5d": {
 "g": "現在簡單式",
 "x": "every morning 是習慣，用現在簡單式；My father 是一個人，eat 加 s 變 eats。"
+},
+"f531d63ca7b": {
+"g": "現在進行式",
+"x": "主詞 they 是複數，配 are：What are they doing?"
 },
 "f5337777e72": {
 "g": "be going to",
@@ -3595,6 +3695,10 @@
 "g": "過去式",
 "x": "主詞 your parents 複數，be 動詞問句放句首，過去式用 Were。"
 },
+"f5ddd37bc1f": {
+"g": "現在進行式",
+"x": "My mother 是一個人，be 動詞用 is，加 listening 表示正在聽。"
+},
 "f5e09dafd19": {
 "g": "現在進行式",
 "x": "Tom 是一個人，用 is；提示要否定，is not 縮寫成 isn't。"
@@ -3663,6 +3767,10 @@
 "g": "can",
 "x": "can 後面接原形動詞；畫一張貓的圖用 draw 或 paint a picture。"
 },
+"f5f1ca71d77": {
+"g": "現在進行式",
+"x": "用 Are 問就用 are 答；they 是複數：Yes, they are。"
+},
 "f5f39138b53": {
 "g": "過去式",
 "x": "on Sunday 指上週日；主詞 the shop 單數，問句放句首用 Was。"
@@ -3698,6 +3806,10 @@
 "f6035745d4b": {
 "g": "this/that",
 "x": "over there 是遠處，man 是單數，遠的單數用 That。"
+},
+"f605818d8ad": {
+"g": "現在進行式",
+"x": "is 後面接 -ing；tie 是 ie 結尾，ie 改成 y 再加 ing：tying。"
 },
 "f6083c4dd1f": {
 "g": "be 動詞",
@@ -3738,6 +3850,10 @@
 "f61ac005763": {
 "g": "have/has",
 "x": "主詞 your sister 是一個人，問句用 Does 開頭，後面 have 用原形。"
+},
+"f61d78760d7": {
+"g": "現在進行式",
+"x": "主詞 I 配 am；空格後已經有 not，填 am：I am not sleeping。"
 },
 "f61da73b343": {
 "g": "現在進行式",
@@ -3826,6 +3942,10 @@
 "f63fd2aa42e": {
 "g": "現在簡單式",
 "x": "My son 是一個人，動詞要加 s：do 變 does（does his homework），也可填 finishes。"
+},
+"f640004f6a6": {
+"g": "現在簡單式",
+"x": "often（常常）說習慣，用現在簡單式；She 一個人，take 加 s：takes。"
 },
 "f641f9bdda2": {
 "g": "疑問詞",
@@ -4283,6 +4403,10 @@
 "g": "單字搭配",
 "x": "前面說天氣晴朗，邀大家去海邊：Let's＋原形動詞 go。"
 },
+"f70b5ce8c71": {
+"g": "現在簡單式",
+"x": "every morning 是習慣，用現在簡單式；My brother 一個人，wear 加 s。"
+},
 "f70bf51c26b": {
 "g": "可數／不可數",
 "x": "Is there…? 是問句，問有沒有，用 any；fish 當菜色是不可數。"
@@ -4446,6 +4570,10 @@
 "f7497625f4e": {
 "g": "介系詞",
 "x": "後面有 the sofa and the window 兩樣東西，夾在兩者中間用 between A and B。"
+},
+"f74e7feeaa1": {
+"g": "現在進行式",
+"x": "is 後面接 -ing；run 是一個母音加一個子音結尾，n 重複：running。"
 },
 "f74ed7ed358": {
 "g": "可數／不可數",
@@ -4683,6 +4811,10 @@
 "g": "there is/are",
 "x": "a bed 是單數；要否定，用 There isn't（= is not）。"
 },
+"f7a29e585a9": {
+"g": "現在進行式",
+"x": "are 後面接 -ing；get 要重複 t 再加 ing：getting。get dressed 是穿衣服。"
+},
 "f7a3206b46f": {
 "g": "be 動詞",
 "x": "主詞 She 是一個人，用 is。說在哪裡：is in＋地方。"
@@ -4731,6 +4863,10 @@
 "g": "可數／不可數",
 "x": "肯定句表示一些用 some；後面 but not many 說明有一些但不多。"
 },
+"f7b7553db7c": {
+"g": "現在進行式",
+"x": "Ken and Lisa 兩個人，回答也用 They are，所以問 What are…doing?"
+},
 "f7b9fb798be": {
 "g": "there is/are",
 "x": "a bridge 是一座，單數用 There is。"
@@ -4766,6 +4902,10 @@
 "f7c6e81bde6": {
 "g": "疑問詞",
 "x": "提示是什麼時候，問時間用 When。"
+},
+"f7ccf7e024a": {
+"g": "現在進行式",
+"x": "He 一個人，be 動詞用 is，加 taking 表示今天正在拍照。"
 },
 "f7cdef20256": {
 "g": "連接詞",
@@ -4819,6 +4959,10 @@
 "g": "可數／不可數",
 "x": "doesn't want 是否定句，否定句裡用 any；cheese 不可數，any cheese。"
 },
+"f7e2e012a65": {
+"g": "現在進行式",
+"x": "is 後面接 -ing；read 字母不變，直接加 ing：reading。"
+},
 "f7e4354baca": {
 "g": "現在進行式",
 "x": "We 是複數，用 are；today 今天正在用電腦：are using。"
@@ -4834,6 +4978,10 @@
 "f7e796180cd": {
 "g": "be 動詞",
 "x": "主詞 she 是一個人，問句句首用 Is：Is she your boss?"
+},
+"f7e806d2433": {
+"g": "現在進行式",
+"x": "用 Is 問，Yes 是肯定，回答 Yes, he is。"
 },
 "f7e894cb69e": {
 "g": "can",
@@ -4975,6 +5123,10 @@
 "g": "have/has",
 "x": "My sister 是一個人（第三人稱單數），have 要變成 has。"
 },
+"f81b894655a": {
+"g": "現在進行式",
+"x": "lie 是 ie 結尾，要把 ie 改成 y 再加 -ing：lying。"
+},
 "f82036fd8d2": {
 "g": "have/has",
 "x": "He 是一個人（第三人稱單數），用 has：He has a bike。"
@@ -5002,6 +5154,10 @@
 "f83224eaf76": {
 "g": "be going to",
 "x": "be going to 後面接原形；八點出發、離開用 leave。"
+},
+"f83270741c0": {
+"g": "現在進行式",
+"x": "She 一個人配 is；right now 加 studying 是現在進行式。"
 },
 "f8340417c13": {
 "g": "be 動詞",
@@ -5146,6 +5302,10 @@
 "f8794b681ce": {
 "g": "be 動詞",
 "x": "Where 後面的主詞 your new office 是一間辦公室，單數用 is。"
+},
+"f879efc5344": {
+"g": "現在進行式",
+"x": "at the moment 加 reading 是進行式；She 一個人配 is。"
 },
 "f87b5b210d1": {
 "g": "be going to",
@@ -5935,6 +6095,10 @@
 "g": "形容詞／副詞",
 "x": "因為下雨待在室內，用副詞 indoors；它本身就有在室內的意思，前面不加 in。"
 },
+"f992ec59b0a": {
+"g": "現在進行式",
+"x": "主詞 You 一律配 are：You are running。"
+},
 "f994cd72c8b": {
 "g": "現在簡單式",
 "x": "She 是一個人，否定用 doesn't，後面 work 用原形。"
@@ -6082,6 +6246,10 @@
 "f9c58d3d46a": {
 "g": "現在進行式",
 "x": "問句用 Is he，回答也用 he 配 is：Yes, he is."
+},
+"f9caa2e23ae": {
+"g": "現在進行式",
+"x": "用 Are 問，they 配 are；回答 No 要否定：No, they aren't。"
 },
 "f9cafcba95e": {
 "g": "there is/are",
@@ -6379,6 +6547,10 @@
 "g": "代名詞／所有格",
 "x": "Amy 的 brother 是男生，他的名字就是 His name。"
 },
+"fa37d16e0c5": {
+"g": "現在進行式",
+"x": "are 後面接 -ing；read 直接加 ing，d 不重複：reading。"
+},
 "fa38fffbfdb": {
 "g": "過去式",
 "x": "後面 missed 是過去式；主詞 the train 單數，be 動詞用 was。"
@@ -6562,6 +6734,10 @@
 "fa765780bde": {
 "g": "單字搭配",
 "x": "客氣地邀請別人，用 Would you like to…？所以句首填 Would。"
+},
+"fa772fd4cf8": {
+"g": "現在進行式",
+"x": "is 後面接 -ing；swim 是一個母音加一個子音結尾，m 要重複：swimming。"
 },
 "fa78a62f4d1": {
 "g": "there is/are",
@@ -7027,6 +7203,10 @@
 "g": "現在簡單式",
 "x": "My sister 是一個人；洗碗說 wash 或 do the dishes，要加 es：washes／does。"
 },
+"fb1f79dcc19": {
+"g": "現在進行式",
+"x": "is 後面接 -ing；write 去掉結尾的 e 再加 ing：writing，t 不重複。"
+},
 "fb1f7f62ec5": {
 "g": "be 動詞",
 "x": "主詞 your email address 是一個地址，單數，問句句首用 Is。"
@@ -7095,6 +7275,10 @@
 "g": "can",
 "x": "後面說他才兩歲，所以還不會走路或說話：can't walk／talk。"
 },
+"fb465ed470a": {
+"g": "現在進行式",
+"x": "They 是複數，be 動詞用 are：They are wearing。"
+},
 "fb4851d1206": {
 "g": "be going to",
 "x": "My sister 是一個人，be going to 的 be 動詞用 is。"
@@ -7135,6 +7319,10 @@
 "g": "過去式",
 "x": "講過去在車上聽音樂；listen 加 ed 變 listened，後面要接 to 再接音樂。"
 },
+"fb5249392c4": {
+"g": "現在進行式",
+"x": "are 後面接 -ing；run 是一個母音加一個子音結尾，n 要重複：running。"
+},
 "fb5341f11a9": {
 "g": "單字搭配",
 "x": "enjoy 後面的動詞要加 ing，garden 變 gardening（做園藝）。"
@@ -7142,6 +7330,10 @@
 "fb53e76611d": {
 "g": "現在進行式",
 "x": "write 字尾是不發音的 e，要先去掉 e 再加 ing：writing。"
+},
+"fb548d1aa37": {
+"g": "現在進行式",
+"x": "We 是複數，be 動詞用 are；at the moment 表示現在正在做。"
 },
 "fb54f98019f": {
 "g": "現在簡單式",
@@ -7271,6 +7463,14 @@
 "g": "there is/are",
 "x": "two lamps 是兩盞，複數用 There are。"
 },
+"fb7d3766364": {
+"g": "現在進行式",
+"x": "She 一個人，be 動詞用 is，加 talking 是正在講電話。"
+},
+"fb805123124": {
+"g": "現在進行式",
+"x": "is 後面接 -ing；get 是一個母音加一個子音結尾，t 要重複：getting。"
+},
 "fb83d18ae95": {
 "g": "過去式",
 "x": "講過去讀了兩小時英文；study 是子音＋y 結尾，把 y 改成 i 再加 ed：studied。"
@@ -7302,6 +7502,10 @@
 "fb8e03350d5": {
 "g": "介系詞",
 "x": "on the corner 指在街角那一塊位置上。"
+},
+"fb8e8bc321a": {
+"g": "現在進行式",
+"x": "are 後面接 -ing；lie 的 ie 改 y 再加 ing：lying。"
 },
 "fb8ed6f256a": {
 "g": "現在簡單式",
@@ -7358,6 +7562,10 @@
 "fba0120c6da": {
 "g": "there is/are",
 "x": "many shops 是很多家，複數，用 There are 開頭。"
+},
+"fba3083d63b": {
+"g": "現在進行式",
+"x": "Ken and Lisa 是兩個人，be 動詞用 are：are drinking。"
 },
 "fba3560f578": {
 "g": "現在簡單式",
@@ -7623,6 +7831,10 @@
 "g": "現在簡單式",
 "x": "句尾有原形動詞 cost，問句要用助動詞；主詞 this hat 是單數，用 does。"
 },
+"fc19e5d5265": {
+"g": "現在進行式",
+"x": "am 後面接 -ing；run 要重複 n 再加 ing：running。"
+},
 "fc1dff4e5d4": {
 "g": "現在進行式",
 "x": "Amy 是一個人，用 is；提示要否定，is not 縮寫成 isn't。"
@@ -7663,6 +7875,10 @@
 "g": "this/that",
 "x": "He is small 是在說身邊的寶寶，一個人又在近處，用 This。"
 },
+"fc2c968619d": {
+"g": "現在進行式",
+"x": "We 是複數配 are，否定用 aren't：We aren't shopping。"
+},
 "fc2d1eae6d5": {
 "g": "there is/are",
 "x": "bikes 有 s 是複數，問句用 Are there any…?"
@@ -7686,6 +7902,10 @@
 "fc2f5404fb0": {
 "g": "過去式",
 "x": "後面 finish 是原形，問句要有助動詞放句首；講過去有沒有準時完成，用 Did。"
+},
+"fc3135cc027": {
+"g": "現在進行式",
+"x": "問句用 Are，回答也用 are；Yes 是肯定：Yes, they are。"
 },
 "fc3242b2e81": {
 "g": "be 動詞",
@@ -8127,6 +8347,10 @@
 "g": "單字搭配",
 "x": "請人吃東西的客氣問法是 Would you like…?，後面有 some，不用 Do。"
 },
+"fcdff18511b": {
+"g": "現在進行式",
+"x": "提示要填否定；Tom 一個人，be 動詞是 is，否定用 isn't。"
+},
 "fce0c8e9c3b": {
 "g": "可數／不可數",
 "x": "but 後面 don't have 是否定句，用 any；前半句肯定句才用 some。"
@@ -8326,6 +8550,10 @@
 "fd2ae8da80f": {
 "g": "形容詞／副詞",
 "x": "is 後面接形容詞描述人，handsome 是帥的。"
+},
+"fd2c8c8c4c0": {
+"g": "現在進行式",
+"x": "children 是複數（好幾個孩子），be 動詞用 are：are cooking。"
 },
 "fd2cb815044": {
 "g": "過去式",
@@ -8739,6 +8967,10 @@
 "g": "this/that",
 "x": "over there 是遠處，man 是單數，遠的單數用 That。"
 },
+"fde5357541e": {
+"g": "現在進行式",
+"x": "is 後面接 -ing；lie 是 ie 結尾，ie 改成 y 再加 ing：lying。"
+},
 "fde5ca2df67": {
 "g": "現在進行式",
 "x": "回答用 They are，Ken and Lisa 是兩個人（複數），問句用 are。"
@@ -8919,6 +9151,10 @@
 "g": "現在進行式",
 "x": "They 是複數，用 are；提示要否定，are not 縮寫成 aren't。"
 },
+"fe2acc76616": {
+"g": "現在進行式",
+"x": "進行式問句把 be 動詞放句首；he 一個人用 Is，句首字母大寫。"
+},
 "fe2d2850175": {
 "g": "現在簡單式",
 "x": "They 是複數，用原形：walk to school（走路上學）或 go to school。"
@@ -8942,6 +9178,10 @@
 "fe3454bad5d": {
 "g": "there is/are",
 "x": "How many 後面接複數 rooms，問有幾間，用 are there。"
+},
+"fe34d5e162e": {
+"g": "現在進行式",
+"x": "My brother 一個人，be 動詞用 is；at the moment 表示正在寫。"
 },
 "fe38d3232a1": {
 "g": "this/that",
@@ -9047,6 +9287,10 @@
 "g": "be 動詞",
 "x": "主詞是 I，用 am。說年齡：I am twenty years old，不用 have。"
 },
+"fe50b715cb0": {
+"g": "現在進行式",
+"x": "We 是複數，be 動詞用 are；right now 加 waiting 是進行式。"
+},
 "fe5172ce059": {
 "g": "介系詞",
 "x": "後面有 the bedroom and the kitchen 兩個房間，在中間用 between A and B。"
@@ -9131,6 +9375,10 @@
 "g": "be 動詞",
 "x": "主詞 he 是一個人，問句句首用 Is。"
 },
+"fe6bd4b8e0b": {
+"g": "現在進行式",
+"x": "are 後面接 -ing；lie 是 ie 結尾，ie 變 y 再加 ing：lying。"
+},
 "fe6bd98ee84": {
 "g": "be 動詞",
 "x": "主詞 It 是單數，用 is：It is number sixteen."
@@ -9211,6 +9459,10 @@
 "g": "現在簡單式",
 "x": "Does 問句後面用原形 eat，不加 s；always 放在主詞後面。"
 },
+"fe8ce53616f": {
+"g": "現在進行式",
+"x": "My brother 一個人，be 動詞用 is：is playing。"
+},
 "fe901e61d87": {
 "g": "現在簡單式",
 "x": "every morning 是習慣；主詞 She 是一個人，get 加 s 變 gets。"
@@ -9255,6 +9507,10 @@
 "g": "可數／不可數",
 "x": "people 是可數名詞的複數，問幾個人用 How many。"
 },
+"fea37d6d088": {
+"g": "現在進行式",
+"x": "She 一個人，be 動詞用 is：She is cooking lunch。"
+},
 "fea611183da": {
 "g": "現在簡單式",
 "x": "He 是一個人，吃午餐說 have/eat lunch，變 has 或 eats。"
@@ -9295,6 +9551,10 @@
 "g": "現在簡單式",
 "x": "often 是常常，用簡單式；You 不是第三人稱單數，動詞不加 s：watch。"
 },
+"feb8ebe3237": {
+"g": "現在進行式",
+"x": "is 後面接 -ing；swim 要重複 m 再加 ing：swimming。"
+},
 "febb3972481": {
 "g": "be 動詞",
 "x": "主詞 We 是複數，用 are：We are at work now."
@@ -9322,6 +9582,10 @@
 "fec30b28cd2": {
 "g": "be 動詞",
 "x": "主詞 waiters 是複數，be 動詞用 are。"
+},
+"fec39ec8270": {
+"g": "現在進行式",
+"x": "問 Are you，回答自己用 I am；空格後面已有 not，填 am。"
 },
 "fec505b3125": {
 "g": "be going to",
@@ -9523,6 +9787,10 @@
 "g": "可數／不可數",
 "x": "How many 後面接可數名詞複數，例如 eggs、apples，要加 s。"
 },
+"ff043e333a5": {
+"g": "現在簡單式",
+"x": "usually 是平常的習慣，用現在簡單式；She 一個人，cook 加 s：cooks。"
+},
 "ff053916578": {
 "g": "be 動詞",
 "x": "My co-worker 沒有 s，是一位同事，單數用 is。"
@@ -9538,6 +9806,10 @@
 "ff0a8f4901d": {
 "g": "現在進行式",
 "x": "回答是 They are sitting，Ken and Lisa 是複數，問句用 are。"
+},
+"ff0e1d56b8f": {
+"g": "現在進行式",
+"x": "are 後面接 -ing；take 結尾的 e 不發音，去 e 加 ing：taking。"
 },
 "ff0ee106b96": {
 "g": "現在進行式",
@@ -9823,6 +10095,10 @@
 "g": "can",
 "x": "can 表示會，不管主詞是誰都不加 s，後面接原形 play。"
 },
+"ff6ed6b2d12": {
+"g": "現在進行式",
+"x": "主詞 He 是一個人，be 動詞用 is；now 表示正在進行。"
+},
 "ff6ee203d69": {
 "g": "be 動詞",
 "x": "主詞是 you，問句句首用 Are：Are you OK?"
@@ -9895,6 +10171,10 @@
 "g": "there is/are",
 "x": "後面 is a park，表示有一座公園，句首用 There。"
 },
+"ff837266dd8": {
+"g": "現在進行式",
+"x": "用 Is 問，Yes 是肯定，回答 Yes, he is。"
+},
 "ff89140159f": {
 "g": "過去式",
 "x": "on that day 指過去的那一天；the weather 是一件事，問句用 Was 開頭。"
@@ -9918,6 +10198,10 @@
 "ff960f56176": {
 "g": "現在進行式",
 "x": "They 是複數，用 are；now 正穿著：are wearing。"
+},
+"ff9621c3e15": {
+"g": "現在進行式",
+"x": "用 Is 問就用 is 答；No 是否定：No, he isn't。"
 },
 "ff97e6a3cc9": {
 "g": "現在簡單式",
@@ -10107,6 +10391,10 @@
 "g": "be 動詞",
 "x": "主詞是 I，用 am：I am a cook.（我是廚師）"
 },
+"ffe5f74d2b3": {
+"g": "現在簡單式",
+"x": "often 說習慣，用現在簡單式；children 是複數（孩子們），用原形 play。"
+},
 "ffe6f7fc8cb": {
 "g": "be 動詞",
 "x": "主詞 your mother 是一個人，問句句首用 Is：Is your mother fine?"
@@ -10210,6 +10498,15 @@
 "Is": "後面有動詞 take，現在簡單式問句用 Does。"
 },
 "x": "主詞 he 是一個人，後面有動詞 take，問句用 Does。"
+},
+"m010dd30f95": {
+"g": "現在進行式",
+"w": {
+"lie": "is 後面要接 V-ing，不能接原形 lie。",
+"lieeing": "lie 去掉 e 不是規則；ie 結尾要改成 y 再加 -ing。",
+"lieing": "ie 結尾不能直接加 -ing，要先把 ie 改成 y：lying。"
+},
+"x": "lie 是 ie 結尾，要把 ie 改成 y 再加 -ing：lying。"
 },
 "m013f0117cf": {
 "g": "過去式",
@@ -10474,6 +10771,15 @@
 },
 "x": "I am busy 所以不能來；can 的否定是直接加 not：can't。"
 },
+"m053c26c05d": {
+"g": "現在簡單式",
+"w": {
+"is listening": "every morning 說習慣，不用正在進行的說法。",
+"listen": "My mother 是一個人，listen 要加 s。",
+"listening": "沒有 is，-ing 不能單獨當動詞。"
+},
+"x": "every morning 是習慣，用現在簡單式；My mother 一個人，listen 加 s。"
+},
 "m053f72cb50": {
 "g": "現在簡單式",
 "w": {
@@ -10717,6 +11023,15 @@
 "getting": "getting 不能單獨當動詞，習慣要用現在簡單式。"
 },
 "x": "every day 是習慣；主詞 He 一個人，get 加 s：gets up。"
+},
+"m08109c0699": {
+"g": "現在進行式",
+"w": {
+"am": "am 只配 I。",
+"be": "be 是原形，要改成 are。",
+"is": "is 配一個人，They 是複數。"
+},
+"x": "They 是複數，be 動詞用 are，加 taking 表示進行中。"
 },
 "m0845f8cb6e": {
 "g": "現在進行式",
@@ -11019,6 +11334,15 @@
 "playing": "playing 前面要有 is，單獨不能當動詞。"
 },
 "x": "often 表示常常，講習慣用現在簡單式；My brother 一個人，play 加 s。"
+},
+"m0b12208551": {
+"g": "現在進行式",
+"w": {
+"does": "問句用 Are，回答也用 be 動詞；I 配 am。",
+"don't": "後面已經有 not，而且這題要用 be 動詞 am。",
+"isn't": "isn't 不配 I；而且後面已有 not。"
+},
+"x": "問 Are you，回答自己用 I am；空格後已有 not，所以填 am：I am not。"
 },
 "m0b293a2d1f": {
 "g": "there is/are",
@@ -11935,6 +12259,15 @@
 },
 "x": "講過去半夜到家，get 的過去式是不規則的 got。"
 },
+"m152bb18bc0": {
+"g": "現在進行式",
+"w": {
+"shoing": "漏掉了 p，要寫成 shopping。",
+"shop": "前面有 are，要用 -ing 形。",
+"shoping": "p 要重複寫兩個：shopping。"
+},
+"x": "are 後面接 -ing；shop 是一個母音加一個子音結尾，重複 p：shopping。"
+},
 "m152de48903": {
 "g": "can",
 "w": {
@@ -12000,6 +12333,15 @@
 "There are": "a bed 只有一張，要用 There is。"
 },
 "x": "說某地方有某東西用 There is／are；a bed 是一張，所以用 There is。"
+},
+"m15dda9aaae": {
+"g": "現在簡單式",
+"w": {
+"cooking": "前面沒有 be 動詞，-ing 不能單獨當動詞。",
+"cooks": "加 s 只給一個人，Ken and Lisa 是兩個人。",
+"is cooking": "on Sundays 是習慣，不用進行式；is 也不配兩個人。"
+},
+"x": "on Sundays 是每週日的習慣，用現在簡單式；Ken and Lisa 是複數，用原形 cook。"
 },
 "m15eebccc7a": {
 "g": "過去式",
@@ -12177,6 +12519,24 @@
 "crys": "子音加 y 結尾要把 y 改 i 再加 es，不是直接加 s。"
 },
 "x": "The baby 是一個，cry 是子音加 y 結尾，去 y 加 ies：cries。"
+},
+"m1796f68671": {
+"g": "現在進行式",
+"w": {
+"plaing": "y 不能去掉：playing。",
+"play": "前面有 is，要用 -ing 形。",
+"playying": "y 不用寫兩個。"
+},
+"x": "is 後面接 -ing；play 的 y 前是母音，y 不變直接加 ing：playing。"
+},
+"m17bd85ab50": {
+"g": "現在進行式",
+"w": {
+"am": "am 只配 I。",
+"be": "be 是原形，要改成 are。",
+"is": "is 配一個人，children 是好幾個孩子。"
+},
+"x": "children 是 child 的複數（孩子們），be 動詞用 are：are working。"
 },
 "m17c5af2241": {
 "g": "there is/are",
@@ -12804,6 +13164,15 @@
 },
 "x": "Would you like to 後面接原形動詞：to go to the beach。"
 },
+"m1e5098fb26": {
+"g": "現在進行式",
+"w": {
+"am": "am 只配 I。",
+"be": "be 是原形，要改成 are。",
+"is": "is 配一個人，friends 是複數。"
+},
+"x": "My friends 有 s 是複數，be 動詞用 are：are using。"
+},
 "m1e58674fc0": {
 "g": "可數／不可數",
 "w": {
@@ -12964,6 +13333,15 @@
 "knows": "didn't 後面接原形，不加 s。"
 },
 "x": "didn't 後面動詞用原形 know。"
+},
+"m1f95f846f0": {
+"g": "現在進行式",
+"w": {
+"doesn't": "doesn't 後面要接原形 run，不接 running。",
+"don't": "don't 後面接原形，也不配 She。",
+"not": "少了 be 動詞，要說 She isn't。"
+},
+"x": "running 是 -ing，否定用 be 動詞加 not；She 一個人用 isn't。"
 },
 "m1f9d047c09": {
 "g": "be 動詞",
@@ -13761,6 +14139,15 @@
 },
 "x": "a police station 是一間警察局（單數），問有沒有用 Is there…?"
 },
+"m2890d0cbce": {
+"g": "現在進行式",
+"w": {
+"aren't": "aren't 配複數或 you，She 是一個人。",
+"doesn't": "doesn't 後面接原形 wash，不接 washing。",
+"don't": "don't 是現在簡單式，也不配 She。"
+},
+"x": "washing 是 -ing，否定用 be 動詞；She 一個人用 isn't。"
+},
 "m28e4c8395d": {
 "g": "現在簡單式",
 "w": {
@@ -13924,6 +14311,15 @@
 },
 "x": "a hospital 是一間醫院（單數），否定用 There is not。"
 },
+"m2a9593af49": {
+"g": "現在進行式",
+"w": {
+"am": "am 只配 I。",
+"are": "are 配複數或 you，My brother 是一個人。",
+"be": "be 是原形，要改成 is。"
+},
+"x": "My brother 一個人，be 動詞用 is：is eating。"
+},
 "m2aa9de2508": {
 "g": "介系詞",
 "w": {
@@ -14035,6 +14431,15 @@
 "Mine": "Mine 是「我的東西」，單獨用，後面不接名詞。"
 },
 "x": "後面接名詞 son，要用所有格 My（我的）：My son。"
+},
+"m2c702ccc08": {
+"g": "現在進行式",
+"w": {
+"use": "前面有 are，要用 -ing 形。",
+"useeing": "多寫了 e；use 是去 e 加 ing。",
+"useing": "use 的 e 要先拿掉：using。"
+},
+"x": "are 後面接 -ing；use 結尾的 e 去掉再加 ing：using。"
 },
 "m2c72a63b54": {
 "g": "可數／不可數",
@@ -14389,6 +14794,15 @@
 "is": "is 是「是」，不是「有」；They 也不配 is。"
 },
 "x": "主詞 They 是複數，「有」用 have：They have four aunts."
+},
+"m2fbf67b466": {
+"g": "現在進行式",
+"w": {
+"Am": "Am 只配 I。",
+"Does": "talking 是 -ing，問句要用 be 動詞，不用 Does。",
+"Is": "Is 配一個人，friends 是複數。"
+},
+"x": "進行式問句 be 動詞放前面；my friends 有 s 是複數，用 Are。"
 },
 "m2fc7882504": {
 "g": "過去式",
@@ -15000,6 +15414,15 @@
 },
 "x": "Those（那些）加上 students（有 s），是複數，be 動詞用 are。"
 },
+"m35d0de2d1d": {
+"g": "現在進行式",
+"w": {
+"swiing": "漏掉了 m，要寫兩個 m：swimming。",
+"swim": "前面有 are，要用 -ing 形。",
+"swiming": "m 要重複，寫成 swimming。"
+},
+"x": "are 後面接 -ing；swim 是一個母音加一個子音結尾，重複 m：swimming。"
+},
 "m35e0dbb803": {
 "g": "介系詞",
 "w": {
@@ -15120,6 +15543,15 @@
 "don't": "there 句型的否定用 isn't，不用 don't。"
 },
 "x": "a cat 是一隻貓（單數），否定用 There isn't。"
+},
+"m370dd34809": {
+"g": "現在簡單式",
+"w": {
+"is waiting": "every morning 是習慣，不用進行式。",
+"wait": "She 是一個人，wait 要加 s。",
+"waiting": "沒有 is，-ing 不能單獨當動詞。"
+},
+"x": "every morning 是習慣，用現在簡單式；She 一個人，wait 加 s。"
 },
 "m371a3b4246": {
 "g": "可數／不可數",
@@ -15588,6 +16020,15 @@
 "has": "簡答要照問句的助動詞 Does 回答，不說 she has。"
 },
 "x": "問句用 Does 開頭，簡答也用 does：Yes, she does."
+},
+"m3bc952ddba": {
+"g": "現在進行式",
+"w": {
+"take": "前面有 is，不能用原形，要用 taking。",
+"takeeing": "多了 e；take 是去 e 再加 ing。",
+"takeing": "e 要先去掉：taking。"
+},
+"x": "is 後面接 -ing；take 去掉 e 加 ing：taking。"
 },
 "m3be35d9a60": {
 "g": "現在簡單式",
@@ -16185,6 +16626,15 @@
 },
 "x": "near 是在附近：床在窗戶旁邊附近。"
 },
+"m42c1863427": {
+"g": "現在簡單式",
+"w": {
+"is listening": "every day 是習慣，不用進行式。",
+"listen": "My father 是一個人，listen 要加 s。",
+"listening": "沒有 is，-ing 不能單獨當動詞。"
+},
+"x": "every day 是習慣，用現在簡單式；My father 一個人，listen 加 s。"
+},
 "m42dbad8a55": {
 "g": "be 動詞",
 "w": {
@@ -16338,6 +16788,24 @@
 "plays": "can't 後面不加 s，雖然主詞是 she。"
 },
 "x": "can't 後面接原形：can't play，主詞是 she 也一樣。"
+},
+"m43f1b6a679": {
+"g": "現在進行式",
+"w": {
+"am": "am 只配 I。",
+"are": "are 配 you／we／they；He 用 is。",
+"be": "be 是原形，句子裡要用 am／is／are。"
+},
+"x": "主詞 He 是一個人，be 動詞用 is，再接 working。"
+},
+"m441102edc8": {
+"g": "現在進行式",
+"w": {
+"siing": "漏掉了 t，要寫成 sitting。",
+"sit": "前面有 am，要用 -ing 形。",
+"siting": "t 要重複寫兩個：sitting。"
+},
+"x": "am 後面接 -ing；sit 是一個母音加一個子音結尾，重複 t：sitting。"
 },
 "m445cc29e08": {
 "g": "現在進行式",
@@ -16753,6 +17221,15 @@
 },
 "x": "a sofa 是一張沙發（單數），肯定句用 There is。"
 },
+"m49a8e9777f": {
+"g": "現在進行式",
+"w": {
+"aren't": "aren't 配複數或 you，He 是一個人。",
+"doesn't": "doesn't 後面要接原形 wear，不接 wearing。",
+"don't": "don't 用在現在簡單式，而且不配 He。"
+},
+"x": "後面是 wearing，現在進行式的否定是 be 動詞加 not；He 一個人用 isn't。"
+},
 "m49b92ef4a7": {
 "g": "this/that",
 "w": {
@@ -17012,6 +17489,15 @@
 },
 "x": "問句已經有 Does，後面用原形 have，不是 has。"
 },
+"m4c32f99b93": {
+"g": "現在簡單式",
+"w": {
+"is playing": "on Sundays 是習慣，不用進行式。",
+"play": "He 是一個人，play 要加 s。",
+"playing": "沒有 is，-ing 不能單獨當動詞。"
+},
+"x": "on Sundays 是每週日的習慣，用現在簡單式；He 一個人，play 加 s。"
+},
 "m4c4e582f55": {
 "g": "過去式",
 "w": {
@@ -17043,6 +17529,15 @@
 "some": "沒有 How some 的說法，問量用 How much。"
 },
 "x": "water 是不可數名詞，問多少量用 How much。"
+},
+"m4cad94f203": {
+"g": "現在進行式",
+"w": {
+"am": "am 只配 I。",
+"be": "be 是原形，要改成 are。",
+"is": "is 配一個人，這裡是兩個人。"
+},
+"x": "Ken and Lisa 兩個人是複數，be 動詞用 are，加 watching 是進行式。"
 },
 "m4caddc58ba": {
 "g": "現在簡單式",
@@ -17156,6 +17651,15 @@
 "Is": "work 是一般動詞，問句用 Does，不用 Is。"
 },
 "x": "your mother 是一個人，一般動詞 work 的問句用 Does，後面動詞用原形。"
+},
+"m4dc759445f": {
+"g": "現在進行式",
+"w": {
+"are": "are 配 you 或複數，I 用 am。",
+"be": "be 是原形，要改成 am。",
+"is": "is 配他／她／它，不配 I。"
+},
+"x": "主詞 I 的 be 動詞固定用 am：I am talking。"
 },
 "m4dd55fa10b": {
 "g": "there is/are",
@@ -17430,6 +17934,15 @@
 "is": "is 配 he／she／it，You 要用 are。"
 },
 "x": "主詞 You 配 are，right now 表示正在，用 are＋-ing。"
+},
+"m5127d4c36b": {
+"g": "現在進行式",
+"w": {
+"doesn't": "doesn't 配單數且接原形，They 是複數。",
+"don't": "don't 後面接原形 watch，不接 watching。",
+"not": "少了 be 動詞，要說 They aren't。"
+},
+"x": "watching 是 -ing，否定用 be 動詞；They 配 are，所以用 aren't。"
 },
 "m5130191110": {
 "g": "冠詞 a/an/the",
@@ -17762,6 +18275,15 @@
 "going to": "going to 前面少了 be 動詞 am。"
 },
 "x": "決定馬上要做的事用 be going to＋原形動詞；主詞 I，所以是 am going to go。"
+},
+"m540b961de1": {
+"g": "現在進行式",
+"w": {
+"am": "am 只配 I。",
+"do": "問句用 Are，回答也用 be 動詞；No 也要否定。",
+"is": "is 配一個人，they 是複數；No 也要否定。"
+},
+"x": "用 Are 問就用 are 答；No 是否定，they 複數：No, they aren't。"
 },
 "m542814c785": {
 "g": "be 動詞",
@@ -18487,6 +19009,15 @@
 "much": "How much 接不可數，people 可以數。"
 },
 "x": "people 是複數、可以數，問人數用 How many。"
+},
+"m5c776d1d2e": {
+"g": "現在進行式",
+"w": {
+"take": "前面有 are，要用 -ing 形。",
+"takeeing": "多寫了 e；應該去 e 再加 ing。",
+"takeing": "take 結尾的 e 要先去掉：taking。"
+},
+"x": "are 後面接 -ing；take 結尾的 e 去掉再加 ing：taking。take a shower 是洗澡。"
 },
 "m5c8d05c649": {
 "g": "過去式",
@@ -19324,6 +19855,15 @@
 },
 "x": "can 不管主詞是誰都不變，後面直接接原形動詞：He can swim。"
 },
+"m655d368535": {
+"g": "現在進行式",
+"w": {
+"am": "am 只配 I，而且這裡要否定回答。",
+"aren't": "aren't 配 you／we／they；he 用 isn't。",
+"does": "問句是 Is…，簡答也要用 be 動詞，不用 does。"
+},
+"x": "問句用 Is my father…，否定簡答用 No, he isn't."
+},
 "m6589144b58": {
 "g": "be 動詞",
 "w": {
@@ -19476,6 +20016,15 @@
 },
 "x": "主詞 your friend 是一個人，問句用 Is 開頭。"
 },
+"m66a1ba8d48": {
+"g": "現在進行式",
+"w": {
+"Am": "Am 只配 I。",
+"Are": "Are 配 you／we／they；Amy 用 Is。",
+"Does": "Does 用在一般動詞問句；有 eating 要用 be 動詞。"
+},
+"x": "進行式問句把 be 動詞放句首；Amy 是一個人，用 Is。"
+},
 "m66afa28194": {
 "g": "現在進行式",
 "w": {
@@ -19484,6 +20033,15 @@
 "is": "is 配一個人，Ken and Lisa 是兩個人。"
 },
 "x": "Ken and Lisa 是兩個人，答句也用 They are，所以用 are。"
+},
+"m66afdff0a4": {
+"g": "現在進行式",
+"w": {
+"are": "are 配 you 或複數，I 用 am。",
+"be": "be 是原形，要改成 am。",
+"is": "is 配他／她／它，不配 I。"
+},
+"x": "主詞 I 配 am，加 wearing 表示現在穿著：I am wearing。"
 },
 "m66c3e56401": {
 "g": "be 動詞",
@@ -19973,6 +20531,15 @@
 },
 "x": "後面是 getting，進行式問句用 be 動詞開頭；they 配 Are。"
 },
+"m6e8301f392": {
+"g": "現在進行式",
+"w": {
+"am": "am 只配 I。",
+"be": "be 是原形，問句裡要改成 are。",
+"is": "is 配一個人，這裡是兩個人。"
+},
+"x": "主詞 Ken and Lisa 兩個人，回答也用 They are，所以問 What are…doing?"
+},
 "m6e8fc93930": {
 "g": "時間與數字",
 "w": {
@@ -20078,6 +20645,15 @@
 },
 "x": "last night 是過去；主詞 kids 複數，用 were。"
 },
+"m6f9ef757c0": {
+"g": "現在進行式",
+"w": {
+"read": "前面有 is，要用 -ing 形。",
+"readding": "d 不用重複，read 直接加 ing。",
+"reaing": "漏了 d：reading。"
+},
+"x": "is 後面接 -ing；read 直接加 ing，不用改字母：reading。"
+},
 "m6fa53d44cb": {
 "g": "現在進行式",
 "w": {
@@ -20143,6 +20719,15 @@
 "have": "have 是動詞（有），不能放在 is 後面。"
 },
 "x": "is 後面要接形容詞來描述人，old 是老的：My grandfather is old."
+},
+"m704386054e": {
+"g": "現在進行式",
+"w": {
+"don't": "don't 後面接原形 study，不接 -ing。",
+"isn't": "isn't 配一個人，這裡是兩個人。",
+"not": "少了 be 動詞，要寫 aren't。"
+},
+"x": "studying 是 -ing，用 be 動詞否定；Ken and Lisa 兩個人，用 aren't。"
 },
 "m7046527118": {
 "g": "have/has",
@@ -20224,6 +20809,15 @@
 "Was": "you 不管一個人或多人，都用 were。"
 },
 "x": "yesterday afternoon 是過去；主詞 you 用 Were。"
+},
+"m70e9078c84": {
+"g": "現在進行式",
+"w": {
+"am": "am 只配 I。",
+"are": "are 配複數或 you，she 是一個人。",
+"be": "be 是原形，要改成 is。"
+},
+"x": "主詞 she 一個人，回答也用 She is，所以問 What is she doing?"
 },
 "m70f79d5955": {
 "g": "現在簡單式",
@@ -20376,6 +20970,15 @@
 "not": "一般動詞否定要用 don't，不能只放 not。"
 },
 "x": "get up 是一般動詞，否定用 don't；They 是複數。"
+},
+"m72b73d5cfb": {
+"g": "現在進行式",
+"w": {
+"am": "am 只配 I。",
+"are": "are 配複數或 you，my mother 是一個人。",
+"be": "be 是原形，要改成 is。"
+},
+"x": "My mother 一個人，be 動詞用 is，加 playing 表示現在正在彈。"
 },
 "m72ecaca670": {
 "g": "this/that",
@@ -20530,6 +21133,15 @@
 },
 "x": "兩個都有（一個兄弟和一個姊妹），用 and（和）連接。"
 },
+"m752937fdc7": {
+"g": "現在進行式",
+"w": {
+"doesn't": "doesn't 配一個人且接原形，這裡是兩個人。",
+"don't": "don't 後面接原形；working 前面要用 be 動詞。",
+"not": "少了 be 動詞，not 不能直接放主詞後面。"
+},
+"x": "at the moment 加 working，是現在進行式；Ken and Lisa 兩個人，用 aren't。"
+},
 "m7564b857cf": {
 "g": "代名詞／所有格",
 "w": {
@@ -20553,6 +21165,15 @@
 "little": "little 是小或少，不能說價錢太貴。"
 },
 "x": "50,000 dollars 買手錶很貴，too 表示太過頭，用 expensive。"
+},
+"m75a38bc5eb": {
+"g": "現在進行式",
+"w": {
+"am": "am 只配 I。",
+"are": "are 配複數或 you，My father 是一個人。",
+"be": "be 是原形，要改成 is。"
+},
+"x": "My father 一個人，be 動詞用 is；at the moment 加 talking 是進行式。"
 },
 "m75c1cc4b34": {
 "g": "單字搭配",
@@ -20755,6 +21376,15 @@
 },
 "x": "usually 是習慣，用現在簡單式；They 是複數，動詞用原形 wash。"
 },
+"m785c2b0289": {
+"g": "現在進行式",
+"w": {
+"am": "am 只配 I。",
+"be": "原形 be 不能直接用，要改成 are。",
+"is": "is 配一個人，Ken and Lisa 是兩個人。"
+},
+"x": "問兩個人在做什麼，be 動詞用 are：What are Ken and Lisa doing?"
+},
 "m7863cc5353": {
 "g": "be 動詞",
 "w": {
@@ -20877,6 +21507,15 @@
 },
 "x": "Anna and Ben 是兩個人，等於 they，過去用 were。"
 },
+"m7a33a92627": {
+"g": "現在進行式",
+"w": {
+"am": "am 只配 I。",
+"be": "be 是原形，句子裡要變成 are。",
+"is": "is 配他／她／它，You 用 are。"
+},
+"x": "主詞 You 一律配 are，後面接 listening：You are listening。"
+},
 "m7a4cc5f8ce": {
 "g": "have/has",
 "w": {
@@ -20924,6 +21563,15 @@
 "Is": "post offices 是複數，不用 Is。"
 },
 "x": "any post offices 是複數，問有沒有用 Are there…?"
+},
+"m7abf6f2269": {
+"g": "現在進行式",
+"w": {
+"am": "am 只配 I；we 要用 are 的否定。",
+"does": "問句用 Are，回答也用 be 動詞，不用 does。",
+"is": "is 配一個人，we 是複數；No 也要否定。"
+},
+"x": "用 Are 問，we 配 are；回答 No 要否定：No, we aren't。"
 },
 "m7ac31f2600": {
 "g": "現在進行式",
@@ -21709,6 +22357,15 @@
 },
 "x": "last night 是過去；後面 tired 是形容詞，主詞 I，用 wasn't。"
 },
+"m837c4b206b": {
+"g": "現在進行式",
+"w": {
+"are": "問的是 you，回答自己是 I，要用 am。",
+"aren't": "I 不配 are；Yes 後面也不能否定。",
+"don't": "問句用 Are，要用 be 動詞答；Yes 也不接否定。"
+},
+"x": "被問 Are you，回答自己用 I am：Yes, I am。"
+},
 "m837cbbe4f1": {
 "g": "can",
 "w": {
@@ -21820,6 +22477,15 @@
 "some": "some 不接單數 bill。"
 },
 "x": "在餐廳要的是自己這桌的帳單，雙方都知道是哪一張，用 the bill。"
+},
+"m853ff179fc": {
+"g": "現在進行式",
+"w": {
+"read": "前面有 am，要用 -ing 形，不能用原形。",
+"readding": "read 的 ea 是兩個母音，d 不用重複。",
+"reaing": "漏掉了 d，read 的字母要全部保留：reading。"
+},
+"x": "am 後面接 -ing，表示正在做；read 直接加 ing：reading。"
 },
 "m854b727441": {
 "g": "過去式",
@@ -22333,6 +22999,15 @@
 },
 "x": "There are 是肯定句，menus 是複數，用 some。"
 },
+"m8ab61e7b81": {
+"g": "現在進行式",
+"w": {
+"doesn't": "doesn't 用在一般動詞的否定；進行式要用 be 動詞。",
+"isn't": "isn't 配 he／she／it；You 要用 aren't。",
+"not": "少了 be 動詞；進行式否定要 are not。"
+},
+"x": "主詞 You 的 be 動詞是 are，否定是 aren't（are not）＋V-ing。"
+},
 "m8adcbb50d9": {
 "g": "現在進行式",
 "w": {
@@ -22722,6 +23397,15 @@
 },
 "x": "問年紀用 How old + be + 人；your brother 是一個人，用 is。"
 },
+"m903294b4fb": {
+"g": "現在進行式",
+"w": {
+"am": "am 只給 I 用。",
+"be": "原形 be 不能直接放在主詞後面。",
+"is": "is 不配 You，You 用 are。"
+},
+"x": "You 的 be 動詞是 are，加 taking 表示現在正在洗澡。"
+},
 "m907f1d852c": {
 "g": "this/that",
 "w": {
@@ -22777,6 +23461,15 @@
 "Is": "Is 後面不能接原形 ride，回答也不會是 he can。"
 },
 "x": "線索是回答 Yes, he can：用什麼問就用什麼答，問句用 Can。"
+},
+"m90c817dc5e": {
+"g": "現在進行式",
+"w": {
+"don't": "don't 是現在簡單式，後面接原形 wear。",
+"isn't": "isn't 配一個人；Ken and Lisa 是兩個人。",
+"not": "缺少 be 動詞，要說 are not 或 aren't。"
+},
+"x": "wearing 是 -ing，要用 be 動詞否定；Ken and Lisa 是兩個人，用 aren't。"
 },
 "m90fcbf7983": {
 "g": "過去式",
@@ -23010,6 +23703,15 @@
 "are": "are 配複數或 you，He 是一個人。"
 },
 "x": "He 是單數，用 is；否定 He is not Korean。"
+},
+"m932769d9f7": {
+"g": "現在簡單式",
+"w": {
+"drive": "My brother 是一個人，drive 要加 s。",
+"driving": "沒有 is，-ing 不能單獨當動詞。",
+"is driving": "every day 是習慣，不用進行式。"
+},
+"x": "every day 是習慣，用現在簡單式；My brother 一個人，drive 加 s。"
 },
 "m934f1b2220": {
 "g": "be going to",
@@ -23271,6 +23973,15 @@
 "Is": "Korea 是一個國家，但主詞是 you，用 Are。"
 },
 "x": "主詞 you 配 are，問句把 Are 放最前：Are you from Korea?"
+},
+"m9581ab9742": {
+"g": "現在進行式",
+"w": {
+"do": "問句用 Is 不是 Do；而且 No 後面要否定。",
+"don't": "問句用 Is，回答也要用 be 動詞：he isn't。",
+"is": "前面說 No，後面要否定：he isn't。"
+},
+"x": "用 Is 問，就用 is 回答；回答 No 是否定，所以 No, he isn't。"
 },
 "m9583e86b03": {
 "g": "have/has",
@@ -23637,6 +24348,15 @@
 },
 "x": "like to 的 to 後面接原形動詞：to visit。"
 },
+"m9a008f2f1b": {
+"g": "現在進行式",
+"w": {
+"am": "am 只配 I。",
+"be": "be 是原形，要改成 are。",
+"is": "is 配一個人，We 是複數。"
+},
+"x": "We 是複數，be 動詞用 are；at the moment 加 running 是進行式。"
+},
 "m9a08f35e8f": {
 "g": "can",
 "w": {
@@ -23652,6 +24372,15 @@
 "many": "many 接可數複數，help 不可數。"
 },
 "x": "help 這裡是名詞，不可數，請求一點幫忙用 some help。"
+},
+"m9a961a3e51": {
+"g": "現在進行式",
+"w": {
+"Am": "Am 只配 I。",
+"Does": "後面是 wearing，進行式問句用 be 動詞，不用 Does。",
+"Is": "Is 配一個人，這裡是兩個人。"
+},
+"x": "問句把 be 動詞放句首；Ken and Lisa 是兩個人，用 Are。"
 },
 "m9a9a9d5b6d": {
 "g": "have/has",
@@ -23757,6 +24486,15 @@
 "Those": "Those 是遠的複數，這裡是 here 的一個男孩。"
 },
 "x": "boy 是單數，又在 here，近的單數用 This。"
+},
+"m9be8c7650a": {
+"g": "現在進行式",
+"w": {
+"am": "am 只配 I。",
+"are": "are 配 you／we／they；she 用 is。",
+"be": "be 是原形，句子裡要用 am／is／are。"
+},
+"x": "問「她正在做什麼」：What＋is＋she＋doing？主詞 she 用 is。"
 },
 "m9bec7501dd": {
 "g": "be 動詞",
@@ -23894,6 +24632,15 @@
 "joins": "going to 後面要原形，不加 s。"
 },
 "x": "going to 後面接原形動詞：going to join。"
+},
+"m9d2bcb4e74": {
+"g": "現在進行式",
+"w": {
+"aren't": "aren't 配複數或 you，My father 是一個人。",
+"doesn't": "doesn't 後面接原形 talk，不接 talking。",
+"not": "少了 be 動詞，要說 My father isn't。"
+},
+"x": "talking 是 -ing，否定用 be 動詞加 not；My father 一個人用 isn't。"
 },
 "m9d2f059632": {
 "g": "時間與數字",
@@ -24103,6 +24850,15 @@
 "is": "is 配單數或不可數；eggs 是複數。"
 },
 "x": "eggs 是複數，There 句型配複數用 are。"
+},
+"m9f497e256f": {
+"g": "現在簡單式",
+"w": {
+"is using": "every morning 是習慣，不用進行式。",
+"use": "My brother 是一個人，use 要加 s。",
+"using": "沒有 is，-ing 不能單獨當動詞。"
+},
+"x": "every morning 是習慣，用現在簡單式；My brother 一個人，use 加 s：uses。"
 },
 "m9f58ff48c8": {
 "g": "過去式",
@@ -24409,6 +25165,15 @@
 "the": "the 接名詞，後面 pay 是動詞。"
 },
 "x": "would like 後面接動作要用 to + 原形動詞：would like to pay。"
+},
+"ma19aff5552": {
+"g": "現在進行式",
+"w": {
+"am": "am 只配 I，they 用 are。",
+"do": "問句是 Are 開頭，不是 Do，回答要用 are。",
+"does": "does 配單數，而且問句用的是 Are。"
+},
+"x": "問句用 Are，回答跟著用 are；Yes 是肯定：Yes, they are。"
 },
 "ma1afc07303": {
 "g": "現在簡單式",
@@ -24869,6 +25634,15 @@
 },
 "x": "My sister 是一個人，be 動詞用 is。"
 },
+"ma6bb8d25bf": {
+"g": "現在進行式",
+"w": {
+"am": "am 只配 I；而且 No 要接否定。",
+"don't": "問句用 Are，回答也用 be 動詞。",
+"isn't": "isn't 配一個人，they 是複數。"
+},
+"x": "用 Are 問，they 配 are；No 要否定：No, they aren't。"
+},
 "ma6db3ffed0": {
 "g": "be 動詞",
 "w": {
@@ -24876,6 +25650,15 @@
 "Does": "Does 要配一般動詞，這裡沒有動詞，要用 Is。"
 },
 "x": "句中沒有一般動詞，a nurse 是名詞，要用 be 動詞；your sister 單數用 Is。"
+},
+"ma6e00dde6d": {
+"g": "現在進行式",
+"w": {
+"doesn't": "doesn't 是現在簡單式，也不配 You。",
+"don't": "don't 後面接原形，這裡是 washing，要用 aren't。",
+"isn't": "isn't 配他／她／它，You 要用 are。"
+},
+"x": "You 配 are；後面是 washing，進行式否定用 aren't。"
 },
 "ma6fe73ac23": {
 "g": "過去式",
@@ -24892,6 +25675,15 @@
 "is": "is 配一個人，We 用 are。"
 },
 "x": "late 是形容詞，要用 be 動詞；We 是複數，用 are。"
+},
+"ma70f8a214d": {
+"g": "現在進行式",
+"w": {
+"Am": "Am 只配 I。",
+"Are": "Are 配複數，my mother 只有一個人。",
+"Do": "reading 是 -ing，要用 be 動詞發問，不用 Do。"
+},
+"x": "my mother 是一個人，進行式問句用 Is 開頭：Is my mother reading…?"
 },
 "ma710abd7be": {
 "g": "be 動詞",
@@ -25281,6 +26073,15 @@
 },
 "x": "How many 後面要接可數複數名詞：desserts。"
 },
+"maaa5572820": {
+"g": "現在進行式",
+"w": {
+"plaing": "y 要保留：playing。",
+"play": "前面有 is，要用 -ing 形。",
+"playying": "y 不需要寫兩次：playing。"
+},
+"x": "is 後面接 -ing；play 是母音 a 加 y 結尾，y 不變直接加 ing。"
+},
 "maac68270cd": {
 "g": "現在簡單式",
 "w": {
@@ -25419,6 +26220,15 @@
 "playing": "playing 前面要有 are，不能單獨當動詞。"
 },
 "x": "說星期天踢過足球，用過去式，play 加 ed 變 played。"
+},
+"mac377b853a": {
+"g": "現在進行式",
+"w": {
+"aren't": "aren't 配複數或 you，Amy 是一個人。",
+"don't": "don't 後面接原形，也不配 Amy。",
+"not": "少了 be 動詞，要說 Amy isn't。"
+},
+"x": "waiting 是 -ing，否定用 be 動詞加 not；Amy 一個人用 isn't。"
 },
 "mac9e5a4810": {
 "g": "過去式",
@@ -25965,6 +26775,15 @@
 },
 "x": "can't 後面接原形動詞：can't swim。"
 },
+"mb250311eed": {
+"g": "現在進行式",
+"w": {
+"am": "am 只配 I。",
+"are": "are 配 you／we／they；he 用 is。",
+"be": "be 是原形，句子裡要用 am／is／are。"
+},
+"x": "問「他正在做什麼」：What＋is＋he＋doing？主詞 he 用 is。"
+},
 "mb2a486c6e3": {
 "g": "be going to",
 "w": {
@@ -26331,6 +27150,15 @@
 },
 "x": "主詞 I，表示擁有用 have。"
 },
+"mb73b78a9e5": {
+"g": "現在進行式",
+"w": {
+"write": "前面有 is，要用 -ing 形。",
+"writeeing": "多寫了 e；write 是去 e 加 ing。",
+"writeing": "write 的 e 要先去掉：writing。"
+},
+"x": "is 後面接 -ing；write 去掉結尾的 e 再加 ing：writing，t 不重複。"
+},
 "mb73f7dfef2": {
 "g": "頻率副詞",
 "w": {
@@ -26508,6 +27336,15 @@
 },
 "x": "brothers 是複數，又在 over there，遠的複數用 those。"
 },
+"mb92b1d053b": {
+"g": "現在進行式",
+"w": {
+"do": "問句用 Are 不是 Do，回答要跟著用 are。",
+"does": "does 配單數，而且這題要用 be 動詞。",
+"don't": "Yes 後面要肯定，而且要用 be 動詞。"
+},
+"x": "用 Are 問就用 are 答；they 是複數，Yes 是肯定：Yes, they are。"
+},
 "mb93004c5cc": {
 "g": "代名詞／所有格",
 "w": {
@@ -26653,6 +27490,15 @@
 "is": "is 配 he／she／it，I 用 am。"
 },
 "x": "主詞是 I，be 動詞用 am；sorry 是形容詞：I am sorry。"
+},
+"mbab160eb43": {
+"g": "現在進行式",
+"w": {
+"studing": "y 不能拿掉：studying。",
+"study": "前面有 am，要用 -ing 形。",
+"studyying": "y 只要一個，直接加 ing。"
+},
+"x": "am 後面接 -ing；study 加 ing 時 y 保留：studying。"
 },
 "mbacdd58506": {
 "g": "be 動詞",
@@ -26932,6 +27778,15 @@
 },
 "x": "主詞 She 是一個人，be 動詞用 is。"
 },
+"mbd4aa5aaa2": {
+"g": "現在進行式",
+"w": {
+"aren't": "aren't 配複數或 you；Amy 只有一個人。",
+"doesn't": "doesn't 用在現在簡單式；後面是 using，要用 isn't。",
+"don't": "don't 是現在簡單式，後面接原形，不接 -ing。"
+},
+"x": "using 是 -ing，這是現在進行式，否定用 be 動詞加 not；Amy 一個人用 isn't。"
+},
 "mbd74f9ad6d": {
 "g": "have/has",
 "w": {
@@ -27048,6 +27903,15 @@
 },
 "x": "主詞 It 是一件事（第三人稱單數），be 動詞用 is。"
 },
+"mc0186f41f3": {
+"g": "現在進行式",
+"w": {
+"make": "前面有 is，要用 -ing 形。",
+"makeeing": "多寫了 e；應該去 e 再加 ing。",
+"makeing": "make 的 e 要先去掉：making。"
+},
+"x": "is 後面接 -ing；make 結尾的 e 不發音，去 e 加 ing：making。"
+},
 "mc04e85ce99": {
 "g": "可數／不可數",
 "w": {
@@ -27111,6 +27975,15 @@
 "in": "in 是在裡面，公車站不會在醫院裡。"
 },
 "x": "公車站在醫院外面可以等車，只有一個地點 the hospital，用 in front of（在…前面）。"
+},
+"mc1714afbba": {
+"g": "現在簡單式",
+"w": {
+"is taking": "usually 是平常的習慣，不用進行式。",
+"take": "Tom 是一個人，take 要加 s。",
+"taking": "沒有 is，-ing 不能單獨當動詞。"
+},
+"x": "usually（通常）說習慣，用現在簡單式；Tom 一個人，take 加 s。"
 },
 "mc1b308ebed": {
 "g": "現在簡單式",
@@ -27217,6 +28090,15 @@
 "Is": "Is 配單數，bikes 是好幾台。"
 },
 "x": "any bikes 是好幾台腳踏車（複數），問句用 Are there…?"
+},
+"mc2d9767777": {
+"g": "現在進行式",
+"w": {
+"am": "am 只配 I。",
+"are": "are 配複數，my brother 是一個人。",
+"be": "be 是原形，要改成 is。"
+},
+"x": "my brother 一個人，回答用 He is，所以問 What is my brother doing?"
 },
 "mc2e8905e05": {
 "g": "be 動詞",
@@ -27377,6 +28259,24 @@
 "Are": "Are 配 you 或複數，it 是單數。"
 },
 "x": "主詞 it 在這裡指天氣，單數；問句把 is 放句首：Is it cold?"
+},
+"mc459a149a7": {
+"g": "現在進行式",
+"w": {
+"doesn't": "doesn't 配單數且接原形，這裡不行。",
+"don't": "don't 後面接原形 sleep，不接 sleeping。",
+"isn't": "isn't 配一個人，We 是複數。"
+},
+"x": "We 配 are；sleeping 是進行式，否定用 aren't。"
+},
+"mc459a722db": {
+"g": "現在進行式",
+"w": {
+"doesn't": "doesn't 配一個人且接原形，不能接 writing。",
+"don't": "don't 後面要接原形 write，不接 writing。",
+"not": "缺 be 動詞，not 不能直接接在主詞後。"
+},
+"x": "at the moment 加 writing 是進行式；兩個人用 are，否定是 aren't。"
 },
 "mc459ea792f": {
 "g": "可數／不可數",
@@ -27906,6 +28806,15 @@
 },
 "x": "so she wants lessons（所以想上課），可見她游得不好，用 can't＋原形 swim。"
 },
+"mc9df8485e7": {
+"g": "現在進行式",
+"w": {
+"am": "am 只配 I。",
+"are": "are 配複數或 you，she 是一個人。",
+"be": "be 是原形，句子裡要改成 is。"
+},
+"x": "主詞 she 是一個人，問她正在做什麼：What is she doing?"
+},
 "mca01215c5d": {
 "g": "have/has",
 "w": {
@@ -28068,6 +28977,15 @@
 "Do": "There 問句用 be 動詞，不用 Do。"
 },
 "x": "a supermarket 是一間超市，單數，問句用 Is there…?"
+},
+"mcbb9d73de3": {
+"g": "現在進行式",
+"w": {
+"Am": "Am 只配 I。",
+"Are": "Are 配複數或 you，Tom 是一個人。",
+"Does": "Does 後面接原形，不接 wearing。"
+},
+"x": "後面有 wearing，進行式問句用 be 動詞開頭；Tom 一個人用 Is。"
 },
 "mcbcb68fefc": {
 "g": "現在進行式",
@@ -28356,6 +29274,15 @@
 },
 "x": "主詞 We 是複數，和後面的 leave 一樣用原形：get dressed 是穿好衣服。"
 },
+"mce262961bd": {
+"g": "現在簡單式",
+"w": {
+"is talking": "every day 是習慣，不用進行式；is 也不配複數。",
+"talking": "前面沒有 are，-ing 不能單獨當動詞。",
+"talks": "加 s 只給一個人，children 是好幾個孩子。"
+},
+"x": "every day 是習慣，用現在簡單式；children 是複數（孩子們），用原形 talk。"
+},
 "mce4291c2b2": {
 "g": "單字搭配",
 "w": {
@@ -28625,6 +29552,15 @@
 },
 "x": "禮貌提議、詢問要不要，用 Would you like…?"
 },
+"md0bdd9dc5a": {
+"g": "現在進行式",
+"w": {
+"am": "am 只配 I。",
+"are": "are 配複數或 you，He 是一個人。",
+"be": "be 是原形，要改成 is。"
+},
+"x": "He 是一個人，be 動詞用 is：He is drinking。"
+},
 "md0e2178b81": {
 "g": "過去式",
 "w": {
@@ -28827,6 +29763,15 @@
 },
 "x": "a bank 是一間銀行，單數，說車站附近有一間用 There is。"
 },
+"md40d916c2f": {
+"g": "現在進行式",
+"w": {
+"tie": "is 後面不能接原形，要用 tying。",
+"tieeing": "不是加 eing；tie 要把 ie 換成 y：tying。",
+"tieing": "一般都寫 tying；tieing 很少用，以 tying 為準。"
+},
+"x": "He is 後面要接 -ing；tie 的 ie 改成 y 再加 ing，寫成 tying。"
+},
 "md40d97570e": {
 "g": "there is/are",
 "w": {
@@ -28990,6 +29935,15 @@
 },
 "x": "主詞 They（他們）是複數，用 are：They are in apartment twenty."
 },
+"md6884bcf2c": {
+"g": "現在進行式",
+"w": {
+"write": "前面有 are，要用 -ing 形。",
+"writeeing": "e 沒去掉還多一個；要去 e 再加 ing。",
+"writeing": "write 結尾的 e 要先去掉：writing。"
+},
+"x": "are 後面接 -ing；write 結尾的 e 不發音，先去掉 e 再加 ing：writing。"
+},
 "md68db43b69": {
 "g": "可數／不可數",
 "w": {
@@ -29038,6 +29992,15 @@
 "getting": "getting 前面要有 am，不能單獨當動詞。"
 },
 "x": "收到朋友的信是發生過的事；get 不規則，過去式是 got。"
+},
+"md6c7940d29": {
+"g": "現在簡單式",
+"w": {
+"is playing": "every morning 是習慣；is 也不配 We。",
+"playing": "沒有 are，-ing 不能單獨當動詞。",
+"plays": "加 s 只給一個人，We 是複數。"
+},
+"x": "every morning 是習慣，用現在簡單式；We 是複數，用原形 play。"
 },
 "md6e152800f": {
 "g": "be going to",
@@ -29118,6 +30081,15 @@
 "have": "have 是現在式，跟 last Saturday 對不上。"
 },
 "x": "last Saturday 是上週六；have 不規則，過去式是 had。"
+},
+"md82dc000df": {
+"g": "現在進行式",
+"w": {
+"write": "前面有 is，要用 -ing 形。",
+"writeeing": "多了 e；write 要去 e 再加 ing。",
+"writeing": "e 要先去掉：writing。"
+},
+"x": "is 後面接 -ing；write 去掉 e 再加 ing：writing。"
 },
 "md84a0a8c6f": {
 "g": "be going to",
@@ -29461,6 +30433,15 @@
 },
 "x": "My mother 是一個人，every night 是習慣，cook 要加 s 變 cooks。"
 },
+"mdb58aa1d10": {
+"g": "現在進行式",
+"w": {
+"take": "前面有 is，要用 -ing 形，不能用原形。",
+"takeeing": "多了一個 e；take 要去 e 再加 ing。",
+"takeing": "結尾的 e 要先去掉：taking。"
+},
+"x": "is 後面接 -ing；take 去掉結尾的 e 再加 ing：taking。"
+},
 "mdb5e2eeb35": {
 "g": "過去式",
 "w": {
@@ -29632,6 +30613,15 @@
 },
 "x": "How much 後面接不可數名詞，juice 不可數，用原形不加 s。"
 },
+"mdd3024b464": {
+"g": "現在進行式",
+"w": {
+"don't": "don't 後面接原形 learn，不接 learning。",
+"isn't": "isn't 配一個人，We 是複數。",
+"not": "少了 be 動詞，要說 We aren't。"
+},
+"x": "We 配 are；learning 是 -ing，否定用 aren't。"
+},
 "mdd3c8936bd": {
 "g": "單字搭配",
 "w": {
@@ -29696,6 +30686,15 @@
 },
 "x": "Leo 是男生，他的爺爺用 His grandfather。"
 },
+"mdde9394a20": {
+"g": "現在進行式",
+"w": {
+"Am": "Am 只配 I。",
+"Are": "Are 配複數或 you，Tom 是一個人。",
+"Do": "Do 後面接原形，不接 -ing；也不配 Tom。"
+},
+"x": "right now 加 swimming 是進行式；Tom 一個人，問句用 Is 開頭。"
+},
 "mddf9e7c6dc": {
 "g": "冠詞 a/an/the",
 "w": {
@@ -29738,6 +30737,15 @@
 },
 "x": "today＋studying 是現在進行式，否定用 be 動詞＋not；She 一個人，用 isn't。"
 },
+"mde3d9de653": {
+"g": "現在進行式",
+"w": {
+"studing": "y 不能去掉，要保留：studying。",
+"study": "前面有 is，要用 -ing 形。",
+"studyying": "y 不用重複，直接加 ing。"
+},
+"x": "is 後面接 -ing；study 加 ing 時 y 保留不變：studying。"
+},
 "mde4d308165": {
 "g": "代名詞／所有格",
 "w": {
@@ -29753,6 +30761,15 @@
 "buying": "going to 後面不接 V-ing，要原形 buy。"
 },
 "x": "going to 後面接原形動詞：going to buy。"
+},
+"mde54ec94be": {
+"g": "現在進行式",
+"w": {
+"doesn't": "doesn't 配一個人且接原形，這裡不行。",
+"don't": "don't 後面接原形 wear，不接 wearing。",
+"not": "少了 be 動詞，要說 are not 或 aren't。"
+},
+"x": "wearing 是 -ing，否定用 be 動詞加 not；My friends 複數，用 aren't。"
 },
 "mde5e1950a5": {
 "g": "there is/are",
@@ -30053,6 +31070,15 @@
 },
 "x": "肯定句用 some；vegetables 是複數，可以配 some。"
 },
+"me0b655e753": {
+"g": "現在進行式",
+"w": {
+"am": "am 只配 I。",
+"are": "are 配 you／we／they；She 用 is。",
+"be": "be 是原形，句子裡要用 am／is／are。"
+},
+"x": "主詞 She 是一個人，be 動詞用 is；at the moment 表示正在進行。"
+},
 "me0cf6b97f3": {
 "g": "現在簡單式",
 "w": {
@@ -30084,6 +31110,15 @@
 "trying": "to 後面不接 V-ing，要原形 try。"
 },
 "x": "like to 的 to 後面接原形動詞：to try。"
+},
+"me0ff51bf10": {
+"g": "現在進行式",
+"w": {
+"tie": "前面有 is，後面要用 -ing 形，不能用原形 tie。",
+"tieeing": "多寫了 e；ie 結尾要改成 y 再加 ing：tying。",
+"tieing": "標準拼法是 tying；tieing 很少見，考試以 tying 為準。"
+},
+"x": "is 後面接動詞 -ing；tie 是 ie 結尾，要把 ie 改成 y 再加 ing：tying。"
 },
 "me11ba5edaf": {
 "g": "be 動詞",
@@ -30148,6 +31183,15 @@
 "Is": "cook 是一般動詞，要用 Does 問，不用 Is。"
 },
 "x": "your husband 是一個人（等於 he），cook 是原形一般動詞，問句用 Does。"
+},
+"me1d00da3bf": {
+"g": "現在進行式",
+"w": {
+"doesn't": "doesn't 配單數且接原形，不接 cleaning。",
+"isn't": "isn't 配一個人，children 是好幾個孩子。",
+"not": "少了 be 動詞，要說 aren't。"
+},
+"x": "children 是複數，配 are；後面 cleaning 是進行式，否定用 aren't。"
 },
 "me1fac499f4": {
 "g": "be 動詞",
@@ -30334,6 +31378,15 @@
 },
 "x": "說那個星期天店沒開；The shop 是單數，be 動詞過去式用 was。"
 },
+"me3f61b7abe": {
+"g": "現在進行式",
+"w": {
+"siing": "t 不見了，正確是 sitting。",
+"sit": "前面有 is，要用 -ing 形。",
+"siting": "sit 加 ing 要重複 t：sitting。"
+},
+"x": "is 後面接 -ing，表示正坐著；sit 重複 t 再加 ing：sitting。"
+},
 "me3fce1ce27": {
 "g": "可數／不可數",
 "w": {
@@ -30511,6 +31564,15 @@
 "is": "I 不能配 is。"
 },
 "x": "主詞 I 配 am，否定是 I am not busy."
+},
+"me5440bc914": {
+"g": "現在進行式",
+"w": {
+"aren't": "aren't 配複數，而且 Yes 不接否定。",
+"does": "問句用 Is，回答也用 be 動詞 is。",
+"isn't": "Yes 後面要肯定，不能接 isn't。"
+},
+"x": "用 Is 問就用 is 答；Yes 是肯定：Yes, he is。"
 },
 "me5485156bb": {
 "g": "現在進行式",
@@ -30724,6 +31786,15 @@
 },
 "x": "She 是一個人，cook 是原形一般動詞，否定用 doesn't。"
 },
+"me8a40473d1": {
+"g": "現在進行式",
+"w": {
+"am": "am 只配 I。",
+"be": "be 是原形，要依主詞改成 are。",
+"is": "is 配他／她／它，不配 You。"
+},
+"x": "right now 加 talking 是進行式；You 配 are：You are talking。"
+},
 "me8ddb32b3e": {
 "g": "have/has",
 "w": {
@@ -30836,6 +31907,15 @@
 "don't": "問句用 Is，回答也要用 be 動詞；Yes 也不配否定。"
 },
 "x": "問 Is Amy…? 回答換成 she，用 is；Yes 後面接肯定：Yes, she is。"
+},
+"me9bfc34d60": {
+"g": "現在進行式",
+"w": {
+"am": "am 只配 I；she 用 is。",
+"aren't": "aren't 配複數，she 是一個人。",
+"does": "問句用 Is，回答也用 be 動詞；No 也要否定。"
+},
+"x": "用 Is 問就用 is 答；No 是否定：No, she isn't。"
 },
 "me9d8422e9c": {
 "g": "be 動詞",
@@ -31257,6 +32337,15 @@
 },
 "x": "句子沒有一般動詞，只有名詞 a bus driver，要用 be 動詞；your father 一個人用 Is。"
 },
+"mee1c0c5d38": {
+"g": "現在簡單式",
+"w": {
+"cook": "She 是一個人，cook 要加 s。",
+"cooking": "沒有 is，-ing 不能單獨當動詞。",
+"is cooking": "every day 說習慣，不用正在進行的說法。"
+},
+"x": "every day 是習慣，用現在簡單式；She 一個人，cook 加 s：cooks。"
+},
 "mee73a79662": {
 "g": "can",
 "w": {
@@ -31556,6 +32645,15 @@
 },
 "x": "桌子放在廚房這個空間裡面，用 in the kitchen。"
 },
+"mf12eaa0c27": {
+"g": "現在進行式",
+"w": {
+"geing": "漏掉了 t，而且 t 要寫兩個。",
+"get": "前面有 is，要用 -ing 形。",
+"geting": "get 加 ing 要重複字尾 t：getting。"
+},
+"x": "is 後面接 -ing；get 是一個母音加一個子音結尾，要重複 t：getting。"
+},
 "mf13f1cacfc": {
 "g": "be 動詞",
 "w": {
@@ -31605,6 +32703,15 @@
 "doing": "前面沒有 is，-ing 不能自己當動詞。"
 },
 "x": "She 是一個人，說的是習慣，do 加 es 變 does。do homework 是寫功課。"
+},
+"mf1817d7f6f": {
+"g": "現在進行式",
+"w": {
+"plaing": "y 不能去掉，直接加 ing：playing。",
+"play": "前面有 is，要用 -ing 形。",
+"playying": "y 不用重複，直接加 ing。"
+},
+"x": "is 後面接 -ing；play 的 y 前面是母音 a，直接加 ing：playing。"
 },
 "mf182b7b580": {
 "g": "be 動詞",
@@ -31685,6 +32792,15 @@
 "was": "was 配單數，They 是複數。"
 },
 "x": "last week 是上週，They 是複數，be 動詞過去式用 were。"
+},
+"mf257d2a239": {
+"g": "現在進行式",
+"w": {
+"doesn't": "doesn't 配一個人且接原形，不接 waiting。",
+"isn't": "isn't 配一個人，這裡是兩個人。",
+"not": "少了 be 動詞，要說 aren't。"
+},
+"x": "Ken and Lisa 兩個人配 are；後面 waiting 是進行式，否定用 aren't。"
 },
 "mf27ce1c0e9": {
 "g": "可數／不可數",
@@ -31968,6 +33084,15 @@
 },
 "x": "last month 是上個月；take a trip 的 take 過去式是 took。"
 },
+"mf5066b93cd": {
+"g": "現在進行式",
+"w": {
+"am": "am 只配 I。",
+"are": "are 配 you／we／they；He 用 is。",
+"be": "be 是原形，句子裡要用 am／is／are。"
+},
+"x": "主詞 He 是一個人，be 動詞用 is；at the moment 表示正在進行。"
+},
 "mf53a4ba85f": {
 "g": "過去式",
 "w": {
@@ -32033,6 +33158,15 @@
 },
 "x": "回答別人問好，主詞 I 配 am：I am fine, thank you."
 },
+"mf5cc92edc8": {
+"g": "現在進行式",
+"w": {
+"are": "he 是一個人，用 is。",
+"don't": "問句用 Is，回答也用 be 動詞；Yes 也不接否定。",
+"isn't": "Yes 後面要肯定，不能接 isn't。"
+},
+"x": "用 Is 問就用 is 答；Yes 是肯定，所以 Yes, he is。"
+},
 "mf5e7b37efd": {
 "g": "過去式",
 "w": {
@@ -32088,6 +33222,15 @@
 "are": "mother 是一個人，不用 are。"
 },
 "x": "問句主詞是 your mother，一個人，等於 she，用 is。"
+},
+"mf6af15a98b": {
+"g": "現在簡單式",
+"w": {
+"is swimming": "every day 是習慣，不用進行式。",
+"swim": "Tom 是一個人，swim 要加 s。",
+"swimming": "沒有 is，-ing 不能單獨當動詞。"
+},
+"x": "every day 是習慣，用現在簡單式；Tom 一個人，swim 加 s：swims。"
 },
 "mf6bf9e6743": {
 "g": "頻率副詞",
@@ -32242,6 +33385,15 @@
 },
 "x": "a bed 是單數；三個選項都是否定，單數用 There isn't。"
 },
+"mf9098093c4": {
+"g": "現在進行式",
+"w": {
+"doesn't": "doesn't 配單數且接原形，不接 wearing。",
+"isn't": "isn't 配一個人，We 是複數。",
+"not": "少了 be 動詞，要說 We aren't。"
+},
+"x": "We 配 are；後面是 wearing，進行式否定用 aren't。"
+},
 "mf9123311ee": {
 "g": "介系詞",
 "w": {
@@ -32378,6 +33530,15 @@
 "works": "works 是現在式，跟 last year 對不上。"
 },
 "x": "last year 是去年，work 加 ed 變 worked。"
+},
+"mfa034cfb44": {
+"g": "現在進行式",
+"w": {
+"doesn't": "doesn't 配單數且接原形，這裡是複數又有 -ing。",
+"don't": "don't 後面接原形；這裡是 taking，要用 be 動詞。",
+"isn't": "isn't 只配一個人；friends 有 s 是複數。"
+},
+"x": "taking 是 -ing，現在進行式；My friends 是複數，否定用 aren't。"
 },
 "mfa0f4b8668": {
 "g": "過去式",
@@ -32621,6 +33782,15 @@
 },
 "x": "now＋cleaning 是正在做；Tom 是一個人，be 動詞用 is。"
 },
+"mfd56815f05": {
+"g": "現在進行式",
+"w": {
+"make": "前面有 is，要用 -ing 形。",
+"makeeing": "多寫了 e；make 要去 e 加 ing。",
+"makeing": "make 的 e 要先拿掉：making。"
+},
+"x": "is 後面接 -ing；make 結尾的 e 去掉再加 ing：making。"
+},
 "mfd609cc8e4": {
 "g": "現在簡單式",
 "w": {
@@ -32717,6 +33887,15 @@
 },
 "x": "near 是介系詞，意思是在…附近：near the river。"
 },
+"mfdf6e4cc9b": {
+"g": "現在進行式",
+"w": {
+"lie": "is 後面要接 V-ing，不能接原形 lie。",
+"lieeing": "lie 去掉 e 不是規則；ie 結尾要改成 y 再加 -ing。",
+"lieing": "ie 結尾不能直接加 -ing，要先把 ie 改成 y：lying。"
+},
+"x": "lie 是 ie 結尾，要把 ie 改成 y 再加 -ing：lying。"
+},
 "mfe5df06d2f": {
 "g": "現在進行式",
 "w": {
@@ -32782,6 +33961,24 @@
 "buying": "前面沒有 is，-ing 不能自己當動詞。"
 },
 "x": "My friend 是一個人，說的是習慣，buy 加 s 變 buys。"
+},
+"mfed8dbafd2": {
+"g": "現在進行式",
+"w": {
+"does": "does 用在一般動詞，而且不配 I。",
+"don't": "問句是 Are you…，簡答要用 be 動詞，不用 don't。",
+"isn't": "isn't 配 he／she／it；主詞 I 用 am。"
+},
+"x": "問 Are you…? 回答用 I；I 的 be 動詞是 am，No, I am not."
+},
+"mfed9057fd7": {
+"g": "現在進行式",
+"w": {
+"am": "am 只配 I。",
+"be": "be 是原形，句子裡要用 am／is／are。",
+"is": "is 配一個人或一件事；這裡主詞是兩個人以上。"
+},
+"x": "Ken and Lisa 是兩個人，等於 they，be 動詞用 are，再接 working。"
 },
 "mfee91d67ce": {
 "g": "代名詞／所有格",
@@ -32855,6 +34052,15 @@
 },
 "x": "children 是 child 的複數，沒有加 s 但表示好幾個小孩，用 are。"
 },
+"mff5b7d0e81": {
+"g": "現在進行式",
+"w": {
+"lie": "前面有 are，要用 -ing 形。",
+"lieeing": "多寫了 e；ie 要改成 y 再加 ing。",
+"liing": "ie 要改成 y，不是只去掉 e：lying。"
+},
+"x": "are 後面接 -ing；lie 是 ie 結尾，ie 改成 y 再加 ing：lying。"
+},
 "mff606889a7": {
 "g": "單字搭配",
 "w": {
@@ -32922,6 +34128,15 @@
 },
 "x": "原文：She pays three hundred dollars. 她付了三百元。"
 },
+"r0024f05f9d": {
+"g": "閱讀",
+"w": {
+"playing a game": "原文是 play the guitar 彈吉他，不是玩遊戲。",
+"studying math": "讀數學是她平常的習慣，原文說 today she isn't。",
+"writing a message": "文中沒提到訊息，她正在彈吉他。"
+},
+"x": "原文：She is playing the guitar now. Lisa 現在正在彈吉他。"
+},
 "r00620eb599": {
 "g": "閱讀",
 "w": {
@@ -32945,6 +34160,15 @@
 "Red": "文中沒有紅色；媽媽最愛 yellow。"
 },
 "x": "原文：her favorite color is yellow. 媽媽最喜歡黃色。"
+},
+"r009f477a9d": {
+"g": "閱讀",
+"w": {
+"drinking coffee": "文中沒有咖啡，爸爸在 watching the game。",
+"drinking tea": "文中沒提到茶，爸爸正在看比賽。",
+"studying English": "文中沒有人念英文，爸爸在看比賽。"
+},
+"x": "原文：The father is watching the game. 爸爸正在看比賽。"
 },
 "r00a8f29375": {
 "g": "閱讀",
@@ -33084,6 +34308,15 @@
 },
 "x": "原文：The sister is making a cake. 姊妹在做蛋糕。"
 },
+"r061706c90b": {
+"g": "閱讀",
+"w": {
+"eating breakfast": "吃早餐是 Mia 平常的習慣，不是 brother 現在做的事。",
+"studying English": "文中沒有人念英文，brother 在煮咖啡。",
+"watching the game": "文中沒提到比賽，brother 在 making coffee。"
+},
+"x": "原文：The brother is making coffee. 她的兄弟正在煮咖啡。"
+},
 "r06795c5c25": {
 "g": "閱讀",
 "w": {
@@ -33117,6 +34350,15 @@
 },
 "x": "原文：I don't eat many vegetables, and my mother is not happy. 不開心的是 Kevin 的媽媽。"
 },
+"r078f1939a7": {
+"g": "閱讀",
+"w": {
+"He cooks lunch.": "他在廚房，但文中沒說煮午餐；平常是 makes coffee。",
+"He eats breakfast.": "文中沒提到早餐，平常的習慣是煮咖啡。",
+"He listens to the radio.": "文中沒提到收音機；在聽東西的是媽媽，聽的是音樂。"
+},
+"x": "原文：He usually makes coffee on Saturdays. 他平常星期六煮咖啡，今天沒煮。"
+},
 "r078f3d18a4": {
 "g": "閱讀",
 "w": {
@@ -33140,6 +34382,15 @@
 "Work at night": "原文說 not going to work at night，不上夜班。"
 },
 "x": "原文：he is going to have dinner with his family every day. 不上夜班，每天和家人吃晚餐。"
+},
+"r08384ffe58": {
+"g": "閱讀",
+"w": {
+"He makes a video.": "文中沒有影片，平常的習慣是看書。",
+"He studies math.": "文中沒提到數學，他平常是看書。",
+"He watches a movie.": "文中沒提到電影，他平常是 reads a book。"
+},
+"x": "原文：He usually reads a book on Saturdays. 他平常星期六看書，今天沒看。"
 },
 "r086e8196d9": {
 "g": "閱讀",
@@ -33214,6 +34465,15 @@
 },
 "x": "原文：Please call me if you need help. 文末他請大家有需要就打電話給他。"
 },
+"r09d312f7c0": {
+"g": "閱讀",
+"w": {
+"making coffee": "有咖啡沒錯，但 sister 是 drinking 喝，不是 making 煮。",
+"playing a game": "玩遊戲的是 Ken，不是 sister。",
+"watching TV": "文中沒提到電視，sister 在喝咖啡。"
+},
+"x": "原文：The sister is drinking coffee. 他的姊妹正在喝咖啡。"
+},
 "r0a2b1b1a09": {
 "g": "閱讀",
 "w": {
@@ -33264,6 +34524,15 @@
 },
 "x": "原文：The brother is eating an apple. 哥哥在吃蘋果。"
 },
+"r0b09d2b15a": {
+"g": "閱讀",
+"w": {
+"snowy": "原文是 raining 下雨，不是 snowing 下雪。",
+"sunny": "正在下雨，文中沒說出太陽。",
+"windy": "文中沒說颳風，只說在下雨。"
+},
+"x": "原文：It is raining outside. 外面在下雨，天氣是 rainy。"
+},
 "r0b5c3d102b": {
 "g": "閱讀",
 "w": {
@@ -33286,6 +34555,15 @@
 "at home": "文中說 Ben is at the café，他不在家。",
 "at school": "他在讀數學，但文中說的地點是 at the café，不是學校。",
 "in the kitchen": "文中說 at the café，沒提到廚房。"
+},
+"x": "原文：Ben is at the café. 他在咖啡店。"
+},
+"r0c64429fcb": {
+"g": "閱讀",
+"w": {
+"at the park": "外面在下雨，他在咖啡店裡，不在公園。",
+"in the bedroom": "bedroom 是臥室，原文說 at the café。",
+"in the kitchen": "爸爸在煮咖啡，但他們在 café 咖啡店，不是廚房。"
 },
 "x": "原文：Ben is at the café. 他在咖啡店。"
 },
@@ -33376,6 +34654,15 @@
 "By plane": "文中說 we took the 8:30 train，是火車不是飛機。"
 },
 "x": "原文：my family went to the beach by train. 他們搭火車去海邊。"
+},
+"r0fd88db45b": {
+"g": "閱讀",
+"w": {
+"at school": "今天星期六，他在廚房，不在學校。",
+"at the park": "外面在下雪，他在廚房裡，不在公園。",
+"in the living room": "living room 是客廳，原文說 in the kitchen 廚房。"
+},
+"x": "原文：Ken is in the kitchen. 他在廚房。"
 },
 "r1058995869": {
 "g": "閱讀",
@@ -33474,6 +34761,15 @@
 "She works at a bank.": "原文說 Linda doesn't work at a bank。"
 },
 "x": "原文：She teaches music at a school. Linda 在學校教音樂。"
+},
+"r12c8730f82": {
+"g": "閱讀",
+"w": {
+"at school": "今天星期六，她在臥室念英文，不在學校。",
+"at the park": "原文說 in the bedroom，她在家裡臥室，不在公園。",
+"in the kitchen": "kitchen 是廚房，原文說 Lisa 在 bedroom 臥室。"
+},
+"x": "原文：Lisa is in the bedroom. bedroom 是臥室，她在臥室。"
 },
 "r13279e4aa0": {
 "g": "閱讀",
@@ -33711,6 +35007,15 @@
 },
 "x": "原文：Next week, I am going to start a new English class. 下週要開始上新的英文課。"
 },
+"r181334b4b3": {
+"g": "閱讀",
+"w": {
+"drinking tea": "文中沒提到茶，sister 正在煮晚餐。",
+"drinking water": "喝水是 Ben 平常的習慣，不是 sister 現在做的事。",
+"watching a movie": "文中沒提到電影，sister 在 cooking dinner。"
+},
+"x": "原文：The sister is cooking dinner. 他的姊妹正在煮晚餐。"
+},
 "r183abd92c8": {
 "g": "閱讀",
 "w": {
@@ -33782,6 +35087,15 @@
 "Yes": "文中說 I don't have any cash，沒有現金。"
 },
 "x": "原文：I don't have any cash today. 今天沒有現金，所以答 No。"
+},
+"r19cb871597": {
+"g": "閱讀",
+"w": {
+"at the park": "原文說 in the living room，她在客廳，不在公園。",
+"in the bedroom": "bedroom 是臥室，原文說的是 living room。",
+"in the kitchen": "kitchen 是廚房，原文是 living room 客廳。"
+},
+"x": "原文：Mia is in the living room. 她在客廳。"
 },
 "r19ed3b0168": {
 "g": "閱讀",
@@ -34302,6 +35616,15 @@
 },
 "x": "原文：Mrs. Wang usually does the shopping on Saturday morning. 她通常週六早上買東西。"
 },
+"r29cddc39d1": {
+"g": "閱讀",
+"w": {
+"drinking coffee": "文中沒提到咖啡，brother 正在寫訊息。",
+"drinking tea": "文中沒提到茶，brother 在寫訊息。",
+"making a cake": "文中沒有蛋糕，brother 在 writing a message。"
+},
+"x": "原文：The brother is writing a message. 他的兄弟正在寫訊息。"
+},
 "r2a1a501d6b": {
 "g": "閱讀",
 "w": {
@@ -34366,6 +35689,15 @@
 "Short and busy.": "原文說老師 tall（高）；busy 是在說 Nina。"
 },
 "x": "原文：She is tall and very kind. She 指陳老師，她又高又親切。"
+},
+"r2bd2c61ba6": {
+"g": "閱讀",
+"w": {
+"drinking coffee": "文中沒有咖啡；在喝東西的是 sister，喝的是水。",
+"writing a message": "文中沒有人寫訊息，Ken 正在彈吉他。",
+"writing an email": "文中沒提到 email，Ken 現在是 playing the guitar。"
+},
+"x": "原文：He is playing the guitar now. Ken 現在正在彈吉他。"
 },
 "r2c0488bd4d": {
 "g": "閱讀",
@@ -34529,6 +35861,15 @@
 },
 "x": "原文：There is a night market behind my building. 大樓後面是夜市。"
 },
+"r31b179fdda": {
+"g": "閱讀",
+"w": {
+"rainy": "原文說 The sun is shining，不是下雨。",
+"snowy": "文中沒有 snowing，是晴天。",
+"windy": "文中沒說颳風，說的是出太陽。"
+},
+"x": "原文：The sun is shining. 太陽在照，天氣是 sunny。"
+},
 "r31b9bc27a4": {
 "g": "閱讀",
 "w": {
@@ -34561,6 +35902,15 @@
 },
 "x": "原文：There is a bus stop in front of the park. 公園前面有公車站。"
 },
+"r32c4522e71": {
+"g": "閱讀",
+"w": {
+"reading the news": "文中沒提到新聞，媽媽在 watching a movie。",
+"watching the game": "都是 watching，但媽媽看的是 a movie 電影，不是比賽。",
+"writing a report": "文中沒有報告，媽媽正在看電影。"
+},
+"x": "原文：The mother is watching a movie. 媽媽正在看電影。"
+},
 "r32cdd861bc": {
 "g": "閱讀",
 "w": {
@@ -34584,6 +35934,15 @@
 "By car": "文中沒有提到開車，原文說 by bus。"
 },
 "x": "原文：She goes to work by bus. 她搭公車上班。"
+},
+"r33232665b5": {
+"g": "閱讀",
+"w": {
+"She makes a video.": "文中沒有影片，平常的習慣是吃早餐。",
+"She makes coffee.": "煮咖啡的是她的 brother，而且是現在，不是 Mia 的習慣。",
+"She watches a movie.": "文中沒提到電影，她平常是 eats breakfast。"
+},
+"x": "原文：She usually eats breakfast on Saturdays. 她平常星期六吃早餐，今天沒吃。"
 },
 "r33b0161a75": {
 "g": "閱讀",
@@ -34633,6 +35992,15 @@
 },
 "x": "原文：We live in a small house in Taichung. 他們住在台中。"
 },
+"r354ef9e774": {
+"g": "閱讀",
+"w": {
+"rainy": "rainy 是下雨，原文是 snowing 下雪，不是 raining。",
+"sunny": "sunny 是晴天，文中沒說出太陽，說的是下雪。",
+"windy": "windy 是颳風，文中說的是 snowing 下雪。"
+},
+"x": "原文：It is snowing outside. 外面正在下雪，天氣就是 snowy。"
+},
 "r358199fb57": {
 "g": "閱讀",
 "w": {
@@ -34648,6 +36016,15 @@
 "Their teacher": "文中沒有提到老師，他們在家幫媽媽。"
 },
 "x": "原文：My brother and I help our mother. 他們幫忙媽媽。"
+},
+"r361a88d3d6": {
+"g": "閱讀",
+"w": {
+"rainy": "原文說 The sun is shining，不是下雨。",
+"snowy": "文中沒有 snowing，是出太陽。",
+"windy": "文中沒說颳風，說的是出太陽。"
+},
+"x": "原文：The sun is shining. 太陽在照，天氣是 sunny。"
 },
 "r36930817c2": {
 "g": "閱讀",
@@ -34737,6 +36114,15 @@
 },
 "x": "原文：I have three hobbies: reading, cooking and painting. Jia 有三個嗜好。"
 },
+"r38edf0970f": {
+"g": "閱讀",
+"w": {
+"She cooks soup.": "文中沒提到湯；她今天煮的是晚餐，也不是平常的習慣。",
+"She studies English.": "文中沒提到英文，平常的習慣是彈吉他。",
+"She writes a story.": "文中沒提到故事，她平常是 plays the guitar。"
+},
+"x": "原文：She usually plays the guitar on Saturdays. 她平常星期六彈吉他，今天沒彈。"
+},
 "r38fcf9cd33": {
 "g": "閱讀",
 "w": {
@@ -34824,6 +36210,15 @@
 "Juice": "原文說 We don't have any juice，家裡沒有果汁。"
 },
 "x": "原文：my brother would like some tea. 哥哥（弟弟）想喝茶。"
+},
+"r3b31ce6cbe": {
+"g": "閱讀",
+"w": {
+"rainy": "rainy 是下雨天，原文說 snowing，是下雪。",
+"sunny": "文中沒有 The sun is shining，是下雪天，不是晴天。",
+"windy": "文中沒說颳風（windy），只說在下雪。"
+},
+"x": "原文：It is snowing outside. snowing 是正在下雪，所以天氣是 snowy。"
 },
 "r3b3c756c0b": {
 "g": "閱讀",
@@ -35066,6 +36461,15 @@
 },
 "x": "原文：We are not at work. We are at a small café. 今天他們在咖啡店。"
 },
+"r4247e319f2": {
+"g": "閱讀",
+"w": {
+"at school": "今天星期六下午，她在家裡的客廳，不在學校。",
+"in the bedroom": "bedroom 是臥室，原文說的是 living room 客廳。",
+"in the kitchen": "雖然她在煮咖啡，但原文說她在 living room，不是廚房。"
+},
+"x": "原文：Mia is in the living room. living room 是客廳，她在客廳。"
+},
 "r4282017718": {
 "g": "閱讀",
 "w": {
@@ -35073,6 +36477,24 @@
 "Twenty-one": "文中沒有 twenty-one，怡婷說 I am twenty。"
 },
 "x": "原文：She is nineteen years old, and I am twenty. I（怡婷）是二十歲。"
+},
+"r429cf93521": {
+"g": "閱讀",
+"w": {
+"listening to the radio": "文中沒提到收音機，媽媽在拍影片。",
+"reading a book": "文中沒提到書，媽媽正在拍影片。",
+"writing a story": "文中沒有人寫故事，媽媽在 making a video。"
+},
+"x": "原文：The mother is making a video. 媽媽正在拍影片。"
+},
+"r43033bfb90": {
+"g": "閱讀",
+"w": {
+"He eats an apple.": "文中沒有蘋果，平常的習慣是彈吉他。",
+"He reads a book.": "文中沒提到書，他平常是 plays the guitar。",
+"He writes a message.": "文中沒提到訊息；他今天寫的是 email，也不是習慣。"
+},
+"x": "原文：He usually plays the guitar on Saturdays. 他平常星期六彈吉他，今天沒彈。"
 },
 "r43036a99f1": {
 "g": "閱讀",
@@ -35187,6 +36609,15 @@
 },
 "x": "原文：Next to the market there is a small library. 市場旁邊有一間小圖書館。"
 },
+"r47021bbabe": {
+"g": "閱讀",
+"w": {
+"cooking soup": "文中沒有湯，爸爸正在讀信。",
+"eating breakfast": "文中沒提到早餐，爸爸在讀信。",
+"writing an email": "爸爸是在 reading 讀，不是寫；讀的是 a letter。"
+},
+"x": "原文：The father is reading a letter. 爸爸正在讀信。"
+},
 "r471d1c2347": {
 "g": "閱讀",
 "w": {
@@ -35252,6 +36683,15 @@
 },
 "x": "原文：he called his mother and talked for ten minutes. 他打給媽媽。"
 },
+"r499af2c940": {
+"g": "閱讀",
+"w": {
+"rainy": "有太陽在照，不是下雨天。",
+"snowy": "文中沒說下雪，說的是 The sun is shining 出太陽。",
+"windy": "文中沒提到風，只說出太陽，是 sunny。"
+},
+"x": "原文：The sun is shining. 太陽正在照耀，就是晴天 sunny。"
+},
 "r4a4266798f": {
 "g": "閱讀",
 "w": {
@@ -35308,6 +36748,24 @@
 },
 "x": "原文：My mother is going to make sandwiches. 做三明治的是媽媽。"
 },
+"r4bb6885a39": {
+"g": "閱讀",
+"w": {
+"He reads the news.": "文中沒提到新聞，他平常是 cooks soup。",
+"He watches a movie.": "文中沒提到電影，平常的習慣是煮湯。",
+"He watches the game.": "文中沒提到比賽，他平常是煮湯。"
+},
+"x": "原文：He usually cooks soup on Saturdays. 他平常星期六煮湯，今天沒煮。"
+},
+"r4c058bc8f1": {
+"g": "閱讀",
+"w": {
+"She eats lunch.": "文中沒提到午餐，平常的習慣是看新聞。",
+"She reads a letter.": "都是 read，但她平常讀的是 the news 新聞，不是信。",
+"She studies math.": "文中沒提到數學，她平常是 reads the news。"
+},
+"x": "原文：She usually reads the news on Saturdays. 她平常星期六看新聞，今天沒看。"
+},
 "r4c17c822c5": {
 "g": "閱讀",
 "w": {
@@ -35331,6 +36789,15 @@
 "Talk to friends.": "他會和朋友聊家人，不是 never。"
 },
 "x": "原文：My grandfather never uses a phone in the park. 他在公園從不用手機。"
+},
+"r4c3990a63b": {
+"g": "閱讀",
+"w": {
+"eating an apple": "文中沒有蘋果，sister 在 reading a letter。",
+"writing a message": "原文是 reading 讀，不是 writing 寫；讀的是信。",
+"writing a story": "sister 是在讀（reading）信，不是寫故事。"
+},
+"x": "原文：The sister is reading a letter. 她的姊妹正在讀信。"
 },
 "r4d893a58a3": {
 "g": "閱讀",
@@ -35602,6 +37069,15 @@
 },
 "x": "原文：I can drive, so I am going to help him. so 前面是原因：Ling 會開車。"
 },
+"r5395e443f9": {
+"g": "閱讀",
+"w": {
+"He drinks coffee.": "文中沒有咖啡；他平常是 eats lunch。",
+"He eats breakfast.": "breakfast 是早餐，原文說的是 lunch 午餐。",
+"He studies math.": "文中沒提到數學，平常的習慣是吃午餐。"
+},
+"x": "原文：He usually eats lunch on Saturdays. 平常星期六他會吃午餐，今天沒有。"
+},
 "r53a668fd77": {
 "g": "閱讀",
 "w": {
@@ -35650,6 +37126,24 @@
 },
 "x": "原文：My parents have three children. 爸媽有三個小孩。"
 },
+"r5465b84daf": {
+"g": "閱讀",
+"w": {
+"at school": "今天星期六，她在 café 咖啡店，不在學校。",
+"at the park": "外面在下雪，她在咖啡店裡，不在公園。",
+"in the bedroom": "bedroom 是臥室，原文說 at the café。"
+},
+"x": "原文：Lisa is at the café. 她在咖啡店。"
+},
+"r5470647dc7": {
+"g": "閱讀",
+"w": {
+"at school": "今天星期六，她在 café，不在學校。",
+"at the park": "外面在下雪，她在咖啡店裡，不在公園。",
+"in the bedroom": "bedroom 是臥室，原文說 at the café。"
+},
+"x": "原文：Lisa is at the café. 她在咖啡店。"
+},
 "r54725bf91d": {
 "g": "閱讀",
 "w": {
@@ -35683,6 +37177,15 @@
 },
 "x": "原文：It is snowing outside. snowing 是正在下雪，天氣是 snowy。"
 },
+"r54ec5f8805": {
+"g": "閱讀",
+"w": {
+"at the park": "外面在下雨，他在咖啡店裡，不在公園。",
+"in the bedroom": "bedroom 是臥室，原文說 at the café。",
+"in the living room": "living room 是家裡的客廳，原文說他在 café。"
+},
+"x": "原文：Ken is at the café. 他在咖啡店。"
+},
 "r55047eff81": {
 "g": "閱讀",
 "w": {
@@ -35707,6 +37210,15 @@
 },
 "x": "原文：Jack's wife does not eat breakfast. 太太只喝一杯茶。"
 },
+"r55184f7753": {
+"g": "閱讀",
+"w": {
+"eating an apple": "文中沒有蘋果，他正在彈吉他。",
+"listening to music": "彈吉他是自己彈，不是聽音樂；文中沒提到 music。",
+"studying English": "文中沒提到英文，他在 playing the guitar。"
+},
+"x": "原文：He is playing the guitar now. Ben 現在正在彈吉他。"
+},
 "r5523d76e61": {
 "g": "閱讀",
 "w": {
@@ -35730,6 +37242,15 @@
 "Next to the kitchen": "在廚房旁邊的是客廳（kitchen is next to the living room）。"
 },
 "x": "原文：there is a small garden behind the house. behind 是在後面。"
+},
+"r5543dfc0c7": {
+"g": "閱讀",
+"w": {
+"drinking coffee": "文中沒提到咖啡，他在 writing an email。",
+"listening to music": "文中沒提到音樂，他正在寫 email。",
+"writing a story": "他是在寫沒錯，但寫的是 an email，不是故事。"
+},
+"x": "原文：He is writing an email now. Ken 現在正在寫 email。"
 },
 "r554437fd55": {
 "g": "閱讀",
@@ -35867,6 +37388,15 @@
 },
 "x": "原文：There are three rooms in the flat. 文中直接說三個房間。"
 },
+"r59150b98b7": {
+"g": "閱讀",
+"w": {
+"cooking lunch": "她是在煮東西沒錯，但原文說煮的是 soup 湯，沒說午餐。",
+"playing a game": "文中沒有人玩遊戲，她在 cooking soup。",
+"studying math": "文中沒提到數學，她正在煮湯。"
+},
+"x": "原文：She is cooking soup now. Mia 現在正在煮湯。"
+},
 "r593846e13e": {
 "g": "閱讀",
 "w": {
@@ -35915,6 +37445,15 @@
 "In a school": "文中說 a small hotel，不是學校。"
 },
 "x": "原文：Leo works in a small hotel. Leo 在一間小旅館工作。"
+},
+"r5a2cc519d1": {
+"g": "閱讀",
+"w": {
+"at school": "今天星期六，她在家裡的客廳，不在學校。",
+"at the park": "外面在下雨，她在客廳裡，不在公園。",
+"in the kitchen": "kitchen 是廚房，原文說 living room 客廳。"
+},
+"x": "原文：Mia is in the living room. 她在客廳。"
 },
 "r5a478ccc32": {
 "g": "閱讀",
@@ -36044,6 +37583,15 @@
 "A library": "文中沒有提到圖書館，辦公室在咖啡店旁。"
 },
 "x": "原文：My office is next to a coffee shop. 辦公室在咖啡店旁邊。"
+},
+"r5eb8c09bad": {
+"g": "閱讀",
+"w": {
+"playing a game": "文中沒有人玩遊戲，他在 writing a story。",
+"reading a letter": "原文是 writing 寫，不是 reading 讀；寫的是故事。",
+"writing a report": "他是在寫沒錯，但寫的是 a story 故事，不是報告。"
+},
+"x": "原文：He is writing a story now. Ben 現在正在寫故事。"
 },
 "r5edbc20183": {
 "g": "閱讀",
@@ -36271,6 +37819,15 @@
 },
 "x": "原文：On the desk there are three books and a lamp. 書桌上有三本書和一盞檯燈。"
 },
+"r667af25b0e": {
+"g": "閱讀",
+"w": {
+"writing a message": "媽媽在 reading a book 看書，不是寫訊息。",
+"writing a report": "媽媽是在讀（reading），不是寫；也沒有報告。",
+"writing a story": "媽媽是在看書，不是寫故事；read 是讀，write 是寫。"
+},
+"x": "原文：The mother is reading a book. 媽媽正在看書。"
+},
 "r668eb5b5dd": {
 "g": "閱讀",
 "w": {
@@ -36464,6 +38021,24 @@
 },
 "x": "原文：Next Saturday I am going to visit my grandmother in Hualien. 下週六去花蓮看祖母。"
 },
+"r6b6442b3f4": {
+"g": "閱讀",
+"w": {
+"at school": "今天星期六，他在廚房，不在學校。",
+"at the park": "原文說 in the kitchen，他在廚房，不在公園。",
+"in the bedroom": "bedroom 是臥室，原文是 kitchen 廚房。"
+},
+"x": "原文：Ben is in the kitchen. kitchen 是廚房，他在廚房。"
+},
+"r6b7026b173": {
+"g": "閱讀",
+"w": {
+"drinking water": "文中沒提到水，媽媽在聽音樂。",
+"playing a game": "文中沒有人玩遊戲，媽媽在 listening to music。",
+"reading a book": "文中沒提到書，媽媽正在聽音樂。"
+},
+"x": "原文：The mother is listening to music. 媽媽正在聽音樂。"
+},
 "r6b72ad623d": {
 "g": "閱讀",
 "w": {
@@ -36612,6 +38187,15 @@
 },
 "x": "原文：How much is it? / Eight hundred dollars. 晚餐八百元。"
 },
+"r6e0f05b158": {
+"g": "閱讀",
+"w": {
+"She eats an apple.": "文中沒有蘋果，她平常是 listens to music。",
+"She makes a video.": "文中沒有影片，平常的習慣是聽音樂。",
+"She writes a message.": "文中沒提到訊息，她平常是聽音樂。"
+},
+"x": "原文：She usually listens to music on Saturdays. 她平常星期六聽音樂，今天沒聽。"
+},
 "r6eac2cd071": {
 "g": "閱讀",
 "w": {
@@ -36644,6 +38228,15 @@
 "Yes, there is": "原文說 There isn't a bridge，沒有橋。"
 },
 "x": "原文：There isn't a bridge on this street. 這條街沒有橋。"
+},
+"r6f5a290440": {
+"g": "閱讀",
+"w": {
+"at school": "今天星期六，他在廚房，不在學校。",
+"at the park": "外面在下雨，他在廚房裡，不在公園。",
+"in the bedroom": "bedroom 是臥室，原文說 in the kitchen 廚房。"
+},
+"x": "原文：Ben is in the kitchen. 他在廚房。"
 },
 "r706992fcbf": {
 "g": "閱讀",
@@ -36870,6 +38463,15 @@
 },
 "x": "原文：because her son doesn't like them. because 後面是原因：兒子不喜歡香蕉。"
 },
+"r77a77d70a4": {
+"g": "閱讀",
+"w": {
+"rainy": "原文說 snowing 下雪，不是下雨。",
+"sunny": "文中沒說 The sun is shining，是下雪天。",
+"windy": "文中沒提到風，是在下雪。"
+},
+"x": "原文：It is snowing outside. 正在下雪，天氣是 snowy。"
+},
 "r77e6812bd3": {
 "g": "閱讀",
 "w": {
@@ -36918,6 +38520,15 @@
 },
 "x": "原文：There isn't a restaurant near my house. 家附近沒有餐廳，好餐廳在車站附近。"
 },
+"r788b222acc": {
+"g": "閱讀",
+"w": {
+"rainy": "原文是 snowing 下雪，不是 raining 下雨。",
+"sunny": "文中沒說出太陽，是在下雪。",
+"windy": "文中沒提到颳風，說的是 snowing。"
+},
+"x": "原文：It is snowing outside. 外面在下雪，天氣是 snowy。"
+},
 "r78b0cdb567": {
 "g": "閱讀",
 "w": {
@@ -36941,6 +38552,15 @@
 "Under the chair": "文中沒有提到椅子，地圖在牆上。"
 },
 "x": "原文：Yes, there is one on the wall. one 指地圖，地圖在牆上。"
+},
+"r79589bee79": {
+"g": "閱讀",
+"w": {
+"eating lunch": "原文是 cooking 煮，不是 eating 吃。",
+"listening to the radio": "文中沒提到收音機，sister 在煮午餐。",
+"making coffee": "文中沒有咖啡，sister 正在 cooking lunch。"
+},
+"x": "原文：The sister is cooking lunch. 她的姊妹正在煮午餐。"
 },
 "r7980b90228": {
 "g": "閱讀",
@@ -37030,6 +38650,15 @@
 },
 "x": "原文：I usually buy a sandwich and a coffee near my office. 早餐在公司附近。"
 },
+"r7c8cf1e9b5": {
+"g": "閱讀",
+"w": {
+"making a cake": "文中沒有蛋糕，她在喝茶。",
+"watching TV": "文中沒提到電視，她在 drinking tea。",
+"watching a movie": "文中沒提到電影，她正在喝茶。"
+},
+"x": "原文：She is drinking tea now. Lisa 現在正在喝茶。"
+},
 "r7ca15a3f52": {
 "g": "閱讀",
 "w": {
@@ -37061,6 +38690,15 @@
 "Yes, she bought shoes.": "文中沒提到鞋子，媽媽什麼都沒買。"
 },
 "x": "原文：her mother didn't buy anything. 媽媽什麼都沒買，買洋裝的是 Lisa。"
+},
+"r7cbdd03793": {
+"g": "閱讀",
+"w": {
+"studying math": "文中沒有人在讀數學，sister 在喝水。",
+"watching a movie": "文中沒提到電影，sister 正在 drinking water。",
+"writing a message": "sister 在喝水，不是寫訊息。"
+},
+"x": "原文：The sister is drinking water. 他的姊妹正在喝水。"
 },
 "r7cd8703985": {
 "g": "閱讀",
@@ -37311,6 +38949,15 @@
 },
 "x": "原文第一句：Kate is in a clothes shop. Kate 在服飾店。"
 },
+"r83b173d4fb": {
+"g": "閱讀",
+"w": {
+"reading the news": "她是在讀沒錯，但讀的是 a letter 信，不是新聞。",
+"writing a report": "原文是 reading 讀，不是 writing 寫；也沒有報告。",
+"writing an email": "她是在讀（reading），不是寫；讀的是 a letter。"
+},
+"x": "原文：She is reading a letter now. Mia 現在正在讀信。"
+},
 "r83c2ad6d92": {
 "g": "閱讀",
 "w": {
@@ -37369,6 +39016,15 @@
 },
 "x": "原文：He has some cash in his bag, so he pays with cash. 他用現金付。"
 },
+"r848c3bc503": {
+"g": "閱讀",
+"w": {
+"snowy": "原文是 raining 下雨，不是 snowing 下雪。",
+"sunny": "正在下雨，不是晴天；文中沒說出太陽。",
+"windy": "文中沒提到颳風，說的是下雨。"
+},
+"x": "原文：It is raining outside. 外面在下雨，天氣是 rainy。"
+},
 "r84cebc2490": {
 "g": "閱讀",
 "w": {
@@ -37400,6 +39056,15 @@
 "Write long letters": "文中沒提到寫信，他會的是讀簡單的書。"
 },
 "x": "原文：I can read easy books, but I can't speak well. 他現在會讀簡單的書。"
+},
+"r85a0382f33": {
+"g": "閱讀",
+"w": {
+"She cooks dinner.": "文中沒有晚餐，平常的習慣是吃午餐。",
+"She makes a cake.": "文中沒有蛋糕，她平常是 eats lunch。",
+"She reads a book.": "文中沒提到書，她平常是吃午餐。"
+},
+"x": "原文：She usually eats lunch on Saturdays. 她平常星期六吃午餐，今天沒吃。"
 },
 "r8606d013be": {
 "g": "閱讀",
@@ -37610,6 +39275,15 @@
 },
 "x": "原文：After the picnic, we are going to clean up together. 野餐後一起收拾乾淨。"
 },
+"r8ce4b8b3cb": {
+"g": "閱讀",
+"w": {
+"snowy": "原文是 raining，不是 snowing 下雪。",
+"sunny": "正在下雨，文中沒說出太陽。",
+"windy": "文中沒說颳風，說的是下雨。"
+},
+"x": "原文：It is raining outside. 外面在下雨，天氣是 rainy。"
+},
 "r8cec1dd212": {
 "g": "閱讀",
 "w": {
@@ -37626,6 +39300,15 @@
 "work in Hualien": "花蓮是上個月去玩的地方，不是明年的計畫。"
 },
 "x": "原文：Next year, Peter is going to open his own restaurant."
+},
+"r8da10afc75": {
+"g": "閱讀",
+"w": {
+"at the café": "café 是咖啡店，原文說他在 living room。",
+"at the park": "外面在下雪，Ken 在客廳裡，不在公園。",
+"in the kitchen": "kitchen 是廚房，原文說他在 living room 客廳。"
+},
+"x": "原文：Ken is in the living room. Ken 在客廳。"
 },
 "r8dcd10166d": {
 "g": "閱讀",
@@ -37748,6 +39431,15 @@
 },
 "x": "原文：At the office, his boss wasn't angry. 老闆沒生氣，所以回答 No, she wasn't."
 },
+"r923dc9a27d": {
+"g": "閱讀",
+"w": {
+"cooking dinner": "文中沒有晚餐；在煮東西的是爸爸，煮的是 lunch。",
+"reading a letter": "文中沒提到信，她正在玩遊戲。",
+"writing a message": "文中沒提到訊息，她在 playing a game。"
+},
+"x": "原文：She is playing a game now. Lisa 現在正在玩遊戲。"
+},
 "r926d4a3668": {
 "g": "閱讀",
 "w": {
@@ -37804,6 +39496,15 @@
 "He writes a message.": "他是讀 reads 信，不是寫 writes 訊息。"
 },
 "x": "原文：He usually reads a letter on Saturdays. usually 是平常，他週六通常讀信。"
+},
+"r9393a949a2": {
+"g": "閱讀",
+"w": {
+"listening to the radio": "文中沒提到收音機，爸爸在煮咖啡。",
+"playing a game": "文中沒有人玩遊戲，爸爸在 making coffee。",
+"reading a book": "文中沒提到書，爸爸正在煮咖啡。"
+},
+"x": "原文：The father is making coffee. 爸爸正在煮咖啡，喝咖啡的是 Ben。"
 },
 "r93e0f6b900": {
 "g": "閱讀",
@@ -38119,6 +39820,24 @@
 },
 "x": "原文：There is a café next to the bookshop, and I have lunch there."
 },
+"r9c3560c92b": {
+"g": "閱讀",
+"w": {
+"listening to music": "她平常聽的是收音機，不是音樂；而且現在她在看書。",
+"playing a game": "文中沒有人玩遊戲；爸爸是在 watching the game 看比賽。",
+"studying math": "文中沒提到數學，她正在 reading a book。"
+},
+"x": "原文：She is reading a book now. Mia 現在正在看書。"
+},
+"r9c3cd63d72": {
+"g": "閱讀",
+"w": {
+"rainy": "原文是 snowing 下雪，不是 raining 下雨。",
+"sunny": "文中沒說出太陽，是在下雪。",
+"windy": "文中沒說颳風，說的是 snowing 下雪。"
+},
+"x": "原文：It is snowing outside. 外面在下雪，所以是 snowy。"
+},
 "r9c66388e9c": {
 "g": "閱讀",
 "w": {
@@ -38208,6 +39927,15 @@
 "Mei": "Mei 是學生，是 A girl 自我介紹的名字。"
 },
 "x": "原文：The teacher says, \"My name is Amy.\" 老師自我介紹叫 Amy。"
+},
+"r9e8a9986fc": {
+"g": "閱讀",
+"w": {
+"listening to music": "文中沒提到音樂，Mia 現在在煮咖啡。",
+"reading a letter": "文中沒提到信；在看書的是媽媽，而且是 a book。",
+"writing a story": "文中沒有人在寫故事，Mia 正在 making coffee。"
+},
+"x": "原文：She is making coffee now. now 表示現在正在做的事，Mia 正在煮咖啡。"
 },
 "r9f12648a87": {
 "g": "閱讀",
@@ -38348,6 +40076,15 @@
 },
 "x": "原文：I am going to cook noodles for them. 星期五要煮麵給朋友吃。"
 },
+"ra184922576": {
+"g": "閱讀",
+"w": {
+"snowy": "原文是 raining，不是 snowing 下雪。",
+"sunny": "正在下雨，不是 sunny 晴天。",
+"windy": "文中沒說颳風，只說在下雨。"
+},
+"x": "原文：It is raining outside. 外面在下雨，天氣是 rainy。"
+},
 "ra1ae254647": {
 "g": "閱讀",
 "w": {
@@ -38461,6 +40198,15 @@
 },
 "x": "原文：on Tuesday and Friday. 每週二和週五，一週兩次，就是 twice a week。"
 },
+"ra5c077cc08": {
+"g": "閱讀",
+"w": {
+"rainy": "原文沒有 raining，是 The sun is shining 晴天。",
+"snowy": "出太陽不是下雪；原文沒有 snowing。",
+"windy": "文中沒說颳風，說的是出太陽。"
+},
+"x": "原文：The sun is shining. 太陽在照，天氣晴朗 sunny。"
+},
 "ra75e9e9a49": {
 "g": "閱讀",
 "w": {
@@ -38566,6 +40312,15 @@
 },
 "x": "原文：The school is between the park and the library. 學校在公園和圖書館中間。"
 },
+"ra9cbd6a9dc": {
+"g": "閱讀",
+"w": {
+"She cooks dinner.": "文中沒有晚餐；煮東西的是 sister，煮的是 lunch。",
+"She eats breakfast.": "文中沒提到早餐，她平常是 reads a letter。",
+"She listens to the radio.": "文中沒提到收音機，平常的習慣是讀信。"
+},
+"x": "原文：She usually reads a letter on Saturdays. usually 是平常，她平常星期六讀信。"
+},
 "raa4e0f91e3": {
 "g": "閱讀",
 "w": {
@@ -38647,6 +40402,15 @@
 },
 "x": "原文：because our first class was at seven o'clock. 第一堂課七點就開始，很早。"
 },
+"race0190a85": {
+"g": "閱讀",
+"w": {
+"He cooks dinner.": "他在廚房，但文中沒說他煮晚餐；平常是看電視。",
+"He drinks water.": "文中沒提到喝水，平常的習慣是看電視。",
+"He reads a book.": "文中沒提到書，他平常是 watches TV。"
+},
+"x": "原文：He usually watches TV on Saturdays. 他平常星期六看電視，今天沒看。"
+},
 "race6252c0c": {
 "g": "閱讀",
 "w": {
@@ -38679,6 +40443,15 @@
 "windy": "文中只說出太陽，沒說有風。"
 },
 "x": "原文：The sun is shining. 太陽在照，天氣是 sunny 晴天。"
+},
+"rae36bfb60b": {
+"g": "閱讀",
+"w": {
+"He cooks lunch.": "文中沒有午餐，平常的習慣是讀數學。",
+"He reads a letter.": "文中沒提到信，他平常是讀數學。",
+"He writes an email.": "文中沒提到 email，他平常是 studies math。"
+},
+"x": "原文：He usually studies math on Saturdays. 平常星期六讀數學，今天沒有。"
 },
 "rae443c0215": {
 "g": "閱讀",
@@ -38868,6 +40641,15 @@
 },
 "x": "原文：It is snowing outside. snowing 是正在下雪，天氣是 snowy。"
 },
+"rb303724423": {
+"g": "閱讀",
+"w": {
+"He cooks dinner.": "他在廚房，但文中沒說煮晚餐；平常是 studies math。",
+"He cooks lunch.": "文中沒提到煮午餐，他平常是 studies math。",
+"He eats lunch.": "文中沒提到午餐，平常的習慣是讀數學。"
+},
+"x": "原文：He usually studies math on Saturdays. 他平常星期六讀數學，今天沒有。"
+},
 "rb30abdaab9": {
 "g": "閱讀",
 "w": {
@@ -38996,6 +40778,15 @@
 },
 "x": "原文：He plays every Saturday with his friends in the park. 每週六打籃球。"
 },
+"rb5ad003d0e": {
+"g": "閱讀",
+"w": {
+"snowy": "原文是 raining，不是 snowing 下雪。",
+"sunny": "正在下雨，文中沒說出太陽。",
+"windy": "文中沒說颳風，說的是下雨。"
+},
+"x": "原文：It is raining outside. 外面在下雨，天氣是 rainy。"
+},
 "rb5bcb4a62f": {
 "g": "閱讀",
 "w": {
@@ -39051,6 +40842,15 @@
 "Sara's sister.": "文中沒說 Amy 是姊妹，她是 best friend。"
 },
 "x": "原文：My best friend is Amy. Amy 是 Sara 最好的朋友。"
+},
+"rb6fe0143a8": {
+"g": "閱讀",
+"w": {
+"She makes a video.": "文中沒有影片，平常的習慣是 listens to the radio。",
+"She plays a game.": "文中沒提到玩遊戲，她平常是聽收音機。",
+"She writes a message.": "文中沒提到寫訊息，她平常是聽收音機。"
+},
+"x": "原文：She usually listens to the radio on Saturdays. 她平常星期六聽收音機。"
 },
 "rb705e12870": {
 "g": "閱讀",
@@ -39190,6 +40990,15 @@
 },
 "x": "原文：On Friday night he meets his friends. 星期五晚上他和朋友見面。"
 },
+"rba85564553": {
+"g": "閱讀",
+"w": {
+"making a video": "文中沒有人拍影片，Ben 在 writing a message。",
+"reading a letter": "Ben 是在寫（writing），不是讀；也不是信，是訊息。",
+"watching the game": "文中沒提到看比賽，他正在寫訊息。"
+},
+"x": "原文：He is writing a message now. Ben 現在正在寫訊息。"
+},
 "rbb65d47791": {
 "g": "閱讀",
 "w": {
@@ -39221,6 +41030,15 @@
 "Sunny": "如果是晴天他們會去野餐，上週日是 cloudy 陰天。"
 },
 "x": "原文：Last Sunday it was cloudy, so we stayed inside. 上週日是陰天。"
+},
+"rbc43efffb3": {
+"g": "閱讀",
+"w": {
+"She drinks coffee.": "咖啡是她今天正在煮的（making coffee），不是平常的習慣。",
+"She listens to the radio.": "文中沒提到收音機，平常的習慣是 cooks soup。",
+"She plays a game.": "文中沒提到玩遊戲，她平常是 cooks soup。"
+},
+"x": "原文：She usually cooks soup on Saturdays. usually 是平常的習慣，她平常星期六煮湯。"
 },
 "rbcca99e6fe": {
 "g": "閱讀",
@@ -39287,6 +41105,15 @@
 },
 "x": "原文：He gets home at eight because he works late. David 八點到家。"
 },
+"rbdba760dd4": {
+"g": "閱讀",
+"w": {
+"making a cake": "文中沒有蛋糕，他在 playing a game。",
+"making a video": "文中沒有影片，Ken 在玩遊戲。",
+"watching TV": "文中沒提到電視，他正在玩遊戲。"
+},
+"x": "原文：He is playing a game now. Ken 現在正在玩遊戲。"
+},
 "rbdcbdadd97": {
 "g": "閱讀",
 "w": {
@@ -39294,6 +41121,15 @@
 "Because she got a new job": "文中只說她是上班族，沒說找到新工作。"
 },
 "x": "原文：she was excited, because her sister came back from Japan. 姊妹從日本回來。"
+},
+"rbdd5b4edca": {
+"g": "閱讀",
+"w": {
+"rainy": "原文說 The sun is shining，不是下雨。",
+"snowy": "文中沒說 snowing 下雪，是出太陽。",
+"windy": "文中沒提到颳風，只說太陽在照。"
+},
+"x": "原文：The sun is shining. 出太陽了，天氣是 sunny 晴天。"
 },
 "rbe2bb9568a": {
 "g": "閱讀",
@@ -39464,6 +41300,15 @@
 },
 "x": "原文：Last Saturday the weather was cold and rainy. 上週六又冷又下雨。"
 },
+"rc2d06a2b0d": {
+"g": "閱讀",
+"w": {
+"at school": "今天星期六，她在 café 咖啡店，不在學校。",
+"at the park": "外面在下雨，她在咖啡店裡，不在公園。",
+"in the kitchen": "kitchen 是廚房，原文說 at the café。"
+},
+"x": "原文：Lisa is at the café. 她在咖啡店。"
+},
 "rc2d3ee5517": {
 "g": "閱讀",
 "w": {
@@ -39520,6 +41365,15 @@
 },
 "x": "原文：Next weekend I am going to run in a small race. 下週末要參加小型賽跑。"
 },
+"rc49c26d92f": {
+"g": "閱讀",
+"w": {
+"He cooks soup.": "文中沒有湯，平常的習慣是吃蘋果。",
+"He drinks water.": "文中沒提到水，他平常是 eats an apple。",
+"He writes an email.": "文中沒提到 email，他平常是吃蘋果。"
+},
+"x": "原文：He usually eats an apple on Saturdays. 平常星期六他吃一顆蘋果，今天沒吃。"
+},
 "rc4a6a5031d": {
 "g": "閱讀",
 "w": {
@@ -39543,6 +41397,15 @@
 "The mother": "媽媽是 short and kind，不是 quiet。"
 },
 "x": "原文：my grandfather is quiet. 家裡安靜的是爺爺。"
+},
+"rc553b3bed0": {
+"g": "閱讀",
+"w": {
+"rainy": "原文是 snowing 下雪，不是 raining 下雨。",
+"sunny": "文中沒說出太陽，是在下雪。",
+"windy": "文中沒提到颳風，說的是 snowing。"
+},
+"x": "原文：It is snowing outside. 外面在下雪，天氣是 snowy。"
 },
 "rc5790eea06": {
 "g": "閱讀",
@@ -39633,6 +41496,15 @@
 },
 "x": "原文：She can't swim well, so she played in the sand. so 前面就是原因。"
 },
+"rc6c8657f1d": {
+"g": "閱讀",
+"w": {
+"eating breakfast": "文中沒提到早餐，而且現在是下午；她在念英文。",
+"reading the news": "文中沒提到新聞，Lisa 現在在 studying English。",
+"writing a report": "文中沒有報告，她正在念英文。"
+},
+"x": "原文：She is studying English now. Lisa 現在正在念英文。"
+},
 "rc709af957d": {
 "g": "閱讀",
 "w": {
@@ -39648,6 +41520,15 @@
 "He went to Japan": "去日本是 Next month 下個月的計畫，不是昨天。"
 },
 "x": "原文：Yesterday he helped me carry a heavy box up the stairs. 昨天他幫忙把重箱子搬上樓。"
+},
+"rc7afab59f1": {
+"g": "閱讀",
+"w": {
+"cooking lunch": "他們在廚房，但爸爸是在寫故事，不是煮飯。",
+"watching a movie": "文中沒提到電影，爸爸在 writing a story。",
+"writing a message": "爸爸是在寫沒錯，但寫的是 a story 故事，不是訊息。"
+},
+"x": "原文：The father is writing a story. 爸爸正在寫故事。"
 },
 "rc7d59d8c9f": {
 "g": "閱讀",
@@ -39722,6 +41603,15 @@
 "At twelve.": "十二點是吃午餐的時間（lunch at twelve）。"
 },
 "x": "原文：School starts at eight. 學校八點開始。"
+},
+"rca1f7006f2": {
+"g": "閱讀",
+"w": {
+"at the park": "外面在下雪，她在咖啡店裡，不在公園。",
+"in the bedroom": "bedroom 是臥室，原文說的是 at the café。",
+"in the living room": "living room 是家裡的客廳，原文說她在 café。"
+},
+"x": "原文：Lisa is at the café. café 是咖啡店，她在咖啡店。"
 },
 "rca38dad37a": {
 "g": "閱讀",
@@ -39819,6 +41709,15 @@
 },
 "x": "原文：After lunch, we are going to play badminton. 午餐後打羽毛球。"
 },
+"rcc20e3fcfd": {
+"g": "閱讀",
+"w": {
+"at school": "今天星期六，她在客廳，不在學校。",
+"at the park": "原文說 in the living room，她在客廳，不在公園。",
+"in the kitchen": "煮湯容易想到廚房，但原文寫的是 living room 客廳。"
+},
+"x": "原文：Mia is in the living room. 雖然她在煮湯，原文寫的是她在客廳。"
+},
 "rcc91bd73a7": {
 "g": "閱讀",
 "w": {
@@ -39843,6 +41742,15 @@
 },
 "x": "原文：She is twenty years old. Anna 二十歲。"
 },
+"rcd087a6c94": {
+"g": "閱讀",
+"w": {
+"cooking soup": "她是在煮東西沒錯，但原文說煮的是 dinner，沒提到湯。",
+"playing the guitar": "彈吉他是她平常的習慣，今天她沒有彈。",
+"watching TV": "文中沒提到電視，她正在煮晚餐。"
+},
+"x": "原文：She is cooking dinner now. Lisa 現在正在煮晚餐。"
+},
 "rcd2433c57f": {
 "g": "閱讀",
 "w": {
@@ -39850,6 +41758,15 @@
 "under the bed": "在床底下的是 books 書，不是電腦。"
 },
 "x": "原文：My computer is on the desk. 電腦在書桌上。"
+},
+"rcd4a4096db": {
+"g": "閱讀",
+"w": {
+"eating an apple": "文中沒有蘋果，Ken 正在聽音樂。",
+"watching TV": "文中沒提到電視，Ken 在 listening to music。",
+"writing a message": "文中沒有訊息；在寫東西的是爸爸，寫的是故事。"
+},
+"x": "原文：He is listening to music now. Ken 現在正在聽音樂。"
 },
 "rcd678b7182": {
 "g": "閱讀",
@@ -40077,6 +41994,24 @@
 },
 "x": "原文：He usually works from four o'clock until midnight. 四點開始上班。"
 },
+"rd4b99c2fd0": {
+"g": "閱讀",
+"w": {
+"at school": "今天星期六，他在客廳，不在學校。",
+"at the park": "外面在下雨，他在客廳，不在公園。",
+"in the bedroom": "bedroom 是臥室，原文說 in the living room。"
+},
+"x": "原文：Ken is in the living room. 他在客廳。"
+},
+"rd519273e16": {
+"g": "閱讀",
+"w": {
+"cooking dinner": "文中沒有晚餐，sister 正在喝茶。",
+"playing the guitar": "文中沒提到吉他，sister 在 drinking tea。",
+"studying math": "讀數學是 Mia 平常的習慣，不是 sister 現在做的事。"
+},
+"x": "原文：The sister is drinking tea. 她的姊妹正在喝茶。"
+},
 "rd526a8c074": {
 "g": "閱讀",
 "w": {
@@ -40084,6 +42019,15 @@
 "In Taipei": "原文是 Tainan（台南），不是 Taipei（台北）。"
 },
 "x": "原文：They have a small house in Tainan. 爺爺奶奶住在台南。"
+},
+"rd529b3dfe6": {
+"g": "閱讀",
+"w": {
+"She cooks lunch.": "文中沒提到午餐，平常的習慣是讀數學。",
+"She reads a letter.": "讀信是她現在（now）正在做的事，不是平常的習慣。",
+"She watches the game.": "文中沒提到比賽，她平常是 studies math。"
+},
+"x": "原文：She usually studies math on Saturdays. 平常星期六讀數學，今天沒讀。"
 },
 "rd53b76629a": {
 "g": "閱讀",
@@ -40134,6 +42078,15 @@
 },
 "x": "原文：We have lunch in a restaurant in front of the station. 她們在車站前的餐廳吃午餐。"
 },
+"rd68f230bb4": {
+"g": "閱讀",
+"w": {
+"drinking water": "文中沒提到水，媽媽在玩遊戲。",
+"playing the guitar": "都有 playing，但媽媽玩的是 a game 遊戲，不是吉他。",
+"watching a movie": "文中沒提到電影，媽媽在 playing a game。"
+},
+"x": "原文：The mother is playing a game. 媽媽正在玩遊戲。"
+},
 "rd68fd04e3c": {
 "g": "閱讀",
 "w": {
@@ -40159,6 +42112,15 @@
 "windy": "windy 是颳風；文中沒提到風。"
 },
 "x": "原文：It is snowing outside. 外面在下雪，所以天氣是 snowy。"
+},
+"rd6a044eb66": {
+"g": "閱讀",
+"w": {
+"She cooks dinner.": "文中沒有晚餐，平常的習慣是讀數學。",
+"She watches TV.": "文中沒提到電視，她平常是 studies math。",
+"She writes a report.": "文中沒提到報告，她平常是讀數學。"
+},
+"x": "原文：She usually studies math on Saturdays. 平常星期六她讀數學，今天沒有。"
 },
 "rd722df4b37": {
 "g": "閱讀",
@@ -40315,6 +42277,33 @@
 },
 "x": "原文：Tomorrow is going to be rainy and cold in Taipei. 明天又下雨又冷。"
 },
+"rdb674ee93f": {
+"g": "閱讀",
+"w": {
+"at the café": "café 是咖啡店，原文說他在 living room。",
+"at the park": "外面在下雨，他在客廳，不在公園。",
+"in the bedroom": "bedroom 是臥室，原文說的是客廳。"
+},
+"x": "原文：Ken is in the living room. 他在客廳。"
+},
+"rdba1f3336d": {
+"g": "閱讀",
+"w": {
+"snowy": "原文是 raining 下雨，不是 snowing 下雪。",
+"sunny": "原文沒說出太陽，是 raining 下雨天。",
+"windy": "文中沒說颳風，是在下雨。"
+},
+"x": "原文：It is raining outside. 外面在下雨，所以是 rainy。"
+},
+"rdbc9346ae9": {
+"g": "閱讀",
+"w": {
+"at the park": "原文說 in the bedroom，他在臥室，不在公園。",
+"in the kitchen": "sister 在煮晚餐，但原文說 Ben 在 bedroom，不是廚房。",
+"in the living room": "living room 是客廳，原文說的是 bedroom 臥室。"
+},
+"x": "原文：Ben is in the bedroom. bedroom 是臥室，他在臥室。"
+},
 "rdc0213e3b0": {
 "g": "閱讀",
 "w": {
@@ -40331,6 +42320,15 @@
 },
 "x": "原文：My little sister is only six. 妹妹才六歲。"
 },
+"rdc2f4af116": {
+"g": "閱讀",
+"w": {
+"cooking soup": "他在廚房，但沒在煮湯；他正在 listening to the radio。",
+"eating breakfast": "文中沒提到早餐，而且現在是下午；他在聽收音機。",
+"watching the game": "文中沒提到比賽，他在聽收音機。"
+},
+"x": "原文：He is listening to the radio now. Ben 現在正在聽收音機。"
+},
 "rdcd2e870b4": {
 "g": "閱讀",
 "w": {
@@ -40346,6 +42344,15 @@
 "Three": "原文是 two restaurants 兩間，不是三間。"
 },
 "x": "原文：there is a bank, a post office and two restaurants. 大街上有兩間餐廳。"
+},
+"rdd61e9931b": {
+"g": "閱讀",
+"w": {
+"cooking dinner": "文中沒有晚餐，他在客廳聽收音機。",
+"cooking lunch": "文中沒提到煮午餐，他正在聽收音機。",
+"drinking water": "文中沒提到水，他在 listening to the radio。"
+},
+"x": "原文：He is listening to the radio now. Ken 現在正在聽收音機。"
 },
 "rdd800b2d16": {
 "g": "閱讀",
@@ -40484,6 +42491,24 @@
 },
 "x": "原文：Mia is in the kitchen. kitchen 是廚房，她在廚房。"
 },
+"re022f6a33c": {
+"g": "閱讀",
+"w": {
+"at school": "今天星期六，她在臥室，不在學校。",
+"in the kitchen": "kitchen 是廚房，原文說 in the bedroom。",
+"in the living room": "看比賽容易想到客廳，但原文寫的是 bedroom 臥室。"
+},
+"x": "原文：Mia is in the bedroom. bedroom 是臥室，她在臥室。"
+},
+"re04917fc15": {
+"g": "閱讀",
+"w": {
+"making a video": "文中沒有影片，sister 正在玩遊戲。",
+"studying math": "文中沒有人在讀數學，sister 在玩遊戲。",
+"watching a movie": "文中沒提到電影，sister 在 playing a game。"
+},
+"x": "原文：The sister is playing a game. 他的姊妹正在玩遊戲。"
+},
 "re083e6011b": {
 "g": "閱讀",
 "w": {
@@ -40557,6 +42582,15 @@
 },
 "x": "原文：Just turn left and go straight. 出車站後左轉再直走。"
 },
+"re1e296c826": {
+"g": "閱讀",
+"w": {
+"drinking water": "文中沒提到水，爸爸在 studying English。",
+"eating an apple": "文中沒有蘋果，爸爸正在念英文。",
+"playing a game": "文中沒有人玩遊戲；Mia 是看比賽，爸爸在念英文。"
+},
+"x": "原文：The father is studying English. 爸爸正在念英文。"
+},
 "re20f0769fd": {
 "g": "閱讀",
 "w": {
@@ -40564,6 +42598,15 @@
 "She worked in the shop.": "原文說 Last Saturday, I didn't work，那天沒上班。"
 },
 "x": "原文：Last Saturday... I went to the beach. 上週六她去了海邊。"
+},
+"re24348ae13": {
+"g": "閱讀",
+"w": {
+"eating an apple": "文中沒有蘋果，她正在看比賽。",
+"listening to music": "文中沒提到音樂，她在 watching the game。",
+"writing a message": "文中沒提到訊息，她在看比賽。"
+},
+"x": "原文：She is watching the game now. Mia 現在正在看比賽。"
 },
 "re278f8cf69": {
 "g": "閱讀",
@@ -40770,6 +42813,15 @@
 },
 "x": "原文：A table for two, please, Amy says. Amy 和朋友兩個人，要兩人桌。"
 },
+"re80b20b914": {
+"g": "閱讀",
+"w": {
+"rainy": "原文說 The sun is shining，不是下雨。",
+"snowy": "文中沒有 snowing，是出太陽的晴天。",
+"windy": "文中沒說颳風，說的是出太陽。"
+},
+"x": "原文：The sun is shining. 太陽在照，天氣是 sunny 晴天。"
+},
 "re82d898bf3": {
 "g": "閱讀",
 "w": {
@@ -40876,6 +42928,15 @@
 },
 "x": "原文：I always get up at six o'clock. Anna 六點起床。"
 },
+"reaf3679822": {
+"g": "閱讀",
+"w": {
+"rainy": "原文是 snowing 下雪，不是 raining 下雨。",
+"sunny": "文中沒說出太陽，是在下雪。",
+"windy": "文中沒提到颳風，說的是 snowing。"
+},
+"x": "原文：It is snowing outside. 外面在下雪，所以是 snowy。"
+},
 "reb08c59366": {
 "g": "閱讀",
 "w": {
@@ -40899,6 +42960,15 @@
 "She works at the hospital.": "這週她上班是週一、二、四，週三不上班。"
 },
 "x": "原文：On Wednesday she stays at home and cleans. 週三在家打掃。"
+},
+"rebb11a498c": {
+"g": "閱讀",
+"w": {
+"listening to music": "文中沒提到音樂，爸爸正在煮午餐。",
+"reading a letter": "文中沒提到信，爸爸在煮午餐。",
+"writing an email": "文中沒提到 email，爸爸在 cooking lunch。"
+},
+"x": "原文：The father is cooking lunch. 爸爸正在煮午餐。"
 },
 "rebbd0f0f4d": {
 "g": "閱讀",
@@ -41037,6 +43107,15 @@
 "Seventy": "原文是 ninety（90），不是 seventy（70）。"
 },
 "x": "原文：Her grandmother is ninety years old. 奶奶九十歲。"
+},
+"refb86ae4af": {
+"g": "閱讀",
+"w": {
+"He cooks dinner.": "煮晚餐的是 sister，而且是現在，不是 Ben 的習慣。",
+"He makes a cake.": "文中沒有蛋糕，他平常是 drinks water。",
+"He reads a letter.": "文中沒提到信，平常的習慣是喝水。"
+},
+"x": "原文：He usually drinks water on Saturdays. 他平常星期六喝水，今天沒喝。"
 },
 "reff6ab87f3": {
 "g": "閱讀",
@@ -41199,6 +43278,15 @@
 "writing a report": "文中沒提到 Ben 寫報告。"
 },
 "x": "原文：He is playing a game now. now 表示現在正在做，Ben 在玩遊戲。"
+},
+"rf399040541": {
+"g": "閱讀",
+"w": {
+"at the café": "café 是咖啡店，原文說他在 kitchen 廚房。",
+"in the bedroom": "bedroom 是臥室，原文說的是廚房。",
+"in the living room": "living room 是客廳，原文說 in the kitchen。"
+},
+"x": "原文：Ben is in the kitchen. 他在廚房。"
 },
 "rf3bf898686": {
 "g": "閱讀",
@@ -41377,6 +43465,15 @@
 },
 "x": "原文：There was a beach in front of the hotel. 海灘在飯店前面。"
 },
+"rf9025c84a6": {
+"g": "閱讀",
+"w": {
+"listening to the radio": "文中沒有收音機，Ben 正在喝咖啡。",
+"watching a movie": "文中沒提到電影，他在 drinking coffee。",
+"writing a message": "文中沒提到訊息，他在喝咖啡。"
+},
+"x": "原文：He is drinking coffee now. Ben 現在正在喝咖啡。"
+},
 "rf94746ff18": {
 "g": "閱讀",
 "w": {
@@ -41473,6 +43570,15 @@
 "Mia": "Mia 是 curly hair and big eyes，沒提到眼鏡。"
 },
 "x": "原文：He wears glasses at work. He 指 Ken 的爸爸，上班時戴眼鏡。"
+},
+"rfc32029d5e": {
+"g": "閱讀",
+"w": {
+"snowy": "原文是 raining，不是 snowing 下雪。",
+"sunny": "正在下雨，文中沒說出太陽。",
+"windy": "文中沒說颳風，說的是下雨。"
+},
+"x": "原文：It is raining outside. 外面在下雨，天氣是 rainy。"
 },
 "rfc9973c2ce": {
 "g": "閱讀",
@@ -41710,6 +43816,10 @@
 "g": "be going to",
 "x": "今晚的計畫用 am going to＋原形；工作到很晚是 work late，late 放動詞後面。"
 },
+"t00b4d0b374": {
+"g": "現在進行式",
+"x": "否定進行式用 isn't listening；聽音樂 listen to music，to 不能漏，不加 a。"
+},
 "t00c7f8e8ab": {
 "g": "現在進行式",
 "x": "現在進行否定用 isn't 加動詞 ing；write 去 e 加 ing 變 writing；email 前用 an。"
@@ -41741,6 +43851,10 @@
 "t024c149885": {
 "g": "現在進行式",
 "x": "今天正在做的事用進行式：is watching；看電視 watch TV，TV 前不加 the。"
+},
+"t024c6c5e1b": {
+"g": "現在進行式",
+"x": "沒有在做用 am not 加 ing；swim 要重複 m 再加 ing：swimming；在海裡 in the sea。"
 },
 "t02522c9baf": {
 "g": "可數／不可數",
@@ -41846,6 +43960,10 @@
 "g": "可數／不可數",
 "x": "麵包不可數，用 some bread，不能寫 a bread 或 breads；有用 have。"
 },
+"t0a63cc3441": {
+"g": "現在進行式",
+"x": "正戴著是現在進行中，He 配 is 加 wearing；眼鏡有兩片鏡片，固定用複數 glasses，前面不加 a。"
+},
 "t0a728ca0c2": {
 "g": "there is/are",
 "x": "問有沒有，把 are 移到 there 前面：Are there…？；two beds 是複數，所以用 are。"
@@ -41930,6 +44048,10 @@
 "g": "be going to",
 "x": "約好的計畫用 are going to meet；早上八點是 at eight in the morning 或 at 8 a.m."
 },
+"t0d5e4e9250": {
+"g": "現在進行式",
+"x": "此刻正在做，We 配 are reading；信是一封，加 a：a letter；right now 放句尾。"
+},
 "t0d603c2399": {
 "g": "可數／不可數",
 "x": "魚當食物不可數，問句用 Is there any fish…？；在菜單上用 on the menu。"
@@ -41962,6 +44084,10 @@
 "g": "can",
 "x": "不會開車用 can't 或 cannot 加原形 drive；主詞是 He，can 後面的動詞也不加 s。"
 },
+"t0eb0ccc3e3": {
+"g": "現在進行式",
+"x": "正坐著用 am sitting，sit 要重複 t 再加 ing；在窗邊 by the window。"
+},
 "t0eefc3f194": {
 "g": "現在簡單式",
 "x": "She 一個人，brush 字尾 sh 要加 es：brushes；刷牙是 brush her teeth。"
@@ -41969,6 +44095,10 @@
 "t0f09e698ec": {
 "g": "過去式",
 "x": "過去的問句用 Did＋主詞＋原形 clean；哥哥的房間要說 his room。"
+},
+"t0f18036f44": {
+"g": "現在進行式",
+"x": "進行式問句把 is 移到句首：Is my mother working…?；在咖啡店 at the café。"
 },
 "t0f644ffd61": {
 "g": "頻率副詞",
@@ -42201,6 +44331,10 @@
 "t1d38bb0645": {
 "g": "there is/are",
 "x": "沒有一台電視：There isn't a TV 或 There is no TV；在客廳裡 in the living room。"
+},
+"t1d3f9b5c55": {
+"g": "現在進行式",
+"x": "They 是複數，配 are working；在家 at home，此刻 right now 放句尾。"
 },
 "t1d46e7eb44": {
 "g": "可數／不可數",
@@ -42658,9 +44792,17 @@
 "g": "現在進行式",
 "x": "疑問句 Are you wearing...?；回答自己用 I：No, I am not；wear 直接加 ing。"
 },
+"t3b8d2f676e": {
+"g": "現在進行式",
+"x": "Amy 一個人，否定用 isn't sleeping；sleep 直接加 ing；在臥室 in the bedroom。"
+},
 "t3be7538632": {
 "g": "介系詞",
 "x": "提議用 Let's＋原形 meet；地點 at the station 和時間 at six 都用 at。"
+},
+"t3d16cbc310": {
+"g": "現在進行式",
+"x": "They 複數，問句用 Are they cooking…?；湯 soup 不加 a；簡答 No, they aren't."
 },
 "t3d1e817c68": {
 "g": "單字搭配",
@@ -42685,6 +44827,10 @@
 "t3eff405021": {
 "g": "過去式",
 "x": "天氣冷用 It 當主詞，過去用 It was cold；上星期天是 last Sunday，不加 on。"
+},
+"t3f55743641": {
+"g": "現在進行式",
+"x": "問在做什麼用 What are we doing?；開車回家 drive home，home 前不加 to。"
 },
 "t3f7cf4e25f": {
 "g": "過去式",
@@ -43206,6 +45352,10 @@
 "g": "there is/are",
 "x": "兩盞燈是複數，用 There are two lamps；在沙發後面 behind the sofa。"
 },
+"t6068c73a27": {
+"g": "頻率副詞",
+"x": "usually 放在動詞前面；She 一個人，習慣用現在簡單式，shop 加 s：shops。"
+},
 "t6079529af7": {
 "g": "there is/are",
 "x": "一支手機用 There is a phone；在盒子裡 in the box。"
@@ -43434,6 +45584,10 @@
 "g": "be 動詞",
 "x": "They 配 are；鄰居不只一個，要加 s：neighbors。我的用 my。"
 },
+"t6d13d4f1cd": {
+"g": "現在進行式",
+"x": "沒有在做用 isn't 加 ing：isn't driving；開車回家 drive home，不加 to。"
+},
 "t6d1bf0d37b": {
 "g": "頻率副詞",
 "x": "He 是一個人，do 加 es 變 does；做功課 does his homework，homework 不加 s；always 放前面。"
@@ -43533,6 +45687,10 @@
 "t71ec6cab40": {
 "g": "介系詞",
 "x": "主詞 The clock 用 is；在兩張照片之間 between two pictures，picture 要加 s。"
+},
+"t727aea2f80": {
+"g": "現在進行式",
+"x": "此刻正在做用進行式，He 配 is cooking；午餐 lunch 前面不加 a；right now 放句尾。"
 },
 "t72a036ffc9": {
 "g": "疑問詞",
@@ -43681,6 +45839,10 @@
 "t7cbd012df5": {
 "g": "there is/are",
 "x": "一間也沒有，用 There aren't any + 複數 movie theaters；在社區裡 in my neighborhood。"
+},
+"t7cc132f99e": {
+"g": "現在進行式",
+"x": "今天正在做用進行式，Amy 一個人配 is；run 要重複 n 再加 ing：running。"
 },
 "t7cc6c22f39": {
 "g": "be going to",
@@ -43950,6 +46112,10 @@
 "g": "there is/are",
 "x": "一張也沒有：There aren't any chairs 或 There are no chairs；在廚房裡 in the kitchen。"
 },
+"t8ef10c840b": {
+"g": "現在進行式",
+"x": "否定進行式用 isn't sitting，sit 要重複 t 再加 ing；在窗邊 by the window。"
+},
 "t8f18e2bfcf": {
 "g": "代名詞／所有格",
 "x": "我們的用 Our；媽媽一個人，用 is。"
@@ -43973,6 +46139,10 @@
 "t917dd67287": {
 "g": "過去式",
 "x": "昨晚是過去，疑問句用 Did 開頭，後接原形 call；打電話給他是 call him，不用加 to。"
+},
+"t91bfe29815": {
+"g": "現在進行式",
+"x": "今天正在做的事用進行式，Tom 一個人配 is playing；玩遊戲 play a game。"
 },
 "t91c7a69117": {
 "g": "have/has",
@@ -44057,6 +46227,10 @@
 "t95fe122cad": {
 "g": "可數／不可數",
 "x": "eggs 可以數，問幾顆用 How many＋複數；客氣問法是 would you like。"
+},
+"t9633b21c30": {
+"g": "現在簡單式",
+"x": "every day 是每天的習慣，用現在簡單式，不用進行式；My friends 複數，make 不加 s。"
 },
 "t9666dc005d": {
 "g": "過去式",
@@ -44165,6 +46339,10 @@
 "t9c105c9bae": {
 "g": "過去式",
 "x": "過去否定用 didn't 加原形 pay；昨天 yesterday 放句尾。"
+},
+"t9ccb7340bd": {
+"g": "現在簡單式",
+"x": "every day 是每天的習慣，用現在簡單式 I drink；咖啡 coffee 不可數，前面不加 a。"
 },
 "t9cd0562f89": {
 "g": "can",
@@ -44314,6 +46492,10 @@
 "g": "can",
 "x": "請求要東西用 Can I have…?；請求的問句裡用 some，不用 any，please 放句尾。"
 },
+"ta5119cf7fd": {
+"g": "現在進行式",
+"x": "children 是複數，配 aren't writing；write 去 e 加 ing；email 母音開頭，用 an。"
+},
 "ta51b90ff7e": {
 "g": "過去式",
 "x": "主詞 He，過去否定用 wasn't；不在公司是 not at work；星期一前面用 on。"
@@ -44417,6 +46599,10 @@
 "tab6f897175": {
 "g": "be going to",
 "x": "待在家是計畫，用 am going to stay（或 stay at home），再用 and 接 read a book。"
+},
+"tab74f60059": {
+"g": "現在進行式",
+"x": "問句把 Is 移到句首：Is Amy driving…?；否定簡答用代名詞 she：No, she isn't."
 },
 "tabdf7bbeb6": {
 "g": "be going to",
@@ -44601,6 +46787,10 @@
 "tb766b3b5c9": {
 "g": "介系詞",
 "x": "在幾班用 in class + 數字：in class three。問句 Are 放前面。"
+},
+"tb7a4f3029c": {
+"g": "現在進行式",
+"x": "My brother 一個人，否定用 isn't studying；準備考試 study for the test。"
 },
 "tb7c1c4dd42": {
 "g": "be 動詞",
@@ -44818,6 +47008,10 @@
 "g": "there is/are",
 "x": "一台電視 There is a TV；在客廳裡 in the living room。"
 },
+"tc594472ea3": {
+"g": "現在進行式",
+"x": "My mother 一個人，配 is cooking；午餐 lunch 前面不加 a 或 the；now 放句尾。"
+},
 "tc5d306b2ff": {
 "g": "be 動詞",
 "x": "嗜好一個用 My hobby is；畫畫當名詞要加 ing：drawing 或 painting。"
@@ -44934,6 +47128,10 @@
 "g": "疑問詞",
 "x": "主詞 your son 是一個人，問句用 does，後面 take 用原形；洗澡 take a shower。"
 },
+"tcc1eb09012": {
+"g": "現在簡單式",
+"x": "every morning 是習慣，用現在簡單式 You swim，不用進行式；在游泳池 in the pool。"
+},
 "tcc6dbe9367": {
 "g": "現在進行式",
 "x": "They 配 are talking；講電話是 on the phone，on 不能換成 in。"
@@ -45017,6 +47215,10 @@
 "td170246702": {
 "g": "現在進行式",
 "x": "Tom 一個人用 is cleaning；打掃廚房 clean the kitchen。"
+},
+"td177d8d205": {
+"g": "現在進行式",
+"x": "目前正在做的事用進行式；My mother 一個人，配 is working；at the moment 放句尾。"
 },
 "td29b82fe22": {
 "g": "現在進行式",
@@ -45142,6 +47344,10 @@
 "g": "現在進行式",
 "x": "children 複數用 are waiting；等公車是 wait for the bus。"
 },
+"td9e5bbae10": {
+"g": "現在進行式",
+"x": "今天正在做用進行式，Tom 配 is writing；write 去 e 加 ing；訊息一則：a message。"
+},
 "tda3ea5018f": {
 "g": "冠詞 a/an/the",
 "x": "我的爸爸是一個人，用 is；職業前要加 a：a bus driver。"
@@ -45165,6 +47371,10 @@
 "tdbb6e3dd0b": {
 "g": "there is/are",
 "x": "一間浴室 There is a bathroom；樓下 downstairs 是一個字，前面不加 in。"
+},
+"tdbedc2ec2b": {
+"g": "現在進行式",
+"x": "問句把 Are 放句首，My friends 是複數；否定簡答用代名詞 they：No, they aren't."
 },
 "tdc5263bfd3": {
 "g": "be 動詞",
@@ -45286,6 +47496,14 @@
 "g": "介系詞",
 "x": "主詞 The cat 用 is；在椅子後面 behind the chair。"
 },
+"te24b649b6e": {
+"g": "現在進行式",
+"x": "My friends 複數，配 are studying；準備考試寫 study for the test，for 不能漏。"
+},
+"te2ccf017c3": {
+"g": "現在簡單式",
+"x": "every morning 是習慣，用現在簡單式；children 複數，play 不加 s；play the guitar。"
+},
 "te2eaa4b14f": {
 "g": "現在進行式",
 "x": "主詞 my friends 複數，Are 放句首：Are my friends sleeping on the sofa?"
@@ -45370,6 +47588,14 @@
 "g": "疑問詞",
 "x": "問從哪裡來：Where are you from? from 放句尾，不能漏。"
 },
+"te8eddf87a4": {
+"g": "現在進行式",
+"x": "We 配 are 加 using；use 去掉 e 再加 ing，寫成 using；我的手機 my phone。"
+},
+"te925d0b7c6": {
+"g": "現在進行式",
+"x": "問句把 Is 移到句首：Is Tom working…?；簡答用代名詞 he：Yes, he is."
+},
 "te99b9cdb90": {
 "g": "過去式",
 "x": "過去否定用 didn't 加原形 go out；出門是 go out，out 不能漏。"
@@ -45425,6 +47651,10 @@
 "teeb0be9b6f": {
 "g": "現在進行式",
 "x": "We 配 aren't working；工作到很晚是 work late，late 放在動詞後面。"
+},
+"teef27f744f": {
+"g": "現在進行式",
+"x": "問 you 用 Are you wearing…?；回答換成 I：No, I am not.；眼鏡用複數 glasses。"
 },
 "teefb9a5b42": {
 "g": "介系詞",
@@ -45670,6 +47900,10 @@
 "g": "現在進行式",
 "x": "主詞 you，Are 放句首；drive 去 e 加 ing；開車去上班 drive to work。"
 },
+"tfb79e274fd": {
+"g": "現在進行式",
+"x": "Tom 一個人配 is talking；講電話是 talk on the phone，介系詞用 on。"
+},
 "tfbba9f9053": {
 "g": "this/that",
 "x": "兩件襯衫是複數，用 How much are…?，這些用 these，不是 this。"
@@ -45677,6 +47911,10 @@
 "tfc176ff354": {
 "g": "there is/are",
 "x": "milk 不可數，問有沒有用 Is there any…?；咖啡裡是 in the coffee。"
+},
+"tfc17e07602": {
+"g": "現在進行式",
+"x": "問句把 Is 移到句首：Is she listening…?；聽要寫 listen to，to 不能漏。"
 },
 "tfccca9484d": {
 "g": "there is/are",
