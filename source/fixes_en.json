@@ -1,0 +1,5041 @@
+{
+"f00dddad83b": {
+"note": "給中文指定畫畫，paint／draw 都已收。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "我畫畫畫得不好，但是我非常喜歡。"
+}
+]
+},
+"f01806dbc31": {
+"note": "加中文「這位」，唯一對應 This。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "這位是我媽媽。"
+}
+]
+},
+"f042d618c6d": {
+"note": "給中文指定紀念品，排除 gift／present。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "我要買一個紀念品給我的朋友。"
+}
+]
+},
+"f0676611b57": {
+"note": "the man over there 也對，補收 the。",
+"ops": [
+{
+"answers": [
+"the"
+],
+"op": "add_answers"
+}
+]
+},
+"f0849d41fce": {
+"note": "go／fly to Japan 都自然，補收。",
+"ops": [
+{
+"answers": [
+"go",
+"fly"
+],
+"op": "add_answers"
+},
+{
+"op": "set_x",
+"x": "be going to 後面接原形動詞；去日本可以說 travel、go 或 fly to Japan。"
+}
+]
+},
+"f0954e62752": {
+"note": "補收 get，與 f454038b3fe 一致。",
+"ops": [
+{
+"answers": [
+"get"
+],
+"op": "add_answers"
+},
+{
+"op": "set_x",
+"x": "be going to 後面接原形動詞；買腳踏車用 buy 或 get，不加 s。"
+}
+]
+},
+"f0bd7ec2044": {
+"note": "給中文指定有空，排除 busy。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "你今晚有空嗎？"
+}
+]
+},
+"f0c0a0f6111": {
+"note": "給中文指定露營。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "我們這個週末要去露營。"
+}
+]
+},
+"f0f2b0f24c3": {
+"note": "加中文「不喜歡」，唯一對應 like。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "我爸媽不喜歡大聲的音樂。"
+}
+]
+},
+"f11ee4570ac": {
+"note": "加中文「她的」，唯一對應 her。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "他是她的先生。"
+}
+]
+},
+"f12e651031d": {
+"note": "中文指定寫，並補收 like to write。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "她喜歡寫短篇故事。"
+},
+{
+"answers": [
+"to write"
+],
+"op": "add_answers"
+},
+{
+"op": "set_x",
+"x": "like 後面接動作用 V-ing 或 to＋原形；write 去 e 加 ing：writing，或 to write。"
+}
+]
+},
+"f14a51f1396": {
+"note": "The men over there 也對，補收 The。",
+"ops": [
+{
+"answers": [
+"The"
+],
+"op": "add_answers"
+}
+]
+},
+"f1749f7c44e": {
+"note": "補收 do，與 f701b1d648f 一致。",
+"ops": [
+{
+"answers": [
+"do"
+],
+"op": "add_answers"
+},
+{
+"op": "set_x",
+"x": "be going to 後面接原形；寫功課是 do my homework，寫完是 finish。"
+}
+]
+},
+"f17a4278290": {
+"note": "the house over there 也對，補收 the。",
+"ops": [
+{
+"answers": [
+"the"
+],
+"op": "add_answers"
+}
+]
+},
+"f17d95e4ce4": {
+"note": "加中文「這是」，唯一對應 This。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "這是我的包包。"
+}
+]
+},
+"f19c787a686": {
+"note": "中文指定游泳池，並補收 swimming pool。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "我可以在游泳池游泳。"
+},
+{
+"answers": [
+"swimming pool"
+],
+"op": "add_answers"
+}
+]
+},
+"f1a1f20d722": {
+"note": "加中文「我最喜歡的」，唯一對應 my。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "這是我最喜歡的照片。"
+}
+]
+},
+"f1b35a6920b": {
+"note": "加中文「喜歡」，唯一對應 likes。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "他喜歡運動。"
+}
+]
+},
+"f1b5887507d": {
+"note": "move into 也對，補收。",
+"ops": [
+{
+"answers": [
+"into"
+],
+"op": "add_answers"
+},
+{
+"op": "set_x",
+"x": "搬到新家用 move to，也可以用 move into（搬進）：move into a new house。"
+}
+]
+},
+"f1cbe7bb1cd": {
+"note": "加中文「我們家人」，唯一對應 our。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "這是我們家人的照片。"
+}
+]
+},
+"f1edb9b5297": {
+"note": "加中文「有」，唯一對應 have。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "我有一台電腦。"
+}
+]
+},
+"f1fee1f9e3c": {
+"note": "給中文指定健行。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "他下星期六要去健行。"
+}
+]
+},
+"f244241cbad": {
+"note": "給中文指定晴天。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "明天會是晴天。"
+}
+]
+},
+"f25fa69a68f": {
+"note": "加回答 Yes, she can. 排除 Does。",
+"ops": [
+{
+"op": "set_q",
+"q": "___ your teacher speak English? Yes, she can."
+},
+{
+"op": "set_x",
+"x": "回答是 Yes, she can.，所以問句用 Can 放句首，後面 speak 用原形。"
+}
+]
+},
+"f27d1ec3590": {
+"note": "加中文「這位」，唯一對應 This。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "這位是我太太。她是老師。"
+}
+]
+},
+"f28eee40f64": {
+"note": "給中文指定下雨。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "這個週末會下雨。"
+}
+]
+},
+"f2c443b3bfa": {
+"note": "The woman over there 也對，補收 The。",
+"ops": [
+{
+"answers": [
+"The"
+],
+"op": "add_answers"
+}
+]
+},
+"f2c4e636036": {
+"note": "加中文「喜歡」，唯一對應 like。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "我爸媽喜歡茶。"
+}
+]
+},
+"f2c6e532c90": {
+"note": "給中文指定跑，排除 swim 等其他動詞。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "她可以跑得很快。"
+}
+]
+},
+"f2da5ccc81a": {
+"note": "給中文指定攝影。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "我對攝影有興趣。"
+}
+]
+},
+"f2dd5c89342": {
+"note": "The girls over there 也對，補收 The。",
+"ops": [
+{
+"answers": [
+"The"
+],
+"op": "add_answers"
+}
+]
+},
+"f2e3980f564": {
+"note": "加中文「很安靜」，唯一對應 quiet。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "我姊姊很安靜。"
+}
+]
+},
+"f2ea3c87539": {
+"note": "加中文「這位」，唯一對應 This。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "這位是我奶奶。"
+}
+]
+},
+"f32ceee1f89": {
+"note": "中文指定做菜，並補收 make（同 f372826e749）。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "她會做義大利菜。"
+},
+{
+"answers": [
+"make"
+],
+"op": "add_answers"
+},
+{
+"op": "set_x",
+"x": "can 後面接原形動詞；做義大利菜用 cook 或 make。"
+}
+]
+},
+"f3627295b22": {
+"note": "中文指定煮飯，並補收 like to cook。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "她週末喜歡煮飯。"
+},
+{
+"answers": [
+"to cook"
+],
+"op": "add_answers"
+},
+{
+"op": "set_x",
+"x": "like 後面接動作，用 V-ing 或 to＋原形；cook 加 ing 變 cooking，或 to cook。"
+}
+]
+},
+"f3931941f97": {
+"note": "給中文指定滑雪。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "我不會滑雪，太難了。"
+}
+]
+},
+"f3cf52ae205": {
+"note": "the photo in my hand 也對，補收 the。",
+"ops": [
+{
+"answers": [
+"the"
+],
+"op": "add_answers"
+}
+]
+},
+"f3d9faccb67": {
+"note": "加中文「喜歡」，唯一對應 likes。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "我妹妹喜歡冰淇淋。"
+}
+]
+},
+"f3e0d0dcc2d": {
+"note": "pack my bags／luggage 都自然，補收。",
+"ops": [
+{
+"answers": [
+"bag",
+"bags",
+"luggage"
+],
+"op": "add_answers"
+},
+{
+"op": "set_x",
+"x": "打包行李是 pack my suitcase，也可說 bag(s) 或 luggage；my 後面接名詞。"
+}
+]
+},
+"f3ed7e05c29": {
+"note": "加中文「我爸爸」，唯一對應 my。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "這是我爸爸。"
+}
+]
+},
+"f3f9ce38ed6": {
+"note": "加中文「你有」，排除 are。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "你有一個很貼心的姊姊。"
+}
+]
+},
+"f3fb4faf575": {
+"note": "給中文指定海邊，排除 park、zoo 等。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "我們這個週末要去海邊。"
+}
+]
+},
+"f423ed3c45a": {
+"note": "加中文「那個」，對應 That。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "那個寶寶是我妹妹。"
+}
+]
+},
+"f42b1d51047": {
+"note": "補收 catch，與 fca219108c9 一致。",
+"ops": [
+{
+"answers": [
+"catch"
+],
+"op": "add_answers"
+},
+{
+"op": "set_x",
+"x": "can 後面接原形；搭火車說 take the train，也可以說 catch the train。"
+}
+]
+},
+"f4307c780c1": {
+"note": "加中文「喜歡」，唯一對應 likes。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "她喜歡音樂。"
+}
+]
+},
+"f4ce8e9a4cd": {
+"note": "加中文「很年輕」，唯一對應 young。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "我阿姨很年輕。"
+}
+]
+},
+"f4ee7786145": {
+"note": "the book in my hand 也對，補收 the。",
+"ops": [
+{
+"answers": [
+"the"
+],
+"op": "add_answers"
+}
+]
+},
+"f500727a017": {
+"note": "句尾加 yesterday，排除現在式 see。",
+"ops": [
+{
+"op": "set_q",
+"q": "I ___ my teacher at the store yesterday. (see)"
+},
+{
+"op": "set_x",
+"x": "yesterday 是過去，用過去式；see 是不規則動詞，過去式是 saw。"
+}
+]
+},
+"f524cdce610": {
+"note": "加中文「這些」，唯一對應 These。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "這些是我的書。"
+}
+]
+},
+"f528651c846": {
+"note": "句尾加 last Sunday，排除現在式；原本三個可接受答案不變。",
+"ops": [
+{
+"op": "set_q",
+"q": "The children ___ a picture for their mother last Sunday."
+},
+{
+"op": "set_x",
+"x": "last Sunday 是過去，用過去式；draw 是不規則動詞，過去式 drew（made、painted 也可以）。"
+}
+]
+},
+"f52f51ebeef": {
+"note": "句尾加 on the way home yesterday，排除現在式 listen。",
+"ops": [
+{
+"op": "set_q",
+"q": "We ___ to music in the car on the way home yesterday."
+},
+{
+"op": "set_x",
+"x": "yesterday 是過去，用過去式；listen 加 ed 變 listened，後面要接 to。"
+}
+]
+},
+"f530de98484": {
+"note": "加中文「喜歡」，唯一對應 like。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "我們喜歡這部電影。"
+}
+]
+},
+"f535cf45f30": {
+"note": "給中文指定野餐，排除 party。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "我們星期六要去野餐。"
+}
+]
+},
+"f5433c30796": {
+"note": "after lunch 後加 yesterday，排除現在式 walk。",
+"ops": [
+{
+"op": "set_q",
+"q": "We ___ (walk) to the park after lunch yesterday."
+},
+{
+"op": "set_x",
+"x": "yesterday 是過去，說昨天午餐後的事用過去式；walk 加 ed 變 walked。"
+}
+]
+},
+"f5476949b04": {
+"note": "句尾加 last week，排除現在式 makes。",
+"ops": [
+{
+"op": "set_q",
+"q": "The teacher ___ (make) a plan for us last week."
+},
+{
+"op": "set_x",
+"x": "last week 是過去，用過去式；make 是不規則動詞，過去式是 made。"
+}
+]
+},
+"f549f8fdde6": {
+"note": "加中文「在一起」，唯一對應 together。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "我們在一起很快樂。"
+}
+]
+},
+"f55fd089232": {
+"note": "After lunch 改成 After lunch yesterday，排除現在式 send。",
+"ops": [
+{
+"op": "set_q",
+"q": "After lunch yesterday, I ___ my friend a message."
+},
+{
+"op": "set_x",
+"x": "yesterday 是過去，說昨天午餐後的事用過去式；send 是不規則動詞，過去式 sent。"
+}
+]
+},
+"f56f2654af8": {
+"note": "句尾加 last night，排除現在式 come/go；可接受答案不變。",
+"ops": [
+{
+"op": "set_q",
+"q": "Finally, they ___ home at nine o'clock last night."
+},
+{
+"op": "set_x",
+"x": "last night 是過去，用過去式；come 過去式 came，go 是 went，get 是 got。"
+}
+]
+},
+"f5764ad5acd": {
+"note": "加中文「很勤勞」，並補收 hard-working 拼法與同義的 diligent。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "我爸爸很勤勞。"
+},
+{
+"answers": [
+"hard-working",
+"diligent"
+],
+"op": "add_answers"
+}
+]
+},
+"f59cd05114f": {
+"note": "中文指定修理，並補收 repair。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "他會修電腦。"
+},
+{
+"answers": [
+"repair"
+],
+"op": "add_answers"
+}
+]
+},
+"f5a19fe1eda": {
+"note": "句尾加 last night，排除 doesn't finish。",
+"ops": [
+{
+"op": "set_q",
+"q": "He ___ (not/finish) his homework last night."
+},
+{
+"op": "set_x",
+"x": "last night 是過去；否定是 didn't 加原形 finish，不寫 didn't finished。"
+}
+]
+},
+"f5ab0d25bc4": {
+"note": "句尾加 last night，排除現在式 jumps。",
+"ops": [
+{
+"op": "set_q",
+"q": "The dog ___ (jump) on the sofa last night."
+},
+{
+"op": "set_x",
+"x": "last night 是過去，用過去式；jump 加 ed 變 jumped。"
+}
+]
+},
+"f5b1298744b": {
+"note": "come／go／get home 都自然，補收。",
+"ops": [
+{
+"answers": [
+"come",
+"go",
+"get"
+],
+"op": "add_answers"
+},
+{
+"op": "set_x",
+"x": "be going to 後面接原形；回家可說 come、go、get 或 return home。"
+}
+]
+},
+"f5b702186f3": {
+"note": "給中文指定護照。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "別忘了帶你的護照。"
+}
+]
+},
+"f5dbe5747c5": {
+"note": "句尾加 last Saturday，排除現在式 Are。",
+"ops": [
+{
+"op": "set_q",
+"q": "___ your parents at the wedding last Saturday?"
+},
+{
+"op": "set_x",
+"x": "last Saturday 是過去；主詞 your parents 複數，be 動詞問句放句首用 Were。"
+}
+]
+},
+"f5e6e5e9314": {
+"note": "句尾加 yesterday，排除現在式 is。",
+"ops": [
+{
+"op": "set_q",
+"q": "The bus ___ full of people yesterday."
+},
+{
+"op": "set_x",
+"x": "yesterday 是過去；主詞 the bus 是一台，單數，過去式 be 動詞用 was。"
+}
+]
+},
+"f5f39138b53": {
+"note": "on Sunday 改成 last Sunday，排除 Is。",
+"ops": [
+{
+"op": "set_q",
+"q": "___ the shop open last Sunday?"
+},
+{
+"op": "set_x",
+"x": "last Sunday 是上週日，問過去；主詞 the shop 單數，問句放句首用 Was。"
+}
+]
+},
+"f5f7610d503": {
+"note": "句尾加 last night，排除 tells/reads；read 現在拼法相同但有時間詞後就是過去式，維持可接受。",
+"ops": [
+{
+"op": "set_q",
+"q": "My mother ___ the story to my little sister last night."
+},
+{
+"op": "set_x",
+"x": "last night 是過去，用過去式；tell 的過去式是 told，read 過去式拼法不變。"
+}
+]
+},
+"f5fec656d80": {
+"note": "句尾加 yesterday，排除 Are。",
+"ops": [
+{
+"op": "set_q",
+"q": "___ they at the station on time yesterday?"
+},
+{
+"op": "set_x",
+"x": "yesterday 是過去；主詞 they 複數，be 動詞問句放句首，過去式用 Were。"
+}
+]
+},
+"f6035745d4b": {
+"note": "The man over there 也對，補收 The。",
+"ops": [
+{
+"answers": [
+"The"
+],
+"op": "add_answers"
+}
+]
+},
+"f614b94219a": {
+"note": "道別語改成打招呼回報，前後連貫，答案不變。",
+"ops": [
+{
+"op": "set_q",
+"q": "Good morning, Ms. Wang! The students ___ ready."
+}
+]
+},
+"f617d854b8b": {
+"note": "句尾加 yesterday，排除現在式 need。",
+"ops": [
+{
+"op": "set_q",
+"q": "You ___ (need) more time yesterday."
+},
+{
+"op": "set_x",
+"x": "yesterday 是過去，用過去式；need 加 ed 變 needed。"
+}
+]
+},
+"f633ec28810": {
+"note": "句尾加 last Saturday，排除 plays。",
+"ops": [
+{
+"op": "set_q",
+"q": "My brother ___ basketball in the park last Saturday."
+},
+{
+"op": "set_x",
+"x": "last Saturday 是過去，用過去式；play 加 ed 變 played。"
+}
+]
+},
+"f635064e456": {
+"note": "補收 see／visit，與 f2ef905aa00 一致。",
+"ops": [
+{
+"answers": [
+"see",
+"visit"
+],
+"op": "add_answers"
+},
+{
+"op": "set_x",
+"x": "be going to 後面接原形；和朋友見面用 meet，也可用 see 或 visit。"
+}
+]
+},
+"f656ef51d68": {
+"note": "主詞改成 your sister，用 she 回答較自然，答案 doesn't 不變。",
+"ops": [
+{
+"op": "set_q",
+"q": "Does your sister have a cat? No, she ___."
+},
+{
+"op": "set_x",
+"x": "問句用 Does，簡答也用 does；your sister 用 she 代替，所以 No, she doesn't。"
+}
+]
+},
+"f6712c9787a": {
+"note": "加中文「我們有」，排除 are。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "我們有一個大家庭。"
+}
+]
+},
+"f688b9be00a": {
+"note": "句尾加 last night，排除 are。",
+"ops": [
+{
+"op": "set_q",
+"q": "We ___ very hungry after the game last night."
+},
+{
+"op": "set_x",
+"x": "last night 是過去；主詞 we 複數，過去式 be 動詞用 were。"
+}
+]
+},
+"f691da99cb2": {
+"note": "句尾加 yesterday，排除現在式 get。",
+"ops": [
+{
+"op": "set_q",
+"q": "I ___ a letter from my friend yesterday. (get)"
+},
+{
+"op": "set_x",
+"x": "yesterday 是過去，用過去式；get 是不規則動詞，過去式是 got。"
+}
+]
+},
+"f6a4377427a": {
+"note": "句尾加 yesterday，排除現在式 take。",
+"ops": [
+{
+"op": "set_q",
+"q": "We ___ the train to work yesterday. (take)"
+},
+{
+"op": "set_x",
+"x": "yesterday 是過去，用過去式；take 是不規則動詞，過去式是 took。"
+}
+]
+},
+"f6acb4eeac0": {
+"note": "on Monday morning 改成 last Monday morning，排除 Are。",
+"ops": [
+{
+"op": "set_q",
+"q": "___ you at work last Monday morning?"
+},
+{
+"op": "set_x",
+"x": "last Monday morning 是上週一早上，問過去；主詞 you 用 Were 放句首。"
+}
+]
+},
+"f6b98e2ba76": {
+"note": "句尾加 in class yesterday，排除 Are。",
+"ops": [
+{
+"op": "set_q",
+"q": "___ the students quiet in class yesterday?"
+},
+{
+"op": "set_x",
+"x": "yesterday 是過去；主詞 the students 複數，be 動詞問句放句首，過去式用 Were。"
+}
+]
+},
+"f6bdab100a7": {
+"note": "中文指定出發排除 arrive，並補收 depart／take off。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "我們的班機中午要出發。"
+},
+{
+"answers": [
+"depart",
+"take off"
+],
+"op": "add_answers"
+}
+]
+},
+"f6ca26ddeb1": {
+"note": "句尾加 last year，排除 makes。",
+"ops": [
+{
+"op": "set_q",
+"q": "My sister ___ (make) a card for my birthday last year."
+},
+{
+"op": "set_x",
+"x": "last year 是過去，用過去式；make 是不規則動詞，過去式是 made。"
+}
+]
+},
+"f6fe7cb21e8": {
+"note": "加中文「她最喜歡的」，唯一對應 Her。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "她最喜歡的顏色是藍色。"
+}
+]
+},
+"f702d5183ef": {
+"note": "加中文「年紀很大」，唯一對應 old。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "我爺爺年紀很大了。"
+}
+]
+},
+"f719ed0a65d": {
+"note": "句尾加 two minutes ago，排除 opens。",
+"ops": [
+{
+"op": "set_q",
+"q": "She ___ (open) the door for me two minutes ago."
+},
+{
+"op": "set_x",
+"x": "two minutes ago 是兩分鐘前，過去的事；open 加 ed 變 opened。"
+}
+]
+},
+"f71bb05c29e": {
+"note": "加中文「喜歡」，唯一對應 like。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "你爸爸喜歡茶嗎？"
+}
+]
+},
+"f73642260e7": {
+"note": "coat／sweater 都自然，補收。",
+"ops": [
+{
+"answers": [
+"coat",
+"sweater"
+],
+"op": "add_answers"
+},
+{
+"op": "set_x",
+"x": "後面說很冷，應該穿外套或毛衣：jacket、coat、sweater；a 後面接單數名詞。"
+}
+]
+},
+"f7612962c1d": {
+"note": "主詞加 you told us yesterday，排除 is。",
+"ops": [
+{
+"op": "set_q",
+"q": "The story you told us yesterday ___ very interesting."
+},
+{
+"op": "set_x",
+"x": "yesterday 是過去，說昨天聽的故事；主詞 the story 單數，過去式 be 動詞用 was。"
+}
+]
+},
+"f7666632f08": {
+"note": "The man here 也對，補收 The。",
+"ops": [
+{
+"answers": [
+"The"
+],
+"op": "add_answers"
+}
+]
+},
+"f76bc946720": {
+"note": "加中文「個子矮」，唯一對應 short。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "我媽媽個子很矮。"
+}
+]
+},
+"f79f6106c4e": {
+"note": "After that 改成 Ten minutes ago，句中多了明確過去時間詞，排除 find。",
+"ops": [
+{
+"op": "set_q",
+"q": "Ten minutes ago, I ___ (find) it in my bag."
+},
+{
+"op": "set_x",
+"x": "Ten minutes ago 是十分鐘前，過去的事；find 是不規則動詞，過去式是 found。"
+}
+]
+},
+"f7b1bde4ca8": {
+"note": "句尾加 last night，排除 eats。",
+"ops": [
+{
+"op": "set_q",
+"q": "The cat ___ (eat) all the fish last night."
+},
+{
+"op": "set_x",
+"x": "last night 是過去，用過去式；eat 是不規則動詞，過去式是 ate。"
+}
+]
+},
+"f7c2b0d02c4": {
+"note": "句尾加 yesterday，排除 have。",
+"ops": [
+{
+"op": "set_q",
+"q": "We ___ a lot of fun at the park yesterday."
+},
+{
+"op": "set_x",
+"x": "yesterday 是過去；have fun 是玩得開心，have 的過去式是 had。"
+}
+]
+},
+"f7c4bfec69f": {
+"note": "給中文指定跳舞。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "我舞跳得不好，我需要練習。"
+}
+]
+},
+"f7d30436c56": {
+"note": "加中文「足球」，並補收英式說法 Football。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "足球是我最喜歡的運動。"
+},
+{
+"answers": [
+"Football"
+],
+"op": "add_answers"
+}
+]
+},
+"f7eb31052a2": {
+"note": "句尾加 an hour ago，排除 carry。",
+"ops": [
+{
+"op": "set_q",
+"q": "I ___ (carry) the box to the car an hour ago."
+},
+{
+"op": "set_x",
+"x": "an hour ago 是一小時前，過去的事；carry 是子音加 y，去 y 加 ied 變 carried。"
+}
+]
+},
+"f7f30a1f42e": {
+"note": "Then 改成 Last summer，給明確過去時間詞，排除 stay。",
+"ops": [
+{
+"op": "set_q",
+"q": "Last summer, we ___ (stay) at a small hotel."
+},
+{
+"op": "set_x",
+"x": "Last summer 是去年夏天，用過去式；stay 是母音加 y，直接加 ed 變 stayed。"
+}
+]
+},
+"f82c74fedf2": {
+"note": "I will see you 更常見，補收 will。",
+"ops": [
+{
+"answers": [
+"will"
+],
+"op": "add_answers"
+},
+{
+"op": "set_x",
+"x": "答應見面，可用 can（可以、有空）或 will＋原形 see。"
+}
+]
+},
+"f82ebee8600": {
+"note": "the old photo in my hand 也對，補收 the。",
+"ops": [
+{
+"answers": [
+"the"
+],
+"op": "add_answers"
+}
+]
+},
+"f83224eaf76": {
+"note": "給中文指定出發，排除 arrive／come。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "他八點要出發。"
+}
+]
+},
+"f842ef4434d": {
+"note": "句首加 Don't worry.，排除肯定的 am。",
+"ops": [
+{
+"op": "set_q",
+"q": "Don't worry. I ___ going to be late for the meeting."
+},
+{
+"op": "set_x",
+"x": "Don't worry 表示不用擔心，所以是否定；I 配 am，not 放後面：am not。"
+}
+]
+},
+"f8514a3bcc9": {
+"note": "句尾加 when we arrived yesterday，排除 are。",
+"ops": [
+{
+"op": "set_q",
+"q": "The rooms ___ clean when we arrived yesterday."
+},
+{
+"op": "set_x",
+"x": "yesterday 是過去，說昨天到的時候；主詞 the rooms 複數，過去式 be 動詞用 were。"
+}
+]
+},
+"f886d3125eb": {
+"note": "The woman here 也對，補收 The。",
+"ops": [
+{
+"answers": [
+"The"
+],
+"op": "add_answers"
+}
+]
+},
+"f88a5283076": {
+"note": "加中文「我們一家人」，唯一對應 our。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "這是我們一家人。"
+}
+]
+},
+"f88c87aa316": {
+"note": "句尾加 last night，排除 Are。",
+"ops": [
+{
+"op": "set_q",
+"q": "___ they at the train station last night?"
+},
+{
+"op": "set_x",
+"x": "last night 是過去；主詞 they 複數，be 動詞問句放句首，過去式用 Were。"
+}
+]
+},
+"f8959c5cc2e": {
+"note": "句尾加 last night，排除 Do。",
+"ops": [
+{
+"op": "set_q",
+"q": "___ they go to the night market last night?"
+},
+{
+"op": "set_x",
+"x": "last night 是過去；句中 go 是原形，問過去的事用 Did 放句首，後面動詞不變。"
+}
+]
+},
+"f89822d7a03": {
+"note": "句尾加 yesterday，排除 eats。",
+"ops": [
+{
+"op": "set_q",
+"q": "She ___ (eat) noodles for lunch yesterday."
+},
+{
+"op": "set_x",
+"x": "yesterday 是過去，說昨天的午餐；eat 是不規則動詞，過去式是 ate。"
+}
+]
+},
+"f8a99561c5f": {
+"note": "every day 改成 very much，配 likes 才自然，加中文定住 likes。",
+"ops": [
+{
+"op": "set_q",
+"q": "My son ___ music very much."
+},
+{
+"op": "set_zh",
+"zh": "我兒子非常喜歡音樂。"
+}
+]
+},
+"f8b1b208f03": {
+"note": "句尾加 yesterday，排除 aren't；答案 weren't/were not 不變。",
+"ops": [
+{
+"op": "set_q",
+"q": "The children ___ noisy in class yesterday."
+},
+{
+"op": "set_x",
+"x": "yesterday 是過去；主詞 the children 是複數，過去式否定用 weren't。"
+}
+]
+},
+"f8bcde14071": {
+"note": "句首加 Yesterday，排除 runs。",
+"ops": [
+{
+"op": "set_q",
+"q": "Yesterday, the dog ___ after the boy for two minutes."
+},
+{
+"op": "set_x",
+"x": "Yesterday 是過去，用過去式；run 是不規則動詞，過去式是 ran。"
+}
+]
+},
+"f8bd6e495db": {
+"note": "拿掉空格後重複的 you，改成提示 (you/see)，答案 Did you see 不變。",
+"ops": [
+{
+"op": "set_q",
+"q": "___ (you/see) your friend last night?"
+},
+{
+"op": "set_x",
+"x": "last night 是過去，問句是 Did＋主詞＋原形動詞：Did you see…?"
+}
+]
+},
+"f8d253a5ef8": {
+"note": "The children over there 也對，補收 The。",
+"ops": [
+{
+"answers": [
+"The"
+],
+"op": "add_answers"
+}
+]
+},
+"f8db1a1cf18": {
+"note": "加中文「很可愛」，對應 cute，並補收 adorable。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "這個寶寶很可愛。"
+},
+{
+"answers": [
+"adorable"
+],
+"op": "add_answers"
+}
+]
+},
+"f8ec45c562f": {
+"note": "句尾加 last night，排除 do。",
+"ops": [
+{
+"op": "set_q",
+"q": "They ___ (do) their homework after dinner last night."
+},
+{
+"op": "set_x",
+"x": "last night 是過去，說昨晚晚餐後的事；do 是不規則動詞，過去式是 did。"
+}
+]
+},
+"f8f51de3da1": {
+"note": "主詞加 you saw last night，排除 Is。",
+"ops": [
+{
+"op": "set_q",
+"q": "___ the movie you saw last night interesting?"
+},
+{
+"op": "set_x",
+"x": "last night 是過去，問昨晚看的電影；主詞 the movie 單數，問句放句首用 Was。"
+}
+]
+},
+"f9023fe9a89": {
+"note": "加中文「他們的」，唯一對應 their。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "他是他們的兒子。"
+}
+]
+},
+"f9080df4db7": {
+"note": "句尾加 last Sunday，排除 eat。",
+"ops": [
+{
+"op": "set_q",
+"q": "The children ___ (eat) ice cream in the park last Sunday."
+},
+{
+"op": "set_x",
+"x": "last Sunday 是過去，用過去式；eat 是不規則動詞，過去式是 ate。"
+}
+]
+},
+"f92700a962d": {
+"note": "句首加 Yesterday，排除 run/play；可接受答案不變。",
+"ops": [
+{
+"op": "set_q",
+"q": "Yesterday, the children ___ in the park all afternoon."
+},
+{
+"op": "set_x",
+"x": "Yesterday 是過去，用過去式；run 過去式 ran，play 加 ed 變 played。"
+}
+]
+},
+"f93ff7f4813": {
+"note": "句尾加 last Friday，排除 meet。",
+"ops": [
+{
+"op": "set_q",
+"q": "I ___ my friends at a restaurant last Friday. (meet)"
+},
+{
+"op": "set_x",
+"x": "last Friday 是過去，用過去式；meet 是不規則動詞，過去式是 met。"
+}
+]
+},
+"f948f80927c": {
+"note": "加中文「很搞笑」，唯一對應 funny。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "我哥哥很搞笑。"
+}
+]
+},
+"f94a45548bb": {
+"note": "句尾加 at the party last night，排除 are。",
+"ops": [
+{
+"op": "set_q",
+"q": "The two boys ___ very excited at the party last night."
+},
+{
+"op": "set_x",
+"x": "last night 是過去；主詞 the two boys 複數，過去式 be 動詞用 were。"
+}
+]
+},
+"f96ba584dbd": {
+"note": "給中文指定有空，排除 busy。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "你這個星期五晚上有空嗎？"
+}
+]
+},
+"f976c1f90f7": {
+"note": "The children here 也對，補收 The。",
+"ops": [
+{
+"answers": [
+"The"
+],
+"op": "add_answers"
+}
+]
+},
+"f98953265d8": {
+"note": "加 in the park 和 last spring，排除 are。",
+"ops": [
+{
+"op": "set_q",
+"q": "The flowers in the park ___ beautiful last spring."
+},
+{
+"op": "set_x",
+"x": "last spring 是去年春天，過去；主詞 the flowers 複數，過去式 be 動詞用 were。"
+}
+]
+},
+"f9911a6b1ec": {
+"note": "stay inside／home／in 都自然，補收。",
+"ops": [
+{
+"answers": [
+"inside",
+"home",
+"in"
+],
+"op": "add_answers"
+},
+{
+"op": "set_x",
+"x": "下雨待在室內：stay indoors、inside、in 或 home 都可以；不說 in indoors。"
+}
+]
+},
+"f995a46ca2c": {
+"note": "The books over there 也對，補收 The。",
+"ops": [
+{
+"answers": [
+"The"
+],
+"op": "add_answers"
+}
+]
+},
+"f9a823849c0": {
+"note": "The babies here 也對，補收 The。",
+"ops": [
+{
+"answers": [
+"The"
+],
+"op": "add_answers"
+}
+]
+},
+"f9aa712e184": {
+"note": "句尾加 last week，排除 buy；可接受答案不變。",
+"ops": [
+{
+"op": "set_q",
+"q": "They ___ new shoes for their son last week."
+},
+{
+"op": "set_x",
+"x": "last week 是過去，用過去式；buy 是不規則動詞，過去式 bought（found 也可以）。"
+}
+]
+},
+"f9b54503cf3": {
+"note": "句尾加 last night，排除 talk。",
+"ops": [
+{
+"op": "set_q",
+"q": "We ___ (talk) on the phone for an hour last night."
+},
+{
+"op": "set_x",
+"x": "last night 是過去，用過去式；talk 加 ed 變 talked。"
+}
+]
+},
+"f9c36cc6334": {
+"note": "句尾加 last week，排除 help。",
+"ops": [
+{
+"op": "set_q",
+"q": "You ___ (help) me a lot last week."
+},
+{
+"op": "set_x",
+"x": "last week 是過去，說上週幫過的忙；help 加 ed 變 helped。"
+}
+]
+},
+"f9d35614a3b": {
+"note": "句尾加 last month，排除 stay。",
+"ops": [
+{
+"op": "set_q",
+"q": "They ___ (stay) at a hotel in Taipei last month."
+},
+{
+"op": "set_x",
+"x": "last month 是過去，用過去式；stay 是母音加 y，直接加 ed 變 stayed。"
+}
+]
+},
+"f9f58ff48c8": {
+"note": "句首加 Yesterday afternoon，排除 sits。",
+"ops": [
+{
+"op": "set_q",
+"q": "Yesterday afternoon, the old man ___ under a big tree."
+},
+{
+"op": "set_x",
+"x": "Yesterday afternoon 是過去，用過去式；sit 是不規則動詞，過去式是 sat。"
+}
+]
+},
+"f9f6bbeb11e": {
+"note": "句尾加 last weekend，排除 Do。",
+"ops": [
+{
+"op": "set_q",
+"q": "___ they visit the museum last weekend?"
+},
+{
+"op": "set_x",
+"x": "last weekend 是過去；句中 visit 是原形，問過去的事用 Did 放句首，動詞不變。"
+}
+]
+},
+"fa003e09d5f": {
+"note": "加中文「你有」，排除 are。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "你有一個非常貼心的姊姊。"
+}
+]
+},
+"fa125551d49": {
+"note": "The children here 也對，補收 The。",
+"ops": [
+{
+"answers": [
+"The"
+],
+"op": "add_answers"
+}
+]
+},
+"fa17368f14c": {
+"note": "wears big glasses 更自然，補收 wears。",
+"ops": [
+{
+"answers": [
+"wears"
+],
+"op": "add_answers"
+}
+]
+},
+"fa32f6ff3cc": {
+"note": "加中文「那些人」，唯一對應 Those。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "那些人是他們的表兄弟姊妹。"
+}
+]
+},
+"fa54d777121": {
+"note": "給中文指定到站，排除 leave。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "火車中午會到站。"
+}
+]
+},
+"fa745e1d4ec": {
+"note": "First 改成 Yesterday，給明確過去時間詞，排除 get。",
+"ops": [
+{
+"op": "set_q",
+"q": "Yesterday, I ___ up at six o'clock."
+},
+{
+"op": "set_x",
+"x": "Yesterday 是過去；起床是 get up 或 wake up，過去式是 got up／woke up。"
+}
+]
+},
+"fa7eaefb173": {
+"note": "句尾加 last Sunday，排除 have。",
+"ops": [
+{
+"op": "set_q",
+"q": "We ___ a picnic at the park last Sunday. (have)"
+},
+{
+"op": "set_x",
+"x": "last Sunday 是過去；have 的過去式是不規則的 had。have a picnic 是去野餐。"
+}
+]
+},
+"faaec5b3c0e": {
+"note": "加中文「那是」，唯一對應 That。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "那是她的筆電。"
+}
+]
+},
+"faca4414ded": {
+"note": "句尾加 an hour ago，排除 make。",
+"ops": [
+{
+"op": "set_q",
+"q": "I ___ (make) some tea for my mother an hour ago."
+},
+{
+"op": "set_x",
+"x": "an hour ago 是一小時前，過去；make 是不規則動詞，過去式是 made，不是 maked。"
+}
+]
+},
+"facee7d1290": {
+"note": "加中文「我爺爺」，唯一對應 my。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "這是我爺爺。"
+}
+]
+},
+"fad2bbd96b7": {
+"note": "加 but now he lives in Taipei，表示已結束，排除 has lived。",
+"ops": [
+{
+"op": "set_q",
+"q": "He ___ (live) in Tainan for five years, but now he lives in Taipei."
+},
+{
+"op": "set_x",
+"x": "but now he lives in Taipei 表示台南是以前的事；live 字尾有 e，只加 d：lived。"
+}
+]
+},
+"fad805391a6": {
+"note": "句尾加 last night，排除 eat/have；可接受答案不變。",
+"ops": [
+{
+"op": "set_q",
+"q": "They ___ dinner at their grandmother's house last night."
+},
+{
+"op": "set_x",
+"x": "last night 是過去；eat 的過去式是 ate，也可以用 have 的過去式 had。"
+}
+]
+},
+"faec8d03a6c": {
+"note": "加中文「喜歡」，唯一對應 like。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "我喜歡電影。"
+}
+]
+},
+"faf816cdaec": {
+"note": "The boy over there 也對，補收 The。",
+"ops": [
+{
+"answers": [
+"The"
+],
+"op": "add_answers"
+}
+]
+},
+"fafa2f192ef": {
+"note": "句尾加 yesterday，排除 take。",
+"ops": [
+{
+"op": "set_q",
+"q": "We ___ the bus to the shopping mall yesterday."
+},
+{
+"op": "set_x",
+"x": "yesterday 是過去；搭公車是 take the bus，take 的過去式是不規則的 took。"
+}
+]
+},
+"fafa92bd532": {
+"note": "給中文指定音樂會。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "你想去聽音樂會嗎？"
+}
+]
+},
+"fb06762b271": {
+"note": "a bike 改 our bikes 讓 We 自然，並加 last Sunday 排除 ride。",
+"ops": [
+{
+"op": "set_q",
+"q": "We ___ our bikes in the park last Sunday. (ride)"
+},
+{
+"op": "set_x",
+"x": "last Sunday 是過去；ride 是不規則動詞，過去式是 rode，不是 rided。"
+}
+]
+},
+"fb09ac08a66": {
+"note": "句尾加 yesterday，排除 am。",
+"ops": [
+{
+"op": "set_q",
+"q": "I ___ at the doctor's office at ten yesterday."
+},
+{
+"op": "set_x",
+"x": "yesterday 是過去，昨天十點在診所；主詞 I 的 be 動詞過去式是 was。"
+}
+]
+},
+"fb0ea934ebe": {
+"note": "給中文指定公園。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "我們明天去公園吧。"
+}
+]
+},
+"fb19c0e66c3": {
+"note": "加中文「這兩位」，唯一對應 These。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "這兩位是我爸媽。"
+}
+]
+},
+"fb496f09a37": {
+"note": "句尾加 yesterday，排除 wait。",
+"ops": [
+{
+"op": "set_q",
+"q": "We ___ for the bus for thirty minutes yesterday."
+},
+{
+"op": "set_x",
+"x": "yesterday 是過去；wait 加 ed 變 waited。等公車是 wait for the bus。"
+}
+]
+},
+"fb5166fdaa1": {
+"note": "句尾加 last weekend，排除 listen。",
+"ops": [
+{
+"op": "set_q",
+"q": "We ___ (listen) to music in the car last weekend."
+},
+{
+"op": "set_x",
+"x": "last weekend 是過去；listen 加 ed 變 listened，後面要接 to 再接音樂。"
+}
+]
+},
+"fb5341f11a9": {
+"note": "給中文指定園藝。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "我媽媽每天早上很享受做園藝。"
+}
+]
+},
+"fb59f9ea571": {
+"note": "The boy over there 也對，補收 The。",
+"ops": [
+{
+"answers": [
+"The"
+],
+"op": "add_answers"
+}
+]
+},
+"fb74449c233": {
+"note": "補收 like to play。",
+"ops": [
+{
+"answers": [
+"to play"
+],
+"op": "add_answers"
+},
+{
+"op": "set_x",
+"x": "like 後面接動作，用 V-ing 或 to＋原形：playing 或 to play（玩電動）。"
+}
+]
+},
+"fb83d18ae95": {
+"note": "句尾加 last night，排除 studies。",
+"ops": [
+{
+"op": "set_q",
+"q": "She ___ (study) English for two hours last night."
+},
+{
+"op": "set_x",
+"x": "last night 是過去；study 是子音＋y 結尾，把 y 改成 i 再加 ed：studied。"
+}
+]
+},
+"fb8a2feb2cc": {
+"note": "給中文指定聽起來，排除 is／looks。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "聽起來很棒！"
+}
+]
+},
+"fbb7effb74b": {
+"note": "句首加 Last week，排除 are。",
+"ops": [
+{
+"op": "set_q",
+"q": "Last week, the children ___ excited about the trip."
+},
+{
+"op": "set_x",
+"x": "Last week 是過去；the children 是很多小孩（複數），be 動詞過去式用 were。"
+}
+]
+},
+"fbde6514391": {
+"note": "句尾加 last Saturday，排除 goes。",
+"ops": [
+{
+"op": "set_q",
+"q": "She ___ shopping with her sister last Saturday. (go)"
+},
+{
+"op": "set_x",
+"x": "last Saturday 是過去；go 的過去式是不規則的 went。go shopping 是去購物。"
+}
+]
+},
+"fbe771df154": {
+"note": "on Sunday 改成 last Sunday，排除 visit。",
+"ops": [
+{
+"op": "set_q",
+"q": "They ___ (visit) my grandmother last Sunday."
+},
+{
+"op": "set_x",
+"x": "last Sunday 是上週日，過去的事；visit 是規則動詞，加 ed 變 visited。"
+}
+]
+},
+"fbeabb606b7": {
+"note": "句尾加 two days ago，排除 takes。",
+"ops": [
+{
+"op": "set_q",
+"q": "He ___ a taxi to the mall two days ago."
+},
+{
+"op": "set_x",
+"x": "two days ago 是兩天前，過去；搭計程車是 take a taxi，take 的過去式是 took。"
+}
+]
+},
+"fbf5195639d": {
+"note": "句尾加 last week，排除 get。",
+"ops": [
+{
+"op": "set_q",
+"q": "I ___ (get) a letter from my friend last week."
+},
+{
+"op": "set_x",
+"x": "last week 是過去；get 是不規則動詞，過去式是 got。"
+}
+]
+},
+"fbfa00a3e5e": {
+"note": "on Sunday afternoon 改成 last Sunday afternoon，排除 watch/see。",
+"ops": [
+{
+"op": "set_q",
+"q": "We ___ a movie last Sunday afternoon."
+},
+{
+"op": "set_x",
+"x": "last Sunday afternoon 是過去；watch 加 ed 變 watched，或用 see 的過去式 saw。"
+}
+]
+},
+"fc2f5404fb0": {
+"note": "句尾加 yesterday，排除 Does/Can。",
+"ops": [
+{
+"op": "set_q",
+"q": "___ he finish the work on time yesterday?"
+},
+{
+"op": "set_x",
+"x": "yesterday 是過去；後面 finish 是原形，問過去有沒有做到，用 Did 放句首。"
+}
+]
+},
+"fc3b6c5ea80": {
+"note": "主詞加 last night，排除 is。",
+"ops": [
+{
+"op": "set_q",
+"q": "The movie last night ___ boring."
+},
+{
+"op": "set_x",
+"x": "last night 是過去，講昨晚的電影；The movie 是一件事，be 動詞過去式用 was。"
+}
+]
+},
+"fc459cf3565": {
+"note": "on Saturday 改成 last Saturday，排除 washes。",
+"ops": [
+{
+"op": "set_q",
+"q": "My father ___ (wash) the car last Saturday."
+},
+{
+"op": "set_x",
+"x": "last Saturday 是上週六，過去的事；wash 是規則動詞，加 ed 變 washed。"
+}
+]
+},
+"fc4651e9e9b": {
+"note": "句尾加 last night，排除 like。",
+"ops": [
+{
+"op": "set_q",
+"q": "We ___ (like) the movie very much last night."
+},
+{
+"op": "set_x",
+"x": "last night 是過去，說昨晚看電影的感受；like 字尾有 e，只加 d 變 liked。"
+}
+]
+},
+"fc557dd60d8": {
+"note": "加中文「我們有」排除 are，說明的中文跟著改成「有」。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "我們有一個六個人的大家庭。"
+},
+{
+"op": "set_x",
+"x": "主詞 We 用 have，不用 has：We have a big family 我們有一個大家庭。"
+}
+]
+},
+"fc5662b8979": {
+"note": "句尾加 last night，排除 Are。",
+"ops": [
+{
+"op": "set_q",
+"q": "___ your friends at the night market last night?"
+},
+{
+"op": "set_x",
+"x": "last night 是過去，問朋友昨晚在不在夜市；your friends 複數，用 Were 開頭。"
+}
+]
+},
+"fc56f97ad5a": {
+"note": "句尾加 yesterday，排除 is。",
+"ops": [
+{
+"op": "set_q",
+"q": "He ___ not happy about the news yesterday."
+},
+{
+"op": "set_x",
+"x": "yesterday 是過去；He 是一個人，be 動詞過去式用 was，not 放在 was 後面。"
+}
+]
+},
+"fc78b85bfe9": {
+"note": "加中文「我們有」，排除 are。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "我們有一個幸福的家庭。"
+}
+]
+},
+"fcb69750b1f": {
+"note": "加中文「她的」，唯一對應 Her。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "她的頭髮是黑色的。"
+}
+]
+},
+"fcbdd935c28": {
+"note": "small and young 不自然，改成用年紀當線索，加中文定住 young。",
+"ops": [
+{
+"op": "set_q",
+"q": "My baby sister is very ___. She is only one year old."
+},
+{
+"op": "set_zh",
+"zh": "我的小妹妹年紀很小，她才一歲。"
+},
+{
+"op": "set_x",
+"x": "She is only one year old 是在說年紀，年紀小用 young；cute、small 不是說年紀。"
+}
+]
+},
+"fcc95bb573c": {
+"note": "句尾加 last night，排除 Does/Can。",
+"ops": [
+{
+"op": "set_q",
+"q": "___ he clean the kitchen last night?"
+},
+{
+"op": "set_x",
+"x": "last night 是過去；後面 clean 是原形，問過去有沒有打掃，用 Did 放句首。"
+}
+]
+},
+"fcf96c4dccb": {
+"note": "主詞加 I had yesterday，排除 is。",
+"ops": [
+{
+"op": "set_q",
+"q": "The coffee I had yesterday ___ too sweet."
+},
+{
+"op": "set_x",
+"x": "yesterday 是過去，講昨天喝的咖啡；The coffee 是一件東西，be 動詞過去式用 was。"
+}
+]
+},
+"fd029b0a956": {
+"note": "給中文指定打電話。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "我今晚九點會打電話給你。"
+}
+]
+},
+"fd24dc4c691": {
+"note": "加中文「我們家的」，唯一對應 our。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "這是我們家的家譜。"
+}
+]
+},
+"fd2ae8da80f": {
+"note": "加中文「很帥」，對應 handsome，並補收 good-looking。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "這是我哥哥，他很帥。"
+},
+{
+"answers": [
+"good-looking"
+],
+"op": "add_answers"
+}
+]
+},
+"fd3b13009f8": {
+"note": "The bags here 也對，補收 The。",
+"ops": [
+{
+"answers": [
+"The"
+],
+"op": "add_answers"
+}
+]
+},
+"fd45927e9af": {
+"note": "句尾加 yesterday，排除現在式 arrive。",
+"ops": [
+{
+"op": "set_q",
+"q": "First, we ___ (arrive) at the airport yesterday."
+},
+{
+"op": "set_x",
+"x": "yesterday 是過去，用過去式；arrive 字尾已經有 e，只加 d 變 arrived。"
+}
+]
+},
+"fd479509290": {
+"note": "句尾加 last summer，排除現在式 take。",
+"ops": [
+{
+"op": "set_q",
+"q": "They ___ many photos on their trip last summer."
+},
+{
+"op": "set_x",
+"x": "last summer 是過去，用過去式；拍照是 take photos，take 的過去式是不規則的 took。"
+}
+]
+},
+"fd567c924ff": {
+"note": "中文指定可以排除 will，could 也能表達可以，補收。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "我們今晚六點可以跟你碰面。"
+},
+{
+"answers": [
+"could"
+],
+"op": "add_answers"
+}
+]
+},
+"fd6dc98bbcd": {
+"note": "句首加 It's raining.，讓答案明確為 umbrella。",
+"ops": [
+{
+"op": "set_q",
+"q": "It's raining. I need an ___ today."
+},
+{
+"op": "set_x",
+"x": "下雨了需要雨傘 umbrella；它以母音 u 音開頭，前面用 an。"
+}
+]
+},
+"fd6fd927cf9": {
+"note": "補收 like to walk／to run。",
+"ops": [
+{
+"answers": [
+"to walk",
+"to run"
+],
+"op": "add_answers"
+},
+{
+"op": "set_x",
+"x": "like 後面接動作，用 V-ing 或 to＋原形：walking、running 或 to walk、to run。"
+}
+]
+},
+"fd73c1cd402": {
+"note": "the boy over there 也對，補收 the。",
+"ops": [
+{
+"answers": [
+"the"
+],
+"op": "add_answers"
+}
+]
+},
+"fd8d0fd10d5": {
+"note": "加回答 Yes, I can. 排除 Do。",
+"ops": [
+{
+"op": "set_q",
+"q": "___ you drive a bus? Yes, I can."
+},
+{
+"op": "set_x",
+"x": "回答是 Yes, I can.，所以問句用 Can 放句首：Can you…？後面接原形。"
+}
+]
+},
+"fd95d2a0d39": {
+"note": "補收 like to watch。",
+"ops": [
+{
+"answers": [
+"to watch"
+],
+"op": "add_answers"
+},
+{
+"op": "set_x",
+"x": "like 後面接動作，用 V-ing 或 to＋原形：watching 或 to watch（看電影）。"
+}
+]
+},
+"fdaa9e59f65": {
+"note": "句尾加 yesterday morning，排除現在式。",
+"ops": [
+{
+"op": "set_q",
+"q": "Then we ___ breakfast at a small shop yesterday morning."
+},
+{
+"op": "set_x",
+"x": "yesterday morning 是過去；吃早餐是 eat／have breakfast，過去式 ate 或 had。"
+}
+]
+},
+"fdade38d93a": {
+"note": "The car over there 也對，補收 The。",
+"ops": [
+{
+"answers": [
+"The"
+],
+"op": "add_answers"
+}
+]
+},
+"fdb35c98516": {
+"note": "加中文「這幾位」，唯一對應 These。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "這幾位是我的爺爺奶奶。"
+}
+]
+},
+"fdb89994680": {
+"note": "加回答 Yes, they can. 排除 Do。",
+"ops": [
+{
+"op": "set_q",
+"q": "___ they swim well? Yes, they can."
+},
+{
+"op": "set_x",
+"x": "回答是 Yes, they can.，所以問句用 Can 放句首：Can they swim well?"
+}
+]
+},
+"fdd5c444c65": {
+"note": "see my parents 也自然，補收。",
+"ops": [
+{
+"answers": [
+"see"
+],
+"op": "add_answers"
+},
+{
+"op": "set_x",
+"x": "am going to 後面接原形動詞；去探望父母用 visit 或 see。"
+}
+]
+},
+"fde2ed586e9": {
+"note": "The man over there 也對，補收 The。",
+"ops": [
+{
+"answers": [
+"The"
+],
+"op": "add_answers"
+}
+]
+},
+"fe11873e198": {
+"note": "The girls over there 也對，補收 The。",
+"ops": [
+{
+"answers": [
+"The"
+],
+"op": "add_answers"
+}
+]
+},
+"fe1fe48acae": {
+"note": "句尾加 last night，排除 is。",
+"ops": [
+{
+"op": "set_q",
+"q": "My phone ___ on the table last night."
+},
+{
+"op": "set_x",
+"x": "last night 是過去；My phone 是一件東西，be 動詞過去式用 was。"
+}
+]
+},
+"fe3da9f57a1": {
+"note": "句尾加 yesterday，排除現在式 see。",
+"ops": [
+{
+"op": "set_q",
+"q": "We ___ (see) our teacher at the station yesterday."
+},
+{
+"op": "set_x",
+"x": "yesterday 是過去；see 是不規則動詞，過去式是 saw。"
+}
+]
+},
+"fe407240780": {
+"note": "句尾加 last night，排除現在式。",
+"ops": [
+{
+"op": "set_q",
+"q": "We ___ noodles at a small restaurant last night."
+},
+{
+"op": "set_x",
+"x": "last night 是過去；eat 的過去式是 ate，也可以用 have 的過去式 had。"
+}
+]
+},
+"fe41ed24d59": {
+"note": "句尾加 last night，排除時刻表用的 starts。",
+"ops": [
+{
+"op": "set_q",
+"q": "The show ___ (start) at eight o'clock last night."
+},
+{
+"op": "set_x",
+"x": "last night 是過去；start 是規則動詞，加 ed 變 started。"
+}
+]
+},
+"fe4ce078b19": {
+"note": "句尾加 last Sunday，排除 makes。",
+"ops": [
+{
+"op": "set_q",
+"q": "My mother ___ (make) a cake for me last Sunday."
+},
+{
+"op": "set_x",
+"x": "last Sunday 是過去；make 是不規則動詞，過去式是 made。"
+}
+]
+},
+"fe52960b76c": {
+"note": "給中文指定聽起來，排除 is。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "謝謝，聽起來很棒！"
+}
+]
+},
+"fe5fe5f4159": {
+"note": "句尾加 last year，排除 are。",
+"ops": [
+{
+"op": "set_q",
+"q": "We ___ not in the same group last year."
+},
+{
+"op": "set_x",
+"x": "last year 是過去；We 是複數，be 動詞過去式用 were，not 放在 were 後面。"
+}
+]
+},
+"fe671b957a4": {
+"note": "給整句中文指定「哭」，排除 ran、screamed 等。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "小女孩哭了，因為她很害怕。"
+}
+]
+},
+"feb097799fa": {
+"note": "加中文「這是」，唯一對應 This。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "這是我的全家福照片。"
+}
+]
+},
+"fec959c0f3c": {
+"note": "on Tuesday 改 last Tuesday，排除 am。",
+"ops": [
+{
+"op": "set_q",
+"q": "I ___ not at work last Tuesday."
+},
+{
+"op": "set_x",
+"x": "last Tuesday 是過去；主詞 I 的 be 動詞過去式是 was，not 放在後面。"
+}
+]
+},
+"fecb7113576": {
+"note": "加中文「我的」，唯一對應 my。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "這是我的手機。"
+}
+]
+},
+"feeb49b404c": {
+"note": "改成 Yesterday's test，排除 is。",
+"ops": [
+{
+"op": "set_q",
+"q": "Yesterday's test ___ not difficult."
+},
+{
+"op": "set_x",
+"x": "Yesterday's test 是昨天的考試，用過去式；一件事的 be 動詞過去式是 was。"
+}
+]
+},
+"fef02847284": {
+"note": "句尾加 last night，排除 Is。",
+"ops": [
+{
+"op": "set_q",
+"q": "___ the shop still open at nine last night?"
+},
+{
+"op": "set_x",
+"x": "last night 是過去；the shop 是一間店，問句用 Was 開頭。"
+}
+]
+},
+"fef36af5ee7": {
+"note": "句尾加 last night，排除現在式 come。",
+"ops": [
+{
+"op": "set_q",
+"q": "Finally, we ___ (come) home last night."
+},
+{
+"op": "set_x",
+"x": "last night 是過去；come 是不規則動詞，過去式是 came，不是 comed。"
+}
+]
+},
+"fefb8982187": {
+"note": "道別語改成請對方等一下，配 not ready yet 較自然。",
+"ops": [
+{
+"op": "set_q",
+"q": "Please wait. I ___ not ready yet."
+}
+]
+},
+"ff10fe96e11": {
+"note": "句尾加 fifty years ago，排除 are。",
+"ops": [
+{
+"op": "set_q",
+"q": "My grandparents ___ farmers fifty years ago."
+},
+{
+"op": "set_x",
+"x": "fifty years ago 是過去；My grandparents 是兩個人（複數），用 were。"
+}
+]
+},
+"ff1443d17a8": {
+"note": "on Saturday 改 last Saturday，排除習慣用的現在式。",
+"ops": [
+{
+"op": "set_q",
+"q": "My mother ___ dinner for us last Saturday."
+},
+{
+"op": "set_x",
+"x": "last Saturday 是過去；cook 加 ed 變 cooked，或用 make 的過去式 made。"
+}
+]
+},
+"ff2e72a9d10": {
+"note": "句尾加 yesterday，排除 Do／Can。",
+"ops": [
+{
+"op": "set_q",
+"q": "___ you tell your friend the story yesterday?"
+},
+{
+"op": "set_x",
+"x": "yesterday 是過去，後面 tell 是原形，問句用助動詞 Did 放句首。"
+}
+]
+},
+"ff37390c0ca": {
+"note": "句尾加 last night，排除 don't／can't。",
+"ops": [
+{
+"op": "set_q",
+"q": "I ___ go to the party last night."
+},
+{
+"op": "set_x",
+"x": "last night 是過去；後面 go 是原形，否定靠助動詞，用 didn't。"
+}
+]
+},
+"ff93e1eea51": {
+"note": "把 it 移進括號提示，空格整個填 Did it rain，不再重複 it。",
+"ops": [
+{
+"op": "set_q",
+"q": "___ (it / rain) last weekend?"
+}
+]
+},
+"ff9902f1e29": {
+"note": "句尾加 yesterday，排除 asks。",
+"ops": [
+{
+"op": "set_q",
+"q": "Then the teacher ___ us a question yesterday."
+},
+{
+"op": "set_x",
+"x": "yesterday 是過去；ask 是規則動詞，加 ed 變 asked。"
+}
+]
+},
+"ffa6b6acef2": {
+"note": "on Saturday night 改 last Saturday night，排除現在式。",
+"ops": [
+{
+"op": "set_q",
+"q": "They ___ home late last Saturday night."
+},
+{
+"op": "set_x",
+"x": "last Saturday night 是過去；come、get、go 的過去式是 came、got、went。"
+}
+]
+},
+"ffd59c93746": {
+"note": "she 移進括號避免重複，並加 yesterday 排除 Does。",
+"ops": [
+{
+"op": "set_q",
+"q": "___ (she / arrive) late yesterday?"
+},
+{
+"op": "set_x",
+"x": "yesterday 是過去；問句是 Did＋主詞＋原形：Did she arrive? arrive 不加 d。"
+}
+]
+},
+"ffe8ea35fb2": {
+"note": "加 yesterday，排除 eats。",
+"ops": [
+{
+"op": "set_q",
+"q": "He ___ noodles for lunch yesterday. (eat)"
+},
+{
+"op": "set_x",
+"x": "yesterday 是過去；eat 是不規則動詞，過去式是 ate。"
+}
+]
+},
+"fff2b9cebe1": {
+"note": "句尾加 last night，排除 doesn't／can't。",
+"ops": [
+{
+"op": "set_q",
+"q": "My sister ___ answer the phone last night."
+},
+{
+"op": "set_x",
+"x": "last night 是過去；後面 answer 是原形，否定靠助動詞，用 didn't。"
+}
+]
+},
+"fffb9cd6ed9": {
+"note": "句尾加 last night，排除 is。",
+"ops": [
+{
+"op": "set_q",
+"q": "The sky ___ dark at six o'clock last night."
+},
+{
+"op": "set_x",
+"x": "last night 是過去；The sky 是一個東西，be 動詞過去式用 was。"
+}
+]
+},
+"m033a779e05": {
+"note": "句尾加 yesterday。",
+"ops": [
+{
+"op": "set_q",
+"q": "I ___ my work at six o'clock yesterday."
+},
+{
+"op": "set_x",
+"x": "yesterday 是昨天，講過去的事用過去式；finish 加 ed 變 finished。"
+}
+]
+},
+"m08aabbf00f": {
+"note": "near the kitchen 也說得通，換成明確錯的 between。",
+"ops": [
+{
+"new": "between",
+"old": "near",
+"op": "replace_option",
+"w": "between 要接兩樣東西，這裡只有 the kitchen。"
+}
+]
+},
+"m08e41cf98f": {
+"note": "請求時 some 也對，換成文法明確錯的 a。",
+"ops": [
+{
+"new": "a",
+"old": "some",
+"op": "replace_option",
+"w": "a 只配一個（單數），tomatoes 是複數。"
+}
+]
+},
+"m0980cbf6a9": {
+"note": "near A and B 也合文法，加整句中文讓答案唯一，並改 near 的說明。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "公園在學校和銀行中間。"
+},
+{
+"op": "set_w",
+"w": {
+"near": "near 只是在附近；中文說的是在兩者中間。"
+}
+}
+]
+},
+"m0a3954b75b": {
+"note": "a salad 點一份也對，換成文法錯的 many。",
+"ops": [
+{
+"new": "many",
+"old": "a",
+"op": "replace_option",
+"w": "many 接可數複數，salad 在這裡當不可數。"
+}
+]
+},
+"m0a67c286ce": {
+"note": "加 in class yesterday。",
+"ops": [
+{
+"op": "set_q",
+"q": "They ___ a lot of questions in class yesterday."
+},
+{
+"op": "set_x",
+"x": "yesterday 是昨天，講過去的事用過去式；ask 加 ed 變 asked。"
+}
+]
+},
+"m0d23f7e8d3": {
+"note": "Is there some fruit 也合文法，換成明確錯的 a lot。",
+"ops": [
+{
+"new": "a lot",
+"old": "some",
+"op": "replace_option",
+"w": "a lot 後面要加 of 才能接名詞：a lot of fruit。"
+}
+]
+},
+"m0eb3cace21": {
+"note": "句尾加 last night。",
+"ops": [
+{
+"op": "set_q",
+"q": "I ___ some tea for my father last night."
+},
+{
+"op": "set_x",
+"x": "last night 是昨晚，用過去式；make 不規則，過去式是 made。"
+}
+]
+},
+"m0f33f497bb": {
+"note": "at the station 也對，換成明確錯的 between。",
+"ops": [
+{
+"new": "between",
+"old": "at",
+"op": "replace_option",
+"w": "between 要接兩樣東西，這裡只有 the station。"
+}
+]
+},
+"m0f8c0c4e4d": {
+"note": "on Saturday 改 last Saturday。",
+"ops": [
+{
+"op": "set_q",
+"q": "We ___ a movie last Saturday."
+},
+{
+"op": "set_x",
+"x": "last Saturday 是上週六，已經過去，用過去式；watch 加 ed 變 watched。"
+}
+]
+},
+"m1044038295": {
+"note": "加 last Sunday，並把 a bike 改 bikes（We 多人騎一台不自然）。",
+"ops": [
+{
+"op": "set_q",
+"q": "We ___ bikes in the park last Sunday."
+},
+{
+"op": "set_x",
+"x": "last Sunday 是上週日，用過去式；ride 不規則，過去式是 rode。"
+}
+]
+},
+"m151f771d74": {
+"note": "加 last night。",
+"ops": [
+{
+"op": "set_q",
+"q": "They ___ home at midnight last night."
+},
+{
+"op": "set_x",
+"x": "last night 是昨晚，用過去式；get 不規則，過去式是 got。"
+}
+]
+},
+"m160a5b3b01": {
+"note": "口語 a tea 可接受，換成明確錯的 an。",
+"ops": [
+{
+"new": "an",
+"old": "a",
+"op": "replace_option",
+"w": "an 用在母音開頭的字前面；tea 不可數，也不能加 an。"
+}
+]
+},
+"m16130b6104": {
+"note": "加 at the party last night。",
+"ops": [
+{
+"op": "set_q",
+"q": "The food at the party last night ___ delicious."
+},
+{
+"op": "set_x",
+"x": "last night 是昨晚，用過去式；food 不可數當單數，用 was。"
+}
+]
+},
+"m169e2f800a": {
+"note": "加 in class yesterday，排除 doesn't。",
+"ops": [
+{
+"op": "set_q",
+"q": "He ___ hear the question in class yesterday."
+},
+{
+"op": "set_x",
+"x": "yesterday 是過去，一般動詞的過去否定用 didn't 加原形 hear。"
+},
+{
+"op": "set_w",
+"w": {
+"doesn't": "doesn't 講平常習慣；yesterday 是過去，要用 didn't。"
+}
+}
+]
+},
+"m17c7c51c30": {
+"note": "空格後已有 not，標準答案改為現有選項 are，並更新說明與 aren't 的錯因。",
+"ops": [
+{
+"answer": "are",
+"op": "set_answer"
+},
+{
+"op": "set_x",
+"x": "主詞 You 配 are。空格後已經有 not，填 are 就是 You are not late。"
+},
+{
+"op": "set_w",
+"w": {
+"aren't": "aren't 已經是 are not，後面又有 not，會變成重複否定。"
+}
+}
+]
+},
+"m1a3f1b25f5": {
+"note": "句首加 Last week，are 的說明改指時間詞。",
+"ops": [
+{
+"op": "set_q",
+"q": "Last week, they ___ not ready for the trip."
+},
+{
+"op": "set_x",
+"x": "Last week 是上週，用過去式；主詞 they 是複數，用 were。"
+},
+{
+"op": "set_w",
+"w": {
+"are": "are 是現在式；Last week 已經過去，要用 were。"
+}
+}
+]
+},
+"m1c87e131ee": {
+"note": "英式英文 family 配 are 也對，學習者很可能選，換成明確錯的原形 be。",
+"ops": [
+{
+"new": "be",
+"old": "are",
+"op": "replace_option",
+"w": "be 是原形，不能直接當句子的動詞，要變成 is。"
+}
+]
+},
+"m1d38c6e421": {
+"note": "any more grapes 也自然，換成文法錯的 a。",
+"ops": [
+{
+"new": "a",
+"old": "any",
+"op": "replace_option",
+"w": "a 只配一個（單數），grapes 是複數。"
+}
+]
+},
+"m1d4b796e41": {
+"note": "句尾加 last week，排除 Do。",
+"ops": [
+{
+"op": "set_q",
+"q": "___ they enjoy the trip last week?"
+},
+{
+"op": "set_x",
+"x": "last week 是過去，問旅行開不開心用過去式問句：Did 加原形 enjoy。"
+},
+{
+"op": "set_w",
+"w": {
+"Do": "Do 問現在的習慣；last week 是過去，要用 Did。"
+}
+}
+]
+},
+"m206d01c1fe": {
+"note": "加 last Sunday。",
+"ops": [
+{
+"op": "set_q",
+"q": "We ___ a picnic in the park last Sunday."
+},
+{
+"op": "set_x",
+"x": "last Sunday 是上週日，用過去式；have 不規則，過去式是 had。"
+}
+]
+},
+"m243d7e60ac": {
+"note": "in 文法上也成立，換成明確不合的 between。",
+"ops": [
+{
+"new": "between",
+"old": "in",
+"op": "replace_option",
+"w": "between 要接兩個地方（A and B），這裡只有超市一個。"
+}
+]
+},
+"m28f456a9b4": {
+"note": "near here 改成 in the bathroom，「浴室沒有窗戶」較自然，答案不變。",
+"ops": [
+{
+"op": "set_q",
+"q": "There ___ a window in the bathroom."
+}
+]
+},
+"m292e90e733": {
+"note": "單數 napkin 自然要用 a，改成複數 napkins 並換掉 some／many（兩者在新句都可能對），仍考 any。",
+"ops": [
+{
+"answer": "any",
+"op": "set_item",
+"q": "Are there ___ napkins on the table?",
+"wrong": [
+"a",
+"much"
+]
+},
+{
+"op": "set_x",
+"x": "Are there…? 是問句，napkins 是複數，問句一般用 any。"
+},
+{
+"op": "set_w",
+"w": {
+"a": "a 只配一個（單數），napkins 是複數。",
+"much": "much 配不可數，napkins 可以數。"
+}
+}
+]
+},
+"m2a25acdfd6": {
+"note": "your family 改 your brother，回答用 he 很自然，仍考 doesn't；說明跟著改主詞。",
+"ops": [
+{
+"op": "set_q",
+"q": "Does your brother have a dog? No, he ___."
+},
+{
+"op": "set_x",
+"x": "問句用 Does，回答也用 does 的否定 doesn't；主詞 he 是一個人（單數）。"
+},
+{
+"op": "set_w",
+"w": {
+"don't": "don't 配 I／you／we／they，這裡主詞是 he。"
+}
+}
+]
+},
+"m2b218cb9d9": {
+"note": "a coffee 點一杯也對，換成文法錯的 many。",
+"ops": [
+{
+"new": "many",
+"old": "a",
+"op": "replace_option",
+"w": "many 接可數複數，coffee 在這裡當不可數。"
+}
+]
+},
+"m2c43256285": {
+"note": "把道別語 Goodbye! 換成介紹人的開頭，情境變自然，答案不變。",
+"ops": [
+{
+"op": "set_q",
+"q": "Hi, this is Ken. He ___ my classmate."
+}
+]
+},
+"m2c72a63b54": {
+"note": "Are there some eggs 也合文法，換成明確錯的 a。",
+"ops": [
+{
+"new": "a",
+"old": "some",
+"op": "replace_option",
+"w": "a 只配一個（單數），eggs 是複數。"
+}
+]
+},
+"m2d14383f98": {
+"note": "parents 改 neighbors，說話者不是他們的孩子，Their children 才合理。",
+"ops": [
+{
+"op": "set_q",
+"q": "Tom and Amy are my neighbors. ___ children are all young."
+}
+]
+},
+"m2e03cb45dd": {
+"note": "Do you speak English? 完全正確，換成文法錯的 Does。",
+"ops": [
+{
+"new": "Does",
+"old": "Do",
+"op": "replace_option",
+"w": "主詞 you 不配 Does，Does you speak 不對。"
+}
+]
+},
+"m2eb179e578": {
+"note": "a menu 也很自然，換成明確錯的 an。",
+"ops": [
+{
+"new": "an",
+"old": "a",
+"op": "replace_option",
+"w": "an 用在母音開頭的字前面，menu 是 m 開頭。"
+}
+]
+},
+"m318db46d33": {
+"note": "behind 也說得通，加整句中文讓答案唯一，並改 behind 的說明。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "浴室在兩間臥室中間。"
+},
+{
+"op": "set_w",
+"w": {
+"behind": "behind 是在後面；中文說的是在兩間中間。"
+}
+}
+]
+},
+"m3418cfaa34": {
+"note": "positive and offers sentences 不通順，把 sentences 移進選項重寫，內容不變。",
+"ops": [
+{
+"answer": "positive sentences and offers",
+"op": "set_item",
+"q": "We use 'some' in ___.",
+"wrong": [
+"negative sentences",
+"questions only"
+]
+},
+{
+"op": "set_w",
+"w": {
+"negative sentences": "否定句用 any：I don't have any tea."
+}
+}
+]
+},
+"m34fdaf3977": {
+"note": "a kilo of bread 也通，換成明確不搭的 bottle。",
+"ops": [
+{
+"new": "bottle",
+"old": "kilo",
+"op": "replace_option",
+"w": "a bottle of 是一瓶，用在飲料，麵包不裝在瓶子裡。"
+}
+]
+},
+"m36137a2921": {
+"note": "any dessert 也自然，換成明確錯的 an。",
+"ops": [
+{
+"new": "an",
+"old": "any",
+"op": "replace_option",
+"w": "an 用在母音開頭的字前面，dessert 是 d 開頭。"
+}
+]
+},
+"m3870161e58": {
+"note": "加 last night。",
+"ops": [
+{
+"op": "set_q",
+"q": "I ___ dinner with my family last night."
+},
+{
+"op": "set_x",
+"x": "last night 是昨晚，用過去式；have 不規則，過去式是 had。"
+}
+]
+},
+"m3a2e9b4ac8": {
+"note": "on Sunday afternoon 改 last Sunday afternoon。",
+"ops": [
+{
+"op": "set_q",
+"q": "I ___ coffee with my sister last Sunday afternoon."
+},
+{
+"op": "set_x",
+"x": "last Sunday afternoon 是上週日下午，用過去式；drink 不規則，過去式是 drank。"
+}
+]
+},
+"m3a72f824de": {
+"note": "沒有上下文，加整句中文讓 in 成為唯一答案。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "手機在盒子裡。"
+}
+]
+},
+"m3b2820b891": {
+"note": "加 last weekend。",
+"ops": [
+{
+"op": "set_q",
+"q": "I ___ to the park with my family last weekend."
+},
+{
+"op": "set_x",
+"x": "last weekend 是上週末，用過去式；go 不規則，過去式是 went。"
+}
+]
+},
+"m3e9410896e": {
+"note": "加 yesterday。",
+"ops": [
+{
+"op": "set_q",
+"q": "I ___ my friend at a coffee shop yesterday."
+},
+{
+"op": "set_x",
+"x": "yesterday 是昨天，用過去式；meet 不規則，過去式是 met。"
+}
+]
+},
+"m3f4b9cc82e": {
+"note": "前面加 Sorry, I'm busy today. 給上下文，排除 this time。",
+"ops": [
+{
+"op": "set_q",
+"q": "Sorry, I'm busy today. Maybe ___ time."
+},
+{
+"op": "set_x",
+"x": "今天很忙去不了，用 Maybe next time.（下次吧）婉拒邀請，是固定說法。"
+},
+{
+"op": "set_w",
+"w": {
+"this": "前面說今天很忙，這次不行，不說 this time，要說 next time。"
+}
+}
+]
+},
+"m4188472df1": {
+"note": "補上介系詞 to，句子通順，說明拿掉「題目少 to」的內容。",
+"ops": [
+{
+"op": "set_q",
+"q": "He ___ to his colleagues at lunch."
+},
+{
+"op": "set_x",
+"x": "He 是一個人，說習慣用現在簡單式，talk 要加 s 變 talks。"
+}
+]
+},
+"m422f0c178c": {
+"note": "拿掉題目中多餘的 not，讓答案 isn't 成立，並改寫說明。",
+"ops": [
+{
+"op": "set_q",
+"q": "The cook ___ in the kitchen."
+},
+{
+"op": "set_x",
+"x": "The cook 是一個人，配 is，否定是 isn't（= is not）。"
+}
+]
+},
+"m457f2ee396": {
+"note": "on Sunday 改 last Sunday。",
+"ops": [
+{
+"op": "set_q",
+"q": "They ___ at the beach last Sunday."
+},
+{
+"op": "set_x",
+"x": "last Sunday 是上週日，用過去式；swim 不規則，過去式是 swam。"
+}
+]
+},
+"m46df41ad32": {
+"note": "加 last night。",
+"ops": [
+{
+"op": "set_q",
+"q": "They ___ a taxi home after the movie last night."
+},
+{
+"op": "set_x",
+"x": "last night 是昨晚，用過去式；take 不規則，過去式是 took。"
+}
+]
+},
+"m48fdd34a9b": {
+"note": "a dessert 與 any dessert 都自然，兩個錯誤選項都換成明確錯的。",
+"ops": [
+{
+"new": "an",
+"old": "a",
+"op": "replace_option",
+"w": "an 用在母音開頭的字前面，dessert 是 d 開頭。"
+},
+{
+"new": "many",
+"old": "any",
+"op": "replace_option",
+"w": "many 要接複數名詞，dessert 這裡是單數。"
+}
+]
+},
+"m4999439b48": {
+"note": "There isn't 也合文法，加整句中文排除，並改 There isn't 的說明。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "客廳裡有一張沙發。"
+},
+{
+"op": "set_w",
+"w": {
+"There isn't": "There isn't 是「沒有」；中文說客廳裡有一張沙發。"
+}
+}
+]
+},
+"m4a4f0152df": {
+"note": "沒有上下文，加整句中文讓 in 成為唯一答案。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "貓在盒子裡。"
+}
+]
+},
+"m4de5850823": {
+"note": "Good night! 換成 Don't worry!，和「我們沒遲到」接得上，答案不變。",
+"ops": [
+{
+"op": "set_q",
+"q": "Don't worry! We ___ late."
+}
+]
+},
+"m4ea4741c69": {
+"note": "Take care! 換成 Great party!，和「今天很開心」情境相符，答案不變。",
+"ops": [
+{
+"op": "set_q",
+"q": "Great party! My friends and I ___ happy today."
+}
+]
+},
+"m503b401fc5": {
+"note": "加 yesterday，is 的說明改指時間詞。",
+"ops": [
+{
+"op": "set_q",
+"q": "She ___ not at the meeting yesterday."
+},
+{
+"op": "set_x",
+"x": "yesterday 是昨天，用過去式；主詞 She 是一個人，用 was。"
+},
+{
+"op": "set_w",
+"w": {
+"is": "is 是現在式；yesterday 已經過去，要用 was。"
+}
+}
+]
+},
+"m517b7ad424": {
+"note": "加 to us yesterday，is 的說明改指時間詞。",
+"ops": [
+{
+"op": "set_q",
+"q": "Our teacher ___ very kind to us yesterday."
+},
+{
+"op": "set_x",
+"x": "yesterday 是昨天，用過去式；Our teacher 是一個人，用 was。"
+},
+{
+"op": "set_w",
+"w": {
+"is": "is 是現在式；yesterday 已經過去，要用 was。"
+}
+}
+]
+},
+"m52b1d1f955": {
+"note": "英式 at weekends 也對，換成明確錯的 of。",
+"ops": [
+{
+"new": "of",
+"old": "at",
+"op": "replace_option",
+"w": "of 是「…的」，不能用來表示在什麼時間。"
+}
+]
+},
+"m52f51ebeef": {
+"note": "加 yesterday。",
+"ops": [
+{
+"op": "set_q",
+"q": "We ___ to music in the car yesterday."
+},
+{
+"op": "set_x",
+"x": "yesterday 是昨天，用過去式；listen 加 ed 變 listened。"
+}
+]
+},
+"m53740146c9": {
+"note": "寵物常用 his／her 稱呼，兩個選項都換成明確錯的 Their 和 It's。",
+"ops": [
+{
+"new": "Their",
+"old": "His",
+"op": "replace_option",
+"w": "Their 是「他們的」，這裡只有一隻狗。"
+},
+{
+"new": "It's",
+"old": "Her",
+"op": "replace_option",
+"w": "It's 是 It is 的縮寫；表示「牠的」要用 Its，沒有一撇。"
+}
+]
+},
+"m568298c2ec": {
+"note": "near here 改成 in my bedroom，句子自然，答案不變。",
+"ops": [
+{
+"op": "set_q",
+"q": "There ___ a sofa in my bedroom."
+}
+]
+},
+"m57f98c3c98": {
+"note": "加 last night。",
+"ops": [
+{
+"op": "set_q",
+"q": "We ___ the food very much last night."
+},
+{
+"op": "set_x",
+"x": "last night 是昨晚，用過去式；enjoy 是母音＋y，直接加 ed：enjoyed。"
+}
+]
+},
+"m5990f9c595": {
+"note": "受詞改 me、today 改 now，句意自然。",
+"ops": [
+{
+"op": "set_q",
+"q": "My friends ___ waiting for me now."
+},
+{
+"op": "set_x",
+"x": "My friends 字尾有 s，是複數；now 是正在做的事，用 are＋-ing。"
+}
+]
+},
+"m5a6f338fc9": {
+"note": "加 yesterday，Is 的說明改指時間詞。",
+"ops": [
+{
+"op": "set_q",
+"q": "___ he happy with the gift yesterday?"
+},
+{
+"op": "set_x",
+"x": "yesterday 是昨天，用過去式；主詞 he 一個人，後面是形容詞 happy，用 Was。"
+},
+{
+"op": "set_w",
+"w": {
+"Is": "Is 是現在式；yesterday 已經過去，要用 Was。"
+}
+}
+]
+},
+"m5a7093431c": {
+"note": "on the bed 也通，加整句中文讓 under 成為唯一答案。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "鞋子在床底下。"
+}
+]
+},
+"m5c8d05c649": {
+"note": "加 last night。",
+"ops": [
+{
+"op": "set_q",
+"q": "You ___ me with my homework last night."
+},
+{
+"op": "set_x",
+"x": "last night 是昨晚，用過去式；help 加 ed 變 helped。"
+}
+]
+},
+"m5e9e2b450b": {
+"note": "any soup 也通，換成明確錯的 a lot。",
+"ops": [
+{
+"new": "a lot",
+"old": "any",
+"op": "replace_option",
+"w": "a lot 後面要加 of 才能接名詞：a lot of soup。"
+}
+]
+},
+"m5e9fc78e9a": {
+"note": "under the window 也通，加整句中文讓 near 成為唯一答案。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "時鐘在窗戶附近。"
+}
+]
+},
+"m618ad088f2": {
+"note": "See you later! 換成 Sorry,，像接電話說她不在家，情境自然。",
+"ops": [
+{
+"op": "set_q",
+"q": "Sorry, she ___ at home now."
+}
+]
+},
+"m62365af53d": {
+"note": "on Monday 改 last Monday，is 的說明改指時間詞。",
+"ops": [
+{
+"op": "set_q",
+"q": "He ___ not at work last Monday."
+},
+{
+"op": "set_x",
+"x": "last Monday 是上週一，用過去式；主詞 He 是一個人，用 was。"
+},
+{
+"op": "set_w",
+"w": {
+"is": "is 是現在式；last Monday 已經過去，要用 was。"
+}
+}
+]
+},
+"m63f7e5854a": {
+"note": "加 last night，Are 的說明改指時間詞。",
+"ops": [
+{
+"op": "set_q",
+"q": "___ your brothers at the concert last night?"
+},
+{
+"op": "set_x",
+"x": "last night 是昨晚，用過去式；主詞 brothers 是複數，用 Were。"
+},
+{
+"op": "set_w",
+"w": {
+"Are": "Are 是現在式；last night 已經過去，要用 Were。"
+}
+}
+]
+},
+"m64adf129c6": {
+"note": "加 last night，are 的說明改指時間詞。",
+"ops": [
+{
+"op": "set_q",
+"q": "We ___ happy at the party last night."
+},
+{
+"op": "set_x",
+"x": "last night 是昨晚，用過去式；主詞 We 是複數，用 were。"
+},
+{
+"op": "set_w",
+"w": {
+"are": "are 是現在式；last night 已經過去，要用 were。"
+}
+}
+]
+},
+"m6618e4b289": {
+"note": "His 稱自己的狗很自然，換成常見錯誤 It's。",
+"ops": [
+{
+"new": "It's",
+"old": "His",
+"op": "replace_option",
+"w": "It's 是 It is 的縮寫；表示「牠的」要用 Its，沒有一撇。"
+}
+]
+},
+"m6b9f3f64b8": {
+"note": "單數 seat 自然要用 a，改成複數 seats；some 在新句可能也對，換成 much。",
+"ops": [
+{
+"op": "set_q",
+"q": "Are there ___ seats by the window?"
+},
+{
+"new": "much",
+"old": "some",
+"op": "replace_option",
+"w": "much 配不可數，seats 可以數。"
+},
+{
+"op": "set_x",
+"x": "Are there…? 是問句，seats 是複數，問句一般用 any。"
+},
+{
+"op": "set_w",
+"w": {
+"a lot": "a lot 後面要加 of 才能接名詞：a lot of seats。"
+}
+}
+]
+},
+"m6e9b76a656": {
+"note": "Goodbye! 換成 Sorry,，和「他們現在不在」接得上，答案不變。",
+"ops": [
+{
+"op": "set_q",
+"q": "Sorry, they ___ not here now."
+}
+]
+},
+"m7071191395": {
+"note": "There are a TV and a lamp 也合文法，把 are 換成明確錯的 am。",
+"ops": [
+{
+"new": "am",
+"old": "are",
+"op": "replace_option",
+"w": "am 只配 I，There 句型不用 am。"
+}
+]
+},
+"m70c5b46158": {
+"note": "near here 改成 in the kitchen，句子自然，答案不變。",
+"ops": [
+{
+"op": "set_q",
+"q": "There ___ a clock in the kitchen."
+}
+]
+},
+"m72fc963faf": {
+"note": "How much money do I pay 不自然，改成 do I need，仍考 How much money。",
+"ops": [
+{
+"op": "set_q",
+"q": "Customer: How much ___ do I need?"
+}
+]
+},
+"m73c3843023": {
+"note": "加 yesterday，am 的說明改指時間詞。",
+"ops": [
+{
+"op": "set_q",
+"q": "I ___ not happy about the test yesterday."
+},
+{
+"op": "set_x",
+"x": "yesterday 是昨天，用過去式；主詞 I 的 be 動詞過去式是 was。"
+},
+{
+"op": "set_w",
+"w": {
+"am": "am 是現在式；yesterday 已經過去，要用 was。"
+}
+}
+]
+},
+"m74ed7ed358": {
+"note": "any more water 也自然，換成文法錯的 many。",
+"ops": [
+{
+"new": "many",
+"old": "any",
+"op": "replace_option",
+"w": "many 接可數複數，water 不可數。"
+}
+]
+},
+"m7677cf819d": {
+"note": "cost 當過去式也通，換成明確錯的 am。",
+"ops": [
+{
+"new": "am",
+"old": "cost",
+"op": "replace_option",
+"w": "am 只配 I，The chicken 要用 is。"
+}
+]
+},
+"m7875c7d9af": {
+"note": "補上前面的問句 Did you…?，答案才唯一。",
+"ops": [
+{
+"op": "set_q",
+"q": "A: Did you call your mother? B: Yes, I ___."
+},
+{
+"op": "set_x",
+"x": "問句是 Did you…?，簡答也用 did：Yes, I did."
+}
+]
+},
+"m794d222f8a": {
+"note": "刪掉空格後重複的 many，答案 How many 成立，並改兩個錯誤選項的說明。",
+"ops": [
+{
+"op": "set_q",
+"q": "___ eggs do you need?"
+},
+{
+"op": "set_w",
+"w": {
+"How": "How 後面要加 many 才能問數量：How many eggs。",
+"How much": "How much 接不可數；eggs 可以數，用 How many。"
+}
+}
+]
+},
+"m7b8a00903c": {
+"note": "加 yesterday，is 的說明改指時間詞。",
+"ops": [
+{
+"op": "set_q",
+"q": "The test yesterday ___ easy for me."
+},
+{
+"op": "set_x",
+"x": "yesterday 是昨天，用過去式；The test 是單數，用 was。"
+},
+{
+"op": "set_w",
+"w": {
+"is": "is 是現在式；yesterday 已經過去，要用 was。"
+}
+}
+]
+},
+"m7d04dc815a": {
+"note": "拿掉 than me（會需要比較級），改成 very ___，答案 tall 成立，說明跟著改。",
+"ops": [
+{
+"op": "set_q",
+"q": "My brother is very ___."
+},
+{
+"op": "set_x",
+"x": "is 後面要接形容詞來描述人，tall 是高的：My brother is very tall."
+}
+]
+},
+"m82e830d74b": {
+"note": "點餐說 a tea 很常見，換成明確錯的 an。",
+"ops": [
+{
+"new": "an",
+"old": "a",
+"op": "replace_option",
+"w": "an 用在母音開頭的字前面，tea 是 t 開頭。"
+}
+]
+},
+"m8374ed99a3": {
+"note": "on Sunday 改 last Sunday。",
+"ops": [
+{
+"op": "set_q",
+"q": "We ___ up late last Sunday."
+},
+{
+"op": "set_x",
+"x": "last Sunday 是上週日，用過去式；get up 的過去式是 got up。"
+}
+]
+},
+"m854b727441": {
+"note": "on Monday 改 last Monday，並把也正確的 didn't 換成時態錯的 aren't。",
+"ops": [
+{
+"op": "set_q",
+"q": "The shops ___ open last Monday."
+},
+{
+"new": "aren't",
+"old": "didn't",
+"op": "replace_option",
+"w": "aren't 是現在式；last Monday 是過去，要用 weren't。"
+},
+{
+"op": "set_x",
+"x": "last Monday 是過去；open 在這裡是形容詞（開著的），配 be 動詞，shops 複數用 weren't。"
+}
+]
+},
+"m8639c389ae": {
+"note": "刪掉空格後重複的 clean，說明改成正常的現在簡單式說明。",
+"ops": [
+{
+"op": "set_q",
+"q": "We ___ the house once a week."
+},
+{
+"op": "set_x",
+"x": "once a week 是習慣，用現在簡單式；We 是複數，動詞用原形 clean。"
+}
+]
+},
+"m8959c5cc2e": {
+"note": "加 last night。",
+"ops": [
+{
+"op": "set_q",
+"q": "___ they go to the night market last night?"
+},
+{
+"op": "set_x",
+"x": "last night 是昨晚，句子有動作 go，問過去用 Did 開頭，go 保持原形。"
+}
+]
+},
+"m8a19630278": {
+"note": "加 last night。",
+"ops": [
+{
+"op": "set_q",
+"q": "The cat ___ my fish last night."
+},
+{
+"op": "set_x",
+"x": "last night 是昨晚，已經發生，用過去式；eat 不規則，過去式是 ate。"
+}
+]
+},
+"m8c15fe36b2": {
+"note": "口語 a coffee 很常見，換成文法錯的 many。",
+"ops": [
+{
+"new": "many",
+"old": "a",
+"op": "replace_option",
+"w": "many 配可數複數名詞，coffee 不可數，不用 many。"
+}
+]
+},
+"m8eea56ffd6": {
+"note": "主詞改成植物，保留 die→dying 拼字考點。",
+"ops": [
+{
+"op": "set_q",
+"q": "My plant is ___. It needs water."
+}
+]
+},
+"m8f95f9ebaf": {
+"note": "on Friday 改 last Friday，are 的說明改指時間詞。",
+"ops": [
+{
+"op": "set_q",
+"q": "We ___ not at the office last Friday."
+},
+{
+"op": "set_x",
+"x": "last Friday 是上週五，用過去式；主詞 We 是複數，用 were。"
+},
+{
+"op": "set_w",
+"w": {
+"are": "are 是現在式；last Friday 已經過去，要用 were。"
+}
+}
+]
+},
+"m8f9aedcbfc": {
+"note": "加上「錢不夠」的後句排除 too cheap，說明改成指出這個線索。",
+"ops": [
+{
+"op": "set_q",
+"q": "This watch is too ___. I don't have enough money."
+},
+{
+"op": "set_x",
+"x": "後面說 I don't have enough money（錢不夠），所以是太貴：too expensive。"
+},
+{
+"op": "set_w",
+"w": {
+"cheap": "too cheap 是太便宜，不會因此錢不夠。"
+}
+}
+]
+},
+"m910e8650b7": {
+"note": "There are 也正確，把 are 換成常見錯誤 have。",
+"ops": [
+{
+"new": "have",
+"old": "are",
+"op": "replace_option",
+"w": "說某處有東西用 There is，不說 There have。"
+}
+]
+},
+"m9149d51677": {
+"note": "加 yesterday，Do 的說明原本講「剛才」，一併改。",
+"ops": [
+{
+"op": "set_q",
+"q": "___ you see my phone yesterday?"
+},
+{
+"op": "set_x",
+"x": "yesterday 是昨天，有動作 see，問過去用 Did 開頭，see 用原形。"
+},
+{
+"op": "set_w",
+"w": {
+"Do": "Do 問現在或平常；yesterday 已經過去，要用 Did。"
+}
+}
+]
+},
+"m9259486eda": {
+"note": "加 last weekend。",
+"ops": [
+{
+"op": "set_q",
+"q": "___ you clean your room last weekend?"
+},
+{
+"op": "set_x",
+"x": "last weekend 是上週末，有動作 clean，問過去用 Did 開頭，clean 用原形。"
+}
+]
+},
+"m92700a962d": {
+"note": "加 yesterday。",
+"ops": [
+{
+"op": "set_q",
+"q": "The children ___ in the park all afternoon yesterday."
+},
+{
+"op": "set_x",
+"x": "yesterday 是昨天，講昨天整個下午的事，用過去式；run 的過去式是 ran。"
+}
+]
+},
+"m983fc1513d": {
+"note": "加 last night。",
+"ops": [
+{
+"op": "set_q",
+"q": "___ he watch the game on TV last night?"
+},
+{
+"op": "set_x",
+"x": "last night 是昨晚，有動作 watch，問過去用 Did 開頭，watch 用原形。"
+}
+]
+},
+"m98977c1988": {
+"note": "Do you drive? 也正確，換成文法錯的 Does。",
+"ops": [
+{
+"new": "Does",
+"old": "Do",
+"op": "replace_option",
+"w": "主詞 you 不配 Does，Does you drive 不對。"
+}
+]
+},
+"m9bacb14545": {
+"note": "補上前面的問句 Did you…?，答案才唯一。",
+"ops": [
+{
+"op": "set_q",
+"q": "A: Did you eat breakfast? B: No, I ___."
+},
+{
+"op": "set_x",
+"x": "問句是 Did you…?，否定簡答用 didn't：No, I didn't."
+}
+]
+},
+"m9e1256cf9f": {
+"note": "加 last night。",
+"ops": [
+{
+"op": "set_q",
+"q": "___ the movie last night good?"
+},
+{
+"op": "set_x",
+"x": "問昨晚 last night 的電影，用過去式；good 是形容詞要用 be 動詞，一部電影用 Was。"
+}
+]
+},
+"m9e76343270": {
+"note": "Can I get you a tea 是常見口語，換成明確錯的 a lot。",
+"ops": [
+{
+"new": "a lot",
+"old": "a",
+"op": "replace_option",
+"w": "a lot 後面要加 of 才能接名詞：a lot of tea。"
+}
+]
+},
+"m9f58ff48c8": {
+"note": "加 yesterday。",
+"ops": [
+{
+"op": "set_q",
+"q": "The old man ___ under a big tree yesterday."
+},
+{
+"op": "set_x",
+"x": "yesterday 是昨天，用過去式；sit 不規則，過去式是 sat。"
+}
+]
+},
+"m9f6bbeb11e": {
+"note": "加 last weekend。",
+"ops": [
+{
+"op": "set_q",
+"q": "___ they visit the museum last weekend?"
+},
+{
+"op": "set_x",
+"x": "last weekend 是上週末，有動作 visit，問過去用 Did 開頭，visit 用原形。"
+}
+]
+},
+"m9fb8b77760": {
+"note": "There are 也正確，把 are 換成明確錯的 be。",
+"ops": [
+{
+"new": "be",
+"old": "are",
+"op": "replace_option",
+"w": "be 是原形，句子裡要用 is。"
+}
+]
+},
+"ma219534723": {
+"note": "加 yesterday。",
+"ops": [
+{
+"op": "set_q",
+"q": "I ___ a big dog near my house yesterday."
+},
+{
+"op": "set_x",
+"x": "yesterday 是昨天，用過去式；see 不規則，過去式是 saw。"
+}
+]
+},
+"ma3d3e6d5a1": {
+"note": "口語 a coffee 可接受，換成明確錯的 an。",
+"ops": [
+{
+"new": "an",
+"old": "a",
+"op": "replace_option",
+"w": "an 用在母音開頭的字前面；coffee 不可數，也不能加 an。"
+}
+]
+},
+"ma6abf69480": {
+"note": "on Saturday 改 last Saturday。",
+"ops": [
+{
+"op": "set_q",
+"q": "She ___ a movie with her friends last Saturday."
+},
+{
+"op": "set_x",
+"x": "last Saturday 是上週六，用過去式；watch 加 ed 變 watched。"
+}
+]
+},
+"ma745e1d4ec": {
+"note": "前面加一句 Yesterday was busy.，保留 First。",
+"ops": [
+{
+"op": "set_q",
+"q": "Yesterday was busy. First, I ___ up at six o'clock."
+},
+{
+"op": "set_x",
+"x": "前面說 Yesterday，First 在講昨天的經過，用過去式；get 不規則，過去式是 got。"
+}
+]
+},
+"ma85c3f4f1c": {
+"note": "加 last night 排除時刻表用法。",
+"ops": [
+{
+"op": "set_q",
+"q": "The film ___ at nine o'clock last night."
+},
+{
+"op": "set_x",
+"x": "last night 是昨晚，電影已經開演過，用過去式；start 加 ed 變 started。"
+},
+{
+"op": "set_w",
+"w": {
+"starts": "starts 用在說時刻表；last night 已經過去，用 started。"
+}
+}
+]
+},
+"ma87c6383fb": {
+"note": "加 last night。",
+"ops": [
+{
+"op": "set_q",
+"q": "Finally, they ___ home at nine last night."
+},
+{
+"op": "set_x",
+"x": "last night 是昨晚，Finally 講那晚最後一步，用過去式；come 的過去式是 came。"
+}
+]
+},
+"ma8aa24ab27": {
+"note": "There isn't 也合文法，加整句中文排除，並改 There isn't 的說明。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "我家附近有一座公園。"
+},
+{
+"op": "set_w",
+"w": {
+"There isn't": "There isn't 是「沒有」；中文說家附近有一座公園。"
+}
+}
+]
+},
+"mabcb884318": {
+"note": "Then 改成 In class yesterday。",
+"ops": [
+{
+"op": "set_q",
+"q": "In class yesterday, the teacher ___ a question."
+},
+{
+"op": "set_x",
+"x": "yesterday 是昨天，講課堂上發生的事，用過去式；ask 加 ed 變 asked。"
+}
+]
+},
+"mac19df9d76": {
+"note": "on Sunday 改 last Sunday。",
+"ops": [
+{
+"op": "set_q",
+"q": "We ___ soccer last Sunday."
+},
+{
+"op": "set_x",
+"x": "last Sunday 是上週日，用過去式；play 加 ed 變 played。"
+}
+]
+},
+"macbdfc46d5": {
+"note": "句尾加 yesterday，排除 Does。",
+"ops": [
+{
+"op": "set_q",
+"q": "___ she find her wallet yesterday?"
+},
+{
+"op": "set_x",
+"x": "yesterday 是過去，問昨天找到錢包了沒，用 Did 加原形 find。"
+},
+{
+"op": "set_w",
+"w": {
+"Does": "Does 問平常習慣；yesterday 是過去，要用 Did。"
+}
+}
+]
+},
+"mafe3ba9367": {
+"note": "After that 改 After breakfast yesterday。",
+"ops": [
+{
+"op": "set_q",
+"q": "After breakfast yesterday, she ___ to the office by bus."
+},
+{
+"op": "set_x",
+"x": "yesterday 是昨天，講那天的經過用過去式；go 不規則，過去式是 went。"
+}
+]
+},
+"mb01c2a2099": {
+"note": "拿掉空格後重複的 go，答案 often go 不變。",
+"ops": [
+{
+"op": "set_q",
+"q": "We ___ to the market on Saturday."
+},
+{
+"op": "set_x",
+"x": "頻率副詞 often 放在一般動詞 go 前面：We often go to the market。"
+},
+{
+"op": "set_w",
+"w": {
+"goes": "We 是複數，動詞不加 es，要用 go。",
+"often": "只填 often，句子會少了動詞 go。"
+}
+}
+]
+},
+"mb189c6d203": {
+"note": "加 last week。",
+"ops": [
+{
+"op": "set_q",
+"q": "We ___ very tired after the long trip last week."
+},
+{
+"op": "set_x",
+"x": "last week 是上週，說旅行後當時很累，用過去式；We 是複數，用 were。"
+}
+]
+},
+"mb1b2e76e01": {
+"note": "far from 也通，加整句中文讓 next to 唯一，並改 far from 的說明。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "檯燈在床旁邊。"
+},
+{
+"op": "set_w",
+"w": {
+"far from": "far from 是離很遠；中文說的是在床旁邊。"
+}
+}
+]
+},
+"mb205c22acd": {
+"note": "主詞改成樹，保留 die→dying 拼字考點。",
+"ops": [
+{
+"op": "set_q",
+"q": "The tree is ___. It has no water."
+}
+]
+},
+"mb2c0f8ae4c": {
+"note": "Did we go home? 不自然，改成問 you 並加 by bus yesterday；Was 的說明跟著改主詞。",
+"ops": [
+{
+"op": "set_q",
+"q": "___ you go home by bus yesterday?"
+},
+{
+"op": "set_x",
+"x": "yesterday 是昨天，有動作 go，問過去用 Did 開頭，go 用原形。"
+},
+{
+"op": "set_w",
+"w": {
+"Was": "Was 是 be 動詞，不能接 go；you 也不配 was。"
+}
+}
+]
+},
+"mb496f09a37": {
+"note": "句首加 Yesterday。",
+"ops": [
+{
+"op": "set_q",
+"q": "Yesterday, we ___ for the bus for thirty minutes."
+},
+{
+"op": "set_x",
+"x": "Yesterday 是昨天，用過去式；wait 加 ed 變 waited。"
+}
+]
+},
+"mb7767b0aed": {
+"note": "There isn't 也合文法，加整句中文排除，並改 There isn't 的說明。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "轉角有一間銀行。"
+},
+{
+"op": "set_w",
+"w": {
+"There isn't": "There isn't 是「沒有」；中文說轉角有一間銀行。"
+}
+}
+]
+},
+"mbbff785535": {
+"note": "near here 改成 in the box，「盒子裡沒有球」較自然，答案不變。",
+"ops": [
+{
+"op": "set_q",
+"q": "There ___ a ball in the box."
+}
+]
+},
+"mbc44d95a79": {
+"note": "英式 Were 也對，學習者易選；換成時態錯的 Is，並加 last Sunday。",
+"ops": [
+{
+"op": "set_q",
+"q": "___ your family at home last Sunday?"
+},
+{
+"new": "Is",
+"old": "Were",
+"op": "replace_option",
+"w": "Is 是現在式；last Sunday 已經過去，要用 Was。"
+},
+{
+"op": "set_x",
+"x": "last Sunday 已經過去，用過去式；at home 前要 be 動詞，一個家庭用 Was。"
+}
+]
+},
+"mbca8dc98a6": {
+"note": "next to A and B 也合文法，加整句中文讓 between 成為唯一答案。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "書櫃在書桌和窗戶中間。"
+}
+]
+},
+"mc2f5404fb0": {
+"note": "加 yesterday。",
+"ops": [
+{
+"op": "set_q",
+"q": "___ he finish the work on time yesterday?"
+},
+{
+"op": "set_x",
+"x": "yesterday 是昨天，有動作 finish，問過去用 Did 開頭，finish 用原形。"
+}
+]
+},
+"mc496910164": {
+"note": "補上前面的 Do you have 問句，do 成為唯一答案。",
+"ops": [
+{
+"op": "set_q",
+"q": "Do you have apples? Yes, we ___. They are fresh."
+}
+]
+},
+"mc4ae98c982": {
+"note": "Would you like any soup? 也通，把 any 換成文法明確錯的 many。",
+"ops": [
+{
+"new": "many",
+"old": "any",
+"op": "replace_option",
+"w": "many 配可數複數，soup 不可數。"
+}
+]
+},
+"mc6027cf363": {
+"note": "on Saturday morning 改 last Saturday morning。",
+"ops": [
+{
+"op": "set_q",
+"q": "My father ___ the car last Saturday morning."
+},
+{
+"op": "set_x",
+"x": "last Saturday morning 是上週六早上，用過去式；wash 加 ed 變 washed。"
+}
+]
+},
+"mc63c808fd5": {
+"note": "a cheap one 也通，cheap 換成錯誤的比較級 more cheap，仍考比較級。",
+"ops": [
+{
+"new": "more cheap",
+"old": "cheap",
+"op": "replace_option",
+"w": "cheap 是短的字，比較級直接加 er，不說 more cheap。"
+}
+]
+},
+"mc7351e66d7": {
+"note": "說話者改成店員 Clerk，角色才合理。",
+"ops": [
+{
+"op": "set_q",
+"q": "Clerk: How ___ cheese do you want?"
+}
+]
+},
+"mca22064cfa": {
+"note": "in front of 也通，加整句中文讓 under 唯一，並改 in front of 的說明。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "貓在桌子底下。"
+},
+{
+"op": "set_w",
+"w": {
+"in front of": "in front of 是在前面；中文說的是在桌子底下。"
+}
+}
+]
+},
+"mcbcb68fefc": {
+"note": "補受詞 a shower。",
+"ops": [
+{
+"op": "set_q",
+"q": "She is ___ a shower now."
+}
+]
+},
+"mcbdab19fc7": {
+"note": "加 last Sunday。",
+"ops": [
+{
+"op": "set_q",
+"q": "We ___ to music in the park last Sunday."
+},
+{
+"op": "set_x",
+"x": "last Sunday 是上週日，用過去式；listen 加 ed 變 listened。"
+}
+]
+},
+"mcd60355aa3": {
+"note": "Then 改成 Yesterday morning。",
+"ops": [
+{
+"op": "set_q",
+"q": "Yesterday morning, we ___ breakfast together."
+},
+{
+"op": "set_x",
+"x": "Yesterday morning 是昨天早上，用過去式；eat 不規則，過去式是 ate。"
+}
+]
+},
+"mcf7908aedc": {
+"note": "補受詞 photos。",
+"ops": [
+{
+"op": "set_q",
+"q": "The children are ___ photos now."
+}
+]
+},
+"md0e2178b81": {
+"note": "Then 改成 On our trip last month。",
+"ops": [
+{
+"op": "set_q",
+"q": "On our trip last month, we ___ at a hotel for three days."
+},
+{
+"op": "set_x",
+"x": "last month 是上個月，講那次旅行用過去式；stay 加 ed 變 stayed。"
+}
+]
+},
+"md0e3977f87": {
+"note": "behind A and B 也合文法，加整句中文讓 between 成為唯一答案。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "醫院在學校和車站中間。"
+}
+]
+},
+"md3ff0096d4": {
+"note": "There isn't 也合文法，加整句中文排除，並改 There isn't 的說明。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "車站附近有一間銀行。"
+},
+{
+"op": "set_w",
+"w": {
+"There isn't": "There isn't 是「沒有」；中文說車站附近有一間銀行。"
+}
+}
+]
+},
+"md479509290": {
+"note": "加 last week。",
+"ops": [
+{
+"op": "set_q",
+"q": "They ___ many photos on their trip last week."
+},
+{
+"op": "set_x",
+"x": "last week 是上週，那趟旅行已經結束，用過去式；take 的過去式是 took。"
+}
+]
+},
+"md64907e965": {
+"note": "加 yesterday。",
+"ops": [
+{
+"op": "set_q",
+"q": "They ___ noodles at a small shop yesterday."
+},
+{
+"op": "set_x",
+"x": "yesterday 是昨天，用過去式；eat 不規則，過去式是 ate。"
+}
+]
+},
+"md93004dba7": {
+"note": "dinner 改 breakfast，配 every morning。",
+"ops": [
+{
+"op": "set_q",
+"q": "Ken and Lisa ___ breakfast every morning."
+}
+]
+},
+"mda5da2cd51": {
+"note": "a tea 口語可通、any 在提議問句也通（同 mc4ae98c982），兩個都換成明確錯的 an、a few。",
+"ops": [
+{
+"new": "an",
+"old": "a",
+"op": "replace_option",
+"w": "tea 不可數，前面不放 an；an 也只用在母音開頭的字前。"
+},
+{
+"new": "a few",
+"old": "any",
+"op": "replace_option",
+"w": "a few 配可數複數，tea 不可數。"
+}
+]
+},
+"mdb05c1231f": {
+"note": "Do you swim? 也正確，換成文法錯的 Does。",
+"ops": [
+{
+"new": "Does",
+"old": "Do",
+"op": "replace_option",
+"w": "主詞 you 不配 Does，Does you swim 不對。"
+}
+]
+},
+"mdb1f515825": {
+"note": "Is there some milk? 也可用，換成文法錯的 many。",
+"ops": [
+{
+"new": "many",
+"old": "some",
+"op": "replace_option",
+"w": "many 配可數複數名詞，milk 不可數，不用 many。"
+}
+]
+},
+"mdb687638e9": {
+"note": "near 也通，加整句中文讓 under 唯一，並改 near 的說明。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "球在椅子底下。"
+},
+{
+"op": "set_w",
+"w": {
+"near": "near 是在附近；中文說的是在椅子底下。"
+}
+}
+]
+},
+"mdbd3514c7d": {
+"note": "加 yesterday afternoon。",
+"ops": [
+{
+"op": "set_q",
+"q": "The children ___ ice cream in the park yesterday afternoon."
+},
+{
+"op": "set_x",
+"x": "yesterday afternoon 是昨天下午，用過去式；eat 的過去式是 ate。"
+}
+]
+},
+"mddbcf9876c": {
+"note": "刪掉空格後重複的 buy。",
+"ops": [
+{
+"op": "set_q",
+"q": "I would like ___ some rice."
+}
+]
+},
+"mdec3ddeaa7": {
+"note": "拿掉空格後重複的 eat，提示改成 (never / eat)。",
+"ops": [
+{
+"op": "set_q",
+"q": "I ___ fast food. (never / eat)"
+}
+]
+},
+"mdf14898b89": {
+"note": "works 改原形 work，doesn't 才成立，說明跟著改。",
+"ops": [
+{
+"op": "set_q",
+"q": "She ___ work on Saturdays."
+},
+{
+"op": "set_x",
+"x": "She 是一個人，一般動詞 work 的否定用 doesn't，後面接原形：She doesn't work."
+}
+]
+},
+"mdf3914959e": {
+"note": "加 last summer。",
+"ops": [
+{
+"op": "set_q",
+"q": "They ___ at a hotel in Hualien last summer."
+},
+{
+"op": "set_x",
+"x": "last summer 是去年夏天，用過去式；stay 加 ed 變 stayed。"
+}
+]
+},
+"mdf40ccdc92": {
+"note": "this morning 改 yesterday morning，排除說話時還是早上的情況。",
+"ops": [
+{
+"op": "set_q",
+"q": "The bus ___ full yesterday morning."
+},
+{
+"op": "set_x",
+"x": "yesterday morning 是昨天早上，用過去式；The bus 是單數，用 was。"
+},
+{
+"op": "set_w",
+"w": {
+"is": "is 是現在式；昨天早上已經過去，要用 was。"
+}
+}
+]
+},
+"me2ef460cfe": {
+"note": "on the sofa 也通，加整句中文讓 under 唯一，並改 on 的說明。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "貓在沙發底下。"
+},
+{
+"op": "set_w",
+"w": {
+"on": "on 是在沙發上面；中文說的是在沙發底下。"
+}
+}
+]
+},
+"me3de258c82": {
+"note": "on Sunday 改 last Sunday，排除每週公休的現在式用法。",
+"ops": [
+{
+"op": "set_q",
+"q": "The shop ___ closed last Sunday."
+},
+{
+"op": "set_x",
+"x": "last Sunday 是上週日，用過去式；The shop 是單數，用 was。"
+},
+{
+"op": "set_w",
+"w": {
+"is": "is 是現在式；last Sunday 已經過去，要用 was。"
+}
+}
+]
+},
+"me3fce1ce27": {
+"note": "請求時 some 也自然，換成文法錯的 a。",
+"ops": [
+{
+"new": "a",
+"old": "some",
+"op": "replace_option",
+"w": "milk 不可數，前面不能放 a。"
+}
+]
+},
+"me5172ce059": {
+"note": "next to A and B 也合文法，加整句中文讓 between 成為唯一答案。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "浴室在臥室和廚房中間。"
+}
+]
+},
+"me8e3d24267": {
+"note": "句尾加 last Sunday，排除現在式 plays。",
+"ops": [
+{
+"op": "set_q",
+"q": "He ___ soccer in the park with his son last Sunday."
+},
+{
+"op": "set_x",
+"x": "last Sunday 是過去的時間，用過去式；play 加 ed 變 played。"
+},
+{
+"op": "set_w",
+"w": {
+"play": "He 是一個人，原形 play 不行；last Sunday 也要用過去式。",
+"plays": "plays 是現在式說習慣；last Sunday 是過去，用 played。"
+}
+}
+]
+},
+"meb438a478f": {
+"note": "句尾加 yesterday，排除現在式 arrive。",
+"ops": [
+{
+"op": "set_q",
+"q": "First, we ___ at the airport yesterday."
+},
+{
+"op": "set_x",
+"x": "yesterday 是過去的時間，用過去式；arrive 字尾有 e，只加 d：arrived。"
+},
+{
+"op": "set_w",
+"w": {
+"arrive": "arrive 是現在式；yesterday 是過去，要用 arrived。",
+"arrives": "we 是複數不加 s，而且 yesterday 要用過去式。"
+}
+}
+]
+},
+"med19f9cb5a": {
+"note": "Does he ride a bike? 文法正確，換成主詞不合的 Do。",
+"ops": [
+{
+"new": "Do",
+"old": "Does",
+"op": "replace_option",
+"w": "he 是一個人，不配 Do，Do he ride 不對。"
+}
+]
+},
+"mef8f5fd144": {
+"note": "behind A and B 也合文法，加整句中文讓 between 成為唯一答案。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "檯燈在床和椅子中間。"
+}
+]
+},
+"mf0df6ad8f4": {
+"note": "句尾加 last night，排除現在式 like。",
+"ops": [
+{
+"op": "set_q",
+"q": "We ___ the movie very much last night."
+},
+{
+"op": "set_x",
+"x": "last night 是過去，說昨晚看電影的感想用過去式；like 字尾有 e，只加 d。"
+},
+{
+"op": "set_w",
+"w": {
+"like": "like 是現在式；last night 是過去，要用 liked。"
+}
+}
+]
+},
+"mf16cfd4acf": {
+"note": "補成 getting up（起床）。",
+"ops": [
+{
+"op": "set_q",
+"q": "She is ___ up now."
+}
+]
+},
+"mf1e70c2d0d": {
+"note": "句尾加 yesterday，排除現在式 walk。",
+"ops": [
+{
+"op": "set_q",
+"q": "We ___ to the park after lunch yesterday."
+},
+{
+"op": "set_x",
+"x": "yesterday 是過去，說昨天午餐後走去公園，walk 加 ed 變 walked。"
+},
+{
+"op": "set_w",
+"w": {
+"walk": "walk 是現在式，說平常；yesterday 要用過去式 walked。"
+}
+}
+]
+},
+"mf32b16a99e": {
+"note": "See you tomorrow! 換成 Sorry,，說明老師不在教室較自然，答案不變。",
+"ops": [
+{
+"op": "set_q",
+"q": "Sorry, the teacher ___ in the room now."
+}
+]
+},
+"mf836850ad0": {
+"note": "空格後已有 not，標準答案改為現有選項 are，並更新說明與 aren't 的錯因。",
+"ops": [
+{
+"answer": "are",
+"op": "set_answer"
+},
+{
+"op": "set_x",
+"x": "You 的 be 動詞是 are。空格後已有 not，填 are 組成 You are not。"
+},
+{
+"op": "set_w",
+"w": {
+"aren't": "aren't 已經是 are not，後面又有 not，會變成重複否定。"
+}
+}
+]
+},
+"mf8ebe872c3": {
+"note": "near here 改成 in this room，「這房間沒有床」較自然，答案不變。",
+"ops": [
+{
+"op": "set_q",
+"q": "There ___ a bed in this room."
+}
+]
+},
+"mfa4ee44c71": {
+"note": "Is there some bread? 也自然，換成文法錯的 a few。",
+"ops": [
+{
+"new": "a few",
+"old": "some",
+"op": "replace_option",
+"w": "a few 配可數複數，bread 不可數。"
+}
+]
+},
+"mfb973e258a": {
+"note": "句尾加 yesterday，排除現在式 do。",
+"ops": [
+{
+"op": "set_q",
+"q": "They ___ their homework after school yesterday."
+},
+{
+"op": "set_x",
+"x": "yesterday 是過去，用過去式；do 不規則，過去式是 did。"
+},
+{
+"op": "set_w",
+"w": {
+"do": "do 是現在式，說習慣；yesterday 要用過去式 did。"
+}
+}
+]
+},
+"mfd9665ce8c": {
+"note": "We are six people 改成自然說法 There are six of us，答案不變。",
+"ops": [
+{
+"op": "set_q",
+"q": "___ is my family. There are six of us."
+}
+]
+},
+"mfda56f5239": {
+"note": "句尾加 last Sunday，排除現在式 go。",
+"ops": [
+{
+"op": "set_q",
+"q": "We ___ to the beach by bus last Sunday."
+},
+{
+"op": "set_x",
+"x": "last Sunday 是過去，用過去式；go 不規則，過去式是 went。"
+},
+{
+"op": "set_w",
+"w": {
+"go": "go 是現在式，說平常；last Sunday 要用過去式 went。"
+}
+}
+]
+},
+"mfdc7134031": {
+"note": "any more rice 也很自然，換成文法錯的 a few。",
+"ops": [
+{
+"new": "a few",
+"old": "any",
+"op": "replace_option",
+"w": "a few more 配可數複數，rice 不可數。"
+}
+]
+},
+"r09d221adfe": {
+"note": "at the end 和原文最後一句不符，題目改成問 if you need help 時他說什麼，對應原句 Please call me if you need help，答案不變。",
+"ops": [
+{
+"op": "set_q",
+"q": "If you need help, what does Peter say?"
+},
+{
+"op": "set_x",
+"x": "原文：Please call me if you need help. 需要幫忙時，Peter 請大家打電話給他。"
+},
+{
+"op": "set_w",
+"w": {
+"Please email me.": "文中只說 email 很短、好寫；需要幫忙時他說的是 Please call me.",
+"Please visit me.": "文中沒有請人來找他，沒有 visit。"
+}
+}
+]
+},
+"r3aa8f68e22": {
+"note": "原文 three children 和 new baby 矛盾、原文不能改，改問女兒人數（雙胞胎 Sue 和 Joy），答案改 Two，仍考數量閱讀。",
+"ops": [
+{
+"op": "set_q",
+"q": "How many daughters do Anna and Tom have?"
+},
+{
+"answer": "Two",
+"op": "set_answer"
+},
+{
+"op": "set_x",
+"x": "原文：Their daughters are twins. Their names are Sue and Joy. 女兒是雙胞胎 Sue 和 Joy，共兩個。"
+},
+{
+"op": "set_w",
+"w": {
+"Four": "Leo 和 baby Sam 是男生，女兒只有 Sue 和 Joy 兩個。",
+"Three": "女兒只有雙胞胎 Sue 和 Joy 兩個；Leo 和 Sam 是兒子。"
+}
+}
+]
+},
+"r5773bd8888": {
+"note": "one brother 加 also a baby brother 共兩個兄弟，標準答案改為 Two。",
+"ops": [
+{
+"answer": "Two",
+"op": "set_answer"
+},
+{
+"op": "set_x",
+"x": "原文：I have one brother… We also have a baby brother. 一個弟弟加一個小嬰兒弟弟，共兩個兄弟。"
+},
+{
+"op": "set_w",
+"w": {
+"One": "one brother 之外還有 We also have a baby brother，共兩個。",
+"Three": "文中只有 one brother 和 a baby brother，共兩個，不是三個。"
+}
+}
+]
+},
+"ra435d0434d": {
+"note": "Amy 也邀了博物館，題目加上 on Saturday 讓派對成為唯一答案；原說明已提到星期六，x 不改。",
+"ops": [
+{
+"op": "set_q",
+"q": "What does Amy invite Ben to on Saturday?"
+},
+{
+"op": "set_w",
+"w": {
+"A museum": "博物館是 Amy 邀 Ben 星期天（Sunday）去的，不是星期六。"
+}
+}
+]
+},
+"raf03ed5ad9": {
+"note": "原文沒提到早上，把 in the morning 改成 before dinner，對應 I cleaned my room after dinner，答案不變。",
+"ops": [
+{
+"op": "set_q",
+"q": "Did the writer clean his room before dinner?"
+},
+{
+"op": "set_x",
+"x": "原文：I didn't clean it… I cleaned my room after dinner. 晚餐後才打掃，晚餐前沒有掃。"
+},
+{
+"op": "set_w",
+"w": {
+"Yes, he did.": "原文說 I didn't clean it，是 after dinner 晚餐後才打掃。"
+}
+}
+]
+},
+"rd7b6f70658": {
+"note": "公園就在大樓後面，Near the park 也算對；換成原文明確否定的 Near a supermarket。",
+"ops": [
+{
+"new": "Near a supermarket",
+"old": "Near the park",
+"op": "replace_option",
+"w": "原文說 There isn't a supermarket near here，附近沒有超市。"
+}
+]
+}
+}

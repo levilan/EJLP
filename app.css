@@ -327,3 +327,55 @@
 
   .spk.icon{padding:8px 12px;flex:none}
   .pat .spk{min-height:40px}
+
+  /* ---------- v3.4 錯題說明與分析 ---------- */
+  .fb .lb{display:block;font-size:12.5px;font-weight:700;letter-spacing:.02em;opacity:.8;margin-bottom:1px}
+  .fb .ans,.fb .mine,.fb .why{margin-top:10px}
+  .fb .ans{color:var(--green)}
+  .fb.ok .ans{color:inherit}
+  .fb .mine{color:var(--ink);font-size:15px}
+  .fb .mine .lb{color:var(--red);opacity:1}
+  .fb .mine .en{font-family:var(--en);font-size:17px}
+  .fb .why .lb{color:var(--ink-2);opacity:1}
+  .fb.ok .why{font-size:14px}
+  .fb .gt{margin-top:12px}
+  .gtag{display:inline-flex;align-items:center;gap:2px;font-size:13px;font-weight:700;padding:5px 11px;border-radius:999px;background:var(--surface);color:var(--blue);border:1px solid var(--rule)}
+  .gtag span{font-weight:400;color:var(--ink-2)}
+  span.gtag{color:var(--ink-2)}
+  .sh .pat{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:8px 0;border-top:1px solid var(--rule);font-family:var(--en)}
+  .linkb{color:var(--blue);font-weight:700;padding:2px 2px;text-align:left}
+  .wrongs .wq{font-family:var(--en);font-size:17px;margin-bottom:4px}
+  .wrongs .wq[lang=ja]{font-family:var(--jps, inherit)}
+  .wrongs .wa{display:flex;flex-wrap:wrap;gap:4px 14px;font-family:var(--en)}
+  .wrongs .wa .ok{color:var(--green);font-weight:700}
+  .wrongs .wa .no{color:var(--red);text-decoration:line-through;text-decoration-thickness:1px}
+  .wrongs .wy{font-size:14px;color:var(--ink);margin-top:4px;line-height:1.6}
+  .wrongs .wy.mine{color:var(--ink-2)}
+  .wrongs .wsrc{font-size:12px;color:var(--ink-2);margin-bottom:2px}
+  .mlink{display:flex;width:100%;align-items:center;justify-content:space-between;gap:10px;margin:16px 0 4px;padding:14px 16px;background:var(--surface);border:1.5px solid var(--rule);border-radius:12px;text-align:left}
+  .mlink b{display:block;font-size:17px}
+  .mcards{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:16px}
+  .mc1{background:var(--surface);border:1px solid var(--rule);border-radius:12px;padding:12px 14px}
+  .mc1 .big{font-size:28px;font-weight:700;font-variant-numeric:tabular-nums;line-height:1.1}
+  .gstat .gs{display:grid;grid-template-columns:8.5em 1fr 74px;gap:10px;align-items:center;font-size:14px;padding:6px 0;border-bottom:1px solid var(--rule)}
+  .gstat .gn{min-width:0;overflow-wrap:anywhere}
+  .gstat .tr{height:10px;background:var(--paper);border:1px solid var(--rule);border-radius:4px;overflow:hidden}
+  .gstat .tr i{display:block;height:100%;background:var(--green)}
+  .gstat .tr i.mid{background:var(--marker)} .gstat .tr i.low{background:var(--red)}
+  .gstat .v{text-align:right;font-variant-numeric:tabular-nums;font-weight:700}
+  .gstat .v small{display:block;font-weight:400;color:var(--ink-2);font-size:11.5px}
+  .conf{list-style:none;margin:0;padding:0}
+  .conf li{display:flex;align-items:baseline;gap:8px;padding:8px 0;border-bottom:1px solid var(--rule);font-family:var(--en)}
+  .conf .ok{color:var(--green);font-weight:700}
+  .conf .no{color:var(--red)}
+  .conf .arrow{font-family:var(--zh);font-size:13px;color:var(--ink-2)}
+  .conf .cn{margin-left:auto;color:var(--ink-2);font-size:14px}
+  .wgrp{border-bottom:1px solid var(--rule)}
+  .wgrp summary{display:flex;align-items:center;gap:10px;padding:12px 2px;cursor:pointer;list-style:none;font-weight:700}
+  .wgrp summary::-webkit-details-marker{display:none}
+  .wgrp summary>span:first-child{flex:1}
+  .wgrp summary::before{content:'›';display:inline-block;transition:transform .15s;color:var(--ink-2)}
+  .wgrp[open] summary::before{transform:rotate(90deg)}
+  .wgrp .go,.tasks .go{font-size:14px}
+  .wgrp .go{color:var(--blue);font-weight:700;padding:6px 10px;border:1px solid var(--rule);border-radius:999px;background:var(--surface)}
+  .wgrp .wrongs{margin:0 0 10px}

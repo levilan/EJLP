@@ -20,6 +20,12 @@ const JSECS = [
   {id:'jf', name:'填空', min:6}, {id:'jr', name:'讀解', min:8}, {id:'jl', name:'聽解', min:6},
   {id:'js', name:'跟讀', min:6}, {id:'jw', name:'作文', min:15}, {id:'jc', name:'單字卡', min:5},
 ];
+/* 文法分類 → 該週文法說明（錯題說明的「看文法說明」） */
+const G2WEEK = {'be 動詞':1, '代名詞／所有格':2, 'this/that':2, 'have/has':2, '所有格/have':2, '現在簡單式':3, '頻率副詞':3, 'there is/are':4, '介系詞':4,
+  '可數／不可數':5, '可數/some-any':5, '冠詞 a/an/the':5, '過去式':6, 'be going to':7, 'can':7, 'going to/can':7, '現在進行式':9, '-ing 拼字':9};
+const EN_GRADED = new Set(['vocab_review','mc','fill','translate','error','reorder','reading','dictation']);
+const EN_DEF_G = {vocab_review:'單字', dictation:'聽寫', reading:'閱讀', reorder:'語序'};
+const JA_DEF_G = {jm:'選擇', jf:'填空（助詞・活用）', jr:'讀解', jl:'聽解', jc:'單字'};
 const TASK2SEC = {vocab:'jv', grammar:'jg', mcq:'jm', fill:'jf', reading:'jr', listening:'jl', shadow:'js', write:'jw', flash:'jc', review:'jx', mock:'mock'};
 const CONTR = [["can't","cannot"],["can not","cannot"],["won't","will not"],["isn't","is not"],["aren't","are not"],["wasn't","was not"],["weren't","were not"],
   ["don't","do not"],["doesn't","does not"],["didn't","did not"],["haven't","have not"],["hasn't","has not"],["i'm","i am"],["you're","you are"],["we're","we are"],
@@ -38,12 +44,13 @@ const state = {
   day: 1, jsel: Store.get('jsel', null),
   progress: Store.get('progress', {}), jprog: Store.get('jprog', {}), jwrong: Store.get('jwrong', {}), jtasks: Store.get('jtasks', {}),
   drafts: Store.get('drafts', {}), tests: Store.get('tests', {}), jmock: Store.get('jmock', {}), external: Store.get('external', []),
+  ewrong: Store.get('ewrong', {}), gstat: Store.get('gstat', {en:{}, ja:{}}),
   cefr: Store.get('cefr', []), words: Store.get('words', {en:{}, ja:{}}), readTime: Store.get('readTime', {}), readPos: Store.get('readPos', {}),
   settings: Object.assign({voice:'', jaVoice:'', rate:0.95, amount:100, reviewMode:'choice', jaScript:'furigana', jaGap:true, jaSrc:'auto', trLang:'zh', rdfs:22, rdRate:0.9}, Store.get('settings', {})),
   shelf:{lang:'en', level:null}, testsLang:'en', runner:null, reader:null,
 };
 function persist(){
-  for (const k of ['lang','jsel','progress','jprog','jwrong','jtasks','drafts','tests','jmock','external','cefr','words','readTime','readPos','settings']) Store.set(k, state[k]);
+  for (const k of ['lang','jsel','progress','jprog','jwrong','ewrong','gstat','jtasks','drafts','tests','jmock','external','cefr','words','readTime','readPos','settings']) Store.set(k, state[k]);
 }
 
 /* ---------- 日期 ---------- */
@@ -286,8 +293,9 @@ function go(s){ state.screen = s; render(); window.scrollTo(0, 0); }
 document.getElementById('nav').addEventListener('click', e => { const b = e.target.closest('button'); if (b) go(b.dataset.s); });
 function render(){
   if (!DATA.en) return;
-  document.querySelectorAll('#nav button').forEach(b => b.classList.toggle('on', b.dataset.s === state.screen));
-  const fn = {home: renderHome, read: renderRead, progress: renderProgress, tests: renderTests, settings: renderSettings}[state.screen];
+  const navOn = state.screen === 'mistakes' ? 'progress' : state.screen;
+  document.querySelectorAll('#nav button').forEach(b => b.classList.toggle('on', b.dataset.s === navOn));
+  const fn = {home: renderHome, read: renderRead, progress: renderProgress, tests: renderTests, settings: renderSettings, mistakes: renderMistakes}[state.screen];
   document.getElementById('app').innerHTML = fn();
 }
 async function setLang(l){
@@ -348,7 +356,8 @@ function renderEnHome(){
       <div class="row small muted"><span>${doneCount}/${live.length} 區塊完成</span><span>${remain > 0 ? `約 ${Math.round(remain)} 分鐘剩` : '今天做完了'}</span></div>
       ${next ? `<button class="primary" style="margin-top:18px" onclick="startEn(${day},'${next.b.id}')">${next.s.kind==='part' ? `繼續：${next.b.name} 第 ${next.s.done+1} 題` : `開始：${next.b.name}`}</button>`
              : `<div class="note">今天的區塊都完成了。可以到「閱讀」讀 10 分鐘，或到「檢測」做週檢測。</div>`}
-      <ul class="blocks">${live.map(({b, s}) => blockRow(b.name + (b.id==='reading' ? `<span class="muted small" style="font-weight:400">　${d.blocks.reading.length} 篇</span>` : ''), s, b.min, `startEn(${day},'${b.id}')`, b.id === 'vocab_new')).join('')}</ul>`;
+      <ul class="blocks">${live.map(({b, s}) => blockRow(b.name + (b.id==='reading' ? `<span class="muted small" style="font-weight:400">　${d.blocks.reading.length} 篇</span>` : ''), s, b.min, `startEn(${day},'${b.id}')`, b.id === 'vocab_new')).join('')}
+        ${ewrongRow()}</ul>`;
   return `<div class="screen">${langSw()}
     <div class="row" style="align-items:flex-end"><h1>Day ${day}</h1>
       <div class="muted small" style="text-align:right">${wk ? esc(wk.id === 9 ? '補充週' : `第 ${wk.id} 週`) : ''} 第 ${d.dayOfWeek} 天${d.review ? '<br>總複習' : ''}</div></div>
@@ -360,12 +369,16 @@ function renderEnHome(){
       <button class="ghost" onclick="state.day=Math.min(${total},state.day+1);render()" ${day>=total?'disabled':''}>後一天 ›</button>
     </div></div>`;
 }
+function ewrongRow(){
+  const n = Object.keys(state.ewrong).length;
+  return `<li><button onclick="go('mistakes')"><span class="name">錯題本・錯題分析</span><span class="n">${n || '—'}</span><span class="st todo">${n ? '看分析' : ''}</span></button></li>`;
+}
 function startEn(day, block){
   const items = enItems(day, block); if (!items.length) return;
   const b = BLOCKS.find(x => x.id === block);
   let its = items.slice();
   if (block === 'reorder') its = its.map(it => Object.assign({}, it, {tiles: shuffle(it.words.map(w => [w, '']))}));
-  openRunner({title: b.name, block, items: its, p: prog(state.progress, day, block), back: null});
+  openRunner({title: b.name, block, items: its, p: prog(state.progress, day, block), back: null, day});
 }
 
 /* =========================================================
@@ -465,7 +478,8 @@ function renderJaHome(){
       ${stripHTML(sts.map(x => x.st))}</div>
     ${tasks}
     <ul class="blocks">${sts.map(({s, st}) => blockRow(s.name, st, s.min, `startJa('${s.id}')`, ['jv','jg','js','jw'].includes(s.id))).join('')}
-      <li><button onclick="startJa('jx')" ${wrongN ? '' : 'disabled'}><span class="name">錯題本</span><span class="n">${wrongN || '—'}</span><span class="st todo">${wrongN ? '重做' : ''}</span></button></li></ul>
+      <li><button onclick="startJa('jx')" ${wrongN ? '' : 'disabled'}><span class="name">錯題本</span><span class="n">${wrongN || '—'}</span><span class="st todo">${wrongN ? '重做' : ''}</span></button></li>
+      <li><button onclick="state.mlang='ja';go('mistakes')"><span class="name">錯題分析（全部課）</span><span class="n"></span><span class="st todo">看分析</span></button></li></ul>
     <div class="sec-h">選課</div>
     <div class="chips">${LEVELS_JA.map(lv => `<button class="${lv===sel.lv?'sel':''}" onclick="pickLevel('${lv}')">${lv}</button>`).join('')}</div>
     <ul class="ulist">${DATA.jaIndex.levels[sel.lv].map(x => {
@@ -533,7 +547,7 @@ function renderRunner(){
   const r = state.runner, el = document.getElementById('runner');
   if (r.idx >= r.items.length){ el.innerHTML = renderComplete(); return; }
   const item = r.items[r.idx];
-  const type = r.exam ? 'exam' : (r.block === 'jx' ? item._wsec : r.block);
+  const type = curType(r);
   const body = ITEM[type].render(item, r);
   el.innerHTML = `
     <div class="r-head"><div class="row"><button class="x" onclick="closeRunner()" aria-label="離開">✕</button><span class="title">${esc(r.title)}${r.exam ? '<span class="tag">考試</span>' : ''}</span><span class="count">${r.idx+1}/${r.items.length}</span></div>
@@ -545,7 +559,7 @@ function renderRunner(){
   el.querySelector('.r-body').scrollTop = 0;
 }
 const CHOICE = new Set(['vocab_review','mc','reading','jm','jr','jl','jc','rd_q','srs']);
-function curType(r){ const it = r.items[r.idx]; return r.exam ? 'exam' : (r.block === 'jx' ? it._wsec : r.block); }
+function curType(r){ const it = r.items[r.idx]; return r.exam ? 'exam' : (r.block === 'jx' || r.block === 'ex' ? it._wsec : r.block); }
 function isChoice(type){ return CHOICE.has(type) && !(type === 'vocab_review' && state.settings.reviewMode === 'typing' && state.runner.items[state.runner.idx].dir !== 'en2zh'); }
 function renderFoot(type){
   const r = state.runner;
@@ -559,13 +573,36 @@ function renderFoot(type){
   if (def.foot) return def.foot(r);
   return `${r.exam ? '' : `<button class="secondary" onclick="skipItem()">跳過</button>`}<button class="primary" onclick="checkItem()">${r.exam ? '下一題' : '檢查答案'}</button>`;
 }
+function gTag(g, lang){
+  if (!g) return '';
+  return lang !== 'ja' && G2WEEK[g] ? `<button class="gtag" onclick="openGrammar(${q(g)})">${esc(g)}<span>・看文法說明 ›</span></button>` : `<span class="gtag">${esc(g)}</span>`;
+}
 function renderFeedback(){
-  const {ok, ans, why, extra} = state.runner.last;
-  return `<div class="fb ${ok ? 'ok' : 'no'}"><strong>${ok ? '✓ 正確' : '✗ 正確答案'}</strong>${!ok && ans ? `<div class="ans">${esc(ans)}</div>` : ''}${why ? `<div class="why">${esc(why)}</div>` : ''}</div>${extra || ''}`;
+  const r = state.runner, {ok, ans, why, extra, mine, user, g, choice} = r.last;
+  const ja = !!r.ctx;
+  const lb = t => `<span class="lb">${t}</span>`;
+  const yours = !ok && user && String(user).trim() ? (choice ? `${lb(`你選的：${esc(user)}`)}${mine ? esc(mine) : '不符合題意，對照上面的說明。'}` : `${lb('你的答案')}<span class="${ja ? '' : 'en'}">${esc(user)}</span>`) : '';
+  return `<div class="fb ${ok ? 'ok' : 'no'}"><strong>${ok ? '✓ 答對了' : '✗ 答錯了'}</strong>
+    ${!ok && ans ? `<div class="ans">${lb('正確答案')}${esc(ans)}</div>` : ''}
+    ${why ? `<div class="why">${lb(ok ? '說明' : '為什麼')}${esc(why)}</div>` : ''}
+    ${yours ? `<div class="mine">${yours}</div>` : ''}
+    ${!ok && g ? `<div class="gt">${gTag(g, ja ? 'ja' : 'en')}</div>` : ''}</div>${extra || ''}`;
+}
+function openGrammar(g){
+  const w = DATA.en.meta.weeks.find(x => x.id === G2WEEK[g]); if (!w) return;
+  const G = w.grammar, sh = document.getElementById('sheet');
+  sh.innerHTML = `<div class="sh" role="dialog" aria-label="文法說明"><div class="grab"></div>
+    <div class="muted small">${w.id === 9 ? '補充週' : `第 ${w.id} 週`}・${esc(w.title)}</div><div class="hw" style="font-size:24px;margin-top:4px">${esc(G.point)}</div>
+    <p style="line-height:1.8">${esc(G.explain)}</p>${(G.patterns || []).map(p => `<div class="pat"><span>${esc(p)}</span>${spkEn(p.replace(/\(.*?\)/g, ''), '')}</div>`).join('')}
+    <div class="acts"><button class="secondary" onclick="closeSheet()">關閉</button></div></div>`;
+  sh.classList.remove('hidden');
 }
 function finish(ok, ans, why, userText, extra){
-  const r = state.runner, item = r.items[r.idx];
-  r.last = {ok, ans, why, extra};
+  const r = state.runner, item = r.items[r.idx], type = curType(r);
+  const pick = r.tmp.pick, choice = isChoice(type) && pick != null && type !== 'error';
+  const g = item.g || (r.ctx ? (type === 'jm' && item.t ? item.t : JA_DEF_G[type]) : EN_DEF_G[type]) || '';
+  r.last = {ok, ans, why, extra, user: userText, choice, g, mine: choice && !ok && item.wn ? item.wn[pick] : ''};
+  if (!r.exam) noteAnswer(r, item, type, ok, ans, userText, g);
   if (!r.exam){
     r.p.answers[r.idx] = userText ?? '';
     if (ok) r.p.correct++; else r.wrongs.push({item, ans, user: userText});
@@ -577,11 +614,38 @@ function finish(ok, ans, why, userText, extra){
   r.phase = 'feedback'; persist(); renderRunner();
   if (ok && isChoice(curType(r))){ const idx = r.idx; setTimeout(() => { if (state.runner === r && r.phase === 'feedback' && r.idx === idx) nextItem(); }, 700); }
 }
-function markRight(){ const r = state.runner; r.last.ok = true; r.p.correct++; r.wrongs = r.wrongs.filter(w => w.item !== r.items[r.idx]);
+function markRight(){ const r = state.runner; r.last.ok = true; r.p.correct++; r.wrongs = r.wrongs.filter(w => w.item !== r.items[r.idx]); undoWrong(r, r.items[r.idx]);
   if (r.ctx){ const it = r.items[r.idx]; clearWrong(r.ctx, r.block === 'jx' ? it._wsec : r.block, r.block === 'jx' ? it._wi : r.idx); } persist(); renderRunner(); }
+/* ---------- 錯題紀錄與統計 ---------- */
+function ekey(type, it){ return type + ':' + (it.q || it.zh || it.s || it.a || '') + (it.passage ? '|' + it.passage.slice(0, 40) : ''); }
+function bump(lang, g, ok, d){ if (!g) return; const S = state.gstat[lang] = state.gstat[lang] || {}; const x = S[g] = S[g] || {n:0, w:0}; x.n += d; if (!ok) x.w += d; }
+function noteAnswer(r, item, type, ok, ans, user, g){
+  const ja = !!r.ctx;
+  if (ja){ if (['jm','jf','jr','jl','jc'].includes(type)) bump('ja', g, ok, 1); return; }
+  if (!EN_GRADED.has(type)) return;
+  bump('en', g, ok, 1);
+  if (r.block === 'ex'){
+    const e = state.ewrong[item._k]; if (!e) return;
+    if (ok) delete state.ewrong[item._k]; else { e.n++; e.d = todayStr(); e.user = user; }
+    return;
+  }
+  if (ok) return;
+  const k = ekey(type, item), prev = state.ewrong[k];
+  const it = Object.assign({}, item); delete it.tiles;
+  const bname = (BLOCKS.find(b => b.id === type) || {}).name || '';
+  state.ewrong[k] = {k, t: type, it, user, ans, g, n: (prev ? prev.n : 0) + 1, d: todayStr(), src: r.day ? `Day ${r.day} ${bname}` : (r.title || bname)};
+}
+function undoWrong(r, item){
+  const type = curType(r);
+  if (r.ctx){ bump('ja', r.last.g, false, -1); bump('ja', r.last.g, true, 1); return; }
+  const S = (state.gstat.en || {})[r.last.g]; if (S && S.w > 0) S.w--;
+  const k = r.block === 'ex' ? item._k : ekey(type, item), e = state.ewrong[k];
+  if (e){ if (r.block === 'ex' || e.n <= 1) delete state.ewrong[k]; else e.n--; }
+  persist();
+}
 function nextItem(){ const r = state.runner; r.idx++; r.phase = 'answer'; r.tmp = {}; if (!r.exam && !r.temp) r.p.done = Math.max(r.p.done, r.idx); persist(); renderRunner(); }
 function skipItem(){ const r = state.runner; if (!r.p.skipped.includes(r.idx)) r.p.skipped.push(r.idx); nextItem(); }
-function checkItem(){ const r = state.runner, it = r.items[r.idx]; ITEM[r.exam ? 'exam' : (r.block === 'jx' ? it._wsec : r.block)].check(it, r); }
+function checkItem(){ const r = state.runner, it = r.items[r.idx]; ITEM[curType(r)].check(it, r); }
 function pickOpt(i){
   const r = state.runner; if (r.phase !== 'answer' || r.tmp.locked) return;
   r.tmp.pick = i; const type = curType(r);
@@ -618,10 +682,19 @@ function renderComplete(){
   <div class="r-body">
     <div class="done-box"><div class="big">${grading && pct !== null ? pct + '%' : '✓'}</div><div class="muted">${r.items.length} 題　約 ${mins} 分鐘${r.p.skipped.length ? `　跳過 ${r.p.skipped.length} 題` : ''}</div></div>
     ${r.p.skipped.length && !r.temp ? `<button class="secondary" onclick="redoSkipped()">回頭做跳過的 ${r.p.skipped.length} 題</button>` : ''}
-    ${r.wrongs.length ? `<h2>這次錯的</h2><ul class="wrongs">${r.wrongs.map(w => `<li><div class="en">${esc(w.ans)}</div><div class="muted">你的答案：${esc(w.user || '（空白）')}</div></li>`).join('')}</ul>` : ''}
-    ${r.ctx && r.wrongs.length ? '<p class="muted small">錯的題目已加入本課錯題本。</p>' : ''}
+    ${r.wrongs.length ? `<h2>這次錯的</h2><ul class="wrongs">${r.wrongs.map(w => wrongLi(w.item, w.ans, w.user, !!r.ctx)).join('')}</ul>` : ''}
+    ${r.wrongs.length ? `<p class="muted small">錯的題目已加入${r.ctx ? '本課錯題本' : '錯題本'}。${r.ctx ? '' : '<button class="linkb" onclick="closeRunner();go(\'mistakes\')">看錯題分析 ›</button>'}</p>` : ''}
   </div>
   <div class="r-foot"><button class="primary" onclick="closeRunner()">${r.back === 'reader' ? '回到書' : '完成'}</button></div>`;
+}
+function qText(it){ return it.q || it.zh || it.s || (it.v ? it.v.zh : '') || ''; }
+function wrongLi(it, ans, user, ja){
+  const mineIdx = it.opts && user != null ? it.opts.indexOf(user) : -1;
+  const mine = it.wn && mineIdx >= 0 ? it.wn[mineIdx] : '';
+  const qt = qText(it);
+  return `<li>${qt ? `<div class="wq" ${ja ? 'lang="ja"' : ''}>${rich(Array.isArray(qt) ? jaText(qt) : qt)}</div>` : ''}
+    <div class="wa"><span class="ok">✓ ${esc(ans)}</span>${user ? `<span class="no">✗ ${esc(user)}</span>` : ''}</div>
+    ${it.why || it.exp ? `<div class="wy">${esc(it.why || it.exp)}</div>` : ''}${mine ? `<div class="wy mine">${esc(user)}：${esc(mine)}</div>` : ''}</li>`;
 }
 function redoSkipped(){ const r = state.runner; const sk = [...r.p.skipped].sort((a, b) => a - b); r.p.skipped = []; r.idx = sk[0]; r.tmp = {}; r.phase = 'answer'; renderRunner(); }
 
@@ -658,22 +731,22 @@ const ITEM = {
       return `<div class="q ${toZh ? '' : 'zh'}">${esc(it.q)}</div>${toZh ? `<div style="margin:-12px 0 16px">${spkEn(it.q, '聽')}</div>` : ''}${optsHTML(it.opts, toZh ? 'zh' : '', r.tmp.pick, res)}`;
     },
     check: (it, r) => {
-      if (state.settings.reviewMode === 'typing' && it.dir !== 'en2zh') return finish(match(r.tmp.text, it.a), it.a, '', r.tmp.text);
+      if (state.settings.reviewMode === 'typing' && it.dir !== 'en2zh') return finish(match(r.tmp.text, it.a), it.a, it.why, r.tmp.text);
       if (r.tmp.pick == null) return toast('先選一個答案');
-      finish(it.opts[r.tmp.pick] === it.a, it.a, '', it.opts[r.tmp.pick]);
+      finish(it.opts[r.tmp.pick] === it.a, it.a, it.why, it.opts[r.tmp.pick]);
     },
   },
   mc: {
-    render: (it, r) => `<div class="q">${esc(it.q)}</div>${optsHTML(it.opts, '', r.tmp.pick, r.phase === 'feedback' ? {correct: it.a, chosen: r.tmp.pick} : null)}`,
+    render: (it, r) => `<div class="q">${esc(it.q)}</div>${it.zh ? `<div class="zhhint">${esc(it.zh)}</div>` : ''}${optsHTML(it.opts, '', r.tmp.pick, r.phase === 'feedback' ? {correct: it.a, chosen: r.tmp.pick} : null)}`,
     check: (it, r) => { if (r.tmp.pick == null) return toast('先選一個答案'); finish(r.tmp.pick === it.a, it.opts[it.a], it.why, it.opts[r.tmp.pick]); },
   },
   fill: {
-    render: (it, r) => `<div class="q">${esc(it.q).replace(/_{2,}/, `<span class="blank ${r.tmp.text ? 'filled' : ''}">${esc(r.tmp.text || '')}&nbsp;</span>`)}</div>${fieldHTML(r.tmp.text, '填入空格')}${it.hint && (r.tmp.miss || r.phase === 'feedback') ? `<div class="hint">提示：${esc(it.hint)}</div>` : ''}`,
+    render: (it, r) => `<div class="q">${esc(it.q).replace(/_{2,}/, `<span class="blank ${r.tmp.text ? 'filled' : ''}">${esc(r.tmp.text || '')}&nbsp;</span>`)}</div>${it.zh ? `<div class="zhhint">${esc(it.zh)}</div>` : ''}${fieldHTML(r.tmp.text, '填入空格')}${it.hint && (r.tmp.miss || r.phase === 'feedback') ? `<div class="hint">提示：${esc(it.hint)}</div>` : ''}`,
     check: (it, r) => { const ok = match(r.tmp.text, it.a); if (!ok && !r.tmp.miss && it.hint && !r.tmp.text){ r.tmp.miss = true; return renderRunner(); } finish(ok, it.a[0], it.why, r.tmp.text); },
   },
   translate: {
     render: (it, r) => `<div class="q zh">${esc(it.zh)}</div>${fieldHTML(r.tmp.text, '寫出英文句子', true)}`,
-    check: (it, r) => { if (!norm(r.tmp.text)) return toast('先寫一句'); finish(match(r.tmp.text, it.a), it.a.join('　／　'), '', r.tmp.text); },
+    check: (it, r) => { if (!norm(r.tmp.text)) return toast('先寫一句'); finish(match(r.tmp.text, it.a), it.a.join('　／　'), it.why, r.tmp.text); },
   },
   error: {
     render: (it, r) => {
@@ -698,12 +771,12 @@ const ITEM = {
       return `<div class="slot">${picked.map((i, k) => `<button class="chip ${r.phase === 'feedback' && !r.last.ok ? 'bad' : ''}" onclick="unpick(${k})">${esc(tiles[i][0])}</button>`).join('')}</div>
         <div class="words">${tiles.map((t, i) => `<button class="chip ${picked.includes(i) ? 'used' : ''}" onclick="pick(${i})" ${picked.includes(i) ? 'disabled' : ''}>${esc(t[0])}</button>`).join('')}</div>`;
     },
-    check: (it, r) => { const s = (r.tmp.picked || []).map(i => it.tiles[i][0]).join(' '); if (!s) return toast('先拼句子'); finish(match(s, it.a), it.a, '', s); },
+    check: (it, r) => { const s = (r.tmp.picked || []).map(i => it.tiles[i][0]).join(' '); if (!s) return toast('先拼句子'); finish(match(s, it.a), it.a, it.why, s); },
   },
   reading: {
     render: (it, r) => `<details class="passage" ${r.tmp.collapsed ? '' : 'open'} ontoggle="if(state.runner)state.runner.tmp.collapsed=!this.open"><summary>${esc(it.passageTitle || '短文')}</summary><div class="t">${esc(it.passage)} ${spkEn(it.passage, '')}</div></details>
       <div class="q" style="font-size:21px">${esc(it.q)}</div>${optsHTML(it.opts, '', r.tmp.pick, r.phase === 'feedback' ? {correct: it.a, chosen: r.tmp.pick} : null)}`,
-    check: (it, r) => { if (r.tmp.pick == null) return toast('先選一個答案'); finish(r.tmp.pick === it.a, it.opts[it.a], '', it.opts[r.tmp.pick]); },
+    check: (it, r) => { if (r.tmp.pick == null) return toast('先選一個答案'); finish(r.tmp.pick === it.a, it.opts[it.a], it.why, it.opts[r.tmp.pick]); },
   },
   dictation: {
     render: (it, r) => `<div class="muted small">聽一句，寫下來。可以重播。</div><div class="spkrow" style="margin-top:12px">${spkEn(it.s, '播放')}${spkEn(it.s, '🐢 慢速', 0.7)}</div>${fieldHTML(r.tmp.text, '寫下聽到的句子', true)}`,
@@ -854,8 +927,10 @@ function renderProgress(){
   const weeks = Object.entries(state.tests.weekly || {});
   const jaDone = [];
   for (const lv of LEVELS_JA) for (const x of DATA.jaIndex.levels[lv]){ const p = state.jprog[jKey(lv, x.unit)]; if (p) jaDone.push(`${lv}-${x.unit}`); }
+  const ew = Object.keys(state.ewrong).length, jw = Object.values(state.jwrong).reduce((n, L) => n + L.length, 0);
   return `<div class="screen">
     <h1>進度</h1>
+    <button class="mlink" onclick="go('mistakes')"><span><b>錯題分析</b><span class="muted small">哪些文法最常錯、常搞混的選項、錯題重做</span></span><span class="muted">英 ${ew}・日 ${jw} ›</span></button>
     <div class="sec-h">英文 61 天（填色＝完成率）</div>
     <div class="grid">${cells}</div>
     <div class="legend"><span><i style="background:var(--green-soft)"></i>部分</span><span><i style="background:var(--green)"></i>完成</span><span><i style="border:2px solid var(--blue);width:9px;height:9px"></i>今天</span></div>
@@ -866,6 +941,81 @@ function renderProgress(){
     ${Object.entries(state.jmock).length ? `<table class="tbl"><tr><th>模擬測驗</th><th>分數</th><th>結果</th><th>日期</th></tr>${Object.entries(state.jmock).map(([lv, r]) => `<tr><td>${lv}</td><td>${r.score}%</td><td>${r.pass ? '合格' : '未合格'}</td><td>${r.date}</td></tr>`).join('')}</table>` : ''}
   </div>`;
 }
+
+/* =========================================================
+   錯題分析
+========================================================= */
+function gRows(S, onRedo){
+  const rows = Object.entries(S || {}).filter(([, v]) => v.n > 0).map(([g, v]) => ({g, n: v.n, w: v.w, rate: v.w / v.n}));
+  rows.sort((a, b) => b.w - a.w || b.rate - a.rate);
+  return rows;
+}
+function renderMistakes(){
+  const L = state.mlang || state.lang || 'en';
+  const sw = `<div class="langsw"><button class="${L==='en'?'sel':''}" onclick="state.mlang='en';render()">English</button><button class="${L==='ja'?'sel':''}" onclick="state.mlang='ja';render()">日本語 JLPT</button></div>`;
+  return `<div class="screen"><div class="row"><h1>錯題分析</h1><button class="ghost" onclick="go('progress')">‹ 進度</button></div>${sw}${L === 'ja' ? mistakesJa() : mistakesEn()}</div>`;
+}
+function statBars(rows, lang){
+  if (!rows.length) return '<p class="muted">還沒有作答紀錄。做題之後，這裡會依文法點統計錯誤率。</p>';
+  return `<div class="gstat">${rows.map(x => { const pct = Math.round(x.rate * 100);
+    return `<div class="gs"><div class="gn">${lang === 'en' && G2WEEK[x.g] ? `<button class="linkb" onclick="openGrammar(${q(x.g)})">${esc(x.g)}</button>` : esc(x.g)}</div>
+      <div class="tr"><i class="${pct >= 30 ? 'low' : pct >= 15 ? 'mid' : ''}" style="width:${Math.max(pct, 2)}%"></i></div>
+      <div class="v">${pct}%<small>錯 ${x.w}／${x.n}</small></div></div>`; }).join('')}</div>`;
+}
+function mistakesEn(){
+  const E = Object.values(state.ewrong);
+  const S = state.gstat.en || {};
+  const rows = gRows(S);
+  const tot = rows.reduce((a, x) => a + x.n, 0), wr = rows.reduce((a, x) => a + x.w, 0);
+  const weak = rows.filter(x => x.n >= 5 && x.rate >= 0.2).slice(0, 3);
+  /* 常見混淆：同一組「正解 ← 誤選」出現多次 */
+  const conf = {};
+  E.forEach(e => { if (!e.user || !e.ans || String(e.user).length > 24 || String(e.ans).length > 24 || e.t === 'translate' || e.t === 'dictation') return;
+    const k = e.ans + '\u0001' + e.user; conf[k] = conf[k] || {ans: e.ans, user: e.user, n: 0, g: e.g}; conf[k].n += e.n; });
+  const confL = Object.values(conf).filter(c => c.n >= 2).sort((a, b) => b.n - a.n).slice(0, 8);
+  const byG = {}; E.forEach(e => { const g = e.g || '其他'; (byG[g] = byG[g] || []).push(e); });
+  const groups = Object.entries(byG).sort((a, b) => b[1].length - a[1].length);
+  const list = E.slice().sort((a, b) => (b.d || '').localeCompare(a.d || '') || b.n - a.n);
+  return `<div class="mcards">
+      <div class="mc1"><div class="big">${E.length}</div><div class="muted small">錯題本</div></div>
+      <div class="mc1"><div class="big">${tot ? Math.round((tot - wr) / tot * 100) + '%' : '—'}</div><div class="muted small">整體正確率（${tot} 題）</div></div></div>
+    ${E.length ? `<button class="primary" style="margin-top:14px" onclick="startEwrong()">重做全部錯題（${E.length}）</button>` : ''}
+    ${weak.length ? `<div class="note" style="margin-top:14px"><b>最需要加強：</b>${weak.map(x => `${esc(x.g)}（錯 ${Math.round(x.rate * 100)}%）`).join('、')}。${G2WEEK[weak[0].g] ? `先點文法名稱複習說明，再重做這一類的錯題。` : '先重做這一類的錯題。'}</div>` : ''}
+    <h2>各文法點錯誤率</h2>
+    <div class="muted small" style="margin-bottom:8px">依每日練習與檢測的作答統計，錯最多的排前面。點文法名稱看說明。</div>
+    ${statBars(rows, 'en')}
+    ${confL.length ? `<h2>常搞混的地方</h2><ul class="conf">${confL.map(c => `<li><span class="ok">${esc(c.ans)}</span><span class="arrow">寫成</span><span class="no">${esc(c.user)}</span><span class="cn">× ${c.n}</span></li>`).join('')}</ul>` : ''}
+    ${groups.length ? `<h2>錯題本（依文法點）</h2>${groups.map(([g, L]) => `<details class="wgrp"><summary><span>${esc(g)}</span><span class="muted">${L.length} 題</span><button class="go" onclick="event.preventDefault();startEwrong(${q(g)})">重做</button></summary>
+        <ul class="wrongs">${L.sort((a, b) => b.n - a.n).map(e => wrongLi(e.it, e.ans, e.user, false).replace('<li>', `<li><div class="wsrc">${esc(e.src || '')}　錯 ${e.n} 次　${esc(e.d || '')}</div>`)).join('')}</ul></details>`).join('')}` : '<p class="muted" style="margin-top:18px">錯題本是空的。練習時答錯的題目會自動收進來，重做答對就移除。</p>'}
+    ${list.length ? '' : ''}`;
+}
+function startEwrong(g){
+  const E = Object.values(state.ewrong).filter(e => !g || (e.g || '其他') === g);
+  if (!E.length) return toast('沒有錯題');
+  const items = shuffle(E).map(e => { const it = Object.assign({}, e.it, {_wsec: e.t, _k: e.k});
+    if (e.t === 'reorder' && it.words) it.tiles = shuffle(it.words.map(w => [w, '']));
+    return it; }).filter(it => ITEM[it._wsec]);
+  openRunner({title: g ? `錯題本：${g}` : '錯題本', block:'ex', items, p:{done:0, correct:0, skipped:[], answers:{}}, temp:true});
+}
+function mistakesJa(){
+  const units = [];
+  for (const lv of LEVELS_JA) for (const x of DATA.jaIndex.levels[lv]){ const L = state.jwrong[jKey(lv, x.unit)] || []; if (L.length) units.push({lv, u: x.unit, title: x.title, L}); }
+  const bySec = {}; units.forEach(u => u.L.forEach(w => { const n = (JSECS.find(s => s.id === w.sec) || {name: w.sec}).name; bySec[n] = (bySec[n] || 0) + 1; }));
+  const rows = gRows(state.gstat.ja);
+  const tot = rows.reduce((a, x) => a + x.n, 0), wr = rows.reduce((a, x) => a + x.w, 0);
+  const total = units.reduce((a, u) => a + u.L.length, 0);
+  return `<div class="mcards">
+      <div class="mc1"><div class="big">${total}</div><div class="muted small">錯題本（全部課）</div></div>
+      <div class="mc1"><div class="big">${tot ? Math.round((tot - wr) / tot * 100) + '%' : '—'}</div><div class="muted small">整體正確率（${tot} 題）</div></div></div>
+    ${Object.keys(bySec).length ? `<div class="note" style="margin-top:14px">錯題分布：${Object.entries(bySec).sort((a, b) => b[1] - a[1]).map(([k, v]) => `${esc(k)} ${v}`).join('、')}</div>` : ''}
+    <h2>各題型錯誤率</h2>
+    <div class="muted small" style="margin-bottom:8px">選擇題依題型（読み、表記、文法…）分開統計；模擬測驗依區塊統計。</div>
+    ${statBars(rows, 'ja')}
+    <h2>各課錯題本</h2>
+    ${units.length ? `<ul class="list">${units.map(u => `<li><button onclick="redoJaUnit('${u.lv}',${u.u})"><span><div>${u.lv} 第 ${u.u} 課　${esc(u.title)}</div><div class="sub">${[...new Set(u.L.map(w => (JSECS.find(s => s.id === w.sec) || {name: w.sec}).name))].join('、')}</div></span><span class="muted">${u.L.length} 題・重做</span></button></li>`).join('')}</ul>`
+      : '<p class="muted">還沒有日文錯題。答錯的題目會收進各課錯題本，重做答對就移除。</p>'}`;
+}
+async function redoJaUnit(lv, u){ await ensureJa(lv); state.jsel = {lv, u}; persist(); startJa('jx'); }
 
 /* =========================================================
    檢測
@@ -939,13 +1089,24 @@ function renderExamResult(){
   } else if (r.testId.startsWith('w')){ state.tests.weekly = state.tests.weekly || {}; state.tests.weekly[r.testId.slice(1)] = rec;
     verdict = `<div class="note">${score >= 80 ? '≥80%，進下一週' : score >= 60 ? '60–79%，做完 Day 7 再考一次' : '<60%，重做 Day 2–4 再考'}</div>`;
   } else state.tests[r.testId] = rec;
-  persist();
   const wrong = r.examAnswers.filter(a => !a.ok);
+  if (!r.recorded){
+    r.recorded = true;
+    r.examAnswers.forEach(({item, ok, pick}) => {
+      const opts = item.opts || item.o, g = item.g || item.gp || item.sec;
+      if (r.examLang === 'ja'){ bump('ja', item.t || item.sec, ok, 1); return; }
+      bump('en', g, ok, 1);
+      if (!ok){ const k = ekey('mc', item), prev = state.ewrong[k];
+        state.ewrong[k] = {k, t:'mc', it: Object.assign({}, item), user: opts[pick], ans: opts[item.a], g, n: (prev ? prev.n : 0) + 1, d: todayStr(), src: r.title}; }
+    });
+  }
+  persist();
   return `<div class="r-head"><div class="row"><span></span><span class="title">${esc(r.title)}</span><span></span></div></div>
     <div class="r-body"><div class="done-box"><div class="big">${score}%</div><div class="muted">${r.items.length} 題</div>${verdict}</div>
       <h2>${r.examLang === 'ja' ? '各區得分' : '各文法點正確率'}</h2>
       <div class="secbars">${Object.entries(rec.byGp).map(([g, p]) => `<div class="sb"><span>${esc(g)}</span><span class="tr"><i class="${p < (r.examLang === 'ja' ? 40 : 70) ? 'low' : ''}" style="width:${p}%"></i></span><span class="v">${p}%</span></div>`).join('')}</div>
-      ${wrong.length ? `<h2>錯的題目</h2><ul class="wrongs">${wrong.map(w => `<li><div ${r.examLang === 'ja' ? 'lang="ja"' : ''}>${rich(w.item.q)}</div><div class="muted">正解：${esc((w.item.opts || w.item.o)[w.item.a])}${w.item.exp ? '　' + esc(w.item.exp) : ''}</div></li>`).join('')}</ul>` : ''}
+      ${wrong.length ? `<h2>錯的題目</h2><ul class="wrongs">${wrong.map(w => { const o = w.item.opts || w.item.o; return wrongLi(Object.assign({}, w.item, {opts: o}), o[w.item.a], o[w.pick], r.examLang === 'ja'); }).join('')}</ul>
+        ${r.examLang === 'en' ? `<p class="muted small">錯的題目已加入錯題本。<button class="linkb" onclick="closeRunner();go('mistakes')">看錯題分析 ›</button></p>` : ''}` : ''}
     </div>
     <div class="r-foot"><button class="primary" onclick="closeRunner()">回檢測</button></div>`;
 }
@@ -1006,7 +1167,7 @@ function renderSettings(){
     <p class="muted small" style="margin-top:20px">題庫版本：英文 ${enTotal()} 天、日文 ${LEVELS_JA.map(lv => DATA.jaIndex.levels[lv].length).reduce((a, b) => a + b, 0)} 課、讀物 ${DATA.lib.en.length + DATA.lib.ja.length} 本</p>
   </div>`;
 }
-const SAVE_KEYS = ['progress','jprog','jwrong','jtasks','drafts','tests','jmock','external','cefr','words','readTime','readPos','settings'];
+const SAVE_KEYS = ['progress','jprog','jwrong','ewrong','gstat','jtasks','drafts','tests','jmock','external','cefr','words','readTime','readPos','settings'];
 function exportProgress(){
   const o = {version: 3}; SAVE_KEYS.forEach(k => o[k] = state[k]);
   const a = document.createElement('a'); a.href = URL.createObjectURL(new Blob([JSON.stringify(o, null, 1)], {type:'application/json'}));

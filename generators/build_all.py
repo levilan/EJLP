@@ -18,7 +18,7 @@ OUT = os.path.join(HERE, '..', 'data')
 sys.path.insert(0, HERE)
 
 import eng_to_ipa as IPA
-import build_en, gen_cont, build_ja
+import build_en, gen_cont, build_ja, explain
 from stories import EN as EN_OLD, JA as JA_OLD
 from books_en_new import EN_NEW
 from books_ja_new import JA_NEW
@@ -58,6 +58,8 @@ def en_data():
     D['meta']['weeks'].append(week)
     D['tests']['weekly']['9'] = test
     D['meta']['days'] = len(D['days'])
+    st = explain.merge(D, zh_space)
+    print('錯題說明', st)
     return D
 
 

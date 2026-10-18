@@ -19,7 +19,7 @@ VERBS = [  # (原形, -ing, 無受詞時的中文, [(受詞, 完整動作中文)
     ('play', 'playing', '玩', [('the guitar', '彈吉他'), ('basketball', '打籃球'), ('a game', '玩遊戲')], '遊ぶ', 'あそぶ'),
     ('listen', 'listening', '聽', [('to music', '聽音樂'), ('to the radio', '聽廣播'), ('to the teacher', '聽老師說話')], '聞く', 'きく'),
     ('study', 'studying', '讀書', [('English', '讀英文'), ('math', '讀數學'), ('for the test', '準備考試')], '勉強する', 'べんきょうする'),
-    ('work', 'working', '工作', [('at home', '在家工作'), ('in the office', '在辦公室工作'), ('late', '工作到很晚')], '働く', 'はたらく'),
+    ('work', 'working', '工作', [('at home', '在家工作'), ('in the office', '在辦公室工作'), ('at the café', '在咖啡店工作')], '働く', 'はたらく'),
     ('make', 'making', '做東西', [('a cake', '做蛋糕'), ('coffee', '泡咖啡'), ('a video', '做影片')], '作る', 'つくる'),
     ('run', 'running', '跑步', [('in the park', '在公園跑步'), ('to the station', '跑去車站')], '走る', 'はしる'),
     ('swim', 'swimming', '游泳', [('in the pool', '在游泳池游泳'), ('in the sea', '在海裡游泳')], '泳ぐ', 'およぐ'),
@@ -32,7 +32,7 @@ VERBS = [  # (原形, -ing, 無受詞時的中文, [(受詞, 完整動作中文)
     ('clean', 'cleaning', '打掃', [('the kitchen', '打掃廚房'), ('my room', '打掃我的房間')], '掃除する', 'そうじする'),
     ('drive', 'driving', '開車', [('to work', '開車去上班'), ('home', '開車回家')], '運転する', 'うんてんする'),
     ('take', 'taking', '拿', [('photos', '拍照'), ('a shower', '洗澡')], '撮る', 'とる'),
-    ('wear', 'wearing', '穿', [('a blue shirt', '穿著藍色襯衫'), ('a hat', '戴著帽子')], '着る', 'きる'),
+    ('wear', 'wearing', '穿', [('jeans', '穿著牛仔褲'), ('glasses', '戴著眼鏡')], '着る', 'きる'),
     ('learn', 'learning', '學習', [('Japanese', '學日文'), ('to drive', '學開車')], '習う', 'ならう'),
     ('use', 'using', '用', [('the computer', '用電腦'), ('my phone', '用我的手機')], '使う', 'つかう'),
     ('get', 'getting', '準備', [('dressed', '穿衣服'), ('ready', '準備')], '準備する', 'じゅんびする'),
@@ -47,12 +47,12 @@ SUBJ = [
 NOW = [('now', '現在'), ('right now', '此刻'), ('at the moment', '目前'), ('today', '今天')]
 HABIT = [('every day', '每天'), ('every morning', '每天早上'), ('on Sundays', '每個星期日'), ('usually', '通常'), ('often', '常常')]
 NEG = {'am': "am not", 'is': "isn't", 'are': "aren't"}
-SPELL = [('make', 'making', '去 e 加 -ing'), ('write', 'writing', '去 e 加 -ing'), ('drive', 'driving', '去 e 加 -ing'),
-         ('use', 'using', '去 e 加 -ing'), ('take', 'taking', '去 e 加 -ing'), ('run', 'running', '短母音＋子音：重複字尾再加 -ing'),
-         ('swim', 'swimming', '短母音＋子音：重複字尾再加 -ing'), ('sit', 'sitting', '短母音＋子音：重複字尾再加 -ing'),
-         ('shop', 'shopping', '短母音＋子音：重複字尾再加 -ing'), ('get', 'getting', '短母音＋子音：重複字尾再加 -ing'),
-         ('lie', 'lying', 'ie 改 y 加 -ing'), ('die', 'dying', 'ie 改 y 加 -ing'), ('play', 'playing', '直接加 -ing'),
-         ('study', 'studying', '直接加 -ing（y 不變）'), ('read', 'reading', '直接加 -ing')]
+SPELL = [('make', 'making', '去 e 加 -ing', 'a cake'), ('write', 'writing', '去 e 加 -ing', 'an email'), ('drive', 'driving', '去 e 加 -ing', 'to work'),
+         ('use', 'using', '去 e 加 -ing', 'the computer'), ('take', 'taking', '去 e 加 -ing', 'a shower'), ('run', 'running', '短母音＋子音：重複字尾再加 -ing', 'in the park'),
+         ('swim', 'swimming', '短母音＋子音：重複字尾再加 -ing', 'in the pool'), ('sit', 'sitting', '短母音＋子音：重複字尾再加 -ing', 'on the sofa'),
+         ('shop', 'shopping', '短母音＋子音：重複字尾再加 -ing', 'at the mall'), ('get', 'getting', '短母音＋子音：重複字尾再加 -ing', 'dressed'),
+         ('lie', 'lying', 'ie 改 y 加 -ing', 'on the bed'), ('tie', 'tying', 'ie 改 y 加 -ing', 'a ribbon'), ('play', 'playing', '直接加 -ing', 'basketball'),
+         ('study', 'studying', '直接加 -ing（y 不變）', 'English'), ('read', 'reading', '直接加 -ing', 'a book')]
 THIRD = {'read': 'reads', 'write': 'writes', 'eat': 'eats', 'drink': 'drinks', 'cook': 'cooks', 'watch': 'watches', 'play': 'plays',
          'listen': 'listens', 'study': 'studies', 'work': 'works', 'make': 'makes', 'run': 'runs', 'swim': 'swims', 'sit': 'sits',
          'shop': 'shops', 'wait': 'waits', 'talk': 'talks', 'sleep': 'sleeps', 'wash': 'washes', 'clean': 'cleans', 'drive': 'drives',
@@ -90,6 +90,8 @@ def prog(zh):
 
 
 def negz(zh):
+    if zh.startswith(('坐在', '穿著', '戴著')):
+        return '沒有' + zh.replace('著', '')
     return '沒有' + (zh if zh.startswith('在') else '在' + zh.replace('著', ''))
 
 
@@ -138,7 +140,8 @@ def what_doing():
     b = 'am' if pr == 'I' else ('is' if pr in ('He', 'She') else 'are')
     en = 'What %s %s doing? %s %s %s.' % (s[2], mid(s[0]), pr, b, ph)
     zh = '%s在做什麼？%s%s。' % (s[1], '我' if pr == 'I' else s[1], prog(phz))
-    return dict(en=en, zh=zh, blank=1, ans=s[2], cat='be', gp='現在進行式', why='What＋be＋主詞＋doing？', ing=v[1], base=v[0], subj=s)
+    alts = [] if pr == 'I' or s[0] in ('He', 'She', 'They', 'We') else ['What %s %s doing? %s %s %s.' % (s[2], mid(s[0]), s[0], s[2], ph)]
+    return dict(en=en, zh=zh, alts=alts, blank=1, ans=s[2], cat='be', gp='現在進行式', why='What＋be＋主詞＋doing？', ing=v[1], base=v[0], subj=s)
 
 
 def contrast():
@@ -146,6 +149,8 @@ def contrast():
     objs = v[3] or [('', v[2])]
     o = rnd.choice(objs)
     h = rnd.choice(HABIT); t = rnd.choice(NOW)
+    while h[0] == 'every morning' and any(x in o[0] for x in ('lunch', 'dinner', 'late')):
+        h = rnd.choice(HABIT)
     third = s[2] == 'is'
     simple = THIRD[v[0]] if third else v[0]
     if rnd.random() < 0.5:
@@ -166,9 +171,9 @@ def contrast():
 
 
 def spelling():
-    b, ing, why = rnd.choice(SPELL)
+    b, ing, why, tail = rnd.choice(SPELL)
     s = rnd.choice(SUBJ)
-    return dict(en='%s %s %s now.' % (s[0], s[2], ing), zh='', blank=len(s[0].split()) + 1, ans=ing, cat='ing', gp='-ing 拼字',
+    return dict(en='%s %s %s %s now.' % (s[0], s[2], ing, tail), zh='', blank=len(s[0].split()) + 1, ans=ing, cat='ing', gp='-ing 拼字',
                 why='%s → %s：%s。' % (b, ing, why), ing=ing, base=b, subj=s)
 
 
@@ -242,11 +247,12 @@ def readings(day):
         n, p, ps = names[i]
         P = p.capitalize()
         f = rnd.choice(['mother', 'father', 'brother', 'sister'])
-        IN = [VERBS[j] for j in (0, 1, 2, 3, 4, 5, 6, 7, 8, 10)]
-        fa = rnd.choice(IN); fo = rnd.choice(fa[3])
+        IN = [(v[0], v[1], v[2], [o for o in v[3] if o[0] not in ('basketball', 'to the teacher', 'for the test')]) + tuple(v[4:])
+              for v in (VERBS[j] for j in (0, 1, 2, 3, 4, 5, 6, 7, 8, 10))]
         me = rnd.choice(IN); mo = rnd.choice(me[3])
-        hb = rnd.choice(IN); ho = rnd.choice(hb[3])
-        place = rnd.choice(['in the living room', 'in the kitchen', 'at home', 'at the café'])
+        fa = rnd.choice([x for x in IN if x[0] != me[0]]); fo = rnd.choice(fa[3])
+        hb = rnd.choice([x for x in IN if x[0] not in (me[0], fa[0])]); ho = rnd.choice(hb[3])
+        place = rnd.choice(['in the living room', 'in the kitchen', 'in the bedroom', 'at the café'])
         weather = rnd.choice([('raining', 'rainy'), ('snowing', 'snowy'), ('shining', 'sunny')])
         w_text = "It is raining outside." if weather[0] == 'raining' else ("It is snowing outside." if weather[0] == 'snowing' else 'The sun is shining.')
         text = (f"It is Saturday afternoon. {n} is {place}. {w_text} {P} is {me[1]} {mo[0]} now. "
@@ -257,11 +263,11 @@ def readings(day):
             o = [c] + [x for x in pick([x for x in pool if x != c], 3)]
             rnd.shuffle(o)
             return {'q': q, 'opts': o, 'a': o.index(c)}
-        acts = list({'%s %s' % (x[1], o[0]) for x in IN for o in x[3]})
+        acts = sorted({'%s %s' % (x[1], o[0]) for x in IN for o in x[3]})
         qs = [mc(f'What is {n} doing now?', f'{me[1]} {mo[0]}', acts),
-              mc(f'Where is {n}?', place, ['in the living room', 'in the kitchen', 'at home', 'at the café', 'at school']),
+              mc(f'Where is {n}?', place, ['in the living room', 'in the kitchen', 'in the bedroom', 'at the café', 'at school', 'at the park']),
               mc(f'What does {n} usually do on Saturdays?', f'{p.capitalize()} {THIRD[hb[0]]} {ho[0]}.',
-                 list({f'{p.capitalize()} {THIRD[x[0]]} {o[0]}.' for x in IN for o in x[3]})),
+                 sorted({f'{p.capitalize()} {THIRD[x[0]]} {o[0]}.' for x in IN for o in x[3]})),
               mc(f"What is {n}'s {f} doing?", f'{fa[1]} {fo[0]}', acts),
               mc('How is the weather?', weather[1], ['rainy', 'snowy', 'sunny', 'windy'])]
         out.append({'title': f'{n} 的星期六', 'text': text, 'qs': qs})
@@ -288,12 +294,13 @@ def build_day(day):
         o = opts_for(d)
         if c not in o:
             o[-1] = c
-        mc.append({'q': q, 'opts': o, 'a': o.index(c), 'gp': d['gp'], 'why': d['why']})
+        mc.append({'q': q, 'opts': o, 'a': o.index(c), 'gp': d['gp'], 'why': d['why'], **({'zh': d['zh']} if d['zh'] else {})})
     for d in P[50:100]:
         q, c = blank(d['en'], d['blank'])
-        hint = {'be': 'am / is / are', 'neg': "am not / isn't / aren't", 'beq': 'Am / Is / Are', 'sa': 'am / is / are / isn\'t / aren\'t',
-                'ing': '寫出 -ing 形', 'tense': '簡單式還是進行式？'}[d['cat']]
-        fill.append({'q': q, 'a': [c], 'hint': hint, 'gp': d['gp'], 'why': d['why']})
+        hint = {'be': 'am / is / are', 'neg': "am / is / are（空格後面已經有 not）" if c == 'am' else "isn't / aren't", 'beq': 'Am / Is / Are',
+                'sa': 'am / is / are / isn\'t / aren\'t', 'ing': '寫出 %s 的 -ing 形' % d['base'],
+                'tense': '用 %s：現在簡單式還是現在進行式？' % d['base']}[d['cat']]
+        fill.append({'q': q, 'a': [c], 'hint': hint, 'gp': d['gp'], 'why': d['why'], **({'zh': d['zh']} if d['zh'] else {})})
     for d in P[100:115]:
         t = d['en'].split(' ')
         i = d['blank']
@@ -315,7 +322,7 @@ def build_day(day):
         t2 = t[:]; t2[i] = wrong + p
         err.append({'s': ' '.join(t2), 'wrong': i, 'fix': c, 'why': d['why'], 'full': d['en']})
     for d in [x for x in P[115:] if x['zh']][:20]:
-        trans.append({'zh': d['zh'], 'a': [d['en']], 'gp': d['gp']})
+        trans.append({'zh': d['zh'], 'a': [d['en']] + d.get('alts', []), 'gp': d['gp']})
     short = [x for x in P[115:] if 4 <= len(x['en'].split()) <= 9 and '?' not in x['en'][:-1]]
     for d in short[:15]:
         ws = d['en'].split(' '); sh = ws[:]
