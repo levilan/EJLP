@@ -70,9 +70,11 @@ function rich(s){ return esc(s).replace(/&lt;u&gt;/g,'<u>').replace(/&lt;\/u&gt;
 function q(s){ return JSON.stringify(s).replace(/"/g, '&quot;'); }
 function toast(msg, ms){ const t = document.getElementById('toast'); t.textContent = msg; t.classList.add('show'); clearTimeout(t._t); t._t = setTimeout(() => t.classList.remove('show'), ms || 2000); }
 function shuffle(a){ a = a.slice(); for (let i = a.length-1; i > 0; i--){ const j = Math.floor(Math.random()*(i+1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
+const NUMW = 'zero one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty'.split(' ');
 function norm(s){
   s = String(s||'').toLowerCase().replace(/[’‘`´]/g,"'").replace(/[“”]/g,'"').replace(/\s+/g,' ').trim().replace(/[.,!?;:"]+$/,'').trim();
   for (const [c,f] of CONTR) s = s.replace(new RegExp('(^|\\s)'+c+'(?=\\s|$)','g'), '$1'+f);
+  s = s.replace(/\b(\d{1,2})\b(?!:)/g, (m, d) => NUMW[+d] || m).replace(/ o'clock\b/g, '');
   s = s.replace(/\bmom\b/g, 'mother').replace(/\bdad\b/g, 'father').replace(/\bmoms\b/g, 'mothers').replace(/\bdads\b/g, 'fathers').replace(/café/g, 'cafe');
   return s.replace(/\s*,\s*/g, ', ').replace(/\s+/g,' ').trim();
 }
