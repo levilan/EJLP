@@ -1,4 +1,13 @@
 {
+"f00628f768f": {
+"note": "中文「周圍」對應 around。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "房子周圍有樹。"
+}
+]
+},
 "f00dddad83b": {
 "note": "給中文指定畫畫，paint／draw 都已收。",
 "ops": [
@@ -17,12 +26,88 @@
 }
 ]
 },
+"f02afa46098": {
+"note": "加過去時間詞，排除現在式；答案不變。",
+"ops": [
+{
+"op": "set_q",
+"q": "They ___ (get) home at midnight last night."
+},
+{
+"op": "set_x",
+"x": "last night 是昨晚，已經發生，用過去式；get 是不規則動詞，過去式是 got。"
+}
+]
+},
+"f032b8d940b": {
+"note": "eat dinner 也正確常用，補收。",
+"ops": [
+{
+"answers": [
+"eat"
+],
+"op": "add_answers"
+}
+]
+},
 "f042d618c6d": {
 "note": "給中文指定紀念品，排除 gift／present。",
 "ops": [
 {
 "op": "set_zh",
 "zh": "我要買一個紀念品給我的朋友。"
+}
+]
+},
+"f045b577b30": {
+"note": "前面補一句 Yesterday she had breakfast.，排除現在式 goes；答案不變。",
+"ops": [
+{
+"op": "set_q",
+"q": "Yesterday she had breakfast. After that, she ___ to work by bus."
+},
+{
+"op": "set_x",
+"x": "前面 Yesterday 說的是昨天，After that 接著說，也用過去式；go 的過去式是 went。"
+}
+]
+},
+"f05e1112cff": {
+"note": "加過去時間詞，排除現在式；答案不變。",
+"ops": [
+{
+"op": "set_q",
+"q": "___ your mother tired after work yesterday?"
+},
+{
+"op": "set_x",
+"x": "yesterday 是過去；問句把 be 動詞放句首，主詞 your mother 是一個人，用 Was。"
+}
+]
+},
+"f0607fe545c": {
+"note": "加過去時間詞，排除現在式；答案不變。",
+"ops": [
+{
+"op": "set_q",
+"q": "I ___ some milk at the store yesterday. (buy)"
+},
+{
+"op": "set_x",
+"x": "yesterday 是昨天，已經買了，用過去式；buy 是不規則動詞，過去式是 bought。"
+}
+]
+},
+"f063cffc467": {
+"note": "加過去時間詞，排除現在式；答案不變。",
+"ops": [
+{
+"op": "set_q",
+"q": "She ___ a good time with her family last weekend."
+},
+{
+"op": "set_x",
+"x": "last weekend 是上週末，用過去式；have a good time 是玩得愉快，have 過去式是 had。"
 }
 ]
 },
@@ -50,6 +135,21 @@
 {
 "op": "set_x",
 "x": "be going to 後面接原形動詞；去日本可以說 travel、go 或 fly to Japan。"
+}
+]
+},
+"f09251cb728": {
+"note": "noodles 可數複數，標準答案改為 many。",
+"ops": [
+{
+"answers": [
+"many"
+],
+"op": "set_answers"
+},
+{
+"op": "set_x",
+"x": "noodles 有 s，是可數名詞複數，問數量用 How many；much 只配不可數名詞。"
 }
 ]
 },
@@ -86,6 +186,28 @@
 }
 ]
 },
+"f0caccac7f2": {
+"note": "中文「不」對應 don't，排除頻率副詞。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "我早上不看電視。"
+}
+]
+},
+"f0df8df2606": {
+"note": "加過去時間詞，排除現在式；答案不變。",
+"ops": [
+{
+"op": "set_q",
+"q": "___ I right about the time yesterday?"
+},
+{
+"op": "set_x",
+"x": "yesterday 是過去；問句把 be 動詞放句首，主詞 I 的過去式用 was：Was I right…?"
+}
+]
+},
 "f0f2b0f24c3": {
 "note": "加中文「不喜歡」，唯一對應 like。",
 "ops": [
@@ -95,12 +217,47 @@
 }
 ]
 },
+"f103db1f366": {
+"note": "加過去時間詞，排除現在式；答案不變。",
+"ops": [
+{
+"op": "set_q",
+"q": "___ your brother at the game last night?"
+},
+{
+"op": "set_x",
+"x": "last night 是過去；問句把 be 動詞放句首，主詞 your brother 一個人，用 Was。"
+}
+]
+},
 "f11ee4570ac": {
 "note": "加中文「她的」，唯一對應 her。",
 "ops": [
 {
 "op": "set_zh",
 "zh": "他是她的先生。"
+}
+]
+},
+"f12084aae8d": {
+"note": "加過去時間詞，排除現在式；答案不變。",
+"ops": [
+{
+"op": "set_q",
+"q": "We ___ (go) to the beach by bus last Sunday."
+},
+{
+"op": "set_x",
+"x": "last Sunday 是上週日，已經去過，用過去式；go 的過去式是 went。"
+}
+]
+},
+"f128571ba8d": {
+"note": "中文「放鬆」對應 relax。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "他們晚餐後放鬆一下。"
 }
 ]
 },
@@ -119,7 +276,42 @@
 },
 {
 "op": "set_x",
-"x": "like 後面接動作用 V-ing 或 to＋原形；write 去 e 加 ing：writing，或 to write。"
+"x": "like 後面接 V-ing 或 to＋原形；write 去 e 加 ing：writing，或 to write。"
+}
+]
+},
+"f13f01fa516": {
+"note": "中文「後面」對應 behind。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "花園在房子後面。"
+}
+]
+},
+"f142cde1905": {
+"note": "加過去時間詞，排除現在式；答案不變。",
+"ops": [
+{
+"op": "set_q",
+"q": "You ___ very kind to me yesterday."
+},
+{
+"op": "set_x",
+"x": "yesterday 是過去；主詞 you 不管單複數，過去式 be 動詞都用 were，不用 was。"
+}
+]
+},
+"f142e5f0d27": {
+"note": "this morning 改 yesterday morning，排除現在式 is；答案不變。",
+"ops": [
+{
+"op": "set_q",
+"q": "She ___ not at home yesterday morning."
+},
+{
+"op": "set_x",
+"x": "yesterday morning 是昨天早上；主詞 she 一個人用 was，否定把 not 放在 was 後面。"
 }
 ]
 },
@@ -131,6 +323,51 @@
 "The"
 ],
 "op": "add_answers"
+}
+]
+},
+"f1619746ca0": {
+"note": "加過去時間詞，排除現在式；答案不變。",
+"ops": [
+{
+"op": "set_q",
+"q": "I ___ not ready for the test last Friday."
+},
+{
+"op": "set_x",
+"x": "last Friday 是上週五；主詞 I 的過去式 be 動詞是 was，否定把 not 放在 was 後面。"
+}
+]
+},
+"f166cc35634": {
+"note": "空格可填任何動作，加中文限定為起床，補收 get up 並更新說明。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "我通常七點起床。"
+},
+{
+"answers": [
+"get up"
+],
+"op": "add_answers"
+},
+{
+"op": "set_x",
+"x": "usually 是習慣；主詞 I 用原形，起床說 wake up 或 get up。"
+}
+]
+},
+"f168fe74d9c": {
+"note": "加過去時間詞，排除現在式；答案不變。",
+"ops": [
+{
+"op": "set_q",
+"q": "She ___ a new jacket at the mall last weekend."
+},
+{
+"op": "set_x",
+"x": "last weekend 是上週末，已經買了，用過去式；buy 是不規則動詞，過去式 bought。"
 }
 ]
 },
@@ -160,12 +397,38 @@
 }
 ]
 },
+"f17d85b9e75": {
+"note": "加過去時間詞，排除現在式；答案不變。",
+"ops": [
+{
+"op": "set_q",
+"q": "They ___ (paint) the wall blue two days ago."
+},
+{
+"op": "set_x",
+"x": "two days ago 是兩天前，用過去式；paint 加 ed 變 painted。"
+}
+]
+},
 "f17d95e4ce4": {
 "note": "加中文「這是」，唯一對應 This。",
 "ops": [
 {
 "op": "set_zh",
 "zh": "這是我的包包。"
+}
+]
+},
+"f18dab0fb19": {
+"note": "加過去時間詞，排除現在式；答案不變。",
+"ops": [
+{
+"op": "set_q",
+"q": "My mother ___ (cook) dinner for us last night."
+},
+{
+"op": "set_x",
+"x": "last night 是昨晚，已經做好晚餐，用過去式；cook 加 ed 變 cooked。"
 }
 ]
 },
@@ -217,12 +480,51 @@
 }
 ]
 },
+"f1bd28ab5b5": {
+"note": "加過去時間詞，排除現在式；答案不變。",
+"ops": [
+{
+"op": "set_q",
+"q": "Sam ___ (eat) lunch with his boss yesterday."
+},
+{
+"op": "set_x",
+"x": "yesterday 是昨天，用過去式；eat 是不規則動詞，過去式是 ate。"
+}
+]
+},
 "f1cbe7bb1cd": {
 "note": "加中文「我們家人」，唯一對應 our。",
 "ops": [
 {
 "op": "set_zh",
 "zh": "這是我們家人的照片。"
+}
+]
+},
+"f1ceb2ba611": {
+"note": "加過去時間詞，排除現在式；答案不變。",
+"ops": [
+{
+"op": "set_q",
+"q": "The train ___ (arrive) late last night."
+},
+{
+"op": "set_x",
+"x": "last night 是昨晚，用過去式；arrive 字尾是 e，只加 d 變 arrived。"
+}
+]
+},
+"f1dda363ac8": {
+"note": "加過去時間詞，排除現在式；答案不變。",
+"ops": [
+{
+"op": "set_q",
+"q": "You ___ right about the price yesterday."
+},
+{
+"op": "set_x",
+"x": "yesterday 是過去；主詞 you 的過去式 be 動詞一律用 were，不用 was。"
 }
 ]
 },
@@ -235,6 +537,32 @@
 }
 ]
 },
+"f1ee77c69aa": {
+"note": "加過去時間詞，排除現在式；答案不變。",
+"ops": [
+{
+"op": "set_q",
+"q": "The shops ___ open until ten o'clock last night."
+},
+{
+"op": "set_x",
+"x": "last night 是昨晚；主詞 the shops 是複數，過去式 be 動詞用 were。"
+}
+]
+},
+"f1f181edf51": {
+"note": "加過去時間詞，排除現在式；答案不變。",
+"ops": [
+{
+"op": "set_q",
+"q": "We ___ (have) a big breakfast last Sunday."
+},
+{
+"op": "set_x",
+"x": "last Sunday 是上週日，用過去式；have 的過去式是 had。"
+}
+]
+},
 "f1fee1f9e3c": {
 "note": "給中文指定健行。",
 "ops": [
@@ -244,12 +572,82 @@
 }
 ]
 },
+"f20135034cc": {
+"note": "加過去時間詞，排除現在式；答案不變。",
+"ops": [
+{
+"op": "set_q",
+"q": "I ___ my old classmate at the movie theater last Saturday."
+},
+{
+"op": "set_x",
+"x": "last Saturday 是上週六，用過去式；see 的過去式是 saw，meet 是 met。"
+}
+]
+},
+"f20f4cc9bb6": {
+"note": "加過去時間詞，排除現在式；答案不變。",
+"ops": [
+{
+"op": "set_q",
+"q": "Yesterday, she ___ me about her trip to Japan."
+},
+{
+"op": "set_x",
+"x": "Yesterday 是昨天，用過去式；tell 是不規則動詞，過去式是 told。"
+}
+]
+},
+"f2189abceeb": {
+"note": "加過去時間詞，排除現在式；答案不變。",
+"ops": [
+{
+"op": "set_q",
+"q": "We ___ (not/forget) the meeting last Monday."
+},
+{
+"op": "set_x",
+"x": "last Monday 是過去；否定用 didn't 加原形：didn't forget，不寫 forgot。"
+}
+]
+},
+"f21f45628fe": {
+"note": "加過去時間詞，排除現在式；答案不變。",
+"ops": [
+{
+"op": "set_q",
+"q": "___ your friend buy a new bike last month?"
+},
+{
+"op": "set_x",
+"x": "last month 是過去；句中 buy 是原形，問過去的事用 Did 放句首，動詞不變。"
+}
+]
+},
+"f239bd854f2": {
+"note": "中文「去上班」對應 go，排除 walk/drive。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "我八點去上班。"
+}
+]
+},
 "f244241cbad": {
 "note": "給中文指定晴天。",
 "ops": [
 {
 "op": "set_zh",
 "zh": "明天會是晴天。"
+}
+]
+},
+"f24de0c7e33": {
+"note": "中文「很遠」對應 far from。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "車站離我家很遠。"
 }
 ]
 },
@@ -275,12 +673,94 @@
 }
 ]
 },
+"f285d7bd4d4": {
+"note": "加過去時間詞，排除現在式；答案不變。",
+"ops": [
+{
+"op": "set_q",
+"q": "I ___ (see) a big dog near my house two days ago."
+},
+{
+"op": "set_x",
+"x": "two days ago 是兩天前，用過去式；see 是不規則動詞，過去式是 saw。"
+}
+]
+},
 "f28eee40f64": {
 "note": "給中文指定下雨。",
 "ops": [
 {
 "op": "set_zh",
 "zh": "這個週末會下雨。"
+}
+]
+},
+"f2906791213": {
+"note": "中文「打電話」對應 call，同義的 phone 也收。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "我每天早上打電話給一位客戶。"
+},
+{
+"answers": [
+"phone"
+],
+"op": "add_answers"
+}
+]
+},
+"f2907ae395d": {
+"note": "中文「附近」對應 near，同義的 close to 也收。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "銀行在我的公寓附近。"
+},
+{
+"answers": [
+"close to"
+],
+"op": "add_answers"
+}
+]
+},
+"f292e90e733": {
+"note": "napkin 可數單數，標準答案改為 a。",
+"ops": [
+{
+"answers": [
+"a"
+],
+"op": "set_answers"
+},
+{
+"op": "set_x",
+"x": "napkin 是可數單數，問有沒有一張用 a：Is there a napkin…?；any 要接複數或不可數。"
+}
+]
+},
+"f299cd88155": {
+"note": "加過去時間詞，排除現在式；答案不變。",
+"ops": [
+{
+"op": "set_q",
+"q": "She ___ (see) her old friend in Taipei last week."
+},
+{
+"op": "set_x",
+"x": "last week 是上週，用過去式；see 是不規則動詞，過去式是 saw。"
+}
+]
+},
+"f2a6b944d88": {
+"note": "Can you speak English? 正確又常用（前一週剛學 can），補收。",
+"ops": [
+{
+"answers": [
+"Can"
+],
+"op": "add_answers"
 }
 ]
 },
@@ -313,12 +793,34 @@
 }
 ]
 },
+"f2cd780135b": {
+"note": "任何形容詞都能填，加中文限定為 tired。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "我下班後很累。"
+}
+]
+},
 "f2da5ccc81a": {
 "note": "給中文指定攝影。",
 "ops": [
 {
 "op": "set_zh",
 "zh": "我對攝影有興趣。"
+}
+]
+},
+"f2db53c3a66": {
+"note": "加過去時間詞，排除現在式；答案不變。",
+"ops": [
+{
+"op": "set_q",
+"q": "The keys ___ in my coat yesterday."
+},
+{
+"op": "set_x",
+"x": "yesterday 是過去；主詞 the keys 是複數，過去式 be 動詞用 were。"
 }
 ]
 },
@@ -342,12 +844,127 @@
 }
 ]
 },
+"f2e8943acda": {
+"note": "加過去時間詞，排除現在式；答案不變。",
+"ops": [
+{
+"op": "set_q",
+"q": "He ___ (answer) all the questions yesterday."
+},
+{
+"op": "set_x",
+"x": "yesterday 是昨天，用過去式；answer 加 ed 變 answered。"
+}
+]
+},
 "f2ea3c87539": {
 "note": "加中文「這位」，唯一對應 This。",
 "ops": [
 {
 "op": "set_zh",
 "zh": "這位是我奶奶。"
+}
+]
+},
+"f2eb179e578": {
+"note": "a menu 也自然，補收 a。",
+"ops": [
+{
+"answers": [
+"a"
+],
+"op": "add_answers"
+},
+{
+"op": "set_x",
+"x": "在餐廳跟店員要菜單，說 the menu（店裡的菜單）或 a menu（一份）都可以。"
+}
+]
+},
+"f2fe0c6d329": {
+"note": "加過去時間詞，排除現在式；答案不變。",
+"ops": [
+{
+"op": "set_q",
+"q": "My friends ___ late for the train last Sunday."
+},
+{
+"op": "set_x",
+"x": "last Sunday 是過去；主詞 my friends 是複數，過去式 be 動詞用 were。"
+}
+]
+},
+"f309f4e72fe": {
+"note": "加過去時間詞，排除現在式；答案不變。",
+"ops": [
+{
+"op": "set_q",
+"q": "My friends ___ not free last Saturday."
+},
+{
+"op": "set_x",
+"x": "last Saturday 是上週六；主詞 my friends 複數用 were，否定把 not 放後面。"
+}
+]
+},
+"f312c4f13a4": {
+"note": "加過去時間詞，排除現在式；答案不變。",
+"ops": [
+{
+"op": "set_q",
+"q": "My brother ___ (try) a new restaurant last weekend."
+},
+{
+"op": "set_x",
+"x": "last weekend 是過去；try 是子音加 y，去 y 加 ied 變 tried。"
+}
+]
+},
+"f31853e0c59": {
+"note": "加過去時間詞，排除現在式；答案不變。",
+"ops": [
+{
+"op": "set_q",
+"q": "We ___ tired after the long day yesterday."
+},
+{
+"op": "set_x",
+"x": "yesterday 是過去；主詞 we 是複數，過去式 be 動詞用 were。"
+}
+]
+},
+"f31ace4165b": {
+"note": "pay 改 need，How much money do I need for… 自然，答案不變。",
+"ops": [
+{
+"op": "set_q",
+"q": "Customer: How much ___ do I need for three books?"
+}
+]
+},
+"f31c63152e7": {
+"note": "加過去時間詞，排除現在式；答案不變。",
+"ops": [
+{
+"op": "set_q",
+"q": "I ___ (finish) my work at six yesterday."
+},
+{
+"op": "set_x",
+"x": "yesterday 是昨天，用過去式；finish 加 ed 變 finished。"
+}
+]
+},
+"f31cc253eb3": {
+"note": "加過去時間詞，排除現在式；答案不變。",
+"ops": [
+{
+"op": "set_q",
+"q": "We ___ (enjoy) the food very much last night."
+},
+{
+"op": "set_x",
+"x": "last night 是昨晚，用過去式；enjoy 是母音加 y，直接加 ed 變 enjoyed。"
 }
 ]
 },
@@ -370,6 +987,19 @@
 }
 ]
 },
+"f3579cdaaa0": {
+"note": "加過去時間詞，排除現在式；答案不變。",
+"ops": [
+{
+"op": "set_q",
+"q": "She ___ (close) the shop at ten last night."
+},
+{
+"op": "set_x",
+"x": "last night 是昨晚，用過去式；close 字尾是 e，只加 d 變 closed。"
+}
+]
+},
 "f3627295b22": {
 "note": "中文指定煮飯，並補收 like to cook。",
 "ops": [
@@ -389,12 +1019,47 @@
 }
 ]
 },
+"f37fc19ca6d": {
+"note": "補上前面的問句 Did you like the concert?，排除現在式 is；答案不變。",
+"ops": [
+{
+"op": "set_q",
+"q": "Did you like the concert? Yes, it ___ (be) amazing."
+},
+{
+"op": "set_x",
+"x": "問句用 Did，問的是過去的事，回答也用過去式；it 是單數，be 的過去式用 was。"
+}
+]
+},
 "f3931941f97": {
 "note": "給中文指定滑雪。",
 "ops": [
 {
 "op": "set_zh",
 "zh": "我不會滑雪，太難了。"
+}
+]
+},
+"f3a561e8d55": {
+"note": "加過去時間詞，排除現在式；答案不變。",
+"ops": [
+{
+"op": "set_q",
+"q": "The train ___ late again yesterday."
+},
+{
+"op": "set_x",
+"x": "yesterday 是過去；主詞 the train 是一台，單數，過去式 be 動詞用 was。"
+}
+]
+},
+"f3ab6996162": {
+"note": "中文「前面」對應 in front of。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "學校在公園前面。"
 }
 ]
 },
@@ -406,6 +1071,19 @@
 "the"
 ],
 "op": "add_answers"
+}
+]
+},
+"f3d6ebe9f30": {
+"note": "主詞移進提示 (they/win) 避免重複，並加 yesterday；答案不變。",
+"ops": [
+{
+"op": "set_q",
+"q": "___ (they/win) the game yesterday?"
+},
+{
+"op": "set_x",
+"x": "yesterday 是過去；過去式問句是 Did＋主詞＋原形動詞：Did they win…?，win 不變。"
 }
 ]
 },
@@ -435,12 +1113,34 @@
 }
 ]
 },
+"f3e7183abdf": {
+"note": "加過去時間詞，排除現在式；答案不變。",
+"ops": [
+{
+"op": "set_q",
+"q": "The baby ___ (cry) all night last Friday."
+},
+{
+"op": "set_x",
+"x": "last Friday 是上週五，用過去式；cry 是子音加 y，去 y 加 ied 變 cried。"
+}
+]
+},
 "f3ed7e05c29": {
 "note": "加中文「我爸爸」，唯一對應 my。",
 "ops": [
 {
 "op": "set_zh",
 "zh": "這是我爸爸。"
+}
+]
+},
+"f3f7d102ac9": {
+"note": "中文「總是」對應 always。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "我總是七點起床。"
 }
 ]
 },
@@ -462,12 +1162,43 @@
 }
 ]
 },
+"f4007db6446": {
+"note": "中文「一些」對應 some，排除 many/two。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "車庫裡有一些箱子。"
+}
+]
+},
 "f423ed3c45a": {
 "note": "加中文「那個」，對應 That。",
 "ops": [
 {
 "op": "set_zh",
 "zh": "那個寶寶是我妹妹。"
+}
+]
+},
+"f426ac71374": {
+"note": "加過去時間詞，排除現在式；答案不變。",
+"ops": [
+{
+"op": "set_q",
+"q": "___ your parents happy about the news yesterday?"
+},
+{
+"op": "set_x",
+"x": "yesterday 是過去；主詞 your parents 複數，be 動詞問句放句首，用 Were。"
+}
+]
+},
+"f428cd1b6a6": {
+"note": "主詞移進提示 (you/have) 避免重複；Do you have a good trip 不自然，不需加時間詞。",
+"ops": [
+{
+"op": "set_q",
+"q": "___ (you/have) a good trip?"
 }
 ]
 },
@@ -486,6 +1217,19 @@
 }
 ]
 },
+"f42da0ca0d8": {
+"note": "加過去時間詞，排除現在式；答案不變。",
+"ops": [
+{
+"op": "set_q",
+"q": "___ you see my keys last night?"
+},
+{
+"op": "set_x",
+"x": "last night 是昨晚；句中 see 是原形，問過去的事用 Did 放句首，動詞不變。"
+}
+]
+},
 "f4307c780c1": {
 "note": "加中文「喜歡」，唯一對應 likes。",
 "ops": [
@@ -495,12 +1239,151 @@
 }
 ]
 },
+"f44c0ab6ab7": {
+"note": "have breakfast 也是現在簡單式、合題意，補收 have。",
+"ops": [
+{
+"answers": [
+"have"
+],
+"op": "add_answers"
+}
+]
+},
+"f459d707310": {
+"note": "加過去時間詞，排除現在式；答案不變。",
+"ops": [
+{
+"op": "set_q",
+"q": "My sister ___ (dance) at the party last Saturday."
+},
+{
+"op": "set_x",
+"x": "last Saturday 是過去，用過去式；dance 字尾是 e，只加 d 變 danced。"
+}
+]
+},
+"f46e3a91b98": {
+"note": "主詞移進提示 (you/finish) 避免重複，並加 yesterday；答案不變。",
+"ops": [
+{
+"op": "set_q",
+"q": "___ (you/finish) your work yesterday?"
+},
+{
+"op": "set_x",
+"x": "yesterday 是過去；過去式問句是 Did＋主詞＋原形動詞：Did you finish…?"
+}
+]
+},
+"f4836224390": {
+"note": "加中文排除 call/see；message 當動詞也是傳訊息，補收。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "我晚點傳訊息給你。"
+},
+{
+"answers": [
+"message"
+],
+"op": "add_answers"
+}
+]
+},
+"f48859ddc33": {
+"note": "加過去時間詞，排除現在式；答案不變。",
+"ops": [
+{
+"op": "set_q",
+"q": "My father ___ (get) up at five o'clock yesterday."
+},
+{
+"op": "set_x",
+"x": "yesterday 是昨天，用過去式；get up 的 get 是不規則動詞，過去式是 got。"
+}
+]
+},
+"f4943d65043": {
+"note": "加過去時間詞，排除現在式；答案不變。",
+"ops": [
+{
+"op": "set_q",
+"q": "___ you happy with the food last night?"
+},
+{
+"op": "set_x",
+"x": "last night 是過去；主詞 you 的過去式 be 動詞是 were，問句放句首：Were you…?"
+}
+]
+},
+"f4981bea369": {
+"note": "加中文限定為旁邊，beside 同義也正確，補收。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "廚房在客廳旁邊。"
+},
+{
+"answers": [
+"beside"
+],
+"op": "add_answers"
+}
+]
+},
 "f4ce8e9a4cd": {
 "note": "加中文「很年輕」，唯一對應 young。",
 "ops": [
 {
 "op": "set_zh",
 "zh": "我阿姨很年輕。"
+}
+]
+},
+"f4d26b642ee": {
+"note": "中文「沒有」對應 don't，排除頻率副詞。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "我們平日沒有空閒時間。"
+}
+]
+},
+"f4d6505fa3f": {
+"note": "加過去時間詞，排除現在式；答案不變。",
+"ops": [
+{
+"op": "set_q",
+"q": "___ she your English teacher last year?"
+},
+{
+"op": "set_x",
+"x": "last year 是去年；主詞 she 一個人，be 動詞問句放句首，過去式用 Was。"
+}
+]
+},
+"f4e6ac09b76": {
+"note": "中文「運動」對應 exercises，同義的 works out 也收。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "他一週運動三次。"
+},
+{
+"answers": [
+"works out"
+],
+"op": "add_answers"
+}
+]
+},
+"f4ea928415e": {
+"note": "中文「打開」對應 open。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "他們每天早上打開窗戶。"
 }
 ]
 },
@@ -528,6 +1411,40 @@
 }
 ]
 },
+"f50aa443b18": {
+"note": "eat lunch 一樣正確，補收並改說明。",
+"ops": [
+{
+"answers": [
+"eat"
+],
+"op": "add_answers"
+},
+{
+"op": "set_x",
+"x": "吃午餐說 have lunch，也可以說 eat lunch；主詞 We 用原形動詞。"
+}
+]
+},
+"f51f47bbacc": {
+"note": "加中文定為洗頭，答案只留 wash，說明同步改。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "我姊姊早上不洗頭。"
+},
+{
+"answers": [
+"wash"
+],
+"op": "set_answers"
+},
+{
+"op": "set_x",
+"x": "doesn't 後面的動詞用原形，不加 s；洗頭是 wash her hair。"
+}
+]
+},
 "f524cdce610": {
 "note": "加中文「這些」，唯一對應 These。",
 "ops": [
@@ -547,6 +1464,30 @@
 {
 "op": "set_x",
 "x": "last Sunday 是過去，用過去式；draw 是不規則動詞，過去式 drew（made、painted 也可以）。"
+}
+]
+},
+"f52b1d1f955": {
+"note": "英式 at weekends 正確且同類題有收，補收。",
+"ops": [
+{
+"answers": [
+"at"
+],
+"op": "add_answers"
+},
+{
+"op": "set_x",
+"x": "週末、星期幾前面用 on：on weekends（每個週末）；英式英文也說 at weekends。"
+}
+]
+},
+"f52b3808b48": {
+"note": "中文「開車」對應 drives。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "我爸爸每天開車去上班。"
 }
 ]
 },
@@ -578,6 +1519,15 @@
 {
 "op": "set_zh",
 "zh": "我們星期六要去野餐。"
+}
+]
+},
+"f5387e256e6": {
+"note": "pay 改 need，How much money do I need for… 自然，答案不變。",
+"ops": [
+{
+"op": "set_q",
+"q": "How much ___ do I need for two shirts?"
 }
 ]
 },
@@ -626,6 +1576,26 @@
 {
 "op": "set_x",
 "x": "yesterday 是過去，說昨天午餐後的事用過去式；send 是不規則動詞，過去式 sent。"
+}
+]
+},
+"f563f3eec8b": {
+"note": "加中文定為附近，答案改為 near／close to，說明同步改。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "學校附近有一些腳踏車。"
+},
+{
+"answers": [
+"near",
+"close to"
+],
+"op": "set_answers"
+},
+{
+"op": "set_x",
+"x": "near 是在附近：腳踏車在學校附近，near 後面直接接 the school。"
 }
 ]
 },
@@ -716,6 +1686,25 @@
 }
 ]
 },
+"f5b5b08a742": {
+"note": "補收 begin；加中文排除 finish（九點下班也說得通）。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "我每天九點開始上班。"
+},
+{
+"answers": [
+"begin"
+],
+"op": "add_answers"
+},
+{
+"op": "set_x",
+"x": "主詞 I，現在簡單式動詞用原形不加 s；開始上班說 start work，也可說 begin work。"
+}
+]
+},
 "f5b702186f3": {
 "note": "給中文指定護照。",
 "ops": [
@@ -748,6 +1737,26 @@
 {
 "op": "set_x",
 "x": "yesterday 是過去；主詞 the bus 是一台，單數，過去式 be 動詞用 was。"
+}
+]
+},
+"f5e9fc78e9a": {
+"note": "中文「旁邊」排除 above，補收 next to、beside。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "時鐘在窗戶旁邊。"
+},
+{
+"answers": [
+"next to",
+"beside"
+],
+"op": "add_answers"
+},
+{
+"op": "set_x",
+"x": "時鐘在窗戶旁邊：near（附近）或 next to（旁邊）都可以，後面直接接 the window。"
 }
 ]
 },
@@ -798,6 +1807,15 @@
 "The"
 ],
 "op": "add_answers"
+}
+]
+},
+"f60947455b0": {
+"note": "縮寫已自動處理；但 really/do 也能填，加否定中文讓 don't 成為唯一答案。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "我不喜歡長途旅行。"
 }
 ]
 },
@@ -852,6 +1870,30 @@
 }
 ]
 },
+"f644eb91a94": {
+"note": "has breakfast 也是現在簡單式第三人稱、合題意，補收 has。",
+"ops": [
+{
+"answers": [
+"has"
+],
+"op": "add_answers"
+}
+]
+},
+"f64eceb5268": {
+"note": "補收 rarely 與同義的 seldom、hardly ever。",
+"ops": [
+{
+"answers": [
+"rarely",
+"seldom",
+"hardly ever"
+],
+"op": "add_answers"
+}
+]
+},
 "f656ef51d68": {
 "note": "主詞改成 your sister，用 she 回答較自然，答案 doesn't 不變。",
 "ops": [
@@ -865,12 +1907,55 @@
 }
 ]
 },
+"f65b6cbdfed": {
+"note": "中文「前面」對應 in front of。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "車子在房子前面。"
+}
+]
+},
 "f6712c9787a": {
 "note": "加中文「我們有」，排除 are。",
 "ops": [
 {
 "op": "set_zh",
 "zh": "我們有一個大家庭。"
+}
+]
+},
+"f67f92e0933": {
+"note": "中文否定對應 don't，排除頻率副詞。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "他們不是每天都寫報告。"
+}
+]
+},
+"f68498bdc3a": {
+"note": "near here 換成 in the living room，句子才自然。",
+"ops": [
+{
+"op": "set_q",
+"q": "There ___ a sofa in the living room. (否定)"
+}
+]
+},
+"f68721804bb": {
+"note": "中文「很少」對應 rarely，同義的 seldom、hardly ever 也收。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "他們很少看電視。"
+},
+{
+"answers": [
+"seldom",
+"hardly ever"
+],
+"op": "add_answers"
 }
 ]
 },
@@ -897,6 +1982,15 @@
 {
 "op": "set_x",
 "x": "yesterday 是過去，用過去式；get 是不規則動詞，過去式是 got。"
+}
+]
+},
+"f6a0d39f749": {
+"note": "任何頻率副詞都能填，加中文限定為 always。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "她總是很早起床。"
 }
 ]
 },
@@ -939,6 +2033,21 @@
 }
 ]
 },
+"f6b9f3f64b8": {
+"note": "seat 可數單數，標準答案改為 a。",
+"ops": [
+{
+"answers": [
+"a"
+],
+"op": "set_answers"
+},
+{
+"op": "set_x",
+"x": "seat 是可數單數，問有沒有一個位子用 a：Is there a seat…?；any 要接複數或不可數。"
+}
+]
+},
 "f6bdab100a7": {
 "note": "中文指定出發排除 arrive，並補收 depart／take off。",
 "ops": [
@@ -955,6 +2064,15 @@
 }
 ]
 },
+"f6c4759b975": {
+"note": "中文「有時候」對應 sometimes。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "我們有時候會在外面吃飯。"
+}
+]
+},
 "f6ca26ddeb1": {
 "note": "句尾加 last year，排除 makes。",
 "ops": [
@@ -965,6 +2083,21 @@
 {
 "op": "set_x",
 "x": "last year 是過去，用過去式；make 是不規則動詞，過去式是 made。"
+}
+]
+},
+"f6e73e81daa": {
+"note": "have a shower 正確，補收 has 並改說明。",
+"ops": [
+{
+"answers": [
+"has"
+],
+"op": "add_answers"
+},
+{
+"op": "set_x",
+"x": "She 是一個人，動詞加 s；洗澡說 take a shower，也可以說 have a shower。"
 }
 ]
 },
@@ -983,6 +2116,25 @@
 {
 "op": "set_zh",
 "zh": "我爺爺年紀很大了。"
+}
+]
+},
+"f7069ad54e8": {
+"note": "中文「梳頭」排除 washes，同義的 brushes 也收。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "他上學前會梳頭髮。"
+},
+{
+"answers": [
+"brushes"
+],
+"op": "add_answers"
+},
+{
+"op": "set_x",
+"x": "He 是一個人，動詞加 s；梳頭是 comb his hair，變 combs，也可以說 brushes。"
 }
 ]
 },
@@ -1048,12 +2200,36 @@
 }
 ]
 },
+"f76861bda01": {
+"note": "加中文「很便宜」，排除 expensive 等。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "這個包包很便宜。"
+}
+]
+},
 "f76bc946720": {
 "note": "加中文「個子矮」，唯一對應 short。",
 "ops": [
 {
 "op": "set_zh",
 "zh": "我媽媽個子很矮。"
+}
+]
+},
+"f796f885ee6": {
+"note": "中文「對面」對應 opposite，美式 across from 也收。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "銀行在學校對面。"
+},
+{
+"answers": [
+"across from"
+],
+"op": "add_answers"
 }
 ]
 },
@@ -1067,6 +2243,15 @@
 {
 "op": "set_x",
 "x": "Ten minutes ago 是十分鐘前，過去的事；find 是不規則動詞，過去式是 found。"
+}
+]
+},
+"f7a0a1e5304": {
+"note": "near here 換成 in this room，句子才自然。",
+"ops": [
+{
+"op": "set_q",
+"q": "There ___ a bed in this room. (否定)"
 }
 ]
 },
@@ -1115,6 +2300,21 @@
 {
 "answers": [
 "Football"
+],
+"op": "add_answers"
+}
+]
+},
+"f7ea68d9e6a": {
+"note": "中文「旁邊」對應 next to，同義的 beside 也收。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "咖啡店在圖書館旁邊。"
+},
+{
+"answers": [
+"beside"
 ],
 "op": "add_answers"
 }
@@ -1181,6 +2381,21 @@
 }
 ]
 },
+"f83b1a77b57": {
+"note": "Do you have any milk here? 也自然，補收 have。",
+"ops": [
+{
+"answers": [
+"have"
+],
+"op": "add_answers"
+},
+{
+"op": "set_x",
+"x": "問店家有沒有賣某樣東西，用 sell 或 have：Do you sell any milk here?"
+}
+]
+},
 "f842ef4434d": {
 "note": "句首加 Don't worry.，排除肯定的 am。",
 "ops": [
@@ -1207,6 +2422,26 @@
 }
 ]
 },
+"f877dcd7264": {
+"note": "has breakfast 也是現在簡單式第三人稱、合題意，補收 has。",
+"ops": [
+{
+"answers": [
+"has"
+],
+"op": "add_answers"
+}
+]
+},
+"f87bb2ddbae": {
+"note": "中文「一些」對應 some，排除 two/many。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "銀行旁邊有一些商店。"
+}
+]
+},
 "f886d3125eb": {
 "note": "The woman here 也對，補收 The。",
 "ops": [
@@ -1224,6 +2459,21 @@
 {
 "op": "set_zh",
 "zh": "這是我們一家人。"
+}
+]
+},
+"f88c0b82f49": {
+"note": "中文「下班」對應 finishes，同樣表示下班的 leaves 也收。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "他六點下班。"
+},
+{
+"answers": [
+"leaves"
+],
+"op": "add_answers"
 }
 ]
 },
@@ -1266,6 +2516,21 @@
 }
 ]
 },
+"f8a87efdee2": {
+"note": "加中文「一些」排除數字；補收 a few。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "桌上有一些菜單。"
+},
+{
+"answers": [
+"a few"
+],
+"op": "add_answers"
+}
+]
+},
 "f8a99561c5f": {
 "note": "every day 改成 very much，配 likes 才自然，加中文定住 likes。",
 "ops": [
@@ -1289,6 +2554,22 @@
 {
 "op": "set_x",
 "x": "yesterday 是過去；主詞 the children 是複數，過去式否定用 weren't。"
+}
+]
+},
+"f8b22fb806f": {
+"note": "補收同類題有收的 begins，以及也自然的 leaves work。",
+"ops": [
+{
+"answers": [
+"begins",
+"leaves"
+],
+"op": "add_answers"
+},
+{
+"op": "set_x",
+"x": "My mother 是一個人，動詞加 s：starts／begins work 上班、finishes work 下班。"
 }
 ]
 },
@@ -1370,6 +2651,15 @@
 }
 ]
 },
+"f8f9aedcbfc": {
+"note": "加中文「太貴」，排除其他形容詞。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "這支手錶太貴了。"
+}
+]
+},
 "f9023fe9a89": {
 "note": "加中文「他們的」，唯一對應 their。",
 "ops": [
@@ -1389,6 +2679,48 @@
 {
 "op": "set_x",
 "x": "last Sunday 是過去，用過去式；eat 是不規則動詞，過去式是 ate。"
+}
+]
+},
+"f908ffe8dc4": {
+"note": "中文「寫完」對應 finish，排除 do/start。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "我八點寫完功課。"
+}
+]
+},
+"f91f6e4e7db": {
+"note": "加中文「想喝」，排除 do（喜歡喝）。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "請問您想喝點什麼？"
+}
+]
+},
+"f92246420d3": {
+"note": "加中文「點」，排除 have、eat 等。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "我想點一些湯。"
+}
+]
+},
+"f924228df2e": {
+"note": "加中文「一些」排除數字；補收 a few。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "我的朋友們想要一些冷飲。"
+},
+{
+"answers": [
+"a few"
+],
+"op": "add_answers"
 }
 ]
 },
@@ -1473,6 +2805,26 @@
 }
 ]
 },
+"f989baa9846": {
+"note": "加中文「服務生」，並補收 waitress、server。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "這家餐廳的服務生很友善。"
+},
+{
+"answers": [
+"waitress",
+"server"
+],
+"op": "add_answers"
+},
+{
+"op": "set_x",
+"x": "在餐廳裡服務客人的服務生是 waiter，女服務生也可說 waitress。"
+}
+]
+},
 "f9911a6b1ec": {
 "note": "stay inside／home／in 都自然，補收。",
 "ops": [
@@ -1501,6 +2853,15 @@
 }
 ]
 },
+"f9973be3611": {
+"note": "中文「桌子上」對應 on。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "檯燈在桌子上。"
+}
+]
+},
 "f9a823849c0": {
 "note": "The babies here 也對，補收 The。",
 "ops": [
@@ -1522,6 +2883,15 @@
 {
 "op": "set_x",
 "x": "last week 是過去，用過去式；buy 是不規則動詞，過去式 bought（found 也可以）。"
+}
+]
+},
+"f9aadab36ad": {
+"note": "中文「桌子上」對應 on。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "書在桌子上。"
 }
 ]
 },
@@ -1551,6 +2921,24 @@
 }
 ]
 },
+"f9c38242067": {
+"note": "任何頻率副詞都能填，加中文限定為 never。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "他從不吃速食。"
+}
+]
+},
+"f9cde9ab2ec": {
+"note": "can't 也通，加肯定的中文讓 can 成為唯一答案。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "我哥哥菜煮得很好。"
+}
+]
+},
 "f9d35614a3b": {
 "note": "句尾加 last month，排除 stay。",
 "ops": [
@@ -1561,6 +2949,15 @@
 {
 "op": "set_x",
 "x": "last month 是過去，用過去式；stay 是母音加 y，直接加 ed 變 stayed。"
+}
+]
+},
+"f9e5e34badd": {
+"note": "中文「前面」對應 in front of。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "公車站在學校前面。"
 }
 ]
 },
@@ -1630,12 +3027,53 @@
 }
 ]
 },
+"fa3d4285514": {
+"note": "補收 get up，加中文排除其他動詞。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "我每天七點起床。"
+},
+{
+"answers": [
+"get up"
+],
+"op": "add_answers"
+},
+{
+"op": "set_x",
+"x": "主詞 I 用原形；醒來是 wake up，起床是 get up，兩個字要一起填。"
+}
+]
+},
+"fa3fa1bf740": {
+"note": "中文「不」對應 don't，排除頻率副詞。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "我晚上不洗澡。"
+}
+]
+},
 "fa54d777121": {
 "note": "給中文指定到站，排除 leave。",
 "ops": [
 {
 "op": "set_zh",
 "zh": "火車中午會到站。"
+}
+]
+},
+"fa64455c87b": {
+"note": "補收 rarely 與同義的 seldom、hardly ever。",
+"ops": [
+{
+"answers": [
+"rarely",
+"seldom",
+"hardly ever"
+],
+"op": "add_answers"
 }
 ]
 },
@@ -1665,12 +3103,62 @@
 }
 ]
 },
+"fa8b6c5b9a3": {
+"note": "可填動詞太多，加中文定為工作到很晚，答案只留 works。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "我朋友常常工作到很晚。"
+},
+{
+"answers": [
+"works"
+],
+"op": "set_answers"
+},
+{
+"op": "set_x",
+"x": "often 表示習慣；My friend 是一個人，動詞加 s：works late 是工作到很晚。"
+}
+]
+},
+"faaa442e746": {
+"note": "加中文「甜點」，答案唯一。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "你想要幾份甜點？"
+}
+]
+},
 "faaec5b3c0e": {
 "note": "加中文「那是」，唯一對應 That。",
 "ops": [
 {
 "op": "set_zh",
 "zh": "那是她的筆電。"
+}
+]
+},
+"faafd4cbd67": {
+"note": "刪掉重複的 the price，改成 How much ___ this book?，答案不變。",
+"ops": [
+{
+"op": "set_q",
+"q": "How much ___ this book?"
+},
+{
+"op": "set_x",
+"x": "問價錢說 How much is…?；主詞 this book 是一本，be 動詞用 is。"
+}
+]
+},
+"fab8e526764": {
+"note": "right 也對，加中文限定為左轉。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "在轉角左轉。"
 }
 ]
 },
@@ -1693,6 +3181,15 @@
 {
 "op": "set_zh",
 "zh": "這是我爺爺。"
+}
+]
+},
+"fad1f7c981d": {
+"note": "任何原形動詞都能填，加中文限定為 relax。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "我明天要好好放鬆一下。"
 }
 ]
 },
@@ -1808,6 +3305,21 @@
 }
 ]
 },
+"fb1b2e76e01": {
+"note": "中文「旁邊」對應 next to，同義的 beside 也收。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "檯燈在床旁邊。"
+},
+{
+"answers": [
+"beside"
+],
+"op": "add_answers"
+}
+]
+},
 "fb496f09a37": {
 "note": "句尾加 yesterday，排除 wait。",
 "ops": [
@@ -1818,6 +3330,19 @@
 {
 "op": "set_x",
 "x": "yesterday 是過去；wait 加 ed 變 waited。等公車是 wait for the bus。"
+}
+]
+},
+"fb4b1f3237b": {
+"note": "加中文「菜單」，並修掉逗號前空格。",
+"ops": [
+{
+"op": "set_q",
+"q": "Can we have two ___, please?"
+},
+{
+"op": "set_zh",
+"zh": "可以給我們兩份菜單嗎？"
 }
 ]
 },
@@ -1849,6 +3374,19 @@
 {
 "answers": [
 "The"
+],
+"op": "add_answers"
+}
+]
+},
+"fb66eb97ff1": {
+"note": "補收 rarely 與同義的 seldom、hardly ever。",
+"ops": [
+{
+"answers": [
+"rarely",
+"seldom",
+"hardly ever"
 ],
 "op": "add_answers"
 }
@@ -1891,6 +3429,58 @@
 }
 ]
 },
+"fb8e03350d5": {
+"note": "at the corner 也正確，補收並改說明。",
+"ops": [
+{
+"answers": [
+"at"
+],
+"op": "add_answers"
+},
+{
+"op": "set_x",
+"x": "在街角說 on the corner，也可以說 at the corner。"
+}
+]
+},
+"fb9cae9da41": {
+"note": "中文「常常」對應 often。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "他常常去健身房。"
+}
+]
+},
+"fbabfd61cdc": {
+"note": "補收 rarely 與同義的 seldom、hardly ever。",
+"ops": [
+{
+"answers": [
+"rarely",
+"seldom",
+"hardly ever"
+],
+"op": "add_answers"
+}
+]
+},
+"fbb4801f30c": {
+"note": "加中文「一些」排除數字；補收 a few。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "店員：那邊有一些便宜的鞋子。"
+},
+{
+"answers": [
+"a few"
+],
+"op": "add_answers"
+}
+]
+},
 "fbb7effb74b": {
 "note": "句首加 Last week，排除 are。",
 "ops": [
@@ -1901,6 +3491,21 @@
 {
 "op": "set_x",
 "x": "Last week 是過去；the children 是很多小孩（複數），be 動詞過去式用 were。"
+}
+]
+},
+"fbbba192529": {
+"note": "加中文「一些」排除數字；補收 a few。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "那家店有一些便宜的鞋子。"
+},
+{
+"answers": [
+"a few"
+],
+"op": "add_answers"
 }
 ]
 },
@@ -1927,6 +3532,25 @@
 {
 "op": "set_x",
 "x": "last Sunday 是上週日，過去的事；visit 是規則動詞，加 ed 變 visited。"
+}
+]
+},
+"fbea7b36aad": {
+"note": "加中文「三顆蘋果」，答案收斂為 apples。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "袋子裡有三顆蘋果。"
+},
+{
+"answers": [
+"apples"
+],
+"op": "set_answers"
+},
+{
+"op": "set_x",
+"x": "three 是三個，後面接可數名詞複數，apple 要加 s 變 apples。"
 }
 ]
 },
@@ -1965,7 +3589,7 @@
 },
 {
 "op": "set_x",
-"x": "last Sunday afternoon 是過去；watch 加 ed 變 watched，或用 see 的過去式 saw。"
+"x": "last Sunday afternoon 是過去；watch 加 ed 變 watched，也可以填 saw。"
 }
 ]
 },
@@ -2021,6 +3645,15 @@
 }
 ]
 },
+"fc496910164": {
+"note": "補上前面的問句 Do you have any apples?，答案不變。",
+"ops": [
+{
+"op": "set_q",
+"q": "Customer: Do you have any apples? Clerk: Yes, we ___. They are fresh."
+}
+]
+},
 "fc557dd60d8": {
 "note": "加中文「我們有」排除 are，說明的中文跟著改成「有」。",
 "ops": [
@@ -2069,6 +3702,24 @@
 }
 ]
 },
+"fc87d330727": {
+"note": "can't 也通，加肯定的中文讓 can 成為唯一答案。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "我媽媽畫畫畫得很好。"
+}
+]
+},
+"fca22064cfa": {
+"note": "中文「下面」對應 under。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "貓在桌子下面。"
+}
+]
+},
 "fcb69750b1f": {
 "note": "加中文「她的」，唯一對應 Her。",
 "ops": [
@@ -2095,6 +3746,21 @@
 }
 ]
 },
+"fcc7c6211b3": {
+"note": "have coffee 正確，補收並改說明。",
+"ops": [
+{
+"answers": [
+"have"
+],
+"op": "add_answers"
+},
+{
+"op": "set_x",
+"x": "主詞 I 用原形 drink（也可說 have coffee）；never 本身就是否定，不用再加 don't。"
+}
+]
+},
 "fcc95bb573c": {
 "note": "句尾加 last night，排除 Does/Can。",
 "ops": [
@@ -2105,6 +3771,25 @@
 {
 "op": "set_x",
 "x": "last night 是過去；後面 clean 是原形，問過去有沒有打掃，用 Did 放句首。"
+}
+]
+},
+"fcebc1309bb": {
+"note": "中文「煮」排除 has/eats，補收同類題有收的 makes。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "她每天晚上煮晚餐。"
+},
+{
+"answers": [
+"makes"
+],
+"op": "add_answers"
+},
+{
+"op": "set_x",
+"x": "every night 是習慣；She 是一個人，cook 加 s 變 cooks，也可說 makes dinner。"
 }
 ]
 },
@@ -2121,6 +3806,21 @@
 }
 ]
 },
+"fcfa50d69c5": {
+"note": "加中文「一些」排除數字；補收 a few。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "我的口袋裡有一些硬幣。"
+},
+{
+"answers": [
+"a few"
+],
+"op": "add_answers"
+}
+]
+},
 "fd029b0a956": {
 "note": "給中文指定打電話。",
 "ops": [
@@ -2130,12 +3830,42 @@
 }
 ]
 },
+"fd160a92024": {
+"note": "加中文「一些」排除數字；補收 a few。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "他們想要一些上學用的新包包。"
+},
+{
+"answers": [
+"a few"
+],
+"op": "add_answers"
+}
+]
+},
 "fd24dc4c691": {
 "note": "加中文「我們家的」，唯一對應 our。",
 "ops": [
 {
 "op": "set_zh",
 "zh": "這是我們家的家譜。"
+}
+]
+},
+"fd278f60e65": {
+"note": "A and B 用 are 也被接受，補收並在說明交代。",
+"ops": [
+{
+"answers": [
+"are"
+],
+"op": "add_answers"
+},
+{
+"op": "set_x",
+"x": "There is/are 看後面第一個東西：a station 是單數，用 is；兩樣合起來用 are 也可以。"
 }
 ]
 },
@@ -2201,6 +3931,21 @@
 {
 "answers": [
 "could"
+],
+"op": "add_answers"
+}
+]
+},
+"fd61fdd3283": {
+"note": "中文「旁邊」對應 next to，同義的 beside 也收。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "銀行在郵局旁邊。"
+},
+{
+"answers": [
+"beside"
 ],
 "op": "add_answers"
 }
@@ -2274,6 +4019,19 @@
 }
 ]
 },
+"fda8b5146cd": {
+"note": "補收 rarely 與同義的 seldom、hardly ever。",
+"ops": [
+{
+"answers": [
+"rarely",
+"seldom",
+"hardly ever"
+],
+"op": "add_answers"
+}
+]
+},
 "fdaa9e59f65": {
 "note": "句尾加 yesterday morning，排除現在式。",
 "ops": [
@@ -2304,6 +4062,15 @@
 {
 "op": "set_zh",
 "zh": "這幾位是我的爺爺奶奶。"
+}
+]
+},
+"fdb687638e9": {
+"note": "中文「下面」對應 under。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "球在椅子下面。"
 }
 ]
 },
@@ -2346,6 +4113,15 @@
 }
 ]
 },
+"fe01f88085d": {
+"note": "中文「前面」對應 in front of。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "公車站在飯店前面。"
+}
+]
+},
 "fe11873e198": {
 "note": "The girls over there 也對，補收 The。",
 "ops": [
@@ -2367,6 +4143,15 @@
 {
 "op": "set_x",
 "x": "last night 是過去；My phone 是一件東西，be 動詞過去式用 was。"
+}
+]
+},
+"fe27c3b9817": {
+"note": "中文「洗頭」對應 wash，排除 brush/comb。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "你每天洗頭嗎？"
 }
 ]
 },
@@ -2431,6 +4216,15 @@
 }
 ]
 },
+"fe5757f2c79": {
+"note": "沒有上下文，加整句中文讓 ticket 成為唯一答案。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "我要去買一張票。"
+}
+]
+},
 "fe5fe5f4159": {
 "note": "句尾加 last year，排除 are。",
 "ops": [
@@ -2444,6 +4238,21 @@
 }
 ]
 },
+"fe655b32b73": {
+"note": "Sorry, we don't have… 很自然，補收 Sorry。",
+"ops": [
+{
+"answers": [
+"Sorry"
+],
+"op": "add_answers"
+},
+{
+"op": "set_x",
+"x": "後面 we don't have 是否定回答，前面配 No（或 Sorry），不能配 Yes。"
+}
+]
+},
 "fe671b957a4": {
 "note": "給整句中文指定「哭」，排除 ran、screamed 等。",
 "ops": [
@@ -2453,12 +4262,112 @@
 }
 ]
 },
+"fe6853b0770": {
+"note": "補收同類題有收的 begin，以及也自然的 leave work。",
+"ops": [
+{
+"answers": [
+"begin",
+"leave"
+],
+"op": "add_answers"
+},
+{
+"op": "set_x",
+"x": "主詞 I 用原形，不加 s；finish work 是下班，start（或 begin）work 是上班。"
+}
+]
+},
+"fe747686bec": {
+"note": "加中文「想要」，排除 have、drink。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "她晚餐後想要一杯茶。"
+}
+]
+},
+"fe78311c76c": {
+"note": "中文「後面」對應 behind。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "房子後面有一個花園。"
+}
+]
+},
+"fe7cdd226e4": {
+"note": "come to the park with me 一樣自然，補收 come 並更新說明。",
+"ops": [
+{
+"answers": [
+"come"
+],
+"op": "add_answers"
+},
+{
+"op": "set_x",
+"x": "Would you like to 後面接原形動詞；邀人一起去公園說 go（或 come）to the park。"
+}
+]
+},
+"fe86829548b": {
+"note": "加中文「兩公斤」排除 bags、boxes；補收 kilograms。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "顧客：我想要兩公斤的蘋果，謝謝。"
+},
+{
+"answers": [
+"kilograms"
+],
+"op": "add_answers"
+}
+]
+},
+"fe912ffd303": {
+"note": "縮寫已自動處理；但 can/can't 也能填，加中文讓 doesn't 成為唯一答案。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "我爸爸不開卡車。"
+}
+]
+},
+"fe9298d2c62": {
+"note": "buy/write 也通，加中文限定為看書 read。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "我這個週末要看一本書。"
+}
+]
+},
 "feb097799fa": {
 "note": "加中文「這是」，唯一對應 This。",
 "ops": [
 {
 "op": "set_zh",
 "zh": "這是我的全家福照片。"
+}
+]
+},
+"feb53e91c60": {
+"note": "任何頻率副詞都能填，加中文限定為 usually。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "我通常七點吃早餐。"
+}
+]
+},
+"fec733b285a": {
+"note": "bus/taxi 也通，加中文限定為火車 train。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "我們要搭火車去市區。"
 }
 ]
 },
@@ -2481,6 +4390,30 @@
 {
 "op": "set_zh",
 "zh": "這是我的手機。"
+}
+]
+},
+"fedb82a0ee9": {
+"note": "中文「前面」對應 in front of。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "那棵樹在我家前面。"
+}
+]
+},
+"fee891ab71c": {
+"note": "中文「通常」對應 usually，同義的 normally 也收。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "她通常在家吃早餐。"
+},
+{
+"answers": [
+"normally"
+],
+"op": "add_answers"
 }
 ]
 },
@@ -2532,6 +4465,25 @@
 }
 ]
 },
+"ff0409b1263": {
+"note": "加中文「幾顆蛋」，答案收斂為 eggs。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "盒子裡有幾顆蛋？"
+},
+{
+"answers": [
+"eggs"
+],
+"op": "set_answers"
+},
+{
+"op": "set_x",
+"x": "How many 後面接可數名詞複數，egg 要加 s 變 eggs。"
+}
+]
+},
 "ff10fe96e11": {
 "note": "句尾加 fifty years ago，排除 are。",
 "ops": [
@@ -2542,6 +4494,15 @@
 {
 "op": "set_x",
 "x": "fifty years ago 是過去；My grandparents 是兩個人（複數），用 were。"
+}
+]
+},
+"ff115e45bf7": {
+"note": "中文「底下」對應 under。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "我的包包在我房間的床底下。"
 }
 ]
 },
@@ -2558,6 +4519,24 @@
 }
 ]
 },
+"ff19cecf691": {
+"note": "任何動詞都能填，加中文限定為 swim。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "我游泳游得很好。"
+}
+]
+},
+"ff2a14d472b": {
+"note": "中文「從不」對應 never，排除 don't。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "我晚上從不喝咖啡。"
+}
+]
+},
 "ff2e72a9d10": {
 "note": "句尾加 yesterday，排除 Do／Can。",
 "ops": [
@@ -2571,6 +4550,15 @@
 }
 ]
 },
+"ff3135551b2": {
+"note": "加中文「有」，排除 are，保留 have/has 考點。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "我們有一個小家庭。"
+}
+]
+},
 "ff37390c0ca": {
 "note": "句尾加 last night，排除 don't／can't。",
 "ops": [
@@ -2581,6 +4569,137 @@
 {
 "op": "set_x",
 "x": "last night 是過去；後面 go 是原形，否定靠助動詞，用 didn't。"
+}
+]
+},
+"ff39e662d2b": {
+"note": "補收 rarely 與同義的 seldom、hardly ever。",
+"ops": [
+{
+"answers": [
+"rarely",
+"seldom",
+"hardly ever"
+],
+"op": "add_answers"
+}
+]
+},
+"ff41b41423e": {
+"note": "wears glasses 完全正確，補收並在說明提到。",
+"ops": [
+{
+"answers": [
+"wears"
+],
+"op": "add_answers"
+},
+{
+"op": "set_x",
+"x": "He 是一個人（第三人稱單數），用 has；說他戴眼鏡，也可以填 wears。"
+}
+]
+},
+"ff522a74a7c": {
+"note": "加中文「幾顆蛋」，答案唯一。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "你每週吃幾顆蛋？"
+}
+]
+},
+"ff57c1e46ab": {
+"note": "Could/May we use your phone? 都正確自然，補收。",
+"ops": [
+{
+"answers": [
+"Could",
+"May"
+],
+"op": "add_answers"
+}
+]
+},
+"ff57f2556e0": {
+"note": "加中文「一些」排除數字；補收 a few。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "我們晚餐需要一些洋蔥。"
+},
+{
+"answers": [
+"a few"
+],
+"op": "add_answers"
+}
+]
+},
+"ff6d25c8671": {
+"note": "can't 也通，加肯定的中文讓 can 成為唯一答案。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "Tom 網球打得很好。"
+}
+]
+},
+"ff7155de175": {
+"note": "near here 換成 in the box，句子才自然。",
+"ops": [
+{
+"op": "set_q",
+"q": "There ___ a ball in the box. (否定)"
+}
+]
+},
+"ff745256f56": {
+"note": "縮寫已自動處理；但 would 也能填，加否定中文讓 doesn't 成為唯一答案。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "她不喜歡咖啡。"
+}
+]
+},
+"ff7afaebcbc": {
+"note": "補收同類題有收的 begin，以及也自然的 leave work。",
+"ops": [
+{
+"answers": [
+"begin",
+"leave"
+],
+"op": "add_answers"
+},
+{
+"op": "set_x",
+"x": "Does 問句後面用原形：finish work（下班）或 start／begin work（上班）。"
+}
+]
+},
+"ff8dc85bf2f": {
+"note": "加中文排除 have；make dinner 也是煮晚餐的常見說法，補收。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "她今晚要煮晚餐。"
+},
+{
+"answers": [
+"make"
+],
+"op": "add_answers"
+}
+]
+},
+"ff9123311ee": {
+"note": "中文「後面」對應 behind。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "球在門後面。"
 }
 ]
 },
@@ -2619,6 +4738,15 @@
 }
 ]
 },
+"ffcbb194e18": {
+"note": "中文「桌子上」對應 on。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "桌子上有一些書。"
+}
+]
+},
 "ffd59c93746": {
 "note": "she 移進括號避免重複，並加 yesterday 排除 Does。",
 "ops": [
@@ -2632,6 +4760,15 @@
 }
 ]
 },
+"ffd8426f72d": {
+"note": "中文「一些」對應 some，排除 two/many。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "沙發後面有一些燈。"
+}
+]
+},
 "ffe8ea35fb2": {
 "note": "加 yesterday，排除 eats。",
 "ops": [
@@ -2642,6 +4779,40 @@
 {
 "op": "set_x",
 "x": "yesterday 是過去；eat 是不規則動詞，過去式是 ate。"
+}
+]
+},
+"ffec62ab5e5": {
+"note": "加中文排除 get/find；begin 是開始的直譯也正確，補收。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "他下個月要開始一份新工作。"
+},
+{
+"answers": [
+"begin"
+],
+"op": "add_answers"
+}
+]
+},
+"fff200e5483": {
+"note": "加中文限定為唱歌，答案收斂成 sing，說明同步。",
+"ops": [
+{
+"op": "set_zh",
+"zh": "我妹妹唱歌唱得很好。"
+},
+{
+"answers": [
+"sing"
+],
+"op": "set_answers"
+},
+{
+"op": "set_x",
+"x": "can 後面接原形動詞；唱歌唱得很好說 sing very well。"
 }
 ]
 },
@@ -5035,6 +7206,1555 @@
 "old": "Near the park",
 "op": "replace_option",
 "w": "原文說 There isn't a supermarket near here，附近沒有超市。"
+}
+]
+},
+"t0adb583a37": {
+"note": "補收 on Sundays 與 mom。",
+"ops": [
+{
+"answers": [
+"My mother never works on Sundays.",
+"My mom never works on Sunday.",
+"My mom never works on Sundays."
+],
+"op": "add_answers"
+}
+]
+},
+"t0b0bad3943": {
+"note": "中文「我朋友」可指一人，補收單數 was。",
+"ops": [
+{
+"answers": [
+"My friend was at the beach last Sunday."
+],
+"op": "add_answers"
+}
+]
+},
+"t0cd9af95dd": {
+"note": "補收 on Mondays。",
+"ops": [
+{
+"answers": [
+"She doesn't watch TV on Mondays."
+],
+"op": "add_answers"
+}
+]
+},
+"t0d928ec2b0": {
+"note": "補收 good friend 及加 very 的寫法；縮寫自動相同。",
+"ops": [
+{
+"answers": [
+"You are a good friend.",
+"You are a very good friend.",
+"You are a very nice friend."
+],
+"op": "add_answers"
+}
+]
+},
+"t10611a28f1": {
+"note": "補收口語省主詞的 Sounds great! 與 It sounds great!",
+"ops": [
+{
+"answers": [
+"Sounds great!",
+"It sounds great!"
+],
+"op": "add_answers"
+}
+]
+},
+"t129f762983": {
+"note": "補收 goes to work by bus 及 mom 寫法。",
+"ops": [
+{
+"answers": [
+"My mother usually goes to work by bus.",
+"My mom usually takes the bus to work.",
+"My mom usually goes to work by bus."
+],
+"op": "add_answers"
+}
+]
+},
+"t15c71753fc": {
+"note": "補收照中文重複主詞，與 do the dishes。",
+"ops": [
+{
+"answers": [
+"What are my friends doing? My friends are washing the dishes.",
+"What are my friends doing? They are doing the dishes.",
+"What are my friends doing? My friends are doing the dishes."
+],
+"op": "add_answers"
+},
+{
+"op": "set_x",
+"x": "回答可再說一次 my friends，或用 They 代替比較自然；洗碗是 wash the dishes 或 do the dishes。"
+}
+]
+},
+"t15ce2af5f2": {
+"note": "補收 simple。",
+"ops": [
+{
+"answers": [
+"These numbers are simple.",
+"These numbers are very simple."
+],
+"op": "add_answers"
+}
+]
+},
+"t1660746400": {
+"note": "補收 any children、has no children、a child、kids，說明補上 has no 的寫法。",
+"ops": [
+{
+"answers": [
+"My sister doesn't have any children.",
+"My sister has no children.",
+"My sister doesn't have a child.",
+"My sister doesn't have kids.",
+"My sister doesn't have any kids."
+],
+"op": "add_answers"
+},
+{
+"op": "set_x",
+"x": "我姊姊是一個人，否定用 doesn't have，不是 don't have 或 hasn't；也可以說 has no children。"
+}
+]
+},
+"t1a3293e5e3": {
+"note": "補收 want 與 see a movie。",
+"ops": [
+{
+"answers": [
+"Do you want to watch a movie with me?",
+"Would you like to see a movie with me?",
+"Do you want to see a movie with me?"
+],
+"op": "add_answers"
+}
+]
+},
+"t1a85c58abd": {
+"note": "中文沒說幾個，補收單數 Is there a park，說明同步。",
+"ops": [
+{
+"answers": [
+"Is there a park in your neighborhood?"
+],
+"op": "add_answers"
+},
+{
+"op": "set_x",
+"x": "問有沒有：Is there a park…？或 Are there any parks…？；在社區裡 in your neighborhood。"
+}
+]
+},
+"t1f06271966": {
+"note": "補收最常見的地址寫法。",
+"ops": [
+{
+"answers": [
+"I live at 12 Green Road."
+],
+"op": "add_answers"
+}
+]
+},
+"t2393f49046": {
+"note": "補收 young／little 及 very 寫法，說明區分 young 和 small。",
+"ops": [
+{
+"answers": [
+"Their daughter is young.",
+"Their daughter is very young.",
+"Their daughter is very small.",
+"Their daughter is little."
+],
+"op": "add_answers"
+},
+{
+"op": "set_x",
+"x": "他們的用 Their；一個女兒用 is。很小指年紀小常用 young，指個子小用 small。"
+}
+]
+},
+"t25dec1bbc8": {
+"note": "補收 on Fridays。",
+"ops": [
+{
+"answers": [
+"She often works late on Fridays."
+],
+"op": "add_answers"
+}
+]
+},
+"t27079e9978": {
+"note": "補收照中文重複主詞。",
+"ops": [
+{
+"answers": [
+"What is my brother doing? My brother is watching a movie."
+],
+"op": "add_answers"
+},
+{
+"op": "set_x",
+"x": "問 What is...doing；回答可再說一次 my brother，或用 He 代替比較自然：He is watching a movie。"
+}
+]
+},
+"t2712ff8709": {
+"note": "補收 get off work／leave work。",
+"ops": [
+{
+"answers": [
+"They don't get off work at five.",
+"They don't leave work at five."
+],
+"op": "add_answers"
+}
+]
+},
+"t27377d135f": {
+"note": "補收 want 與 draw 的組合。",
+"ops": [
+{
+"answers": [
+"I want to learn how to paint.",
+"I want to learn how to draw.",
+"I would like to learn how to draw."
+],
+"op": "add_answers"
+}
+]
+},
+"t2bef199596": {
+"note": "補收 any sisters 與 have no sisters，和 t39306223c4 一致。",
+"ops": [
+{
+"answers": [
+"I don't have any sisters.",
+"I have no sisters."
+],
+"op": "add_answers"
+}
+]
+},
+"t2c3bc16aae": {
+"note": "補收 leave home 及 half past seven。",
+"ops": [
+{
+"answers": [
+"We leave home at seven thirty.",
+"We leave the house at half past seven.",
+"We leave home at half past seven."
+],
+"op": "add_answers"
+}
+]
+},
+"t3003a41fff": {
+"note": "補收 There is no，說明同步。",
+"ops": [
+{
+"answers": [
+"There is no hospital near my house."
+],
+"op": "add_answers"
+},
+{
+"op": "set_x",
+"x": "沒有一家醫院：There isn't a hospital 或 There is no hospital；附近 near my house。"
+}
+]
+},
+"t32df5ef948": {
+"note": "補收 There are no，說明同步。",
+"ops": [
+{
+"answers": [
+"There are no traffic lights on this street."
+],
+"op": "add_answers"
+},
+{
+"op": "set_x",
+"x": "一個也沒有：There aren't any 或 There are no + 複數 traffic lights；在街上用 on。"
+}
+]
+},
+"t33e1dc7caf": {
+"note": "補收 for an hour，說明同步。",
+"ops": [
+{
+"answers": [
+"He watches TV for an hour after dinner."
+],
+"op": "add_answers"
+},
+{
+"op": "set_x",
+"x": "He 一個人，watch 加 es；一小時是 for one hour 或 for an hour，放 after dinner 前。"
+}
+]
+},
+"t35e178cf71": {
+"note": "補收 it is raining 及照中文語序 because 放句首的寫法。",
+"ops": [
+{
+"answers": [
+"We can't play basketball because it is raining.",
+"Because it is raining, we can't play basketball.",
+"Because it is rainy, we can't play basketball."
+],
+"op": "add_answers"
+},
+{
+"op": "set_x",
+"x": "不能用 can't＋原形 play；原因用 because，下雨可說 it is raining 或 it is rainy，because 那段放前後都可以。"
+}
+]
+},
+"t39ea0a0121": {
+"note": "朋友沒說幾個，補收 with my friends。",
+"ops": [
+{
+"answers": [
+"I always have lunch with my friends.",
+"I always eat lunch with my friends."
+],
+"op": "add_answers"
+}
+]
+},
+"t4054331042": {
+"note": "補收 cooks very well、is good at cooking、is a good cook。",
+"ops": [
+{
+"answers": [
+"He cooks very well.",
+"He is good at cooking.",
+"He is very good at cooking.",
+"He is a good cook."
+],
+"op": "add_answers"
+}
+]
+},
+"t4215840daa": {
+"note": "補收 This restaurant，以及沒開的自然說法 is closed。",
+"ops": [
+{
+"answers": [
+"This restaurant is not open today.",
+"The restaurant is closed today.",
+"This restaurant is closed today."
+],
+"op": "add_answers"
+}
+]
+},
+"t46dff70723": {
+"note": "補收 at the corner。",
+"ops": [
+{
+"answers": [
+"There are two street signs at the corner."
+],
+"op": "add_answers"
+}
+]
+},
+"t4702f89373": {
+"note": "補收 want。",
+"ops": [
+{
+"answers": [
+"Do you want to go to the museum?"
+],
+"op": "add_answers"
+}
+]
+},
+"t4754ff61da": {
+"note": "補收 reads in bed 與 reads books in bed。",
+"ops": [
+{
+"answers": [
+"He often reads in bed.",
+"He often reads books in bed."
+],
+"op": "add_answers"
+}
+]
+},
+"t4768c7332d": {
+"note": "補收 look for。",
+"ops": [
+{
+"answers": [
+"I am going to look for a new job next week."
+],
+"op": "add_answers"
+}
+]
+},
+"t47e1ac368a": {
+"note": "補收 take the bus to work。",
+"ops": [
+{
+"answers": [
+"I take the bus to work every day."
+],
+"op": "add_answers"
+}
+]
+},
+"t494297d13e": {
+"note": "補收 any children、has no children、kids。",
+"ops": [
+{
+"answers": [
+"She doesn't have any children.",
+"She has no children.",
+"She doesn't have kids.",
+"She doesn't have any kids."
+],
+"op": "add_answers"
+},
+{
+"op": "set_x",
+"x": "She 否定用 doesn't have，have 不加 s；也可說 has no children。"
+}
+]
+},
+"t4e26faa9f8": {
+"note": "補收 on Saturdays，和 taeafa6c6c6 一致。",
+"ops": [
+{
+"answers": [
+"Do you work on Saturdays?"
+],
+"op": "add_answers"
+}
+]
+},
+"t4f020f2005": {
+"note": "補收 goes to work by bus 與 takes a bus。",
+"ops": [
+{
+"answers": [
+"She goes to work by bus every day.",
+"She takes a bus to work every day."
+],
+"op": "add_answers"
+}
+]
+},
+"t502b10c461": {
+"note": "補收 There are no 與 photos，說明同步。",
+"ops": [
+{
+"answers": [
+"There are no pictures on the wall.",
+"There aren't any photos on the wall.",
+"There are no photos on the wall."
+],
+"op": "add_answers"
+},
+{
+"op": "set_x",
+"x": "一張也沒有：There aren't any 或 There are no + 複數 pictures；在牆上用 on，不用 in。"
+}
+]
+},
+"t56985c162e": {
+"note": "補收 and then、eats breakfast 及 take a bath。",
+"ops": [
+{
+"answers": [
+"She takes a shower and then has breakfast.",
+"She takes a shower and eats breakfast.",
+"She takes a shower and then eats breakfast.",
+"She takes a bath and has breakfast."
+],
+"op": "add_answers"
+}
+]
+},
+"t5aba4009cf": {
+"note": "補收 draw。",
+"ops": [
+{
+"answers": [
+"I can't draw, but I like art class."
+],
+"op": "add_answers"
+}
+]
+},
+"t5bf5ad675c": {
+"note": "補收 want。",
+"ops": [
+{
+"answers": [
+"Do you want to play basketball with me?"
+],
+"op": "add_answers"
+}
+]
+},
+"t5bfdf38fed": {
+"note": "補收 want 與 would like to have。",
+"ops": [
+{
+"answers": [
+"Do you want a cup of tea?",
+"Would you like to have a cup of tea?"
+],
+"op": "add_answers"
+}
+]
+},
+"t5d47dfed4d": {
+"note": "補收 want 的兩種說法。",
+"ops": [
+{
+"answers": [
+"Do you want to come with us?",
+"Do you want to join us?"
+],
+"op": "add_answers"
+}
+]
+},
+"t6381428676": {
+"note": "補收 at a bank，說明同步。",
+"ops": [
+{
+"answers": [
+"Does she work at a bank?"
+],
+"op": "add_answers"
+},
+{
+"op": "set_x",
+"x": "she 是一個人，問句用 Does she + 原形 work；在銀行 in a bank 或 at a bank，a 不能漏。"
+}
+]
+},
+"t63e4cdb975": {
+"note": "補收 photos。",
+"ops": [
+{
+"answers": [
+"There are four photos on the wall."
+],
+"op": "add_answers"
+}
+]
+},
+"t642565afd8": {
+"note": "補收 gets off work／leaves work。",
+"ops": [
+{
+"answers": [
+"He gets off work at six.",
+"He leaves work at six."
+],
+"op": "add_answers"
+}
+]
+},
+"t66d15745d5": {
+"note": "補收 a lot of／lots of。",
+"ops": [
+{
+"answers": [
+"We have a lot of relatives.",
+"We have lots of relatives."
+],
+"op": "add_answers"
+}
+]
+},
+"t6a61ffb83c": {
+"note": "補收 do the dishes。",
+"ops": [
+{
+"answers": [
+"I always do the dishes after dinner."
+],
+"op": "add_answers"
+}
+]
+},
+"t6b9d8494f7": {
+"note": "中文只說煮飯，補收 cook every night 與 make dinner。",
+"ops": [
+{
+"answers": [
+"Does she cook every night?",
+"Does she make dinner every night?"
+],
+"op": "add_answers"
+}
+]
+},
+"t6d38e9428b": {
+"note": "補收 a city map 與 want。",
+"ops": [
+{
+"answers": [
+"I would like a city map.",
+"I want a map of the city.",
+"I want a city map."
+],
+"op": "add_answers"
+}
+]
+},
+"t71c4bafa9a": {
+"note": "補收 motorcycle、motorbike。",
+"ops": [
+{
+"answers": [
+"My brother has a new motorcycle.",
+"My brother has a new motorbike."
+],
+"op": "add_answers"
+}
+]
+},
+"t71ec6cab40": {
+"note": "補收 the two pictures 與 photos。",
+"ops": [
+{
+"answers": [
+"The clock is between the two pictures.",
+"The clock is between two photos.",
+"The clock is between the two photos."
+],
+"op": "add_answers"
+}
+]
+},
+"t7762bfeb74": {
+"note": "中文是房間，補收 in my room。",
+"ops": [
+{
+"answers": [
+"There are two beds in my room."
+],
+"op": "add_answers"
+}
+]
+},
+"t77a89bfc39": {
+"note": "補收 want 與 pictures。",
+"ops": [
+{
+"answers": [
+"Do you want to see my photos?",
+"Would you like to see my pictures?",
+"Do you want to see my pictures?"
+],
+"op": "add_answers"
+}
+]
+},
+"t7ab7936174": {
+"note": "補收 on Tuesdays and Thursdays 及 mom 寫法。",
+"ops": [
+{
+"answers": [
+"My mother works on Tuesdays and Thursdays.",
+"My mom works on Tuesday and Thursday.",
+"My mom works on Tuesdays and Thursdays."
+],
+"op": "add_answers"
+}
+]
+},
+"t7cbd012df5": {
+"note": "補收單數 There isn't a／There is no 與 There are no，說明同步。",
+"ops": [
+{
+"answers": [
+"There isn't a movie theater in my neighborhood.",
+"There are no movie theaters in my neighborhood.",
+"There is no movie theater in my neighborhood."
+],
+"op": "add_answers"
+},
+{
+"op": "set_x",
+"x": "沒有電影院：There aren't any movie theaters 或 There isn't a movie theater；社區裡用 in。"
+}
+]
+},
+"t7ccef727bb": {
+"note": "補收 not well／not feeling well，說明改成提到 well。",
+"ops": [
+{
+"answers": [
+"She is not well today.",
+"She is not feeling well today."
+],
+"op": "add_answers"
+},
+{
+"op": "set_x",
+"x": "She 配 is；否定 not 放在 is 後面。不好指身體或狀況不好，常用 well：She is not well。"
+}
+]
+},
+"t7cf2026a56": {
+"note": "補收 goes to work by bike 與 rides a bike，和 t3fd3110096 一致。",
+"ops": [
+{
+"answers": [
+"My brother goes to work by bike.",
+"My brother rides a bike to work."
+],
+"op": "add_answers"
+}
+]
+},
+"t7da81ff022": {
+"note": "晚上七點吃的飯就是晚餐，補收 have/eat dinner together 寫法。",
+"ops": [
+{
+"answers": [
+"We have dinner together at seven.",
+"We eat dinner together at seven.",
+"We have dinner together at seven in the evening.",
+"We eat dinner together at seven in the evening."
+],
+"op": "add_answers"
+}
+]
+},
+"t7ffcf93513": {
+"note": "補收 see 與 grandma；說明不再暗示只能用 visit。",
+"ops": [
+{
+"answers": [
+"I am going to see my grandmother tomorrow.",
+"I am going to visit my grandma tomorrow.",
+"I am going to see my grandma tomorrow."
+],
+"op": "add_answers"
+},
+{
+"op": "set_x",
+"x": "明天的計畫用 am going to＋原形；去看奶奶用 visit 或 see 都可以。"
+}
+]
+},
+"t959aeaab3b": {
+"note": "補收不加 can 的直譯。",
+"ops": [
+{
+"answers": [
+"My sister sings very well."
+],
+"op": "add_answers"
+}
+]
+},
+"t975f15f15c": {
+"note": "補收 Today is 開頭及 wonderful/great/nice 等美好的常見譯法，說明同步。",
+"ops": [
+{
+"answers": [
+"Today is a beautiful day.",
+"It is a wonderful day.",
+"Today is a wonderful day.",
+"It is a great day.",
+"Today is a great day.",
+"It is a nice day.",
+"Today is a nice day."
+],
+"op": "add_answers"
+},
+{
+"op": "set_x",
+"x": "說日子可用 It is 或 Today is 開頭；一天要加 a：a beautiful day，形容詞放在 a 和 day 中間。"
+}
+]
+},
+"t9779ad8b3f": {
+"note": "補收省略 for 與 straight ahead，說明同步。",
+"ops": [
+{
+"answers": [
+"Go straight two blocks.",
+"Go straight ahead for two blocks.",
+"Go straight ahead two blocks."
+],
+"op": "add_answers"
+},
+{
+"op": "set_x",
+"x": "指路用命令句，動詞放開頭：Go straight；走兩個街區 for two blocks（for 可省略），block 加 s。"
+}
+]
+},
+"t98e1856238": {
+"note": "補收 on Sundays。",
+"ops": [
+{
+"answers": [
+"They get up late on Sundays."
+],
+"op": "add_answers"
+}
+]
+},
+"t99f6c5969b": {
+"note": "補收 wrong 與 not right。",
+"ops": [
+{
+"answers": [
+"This number is wrong.",
+"This number is not right."
+],
+"op": "add_answers"
+}
+]
+},
+"t9d0c8d7187": {
+"note": "補收照中文重複主詞。",
+"ops": [
+{
+"answers": [
+"What are the children doing? The children are studying English."
+],
+"op": "add_answers"
+},
+{
+"op": "set_x",
+"x": "回答可再說一次 the children，或用 They 代替比較自然：They are studying English。"
+}
+]
+},
+"t9db17bd2ac": {
+"note": "補收照中文重複主詞，以及 mom。",
+"ops": [
+{
+"answers": [
+"What is my mother doing? My mother is listening to music.",
+"What is my mom doing? She is listening to music.",
+"What is my mom doing? My mom is listening to music."
+],
+"op": "add_answers"
+},
+{
+"op": "set_x",
+"x": "回答可再說一次 my mother，或用 She 代替比較自然；listen 後面要接 to。"
+}
+]
+},
+"ta015fac8cd": {
+"note": "補收 want 與 see a movie。",
+"ops": [
+{
+"answers": [
+"Do you want to watch a movie tonight?",
+"Would you like to see a movie tonight?",
+"Do you want to see a movie tonight?"
+],
+"op": "add_answers"
+}
+]
+},
+"ta3aed89741": {
+"note": "補收 get off work／leave work。",
+"ops": [
+{
+"answers": [
+"What time do you get off work?",
+"What time do you leave work?"
+],
+"op": "add_answers"
+}
+]
+},
+"ta4bda2c91a": {
+"note": "中文沒說幾位，補收單數 The nurse is，以及加 very 的寫法；說明本來就提到單數。",
+"ops": [
+{
+"answers": [
+"The nurse is busy today.",
+"The nurses are very busy today.",
+"The nurse is very busy today."
+],
+"op": "add_answers"
+}
+]
+},
+"ta6de8bfc84": {
+"note": "補收 study（念書）與 often read，說明同步。",
+"ops": [
+{
+"answers": [
+"Do you often study?",
+"Do you often read?"
+],
+"op": "add_answers"
+},
+{
+"op": "set_x",
+"x": "問習慣：Do you + often + 原形動詞？often 放在動詞前面；讀書可說 read books，指念書就用 study。"
+}
+]
+},
+"ta84045df2a": {
+"note": "補收 want。",
+"ops": [
+{
+"answers": [
+"Do you want to practice English with me?"
+],
+"op": "add_answers"
+}
+]
+},
+"ta94784271f": {
+"note": "補收 younger brother／little brother，和 tb3fab21c86 一致。",
+"ops": [
+{
+"answers": [
+"I have a younger brother.",
+"I have a little brother.",
+"I have one younger brother."
+],
+"op": "add_answers"
+}
+]
+},
+"tae5fe2ca5a": {
+"note": "補收 on Sundays。",
+"ops": [
+{
+"answers": [
+"I usually get up late on Sundays."
+],
+"op": "add_answers"
+}
+]
+},
+"tb391caed5b": {
+"note": "補收更自然的 Does your house have a garage? 與 at your house。",
+"ops": [
+{
+"answers": [
+"Does your house have a garage?",
+"Is there a garage at your house?"
+],
+"op": "add_answers"
+}
+]
+},
+"tb486ef2f05": {
+"note": "補收 does your house have 的寫法。",
+"ops": [
+{
+"answers": [
+"How many beds does your house have?"
+],
+"op": "add_answers"
+}
+]
+},
+"tb5283d33b8": {
+"note": "補收 went hiking／hiked，說明一併提到。",
+"ops": [
+{
+"answers": [
+"We went hiking in the mountains last weekend.",
+"We hiked in the mountains last weekend."
+],
+"op": "add_answers"
+},
+{
+"op": "set_x",
+"x": "上週末是過去：健行可說 went hiking 或 hiked，也可用 walked；在山上用 in the mountains。"
+}
+]
+},
+"tb8776c5beb": {
+"note": "補收 a lot of、lots of 與 store。",
+"ops": [
+{
+"answers": [
+"There are a lot of customers in the shop.",
+"There are lots of customers in the shop.",
+"There are many customers in the store.",
+"There are a lot of customers in the store."
+],
+"op": "add_answers"
+}
+]
+},
+"tba4e7ad120": {
+"note": "補收 on Friday nights。",
+"ops": [
+{
+"answers": [
+"She doesn't have class on Friday nights."
+],
+"op": "add_answers"
+}
+]
+},
+"tba9e70f929": {
+"note": "補收 at the corner。",
+"ops": [
+{
+"answers": [
+"There is a traffic light at the corner."
+],
+"op": "add_answers"
+}
+]
+},
+"tbdad8adde3": {
+"note": "補收 on Saturdays，和 taeafa6c6c6 一致。",
+"ops": [
+{
+"answers": [
+"Does your sister work on Saturdays?"
+],
+"op": "add_answers"
+}
+]
+},
+"tbf008cdbd3": {
+"note": "中文加「昨天」讓過去式成為唯一合理時態；答案補 yesterday。",
+"ops": [
+{
+"op": "set_prompt",
+"zh": "昨天下雨，所以我們搭計程車。"
+},
+{
+"answers": [
+"It rained yesterday, so we took a taxi.",
+"Yesterday it rained, so we took a taxi.",
+"Yesterday, it rained, so we took a taxi.",
+"It was rainy yesterday, so we took a taxi."
+],
+"op": "set_answers"
+},
+{
+"op": "set_x",
+"x": "昨天是過去：rain 加 ed 變 rained，take 變 took；後面用 so 接結果。"
+}
+]
+},
+"tc2967ae64b": {
+"note": "補收照中文重複主詞。",
+"ops": [
+{
+"answers": [
+"What are Ken and Lisa doing? Ken and Lisa are shopping online."
+],
+"op": "add_answers"
+},
+{
+"op": "set_x",
+"x": "回答可再說一次 Ken and Lisa，或用 They 代替；網路上買東西是 shop online，shop 重複 p 加 ing。"
+}
+]
+},
+"tc48f10faf5": {
+"note": "補收 that tall man（Who's 自動相同）。",
+"ops": [
+{
+"answers": [
+"Who is that tall man?"
+],
+"op": "add_answers"
+}
+]
+},
+"tc4bb6a1ae7": {
+"note": "補收 any cousins 與 have no cousins。",
+"ops": [
+{
+"answers": [
+"I don't have any cousins.",
+"I have no cousins."
+],
+"op": "add_answers"
+}
+]
+},
+"tc4bffd4b65": {
+"note": "補收 want。",
+"ops": [
+{
+"answers": [
+"Do you want to go to the beach?"
+],
+"op": "add_answers"
+}
+]
+},
+"tc6c70be433": {
+"note": "補收 There is no，說明同步。",
+"ops": [
+{
+"answers": [
+"There is no bag next to the chair."
+],
+"op": "add_answers"
+},
+{
+"op": "set_x",
+"x": "沒有一個包包：There isn't a bag 或 There is no bag；在椅子旁邊 next to the chair。"
+}
+]
+},
+"tcc0bf98e86": {
+"note": "洗澡也可以是 take a bath，補收。",
+"ops": [
+{
+"answers": [
+"What time does your son take a bath?"
+],
+"op": "add_answers"
+}
+]
+},
+"tcea7463652": {
+"note": "補收 the second floor，與同組題一致。",
+"ops": [
+{
+"answers": [
+"We are not on the second floor."
+],
+"op": "add_answers"
+}
+]
+},
+"td01ccd93e4": {
+"note": "補收 want 與 eat dinner。",
+"ops": [
+{
+"answers": [
+"Do you want to have dinner with me tonight?",
+"Would you like to eat dinner with me tonight?",
+"Do you want to eat dinner with me tonight?"
+],
+"op": "add_answers"
+}
+]
+},
+"td58bd6a679": {
+"note": "中文加「昨天」讓過去式成為唯一合理時態；答案補 yesterday。",
+"ops": [
+{
+"op": "set_prompt",
+"zh": "昨天我們很驚訝，但是我們很高興。"
+},
+{
+"answers": [
+"Yesterday we were surprised, but we were happy.",
+"Yesterday, we were surprised, but we were happy.",
+"We were surprised yesterday, but we were happy."
+],
+"op": "set_answers"
+},
+{
+"op": "set_x",
+"x": "昨天是過去，We 的 be 動詞過去式是 were；轉折用 but 連接兩句。"
+}
+]
+},
+"td653527222": {
+"note": "中文沒說幾把，補收複數 Are there any keys。",
+"ops": [
+{
+"answers": [
+"Are there any keys in the box?"
+],
+"op": "add_answers"
+}
+]
+},
+"td6a27dbe37": {
+"note": "中文加「昨天」讓過去式成為唯一合理時態；答案同步補上 yesterday（句尾／句首）。",
+"ops": [
+{
+"op": "set_prompt",
+"zh": "我姊姊昨天在派對上跳舞。"
+},
+{
+"answers": [
+"My sister danced at the party yesterday.",
+"Yesterday my sister danced at the party.",
+"Yesterday, my sister danced at the party."
+],
+"op": "set_answers"
+},
+{
+"op": "set_x",
+"x": "昨天是過去；dance 字尾有 e，過去式只加 d：danced；在派對上 at the party，yesterday 放句尾或句首。"
+}
+]
+},
+"td7d84ae677": {
+"note": "補收 a lot of／lots of。",
+"ops": [
+{
+"answers": [
+"There are a lot of trees in the park.",
+"There are lots of trees in the park."
+],
+"op": "add_answers"
+}
+]
+},
+"td8a74dd8ee": {
+"note": "中文加「昨晚」；答案補 last night，並收 very happy、had a good time、had fun。",
+"ops": [
+{
+"op": "set_prompt",
+"zh": "我們昨晚在派對上很開心。"
+},
+{
+"answers": [
+"We were happy at the party last night.",
+"We were very happy at the party last night.",
+"We had a good time at the party last night.",
+"We had fun at the party last night."
+],
+"op": "set_answers"
+},
+{
+"op": "set_x",
+"x": "昨晚 last night 是過去，We 用 were：We were happy；也可說 had a good time。在派對上 at the party。"
+}
+]
+},
+"td95a87cfb8": {
+"note": "補收 on Sunday nights（含 watch movies）。",
+"ops": [
+{
+"answers": [
+"We watch a movie on Sunday nights.",
+"We watch movies on Sunday nights."
+],
+"op": "add_answers"
+}
+]
+},
+"tdaa14c4d4f": {
+"note": "補收 on weekends。",
+"ops": [
+{
+"answers": [
+"He rarely gets up early on weekends."
+],
+"op": "add_answers"
+}
+]
+},
+"tdb2dca6f77": {
+"note": "補收時間放句尾、句首加逗號，以及 took the train 的說法。",
+"ops": [
+{
+"answers": [
+"We went to Kaohsiung by train last summer.",
+"Last summer, we went to Kaohsiung by train.",
+"We took the train to Kaohsiung last summer."
+],
+"op": "add_answers"
+}
+]
+},
+"te09f2ad092": {
+"note": "補收 gets off／leaves work 及 dad 寫法。",
+"ops": [
+{
+"answers": [
+"My father gets off work at five.",
+"My father leaves work at five.",
+"My dad finishes work at five.",
+"My dad gets off work at five.",
+"My dad leaves work at five."
+],
+"op": "add_answers"
+}
+]
+},
+"te0bc3a8611": {
+"note": "補收 had，與同類題一致。",
+"ops": [
+{
+"answers": [
+"She had noodles for lunch."
+],
+"op": "add_answers"
+}
+]
+},
+"te1cef97374": {
+"note": "補收照中文重複主詞。",
+"ops": [
+{
+"answers": [
+"What is Tom doing? Tom is making a video."
+],
+"op": "add_answers"
+},
+{
+"op": "set_x",
+"x": "問 What is Tom doing?；回答可再說一次 Tom，或用 He 代替比較自然：He is making a video。"
+}
+]
+},
+"te547038833": {
+"note": "補收單數 There isn't a bank／There is no bank。",
+"ops": [
+{
+"answers": [
+"There isn't a bank near here.",
+"There is no bank near here."
+],
+"op": "add_answers"
+}
+]
+},
+"te6adc443b8": {
+"note": "補收 on Sunday 及 very busy，和 te0503fb5d0 一致。",
+"ops": [
+{
+"answers": [
+"She is always busy on Sunday.",
+"She is always very busy on Sundays.",
+"She is always very busy on Sunday."
+],
+"op": "add_answers"
+}
+]
+},
+"te70621b686": {
+"note": "補收 good place 及加 very 的寫法。",
+"ops": [
+{
+"answers": [
+"That is a good place.",
+"That is a very good place.",
+"That is a very nice place."
+],
+"op": "add_answers"
+}
+]
+},
+"te73ff13cf1": {
+"note": "補收 want 與 eat dinner。",
+"ops": [
+{
+"answers": [
+"Do you want to have dinner with us?",
+"Would you like to eat dinner with us?",
+"Do you want to eat dinner with us?"
+],
+"op": "add_answers"
+}
+]
+},
+"tef87ad405c": {
+"note": "中文加「昨晚」讓過去式成為唯一合理答案；答案補 last night。",
+"ops": [
+{
+"op": "set_prompt",
+"zh": "你的朋友們昨晚在派對上嗎？"
+},
+{
+"answers": [
+"Were your friends at the party last night?"
+],
+"op": "set_answers"
+},
+{
+"op": "set_x",
+"x": "昨晚是過去，問在不在場用 Were 放句首；your friends 是複數用 were；last night 放句尾。"
+}
+]
+},
+"tf08119535f": {
+"note": "中文加「昨晚」；答案補 last night，came/got 與 nine/nine o'clock 四種組合都收。",
+"ops": [
+{
+"op": "set_prompt",
+"zh": "最後，他們昨晚九點回到家。"
+},
+{
+"answers": [
+"Finally, they came home at nine last night.",
+"Finally, they got home at nine last night.",
+"Finally, they came home at nine o'clock last night.",
+"Finally, they got home at nine o'clock last night."
+],
+"op": "set_answers"
+},
+{
+"op": "set_x",
+"x": "昨晚是過去，回到家說 came home 或 got home，home 前不加 to；at nine 後面再接 last night。"
+}
+]
+},
+"tf203ba6b16": {
+"note": "補收最常見的 any brothers or sisters 及 siblings。",
+"ops": [
+{
+"answers": [
+"Do you have any brothers or sisters?",
+"Do you have any siblings?",
+"Do you have siblings?"
+],
+"op": "add_answers"
+}
+]
+},
+"tf2ffcb004e": {
+"note": "補收 a lot of／lots of。",
+"ops": [
+{
+"answers": [
+"She has a lot of friends.",
+"She has lots of friends."
+],
+"op": "add_answers"
+}
+]
+},
+"tf516db3429": {
+"note": "補收 dad。",
+"ops": [
+{
+"answers": [
+"My dad washed the car on Saturday."
+],
+"op": "add_answers"
+}
+]
+},
+"tf6363c2033": {
+"note": "補收 get to work。",
+"ops": [
+{
+"answers": [
+"How do you get to work?"
+],
+"op": "add_answers"
+}
+]
+},
+"tf6ec07a634": {
+"note": "補收 My house has three bedrooms.。",
+"ops": [
+{
+"answers": [
+"My house has three bedrooms."
+],
+"op": "add_answers"
+}
+]
+},
+"tf846b1c6da": {
+"note": "補收 cook dinner，說明一併提到。",
+"ops": [
+{
+"answers": [
+"Did he cook dinner last night?"
+],
+"op": "add_answers"
+},
+{
+"op": "set_x",
+"x": "有…嗎是問過去，用 Did he＋原形；煮晚餐可說 make dinner 或 cook dinner。"
+}
+]
+},
+"tf984c0574d": {
+"note": "補收照中文重複主詞，以及 take a bath。",
+"ops": [
+{
+"answers": [
+"What is Tom doing? Tom is taking a shower.",
+"What is Tom doing? He is taking a bath.",
+"What is Tom doing? Tom is taking a bath."
+],
+"op": "add_answers"
+},
+{
+"op": "set_x",
+"x": "回答可再說一次 Tom，或用 He 代替比較自然；洗澡說 take a shower 或 take a bath。"
+}
+]
+},
+"tf9cdb94a20": {
+"note": "補收 on Wednesdays。",
+"ops": [
+{
+"answers": [
+"Does he go to the gym on Wednesdays?"
+],
+"op": "add_answers"
+}
+]
+},
+"tfa900a6cad": {
+"note": "補收 remember to 與 jacket。",
+"ops": [
+{
+"answers": [
+"It is cold, so remember to wear a coat.",
+"It is cold, so wear a jacket.",
+"It is cold, so remember to wear a jacket."
+],
+"op": "add_answers"
+},
+{
+"op": "set_x",
+"x": "天氣用 It is cold；so 接結果；叫人做事用原形開頭 wear a coat，記得也可寫 remember to wear。"
+}
+]
+},
+"tfe682eef28": {
+"note": "中文加「上週末」；答案補 last weekend，也收 at the park。",
+"ops": [
+{
+"op": "set_prompt",
+"zh": "我們上週末在公園野餐。"
+},
+{
+"answers": [
+"We had a picnic in the park last weekend.",
+"Last weekend, we had a picnic in the park.",
+"Last weekend we had a picnic in the park.",
+"We had a picnic at the park last weekend."
+],
+"op": "set_answers"
+},
+{
+"op": "set_x",
+"x": "上週末是過去；野餐說 have a picnic，過去式 had；在公園 in the park，last weekend 放句尾或句首。"
 }
 ]
 }

@@ -73,6 +73,7 @@ function shuffle(a){ a = a.slice(); for (let i = a.length-1; i > 0; i--){ const 
 function norm(s){
   s = String(s||'').toLowerCase().replace(/[’‘`´]/g,"'").replace(/[“”]/g,'"').replace(/\s+/g,' ').trim().replace(/[.,!?;:"]+$/,'').trim();
   for (const [c,f] of CONTR) s = s.replace(new RegExp('(^|\\s)'+c+'(?=\\s|$)','g'), '$1'+f);
+  s = s.replace(/\bmom\b/g, 'mother').replace(/\bdad\b/g, 'father').replace(/\bmoms\b/g, 'mothers').replace(/\bdads\b/g, 'fathers').replace(/café/g, 'cafe');
   return s.replace(/\s*,\s*/g, ', ').replace(/\s+/g,' ').trim();
 }
 function match(user, answers){ const u = norm(user); return (Array.isArray(answers) ? answers : [answers]).some(a => norm(a) === u); }
@@ -746,7 +747,7 @@ const ITEM = {
   },
   translate: {
     render: (it, r) => `<div class="q zh">${esc(it.zh)}</div>${fieldHTML(r.tmp.text, '寫出英文句子', true)}`,
-    check: (it, r) => { if (!norm(r.tmp.text)) return toast('先寫一句'); finish(match(r.tmp.text, it.a), it.a.join('　／　'), it.why, r.tmp.text); },
+    check: (it, r) => { if (!norm(r.tmp.text)) return toast('先寫一句'); finish(match(r.tmp.text, it.a), it.a[0] + (it.a.length > 1 ? `　（也可以：${it.a.slice(1, 3).join('／')}${it.a.length > 3 ? '…' : ''}）` : ''), it.why, r.tmp.text); },
   },
   error: {
     render: (it, r) => {

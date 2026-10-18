@@ -4,7 +4,7 @@
 Day 57 肯定句與 -ing 拼字　Day 58 否定句　Day 59 問句與簡答／What are you doing?
 Day 60 現在簡單式 vs 現在進行式　Day 61 總複習
 """
-import random
+import random, re
 
 rnd = random.Random(20261025)
 
@@ -286,6 +286,32 @@ WRITE = {57: ['看看四周，用現在進行式寫 5 句：家人或身邊的�
          61: ['寫一段 6 句以上的短文：週末下午的現在情境，包含肯定、否定、問句和一句習慣（簡單式）。', "It's Sunday afternoon. I'm sitting in a café. I'm not working today. My friend is drinking tea. Is it raining? No, the sun is shining. I usually come here on Sundays."]}
 
 
+TIMES = re.compile(r'\b(right now|at the moment|now)(?=[.?!])')
+SWAPS = [['My mother', 'My mom'], ['My father', 'My dad'], ['my mother', 'my mom'],
+         ['my father', 'my dad'], ['café', 'cafe', 'coffee shop'], ['working at home', 'working from home']]
+
+
+def variants(answers):
+    """中翻英：同義的時間說法、mom/dad、café 拼法等都收。"""
+    out = []
+    for a in answers:
+        for t in (['now', 'right now', 'at the moment'] if TIMES.search(a) else [None]):
+            v = TIMES.sub(t, a) if t else a
+            if v not in out:
+                out.append(v)
+    for group in SWAPS:
+        for a in list(out):
+            for x in group:
+                if x in a:
+                    for y in group:
+                        v = a.replace(x, y)
+                        if v not in out:
+                            out.append(v)
+                    break
+    out = [answers[0]] + [x for x in out if x != answers[0]]
+    return out[:24]
+
+
 def build_day(day):
     P = sentences(day, 180)
     mc, fill, err, trans, reo, dic = [], [], [], [], [], []
@@ -322,7 +348,7 @@ def build_day(day):
         t2 = t[:]; t2[i] = wrong + p
         err.append({'s': ' '.join(t2), 'wrong': i, 'fix': c, 'why': d['why'], 'full': d['en']})
     for d in [x for x in P[115:] if x['zh']][:20]:
-        trans.append({'zh': d['zh'], 'a': [d['en']] + d.get('alts', []), 'gp': d['gp']})
+        trans.append({'zh': d['zh'], 'a': variants([d['en']] + d.get('alts', [])), 'gp': d['gp']})
     short = [x for x in P[115:] if 4 <= len(x['en'].split()) <= 9 and '?' not in x['en'][:-1]]
     for d in short[:15]:
         ws = d['en'].split(' '); sh = ws[:]
